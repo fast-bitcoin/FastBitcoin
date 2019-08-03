@@ -1,0 +1,92 @@
+#!/sbin/runscript
+
+# backward compatibility for existing gentoo layout 
+#
+if [ -d "/var/lib/fastbitcoin/.fastbitcoin" ]; then
+	FASTBITCOIND_DEFAULT_DATADIR="/var/lib/fastbitcoin/.fastbitcoin"
+else
+	FASTBITCOIND_DEFAULT_DATADIR="/var/lib/fastbitcoind"
+fi
+
+FASTBITCOIND_CONFIGFILE=${FASTBITCOIND_CONFIGFILE:-/etc/fastbitcoin/fastbitcoin.conf}
+FASTBITCOIND_PIDDIR=${FASTBITCOIND_PIDDIR:-/var/run/fastbitcoind}
+FASTBITCOIND_PIDFILE=${FASTBITCOIND_PIDFILE:-${FASTBITCOIND_PIDDIR}/fastbitcoind.pid}
+FASTBITCOIND_DATADIR=${FASTBITCOIND_DATADIR:-${FASTBITCOIND_DEFAULT_DATADIR}}
+FASTBITCOIND_USER=${FASTBITCOIND_USER:-${FASTBITCOIN_USER:-fastbitcoin}}
+FASTBITCOIND_GROUP=${FASTBITCOIND_GROUP:-fastbitcoin}
+FASTBITCOIND_BIN=${FASTBITCOIND_BIN:-/usr/bin/fastbitcoind}
+FASTBITCOIND_NICE=${FASTBITCOIND_NICE:-${NICELEVEL:-0}}
+FASTBITCOIND_OPTS="${FASTBITCOIND_OPTS:-${FASTBITCOIN_OPTS}}"
+
+name="Bitcoin Core Daemon"
+description="Bitcoin cryptocurrency P2P network daemon"
+
+command="/usr/bin/fastbitcoind"
+command_args="-pid=\"${FASTBITCOIND_PIDFILE}\" \
+		-conf=\"${FASTBITCOIND_CONFIGFILE}\" \
+		-datadir=\"${FASTBITCOIND_DATADIR}\" \
+		-daemon \
+		${FASTBITCOIND_OPTS}"
+
+required_files="${FASTBITCOIND_CONFIGFILE}"
+start_stop_daemon_args="-u ${FASTBITCOIND_USER} \
+			-N ${FASTBITCOIND_NICE} -w 2000"
+pidfile="${FASTBITCOIND_PIDFILE}"
+
+# The retry schedule to use when stopping the daemon. Could be either
+# a timeout in seconds or multiple signal/timeout pairs (like
+# "SIGKILL/180 SIGTERM/300")
+retry="${FASTBITCOIND_SIGTERM_TIMEOUT}"
+
+depend() {
+	need localmount net
+}
+
+# verify
+# 1) that the datadir exists and is writable (or create it)
+# 2) that a directory for the pid exists and is writable
+# 3) ownership and permissions on the config file
+start_pre() {
+	checkpath \
+	-d \
+	--mode 0750 \
+	--owner "${FASTBITCOIND_USER}:${FASTBITCOIND_GROUP}" \
+	"${FASTBITCOIND_DATADIR}"
+
+	checkpath \
+	-d \
+	--mode 0755 \
+	--owner "${FASTBITCOIND_USER}:${FASTBITCOIND_GROUP}" \
+	"${FASTBITCOIND_PIDDIR}"
+
+	checkpath -f \
+	-o ${FASTBITCOIND_USER}:${FASTBITCOIND_GROUP} \
+	-m 0660 \
+	${FASTBITCOIND_CONFIGFILE}
+
+	checkconfig || return 1
+}
+
+checkconfig()
+{
+	if ! grep -qs '^rpcpassword=' "${FASTBITCOIND_CONFIGFILE}" ; then
+		eerror ""
+		eerror "ERROR: You must set a secure rpcpassword to run fastbitcoind."
+		eerror "The setting must appear in ${FASTBITCOIND_CONFIGFILE}"
+		eerror ""
+		eerror "This password is security critical to securing wallets "
+		eerror "and must not be the same as the rpcuser setting."
+		eerror "You can generate a suitable random password using the following"
+		eerror "command from the shell:"
+		eerror ""
+		eerror "bash -c 'tr -dc a-zA-Z0-9 < /dev/urandom | head -c32 && echo'"
+		eerror ""
+		eerror "It is also recommended that you also set alertnotify so you are "
+		eerror "notified of problems:"
+		eerror ""
+		eerror "ie: alertnotify=echo %%s | mail -s \"Bitcoin Alert\"" \
+			"admin@foo.com"
+		eerror ""
+		return 1
+	fi
+}

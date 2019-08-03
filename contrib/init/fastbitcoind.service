@@ -1,0 +1,22 @@
+[Unit]
+Description=Bitcoin's distributed currency daemon
+After=network.target
+
+[Service]
+User=fastbitcoin
+Group=fastbitcoin
+
+Type=forking
+PIDFile=/var/lib/fastbitcoind/fastbitcoind.pid
+ExecStart=/usr/bin/fastbitcoind -daemon -pid=/var/lib/fastbitcoind/fastbitcoind.pid \
+-conf=/etc/fastbitcoin/fastbitcoin.conf -datadir=/var/lib/fastbitcoind -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

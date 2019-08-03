@@ -1,0 +1,6 @@
+usr/local/bin/fastbitcoin-qt usr/bin
+share/pixmaps/fastbitcoin32.xpm usr/share/pixmaps
+share/pixmaps/fastbitcoin16.xpm usr/share/pixmaps
+share/pixmaps/fastbitcoin128.png usr/share/pixmaps
+debian/fastbitcoin-qt.desktop usr/share/applications
+debian/fastbitcoin-qt.protocol usr/share/kde4/services/

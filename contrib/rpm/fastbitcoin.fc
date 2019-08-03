@@ -1,0 +1,8 @@
+/usr/bin/fastbitcoin-cli		--	gen_context(system_u:object_r:fastbitcoin_exec_t,s0)
+/usr/sbin/fastbitcoind		--	gen_context(system_u:object_r:fastbitcoin_exec_t,s0)
+/usr/lib(64)?/fastbitcoin/fastbitcoind		--	gen_context(system_u:object_r:fastbitcoin_exec_t,s0)
+
+/etc/fastbitcoin(/.*)?		gen_context(system_u:object_r:fastbitcoin_conf_t,s0)
+/var/lib/fastbitcoin(/.*)?		gen_context(system_u:object_r:fastbitcoin_var_lib_t,s0)
+
+(/var)?/run/fastbitcoind(/.*)?   gen_context(system_u:object_r:fastbitcoin_var_run_t,s0)

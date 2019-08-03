@@ -1,0 +1,33 @@
+# /etc/conf.d/fastbitcoind: config file for /etc/init.d/fastbitcoind
+
+# Config file location
+#FASTBITCOIND_CONFIGFILE="/etc/fastbitcoin/fastbitcoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $FASTBITCOIND_USER)
+#FASTBITCOIND_PIDDIR="/var/run/fastbitcoind"
+
+# What filename to give the pidfile
+#FASTBITCOIND_PIDFILE="${FASTBITCOIND_PIDDIR}/fastbitcoind.pid"
+
+# Where to write fastbitcoind data (be mindful that the blockchain is large)
+#FASTBITCOIND_DATADIR="/var/lib/fastbitcoind"
+
+# User and group to own fastbitcoind process
+#FASTBITCOIND_USER="fastbitcoin"
+#FASTBITCOIND_GROUP="fastbitcoin"
+
+# Path to fastbitcoind executable
+#FASTBITCOIND_BIN="/usr/bin/fastbitcoind"
+
+# Nice value to run fastbitcoind under
+#FASTBITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+#FASTBITCOIND_OPTS=""
+
+# The timeout in seconds OpenRC will wait for fastbitcoind to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+FASTBITCOIND_SIGTERM_TIMEOUT=60
