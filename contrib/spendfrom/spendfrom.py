@@ -1,7 +1,4 @@
 #!/usr/bin/env python
-# Copyright (c) 2013 The Bitcoin Core developers
-# Distributed under the MIT software license, see the accompanying
-# file COPYING or http://www.opensource.org/licenses/mit-license.php.
 #
 # Use the raw transactions API to spend fastbitcoins received on particular addresses,
 # and send any change back to that same address.
@@ -10,7 +7,7 @@
 #  spendfrom.py  # Lists available funds
 #  spendfrom.py --from=ADDRESS --to=ADDRESS --amount=11.00
 #
-# Assumes it will talk to a fastbitcoind or Bitcoin-Qt running
+# Assumes it will talk to a fastbitcoind or Fastbitcoin-Qt running
 # on localhost.
 #
 # Depends on jsonrpc
@@ -29,7 +26,7 @@ from jsonrpc import ServiceProxy, json
 BASE_FEE=Decimal("0.001")
 
 def check_json_precision():
-    """Make sure json library being used does not lose precision converting BTC values"""
+    """Make sure json library being used does not lose precision converting BSD values"""
     n = Decimal("20000000.00000003")
     satoshis = int(json.loads(json.dumps(float(n)))*1.0e8)
     if satoshis != 2000000000000003:
@@ -38,9 +35,9 @@ def check_json_precision():
 def determine_db_dir():
     """Return the default location of the fastbitcoin data directory"""
     if platform.system() == "Darwin":
-        return os.path.expanduser("~/Library/Application Support/FastBitcoin/")
+        return os.path.expanduser("~/Library/Application Support/Fastbitcoin/")
     elif platform.system() == "Windows":
-        return os.path.join(os.environ['APPDATA'], "FastBitcoin")
+        return os.path.join(os.environ['APPDATA'], "Fastbitcoin")
     return os.path.expanduser("~/.fastbitcoin")
 
 def read_fastbitcoin_config(dbdir):
@@ -70,7 +67,7 @@ def connect_JSON(config):
     testnet = config.get('testnet', '0')
     testnet = (int(testnet) > 0)  # 0/1 in config file, convert to True/False
     if not 'rpcport' in config:
-        config['rpcport'] = 19332 if testnet else 9332
+        config['rpcport'] = 8884 if testnet else 8800
     connect = "http://%s:%s@127.0.0.1:%s"%(config['rpcuser'], config['rpcpassword'], config['rpcport'])
     try:
         result = ServiceProxy(connect)
@@ -117,7 +114,7 @@ def list_available(fastbitcoind):
         # or pay-to-script-hash outputs right now; anything exotic is ignored.
         if pk["type"] != "pubkeyhash" and pk["type"] != "scripthash":
             continue
-        
+
         address = pk["addresses"][0]
         if address in address_summary:
             address_summary[address]["total"] += vout["value"]
@@ -155,7 +152,7 @@ def create_tx(fastbitcoind, fromaddresses, toaddress, amount, fee):
         total_available += all_coins[addr]["total"]
 
     if total_available < needed:
-        sys.stderr.write("Error, only %f BTC available, need %f\n"%(total_available, needed));
+        sys.stderr.write("Error, only %f BSD available, need %f\n"%(total_available, needed));
         sys.exit(1)
 
     #
@@ -163,7 +160,7 @@ def create_tx(fastbitcoind, fromaddresses, toaddress, amount, fee):
     # Python's json/jsonrpc modules have inconsistent support for Decimal numbers.
     # Instead of wrestling with getting json.dumps() (used by jsonrpc) to encode
     # Decimals, I'm casting amounts to float before sending them to fastbitcoind.
-    #  
+    #
     outputs = { toaddress : float(amount) }
     (inputs, change_amount) = select_coins(needed, potential_inputs)
     if change_amount > BASE_FEE:  # don't bother with zero or tiny change

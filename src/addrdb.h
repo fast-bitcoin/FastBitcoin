@@ -1,18 +1,18 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
-// Copyright (c) 2009-2019 The Bitcoin Core developers
-// Copyright (c) 2009-2019 The Litecoin Core developers
-// Copyright (c) 2017-2019 The Fastbitcoin Core developers
+// Copyright (c) 2009-2017 The Bitcoin Core developers 
+// Copyright (c) 2015-2017 The Dash developers 
+// Copyright (c) 2015-2017 The Fastbitcoin developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #ifndef FASTBITCOIN_ADDRDB_H
 #define FASTBITCOIN_ADDRDB_H
 
-#include "fs.h"
 #include "serialize.h"
 
 #include <string>
 #include <map>
+#include <boost/filesystem/path.hpp>
 
 class CSubNet;
 class CAddrMan;
@@ -82,19 +82,19 @@ typedef std::map<CSubNet, CBanEntry> banmap_t;
 class CAddrDB
 {
 private:
-    fs::path pathAddr;
+    boost::filesystem::path pathAddr;
 public:
     CAddrDB();
     bool Write(const CAddrMan& addr);
     bool Read(CAddrMan& addr);
-    static bool Read(CAddrMan& addr, CDataStream& ssPeers);
+    bool Read(CAddrMan& addr, CDataStream& ssPeers);
 };
 
 /** Access to the banlist database (banlist.dat) */
 class CBanDB
 {
 private:
-    fs::path pathBanlist;
+    boost::filesystem::path pathBanlist;
 public:
     CBanDB();
     bool Write(const banmap_t& banSet);

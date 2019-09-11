@@ -1,4 +1,4 @@
-// Copyright (c) 2011-2019 The Bitcoin Core developers
+// Copyright (c) 2011-2016 The Fastbitcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -8,7 +8,8 @@
 #include <QDialog>
 #include <QObject>
 
-class BitcoinGUI;
+class FastbitcoinGUI;
+class ClientModel;
 
 namespace Ui {
     class HelpMessageDialog;
@@ -42,7 +43,7 @@ class ShutdownWindow : public QWidget
 
 public:
     ShutdownWindow(QWidget *parent=0, Qt::WindowFlags f=0);
-    static QWidget *showShutdownWindow(BitcoinGUI *window);
+    static QWidget *showShutdownWindow(FastbitcoinGUI *window);
 
 protected:
     void closeEvent(QCloseEvent *event);

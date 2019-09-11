@@ -64,7 +64,7 @@
     <name>BanTableModel</name>
     </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>FastbitcoinGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>Firmar &amp;mensaje...</translation>
@@ -142,8 +142,8 @@
         <translation>Reindexando bloques en disco...</translation>
     </message>
     <message>
-        <source>Send coins to a FastBitcoin address</source>
-        <translation>Enviar monedas a una dirección FastBitcoin</translation>
+        <source>Send coins to a Fastbitcoin address</source>
+        <translation>Enviar monedas a una dirección Fastbitcoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -166,8 +166,8 @@
         <translation>&amp;Verificar mensaje...</translation>
     </message>
     <message>
-        <source>FastBitcoin</source>
-        <translation>FastBitcoin</translation>
+        <source>Fastbitcoin</source>
+        <translation>Fastbitcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -194,12 +194,12 @@
         <translation>Cifrar las claves privadas de su monedero</translation>
     </message>
     <message>
-        <source>Sign messages with your FastBitcoin addresses to prove you own them</source>
-        <translation>Firmar mensajes con sus direcciones FastBitcoin para demostrar la propiedad</translation>
+        <source>Sign messages with your Fastbitcoin addresses to prove you own them</source>
+        <translation>Firmar mensajes con sus direcciones Fastbitcoin para demostrar la propiedad</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified FastBitcoin addresses</source>
-        <translation>Verificar mensajes comprobando que están firmados con direcciones FastBitcoin concretas</translation>
+        <source>Verify messages to ensure they were signed with specified Fastbitcoin addresses</source>
+        <translation>Verificar mensajes comprobando que están firmados con direcciones Fastbitcoin concretas</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -219,7 +219,7 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and fastbitcoin: URIs)</source>
-        <translation>Solicitar pagos (genera codigo QR y URL's de FastBitcoin)</translation>
+        <translation>Solicitar pagos (genera codigo QR y URL's de Fastbitcoin)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -494,8 +494,8 @@
         <translation>Experto</translation>
     </message>
     <message>
-        <source>Automatically open the FastBitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir automáticamente el puerto del cliente FastBitcoin en el router. Esta opción solo funciona si el router admite UPnP y está activado.</translation>
+        <source>Automatically open the Fastbitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir automáticamente el puerto del cliente Fastbitcoin en el router. Esta opción solo funciona si el router admite UPnP y está activado.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -589,8 +589,8 @@
         <translation>Desde</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the FastBitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red FastBitcoin después de que se haya establecido una conexión, pero este proceso aún no se ha completado.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Fastbitcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red Fastbitcoin después de que se haya establecido una conexión, pero este proceso aún no se ha completado.</translation>
     </message>
     <message>
         <source>Your current spendable balance</source>
@@ -1019,8 +1019,8 @@
         <translation>Copiar la firma actual al portapapeles del sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this FastBitcoin address</source>
-        <translation>Firmar el mensaje para demostrar que se posee esta dirección FastBitcoin</translation>
+        <source>Sign the message to prove you own this Fastbitcoin address</source>
+        <translation>Firmar el mensaje para demostrar que se posee esta dirección Fastbitcoin</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1039,8 +1039,8 @@
         <translation>&amp;Verificar mensaje</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified FastBitcoin address</source>
-        <translation>Verificar el mensaje para comprobar que fue firmado con la dirección FastBitcoin indicada</translation>
+        <source>Verify the message to ensure it was signed with the specified Fastbitcoin address</source>
+        <translation>Verificar el mensaje para comprobar que fue firmado con la dirección Fastbitcoin indicada</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1123,8 +1123,8 @@
 </translation>
     </message>
     <message>
-        <source>FastBitcoin FBC</source>
-        <translation>Núcleo de FastBitcoin</translation>
+        <source>Fastbitcoin Core</source>
+        <translation>Núcleo de Fastbitcoin</translation>
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>

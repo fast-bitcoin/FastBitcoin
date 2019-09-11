@@ -1,4 +1,4 @@
-// Copyright (c) 2011-2019 The Bitcoin Core developers
+// Copyright (c) 2011-2016 The Fastbitcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -6,9 +6,11 @@
 
 #include "addressbookpage.h"
 #include "askpassphrasedialog.h"
+//#include "bip38tooldialog.h"
 #include "fastbitcoingui.h"
 #include "clientmodel.h"
 #include "guiutil.h"
+#include "masternodeconfig.h"//kaali
 #include "optionsmodel.h"
 #include "overviewpage.h"
 #include "platformstyle.h"
@@ -33,7 +35,7 @@ WalletView::WalletView(const PlatformStyle *_platformStyle, QWidget *parent):
     QStackedWidget(parent),
     clientModel(0),
     walletModel(0),
-	unlockContext(0),
+    unlockContext(0),
     platformStyle(_platformStyle)
 {
     // Create tabs
@@ -64,6 +66,8 @@ WalletView::WalletView(const PlatformStyle *_platformStyle, QWidget *parent):
     addWidget(transactionsPage);
     addWidget(receiveCoinsPage);
     addWidget(sendCoinsPage);
+	masternodeListPage = new MasternodeList();//kaali
+	addWidget(masternodeListPage);
 
     // Clicking on a transaction on the overview pre-selects the transaction on the transaction history page
     connect(overviewPage, SIGNAL(transactionClicked(QModelIndex)), transactionView, SLOT(focusTransaction(QModelIndex)));
@@ -84,10 +88,10 @@ WalletView::WalletView(const PlatformStyle *_platformStyle, QWidget *parent):
 WalletView::~WalletView()
 {
     if(unlockContext)
-    delete (WalletModel::UnlockContext*)(unlockContext);
+        delete (WalletModel::UnlockContext*)(unlockContext);
 }
 
-void WalletView::setBitcoinGUI(BitcoinGUI *gui)
+void WalletView::setFastbitcoinGUI(FastbitcoinGUI *gui)
 {
     if (gui)
     {
@@ -114,6 +118,7 @@ void WalletView::setClientModel(ClientModel *_clientModel)
 
     overviewPage->setClientModel(_clientModel);
     sendCoinsPage->setClientModel(_clientModel);
+	masternodeListPage->setClientModel(clientModel);
 }
 
 void WalletView::setWalletModel(WalletModel *_walletModel)
@@ -125,6 +130,7 @@ void WalletView::setWalletModel(WalletModel *_walletModel)
     overviewPage->setWalletModel(_walletModel);
     receiveCoinsPage->setModel(_walletModel);
     sendCoinsPage->setModel(_walletModel);
+	masternodeListPage->setWalletModel(walletModel);
     usedReceivingAddressesPage->setModel(_walletModel->getAddressTableModel());
     usedSendingAddressesPage->setModel(_walletModel->getAddressTableModel());
 
@@ -186,7 +192,10 @@ void WalletView::gotoReceiveCoinsPage()
 {
     setCurrentWidget(receiveCoinsPage);
 }
-
+void WalletView::gotoMasternodePage()
+{
+	setCurrentWidget(masternodeListPage);
+}
 void WalletView::gotoSendCoinsPage(QString addr)
 {
     setCurrentWidget(sendCoinsPage);
@@ -249,7 +258,7 @@ void WalletView::backupWallet()
 {
     QString filename = GUIUtil::getSaveFileName(this,
         tr("Backup Wallet"), QString(),
-        tr("Wallet Data (*.dat)"), nullptr);
+        tr("Wallet Data (*.dat)"), NULL);
 
     if (filename.isEmpty())
         return;
@@ -270,7 +279,13 @@ void WalletView::changePassphrase()
     dlg.setModel(walletModel);
     dlg.exec();
 }
-
+/* void WalletView::gotoBip38Tool()
+{
+    Bip38ToolDialog* bip38ToolDialog = new Bip38ToolDialog(this);
+    //bip38ToolDialog->setAttribute(Qt::WA_DeleteOnClose);
+    bip38ToolDialog->setModel(walletModel);
+    bip38ToolDialog->showTab_ENC(true);
+} */
 void WalletView::unlockWallet()
 {
     if(!walletModel)

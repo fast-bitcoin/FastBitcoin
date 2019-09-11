@@ -1,4 +1,4 @@
-// Copyright (c) 2011-2019 The Bitcoin Core developers
+// Copyright (c) 2011-2016 The Fastbitcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -6,10 +6,10 @@
 #define FASTBITCOIN_QT_WALLETVIEW_H
 
 #include "amount.h"
-
+#include "masternodelist.h"
 #include <QStackedWidget>
 
-class BitcoinGUI;
+class FastbitcoinGUI;
 class ClientModel;
 class OverviewPage;
 class PlatformStyle;
@@ -39,7 +39,7 @@ public:
     explicit WalletView(const PlatformStyle *platformStyle, QWidget *parent);
     ~WalletView();
 
-    void setBitcoinGUI(BitcoinGUI *gui);
+    void setFastbitcoinGUI(FastbitcoinGUI *gui);
     /** Set the client model.
         The client model represents the part of the core that communicates with the P2P network, and is wallet-agnostic.
     */
@@ -57,7 +57,7 @@ public:
 private:
     ClientModel *clientModel;
     WalletModel *walletModel;
-	void *unlockContext;
+    void *unlockContext;
 
     OverviewPage *overviewPage;
     QWidget *transactionsPage;
@@ -65,11 +65,13 @@ private:
     SendCoinsDialog *sendCoinsPage;
     AddressBookPage *usedSendingAddressesPage;
     AddressBookPage *usedReceivingAddressesPage;
-
+	MasternodeList* masternodeListPage;
+	
     TransactionView *transactionView;
-
+	
     QProgressDialog *progressDialog;
     const PlatformStyle *platformStyle;
+
 
 public Q_SLOTS:
     /** Switch to overview (home) page */
@@ -77,7 +79,10 @@ public Q_SLOTS:
     /** Switch to history (transactions) page */
     void gotoHistoryPage();
     /** Switch to receive coins page */
+	/** Switch to masternode page */
+    void gotoMasternodePage();
     void gotoReceiveCoinsPage();
+	//void gotoBip38Tool()
     /** Switch to send coins page */
     void gotoSendCoinsPage(QString addr = "");
 
@@ -99,8 +104,8 @@ public Q_SLOTS:
     void changePassphrase();
     /** Ask for passphrase to unlock wallet temporarily */
     void unlockWallet();
-	/** Ask for passphrase to unlock wallet and return context*/
-	void requestUnlockWallet();
+    /** Ask for passphrase to unlock wallet and return context*/
+    void requestUnlockWallet();
 
     /** Show used sending addresses */
     void usedSendingAddresses();

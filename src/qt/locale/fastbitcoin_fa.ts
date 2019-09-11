@@ -62,28 +62,12 @@
         <translation>آدرس های گیرنده</translation>
     </message>
     <message>
-        <source>These are your FastBitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>اینها آدرس های شما برای فرستادن پرداخت هاست. همیشه قبل از فرستادن سکه ها مقدار و آدرس دریافت کننده را چک کنید.</translation>
-    </message>
-    <message>
-        <source>&amp;Copy Address</source>
-        <translation>کپی کردن آدرس</translation>
-    </message>
-    <message>
         <source>Copy &amp;Label</source>
         <translation>کپی و برچسب‌&amp;گذاری</translation>
     </message>
     <message>
         <source>&amp;Edit</source>
         <translation>&amp;ویرایش</translation>
-    </message>
-    <message>
-        <source>Export Address List</source>
-        <translation>صدور لیست آدرس ها</translation>
-    </message>
-    <message>
-        <source>Exporting Failed</source>
-        <translation>صدور موفق نبود</translation>
     </message>
     </context>
 <context>
@@ -124,28 +108,12 @@
         <translation>رمزنگاری کیف پول</translation>
     </message>
     <message>
-        <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>این عملیات نیاز به عبارت کیف پول شما برای بازگشایی کیف پول دارد</translation>
-    </message>
-    <message>
         <source>Unlock wallet</source>
         <translation>باز کردن قفل کیف پول</translation>
     </message>
     <message>
-        <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>این عملیات نیاز به عبارت کیف پول شما برای رمزگشایی کیف پول دارد.</translation>
-    </message>
-    <message>
         <source>Decrypt wallet</source>
         <translation>رمزگشایی کیف پول</translation>
-    </message>
-    <message>
-        <source>Change passphrase</source>
-        <translation>تغییر گذرواژه</translation>
-    </message>
-    <message>
-        <source>Enter the old passphrase and new passphrase to the wallet.</source>
-        <translation>عبارت کهنه و جدید کیف پول را وارد کنید.</translation>
     </message>
     <message>
         <source>Confirm wallet encryption</source>
@@ -196,7 +164,7 @@
     </message>
 </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>FastbitcoinGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>&amp;امضای پیام...</translation>
@@ -282,24 +250,12 @@
         <translation>باز کردن &amp;آدرس</translation>
     </message>
     <message>
-        <source>Click to disable network activity.</source>
-        <translation>برای غیر فعال کردن فعالیت شبکه کلیک کنید.</translation>
-    </message>
-    <message>
-        <source>Network activity disabled.</source>
-        <translation>فعالیت شبکه غیر فعال شد.</translation>
-    </message>
-    <message>
-        <source>Click to enable network activity again.</source>
-        <translation>برای فعال کردن دوباره فعالیت شبکه کلیک کنید.</translation>
-    </message>
-    <message>
         <source>Reindexing blocks on disk...</source>
         <translation>بازنشانی بلوک‌ها روی دیسک...</translation>
     </message>
     <message>
-        <source>Send coins to a FastBitcoin address</source>
-        <translation>ارسال وجه به نشانی FastBitcoin</translation>
+        <source>Send coins to a Fastbitcoin address</source>
+        <translation>ارسال وجه به نشانی بیت‌کوین</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -322,8 +278,8 @@
         <translation>با&amp;زبینی پیام...</translation>
     </message>
     <message>
-        <source>FastBitcoin</source>
-        <translation>FastBitcoin</translation>
+        <source>Fastbitcoin</source>
+        <translation>بیت‌کوین</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -350,12 +306,12 @@
         <translation>رمزنگاری کلیدهای خصوصی متعلق به کیف پول شما</translation>
     </message>
     <message>
-        <source>Sign messages with your FastBitcoin addresses to prove you own them</source>
-        <translation>برای اثبات اینکه پیام‌ها به شما تعلق دارند، آن‌ها را با نشانی FastBitcoin خود امضا کنید</translation>
+        <source>Sign messages with your Fastbitcoin addresses to prove you own them</source>
+        <translation>برای اثبات اینکه پیام‌ها به شما تعلق دارند، آن‌ها را با نشانی بیت‌کوین خود امضا کنید</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified FastBitcoin addresses</source>
-        <translation>برای حصول اطمینان از اینکه پیام با نشانی FastBitcoin مشخص شده امضا است یا خیر، پیام را شناسایی کنید</translation>
+        <source>Verify messages to ensure they were signed with specified Fastbitcoin addresses</source>
+        <translation>برای حصول اطمینان از اینکه پیام با نشانی بیت‌کوین مشخص شده امضا است یا خیر، پیام را شناسایی کنید</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -375,7 +331,7 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and fastbitcoin: URIs)</source>
-        <translation>درخواست پرداخت ( تولید کد کیوار و ادرس fastbitcoin)</translation>
+        <translation>درخواست پرداخت ( تولید کد کیوار و ادرس بیت کوین)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -387,15 +343,15 @@
     </message>
     <message>
         <source>Open a fastbitcoin: URI or payment request</source>
-        <translation>بازکردن یک fastbitcoin: آدرس یا درخواست پرداخت</translation>
+        <translation>بازکردن یک بیت کوین: آدرس یا درخواست پرداخت</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>گزینه‌های خط‌فرمان</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to FastBitcoin network</source>
-        <translation><numerusform>%n ارتباط فعال با شبکهٔ FastBitcoin</numerusform></translation>
+        <source>%n active connection(s) to Fastbitcoin network</source>
+        <translation><numerusform>%n ارتباط فعال با شبکهٔ بیت‌کوین</numerusform></translation>
     </message>
     <message>
         <source>Processing blocks on disk...</source>
@@ -551,10 +507,6 @@
         <translation>تأیید شده</translation>
     </message>
     <message>
-        <source>Copy address</source>
-        <translation>کپی ادرس</translation>
-    </message>
-    <message>
         <source>Copy label</source>
         <translation>کپی برچسب</translation>
     </message>
@@ -577,18 +529,6 @@
     <message>
         <source>Copy quantity</source>
         <translation>کپی تعداد</translation>
-    </message>
-    <message>
-        <source>Copy fee</source>
-        <translation>رونوشت کارمزد</translation>
-    </message>
-    <message>
-        <source>Copy bytes</source>
-        <translation>کپی کردن بایت ها</translation>
-    </message>
-    <message>
-        <source>Copy change</source>
-        <translation>کپی کردن تغییر</translation>
     </message>
     <message>
         <source>(%1 locked)</source>
@@ -642,8 +582,8 @@
         <translation>ویرایش آدرس قرستنده</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid FastBitcoin address.</source>
-        <translation>نشانی وارد شده "%1" یک نشانی معتبر FastBitcoin نیست.</translation>
+        <source>The entered address "%1" is not a valid Fastbitcoin address.</source>
+        <translation>نشانی وارد شده "%1" یک نشانی معتبر بیت‌کوین نیست.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -758,28 +698,8 @@
         <translation>فرم</translation>
     </message>
     <message>
-        <source>Unknown...</source>
-        <translation>مشخص نیست</translation>
-    </message>
-    <message>
         <source>Last block time</source>
         <translation>زمان آخرین بلوک</translation>
-    </message>
-    <message>
-        <source>Progress</source>
-        <translation>پیشروی</translation>
-    </message>
-    <message>
-        <source>Progress increase per hour</source>
-        <translation>پیشروی در هر ساعت بیشتر میشود</translation>
-    </message>
-    <message>
-        <source>calculating...</source>
-        <translation>در حال محاسبه...</translation>
-    </message>
-    <message>
-        <source>Estimated time left until synced</source>
-        <translation>زمان تخمینی تا سینک شدن</translation>
     </message>
     <message>
         <source>Hide</source>
@@ -852,8 +772,8 @@
         <translation>استخراج</translation>
     </message>
     <message>
-        <source>Automatically open the FastBitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>باز کردن خودکار درگاه شبکهٔ FastBitcoin روی روترها. تنها زمانی کار می‌کند که روتر از پروتکل UPnP پشتیبانی کند و این پروتکل فعال باشد.</translation>
+        <source>Automatically open the Fastbitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>باز کردن خودکار درگاه شبکهٔ بیت‌کوین روی روترها. تنها زمانی کار می‌کند که روتر از پروتکل UPnP پشتیبانی کند و این پروتکل فعال باشد.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -951,8 +871,8 @@
         <translation>فرم</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the FastBitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>اطلاعات نمایش‌داده شده ممکن است قدیمی باشند. بعد از این که یک اتصال با شبکه برقرار شد، کیف پول شما به‌صورت خودکار با شبکهٔ FastBitcoin همگام‌سازی می‌شود. اما این روند هنوز کامل نشده است.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Fastbitcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>اطلاعات نمایش‌داده شده ممکن است قدیمی باشند. بعد از این که یک اتصال با شبکه برقرار شد، کیف پول شما به‌صورت خودکار با شبکهٔ بیت‌کوین همگام‌سازی می‌شود. اما این روند هنوز کامل نشده است.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1001,10 +921,6 @@
     </context>
 <context>
     <name>PaymentServer</name>
-    <message>
-        <source>Invalid payment request.</source>
-        <translation>درخواست پرداخت نامعتبر.</translation>
-    </message>
     </context>
 <context>
     <name>PeerTableModel</name>
@@ -1016,8 +932,8 @@
         <translation>مبلغ</translation>
     </message>
     <message>
-        <source>Enter a FastBitcoin address (e.g. %1)</source>
-        <translation>یک آدرس FastBitcoin وارد کنید (مثلاً %1)</translation>
+        <source>Enter a Fastbitcoin address (e.g. %1)</source>
+        <translation>یک آدرس بیت‌کوین وارد کنید (مثلاً %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1169,36 +1085,12 @@
         <translation>در:</translation>
     </message>
     <message>
-        <source>Out:</source>
-        <translation>خروجی:</translation>
-    </message>
-    <message>
         <source>Debug log file</source>
         <translation>فایلِ لاگِ اشکال زدایی</translation>
     </message>
     <message>
         <source>Clear console</source>
         <translation>پاکسازی کنسول</translation>
-    </message>
-    <message>
-        <source>1 &amp;hour</source>
-        <translation>1 ساعت</translation>
-    </message>
-    <message>
-        <source>1 &amp;day</source>
-        <translation>1 روز</translation>
-    </message>
-    <message>
-        <source>1 &amp;week</source>
-        <translation>1 هفته</translation>
-    </message>
-    <message>
-        <source>1 &amp;year</source>
-        <translation>1 سال</translation>
-    </message>
-    <message>
-        <source>Ban for</source>
-        <translation>محدود شده برای</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1437,18 +1329,6 @@
         <translation>کپی مقدار</translation>
     </message>
     <message>
-        <source>Copy fee</source>
-        <translation>رونوشت کارمزد</translation>
-    </message>
-    <message>
-        <source>Copy bytes</source>
-        <translation>کپی کردن بایت ها</translation>
-    </message>
-    <message>
-        <source>Copy change</source>
-        <translation>کپی کردن تغییر</translation>
-    </message>
-    <message>
         <source>(no label)</source>
         <translation>(بدون برچسب)</translation>
     </message>
@@ -1476,8 +1356,8 @@
         <translation>این یک پرداخت عادی است</translation>
     </message>
     <message>
-        <source>The FastBitcoin address to send the payment to</source>
-        <translation>نشانی FastBitcoin برای ارسال پرداخت به آن</translation>
+        <source>The Fastbitcoin address to send the payment to</source>
+        <translation>نشانی بیت‌کوین برای ارسال پرداخت به آن</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -1529,8 +1409,8 @@
         <translation>ا&amp;مضای پیام</translation>
     </message>
     <message>
-        <source>The FastBitcoin address to sign the message with</source>
-        <translation>نشانی FastBitcoin برای امضاء پیغام با آن</translation>
+        <source>The Fastbitcoin address to sign the message with</source>
+        <translation>نشانی بیت‌کوین برای امضاء پیغام با آن</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1561,7 +1441,7 @@
         <translation>امضای فعلی را به حافظهٔ سیستم کپی کن</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this FastBitcoin address</source>
+        <source>Sign the message to prove you own this Fastbitcoin address</source>
         <translation>برای اثبات تعلق این نشانی به شما، پیام را امضا کنید</translation>
     </message>
     <message>
@@ -1581,12 +1461,12 @@
         <translation>&amp;شناسایی پیام</translation>
     </message>
     <message>
-        <source>The FastBitcoin address the message was signed with</source>
-        <translation>نشانی FastBitcoin که پیغام با آن امضاء شده</translation>
+        <source>The Fastbitcoin address the message was signed with</source>
+        <translation>نشانی بیت‌کوین که پیغام با آن امضاء شده</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified FastBitcoin address</source>
-        <translation>برای حصول اطمینان از اینکه پیام با نشانی FastBitcoin مشخص شده امضا است یا خیر، پیام را شناسایی کنید</translation>
+        <source>Verify the message to ensure it was signed with the specified Fastbitcoin address</source>
+        <translation>برای حصول اطمینان از اینکه پیام با نشانی بیت‌کوین مشخص شده امضا است یا خیر، پیام را شناسایی کنید</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1635,10 +1515,6 @@
 <context>
     <name>TransactionView</name>
     <message>
-        <source>Copy address</source>
-        <translation>کپی ادرس</translation>
-    </message>
-    <message>
         <source>Copy label</source>
         <translation>کپی برچسب</translation>
     </message>
@@ -1657,10 +1533,6 @@
     <message>
         <source>Address</source>
         <translation>آدرس</translation>
-    </message>
-    <message>
-        <source>Exporting Failed</source>
-        <translation>صدور موفق نبود</translation>
     </message>
     </context>
 <context>
@@ -1702,8 +1574,8 @@
         <translation>اجرا در پشت زمینه به‌صورت یک سرویس و پذیرش دستورات</translation>
     </message>
     <message>
-        <source>FastBitcoin FBC</source>
-        <translation> هسته FastBitcoin </translation>
+        <source>Fastbitcoin Core</source>
+        <translation> هسته Fastbitcoin </translation>
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>

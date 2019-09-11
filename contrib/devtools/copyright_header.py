@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
-# Copyright (c) 2016 The Bitcoin Core developers
-# Copyright (c) 2017-2019 The Fastbitcoin Core developers
+# Copyright (c) 2016 The Fastbitcoin Core developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -33,7 +32,7 @@ EXCLUDE = [
     'src/tinyformat.h',
     'src/leveldb/util/env_win.cc',
     'src/crypto/ctaes/bench.c',
-    'test/functional/test_framework/bignum.py',
+    'qa/rpc-tests/test_framework/bignum.py',
     # python init:
     '*__init__.py',
 ]
@@ -84,12 +83,11 @@ def compile_copyright_regex(copyright_style, year_style, name):
 
 EXPECTED_HOLDER_NAMES = [
     "Satoshi Nakamoto\n",
-    "The Fastbitcoin Core developers"
-    "The Bitcoin Core developers\n",
-    "The Bitcoin Core developers \n",
-    "Bitcoin Core Developers\n",
-    "the Bitcoin Core developers\n",
-    "The Bitcoin developers\n",
+    "The Fastbitcoin Core developers\n",
+    "The Fastbitcoin Core developers \n",
+    "Fastbitcoin Core Developers\n",
+    "the Fastbitcoin Core developers\n",
+    "The Fastbitcoin developers\n",
     "The LevelDB Authors\. All rights reserved\.\n",
     "BitPay Inc\.\n",
     "BitPay, Inc\.\n",
@@ -286,7 +284,7 @@ Arguments:
 def report_cmd(argv):
     if len(argv) == 2:
         sys.exit(REPORT_USAGE)
-
+        
     base_directory = argv[2]
     if not os.path.exists(base_directory):
         sys.exit("*** bad <base_directory>: %s" % base_directory)
@@ -444,6 +442,7 @@ def print_file_action_message(filename, action):
 def update_cmd(argv):
     if len(argv) != 3:
         sys.exit(UPDATE_USAGE)
+    
     base_directory = argv[2]
     if not os.path.exists(base_directory):
         sys.exit("*** bad base_directory: %s" % base_directory)
@@ -505,7 +504,7 @@ def file_has_hashbang(file_lines):
 
 def insert_python_header(filename, file_lines, start_year, end_year):
     if file_has_hashbang(file_lines):
-        insert_idx = 1
+        insert_idx = 1 
     else:
         insert_idx = 0
     header_lines = get_python_header_lines_to_insert(start_year, end_year)
@@ -569,19 +568,20 @@ def insert_cmd(argv):
     _, extension = os.path.splitext(filename)
     if extension not in ['.h', '.cpp', '.cc', '.c', '.py']:
         sys.exit("*** cannot insert for file extension %s" % extension)
-
-    if extension == '.py':
+   
+    if extension == '.py': 
         style = 'python'
     else:
         style = 'cpp'
     exec_insert_header(filename, style)
-
+         
 ################################################################################
 # UI
 ################################################################################
 
 USAGE = """
-copyright_header.py - utilities for managing copyright headers of 'The Fastbitcoin Core developers' in repository source files.
+copyright_header.py - utilities for managing copyright headers of 'The Fastbitcoin
+Core developers' in repository source files.
 
 Usage:
     $ ./copyright_header <subcommand>

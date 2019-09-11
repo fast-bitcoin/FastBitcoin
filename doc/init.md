@@ -68,9 +68,9 @@ can then be controlled by group membership.
 3b) Mac OS X
 
 Binary:              `/usr/local/bin/fastbitcoind`  
-Configuration file:  `~/Library/Application Support/Bitcoin/fastbitcoin.conf`  
-Data directory:      `~/Library/Application Support/Bitcoin`
-Lock file:           `~/Library/Application Support/Bitcoin/.lock`
+Configuration file:  `~/Library/Application Support/Fastbitcoin/fastbitcoin.conf`  
+Data directory:      `~/Library/Application Support/Fastbitcoin`
+Lock file:           `~/Library/Application Support/Fastbitcoin/.lock`
 
 4. Installing Service Configuration
 -----------------------------------

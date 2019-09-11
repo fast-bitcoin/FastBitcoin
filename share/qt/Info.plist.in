@@ -3,7 +3,7 @@
 <plist version="0.9">
 <dict>
   <key>LSMinimumSystemVersion</key>
-  <string>10.8.0</string>
+  <string>10.6.0</string>
 
   <key>LSArchitecturePriority</key>
   <array>
@@ -17,7 +17,7 @@
   <string>APPL</string>
 
   <key>CFBundleGetInfoString</key>
-  <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@, Copyright © 2009-@COPYRIGHT_YEAR@ @COPYRIGHT_HOLDERS_FINAL@</string>
+  <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@, Copyright © 2009-@COPYRIGHT_YEAR@ The Fastbitcoin Core developers, 2014-@COPYRIGHT_YEAR@ The Fastbitcoin Core developers</string>
 
   <key>CFBundleShortVersionString</key>
   <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@</string>
@@ -29,16 +29,10 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>FastBitcoin-Qt</string>
-  
-  <key>CFBundleName</key>
-  <string>FastBitcoin-Qt</string>
-
-  <key>LSHasLocalizedDisplayName</key>
-  <true/>
+  <string>Fastbitcoin-Qt</string>
 
   <key>CFBundleIdentifier</key>
-  <string>org.fastbitcoin.FastBitcoin-Qt</string>
+  <string>org.fastbitcoinfoundation.Fastbitcoin-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -46,7 +40,7 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>org.fastbitcoin.FastBitcoinPayment</string>
+      <string>io.fastbitcoin.DarkcoinPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
         <string>fastbitcoin</string>
@@ -58,9 +52,9 @@
   <array>
     <dict>
       <key>UTTypeIdentifier</key>
-      <string>org.fastbitcoin.paymentrequest</string>
+      <string>io.fastbitcoin.paymentrequest</string>
       <key>UTTypeDescription</key>
-      <string>FastBitcoin payment request</string>
+      <string>Fastbitcoin payment request</string>
       <key>UTTypeConformsTo</key>
       <array>
         <string>public.data</string>
@@ -84,7 +78,7 @@
       <string>Editor</string>
       <key>LSItemContentTypes</key>
       <array>
-        <string>org.fastbitcoin.paymentrequest</string>
+        <string>io.fastbitcoin.paymentrequest</string>
       </array>
       <key>LSHandlerRank</key>
       <string>Owner</string>
@@ -97,9 +91,6 @@
   <key>NSHighResolutionCapable</key>
     <string>True</string>
 
-  <key>LSAppNapIsDisabled</key>
-    <string>True</string>
-  
   <key>LSApplicationCategoryType</key>
     <string>public.app-category.finance</string>
 </dict>

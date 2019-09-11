@@ -1,13 +1,13 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: Bitcoin
+Upstream-Name: Fastbitcoin
 Upstream-Contact: Satoshi Nakamoto <satoshin@gmx.com>
  irc://#fastbitcoin@freenode.net
 Source: https://github.com/fastbitcoin/fastbitcoin
 
 Files: *
-Copyright: 2009-2017, Bitcoin Core Developers
+Copyright: 2009-2017, Fastbitcoin Core Developers
 License: Expat
-Comment: The Bitcoin Core Developers encompasses the current developers listed on fastbitcoin.cc,
+Comment: The Fastbitcoin Core Developers encompasses the current developers listed on fastbitcoin.org,
          as well as the numerous contributors to the project.
 
 Files: debian/*

@@ -23,7 +23,7 @@
 #FASTBITCOIND_NICE=0
 
 # Additional options (avoid -conf and -datadir, use flags above)
-#FASTBITCOIND_OPTS=""
+FASTBITCOIND_OPTS="-disablewallet"
 
 # The timeout in seconds OpenRC will wait for fastbitcoind to terminate
 # after a SIGTERM has been raised.

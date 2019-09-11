@@ -1,4 +1,4 @@
-# Copyright (c) 2015-2016 The Bitcoin Core developers
+# Copyright (c) 2015-2016 The Fastbitcoin Core developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -25,8 +25,7 @@ bench_bench_fastbitcoin_SOURCES = \
   bench/base58.cpp \
   bench/lockedpool.cpp \
   bench/perf.cpp \
-  bench/perf.h \
-  bench/prevector_destructor.cpp
+  bench/perf.h
 
 nodist_bench_bench_fastbitcoin_SOURCES = $(GENERATED_TEST_FILES)
 
@@ -39,7 +38,6 @@ bench_bench_fastbitcoin_LDADD = \
   $(LIBFASTBITCOIN_CONSENSUS) \
   $(LIBFASTBITCOIN_CRYPTO) \
   $(LIBLEVELDB) \
-  $(LIBLEVELDB_SSE42) \
   $(LIBMEMENV) \
   $(LIBSECP256K1) \
   $(LIBUNIVALUE)

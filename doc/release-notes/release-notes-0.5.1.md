@@ -1,5 +1,5 @@
-Bitcoin version 0.5.1 is now available for download at:
-http://sourceforge.net/projects/fastbitcoin/files/Bitcoin/fastbitcoin-0.5.1/
+Fastbitcoin version 0.5.1 is now available for download at:
+http://sourceforge.net/projects/fastbitcoin/files/Fastbitcoin/fastbitcoin-0.5.1/
 
 This is a bugfix-only release.
 

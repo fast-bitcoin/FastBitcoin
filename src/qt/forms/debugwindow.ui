@@ -645,7 +645,7 @@
            <item>
             <widget class="QPushButton" name="btnClearTrafficGraph">
              <property name="text">
-              <string>&amp;Reset</string>
+              <string>&amp;Clear</string>
              </property>
              <property name="autoDefault">
               <bool>false</bool>
@@ -1416,7 +1416,7 @@
        </item>
       </layout>
      </widget>
-	<widget class="QWidget" name="tab_repair">
+     <widget class="QWidget" name="tab_repair">
       <attribute name="title">
        <string>&amp;Wallet Repair</string>
       </attribute>

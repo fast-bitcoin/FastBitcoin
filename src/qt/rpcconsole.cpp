@@ -1,4 +1,4 @@
-// Copyright (c) 2011-2019 The Bitcoin Core developers
+// Copyright (c) 2011-2016 The Fastbitcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -13,6 +13,8 @@
 #include "clientmodel.h"
 #include "guiutil.h"
 #include "platformstyle.h"
+#include "bantablemodel.h"
+
 #include "chainparams.h"
 #include "netbase.h"
 #include "rpc/server.h"
@@ -25,7 +27,6 @@
 
 #ifdef ENABLE_WALLET
 #include <db_cxx.h>
-#include <wallet/wallet.h>
 #endif
 
 #include <QKeyEvent>
@@ -60,6 +61,7 @@ const QString ZAPTXES2("-zapwallettxes=2");
 const QString UPGRADEWALLET("-upgradewallet");
 const QString REINDEX("-reindex");
 
+
 const struct {
     const char *url;
     const char *source;
@@ -68,7 +70,7 @@ const struct {
     {"cmd-reply", ":/icons/tx_output"},
     {"cmd-error", ":/icons/tx_output"},
     {"misc", ":/icons/tx_inout"},
-    {nullptr, nullptr}
+    {NULL, NULL}
 };
 
 namespace {
@@ -105,7 +107,7 @@ class QtRPCTimerBase: public QObject, public RPCTimerBase
 {
     Q_OBJECT
 public:
-    QtRPCTimerBase(std::function<void(void)>& _func, int64_t millis):
+    QtRPCTimerBase(boost::function<void(void)>& _func, int64_t millis):
         func(_func)
     {
         timer.setSingleShot(true);
@@ -117,7 +119,7 @@ private Q_SLOTS:
     void timeout() { func(); }
 private:
     QTimer timer;
-    std::function<void(void)> func;
+    boost::function<void(void)> func;
 };
 
 class QtRPCTimerInterface: public RPCTimerInterface
@@ -125,7 +127,7 @@ class QtRPCTimerInterface: public RPCTimerInterface
 public:
     ~QtRPCTimerInterface() {}
     const char *Name() { return "Qt"; }
-    RPCTimerBase* NewTimer(std::function<void(void)>& func, int64_t millis)
+    RPCTimerBase* NewTimer(boost::function<void(void)>& func, int64_t millis)
     {
         return new QtRPCTimerBase(func, millis);
     }
@@ -310,14 +312,6 @@ bool RPCConsole::RPCParseCommandLine(std::string &strResult, const std::string &
                             JSONRPCRequest req;
                             req.params = RPCConvertValues(stack.back()[0], std::vector<std::string>(stack.back().begin() + 1, stack.back().end()));
                             req.strMethod = stack.back()[0];
-#ifdef ENABLE_WALLET
-                            // TODO: Move this logic to WalletModel
-                            if (!vpwallets.empty()) {
-                                // in Qt, use always the wallet with index 0 when running with multiple wallets
-                                QByteArray encodedName = QUrl::toPercentEncoding(QString::fromStdString(vpwallets[0]->GetName()));
-                                req.URI = "/wallet/"+std::string(encodedName.constData(), encodedName.length());
-                            }
-#endif
                             lastResult = tableRPC.execute(req);
                         }
 
@@ -446,14 +440,13 @@ RPCConsole::RPCConsole(const PlatformStyle *_platformStyle, QWidget *parent) :
     ui->clearButton->setIcon(platformStyle->SingleColorIcon(":/icons/remove"));
     ui->fontBiggerButton->setIcon(platformStyle->SingleColorIcon(":/icons/fontbigger"));
     ui->fontSmallerButton->setIcon(platformStyle->SingleColorIcon(":/icons/fontsmaller"));
-	// Wallet Repair Buttons
+    // Wallet Repair Buttons
     connect(ui->btn_salvagewallet, SIGNAL(clicked()), this, SLOT(walletSalvage()));
     connect(ui->btn_rescan, SIGNAL(clicked()), this, SLOT(walletRescan()));
     connect(ui->btn_zapwallettxes1, SIGNAL(clicked()), this, SLOT(walletZaptxes1()));
     connect(ui->btn_zapwallettxes2, SIGNAL(clicked()), this, SLOT(walletZaptxes2()));
     connect(ui->btn_upgradewallet, SIGNAL(clicked()), this, SLOT(walletUpgrade()));
     connect(ui->btn_reindex, SIGNAL(clicked()), this, SLOT(walletReindex()));
-	
     // Install event filter for up and down arrow
     ui->lineEdit->installEventFilter(this);
     ui->messagesWidget->installEventFilter(this);
@@ -547,7 +540,7 @@ void RPCConsole::setClientModel(ClientModel *model)
         setNumConnections(model->getNumConnections());
         connect(model, SIGNAL(numConnectionsChanged(int)), this, SLOT(setNumConnections(int)));
 
-        setNumBlocks(model->getNumBlocks(), model->getLastBlockDate(), model->getVerificationProgress(nullptr), false);
+        setNumBlocks(model->getNumBlocks(), model->getLastBlockDate(), model->getVerificationProgress(NULL), false);
         connect(model, SIGNAL(numBlocksChanged(int,QDateTime,double,bool)), this, SLOT(setNumBlocks(int,QDateTime,double,bool)));
 
         updateNetworkState();
@@ -652,12 +645,9 @@ void RPCConsole::setClientModel(ClientModel *model)
         for (size_t i = 0; i < commandList.size(); ++i)
         {
             wordList << commandList[i].c_str();
-            wordList << ("help " + commandList[i]).c_str();
         }
 
-        wordList.sort();
         autoCompleter = new QCompleter(wordList, this);
-        autoCompleter->setModelSorting(QCompleter::CaseSensitivelySortedModel);
         ui->lineEdit->setCompleter(autoCompleter);
         autoCompleter->popup()->installEventFilter(this);
         // Start thread to execute RPC commands.
@@ -740,7 +730,7 @@ void RPCConsole::buildParameterlist(QString arg)
     // Append repair parameter to command line.
     args.append(arg);
 
-    // Send command-line arguments to BitcoinGUI::handleRestart()
+    // Send command-line arguments to FastbitcoinGUI::handleRestart()
     Q_EMIT handleRestart(args);
 }
 
@@ -758,7 +748,7 @@ void RPCConsole::setFontSize(int newSize)
 {
     QSettings settings;
 
-    //don't allow an insane font size
+    //don't allow a insane font size
     if (newSize < FONT_RANGE.width() || newSize > FONT_RANGE.height())
         return;
 
@@ -814,17 +804,11 @@ void RPCConsole::clear(bool clearHistory)
             ).arg(fixedFontInfo.family(), QString("%1pt").arg(consoleFontSize))
         );
 
-#ifdef Q_OS_MAC
-    QString clsKey = "(⌘)-L";
-#else
-    QString clsKey = "Ctrl-L";
-#endif
-	 
     message(CMD_REPLY, (tr("Welcome to the %1 RPC console.").arg(tr(PACKAGE_NAME)) + "<br>" +
-                        tr("Use up and down arrows to navigate history, and %1 to clear screen.").arg("<b>"+clsKey+"</b>") + "<br>" +
+                        tr("Use up and down arrows to navigate history, and <b>Ctrl-L</b> to clear screen.") + "<br>" +
                         tr("Type <b>help</b> for an overview of available commands.")) +
                         "<br><span class=\"secwarning\">" +
-                        tr("WARNING: Scammers have been active, telling users to type commands here, stealing their wallet contents. Do not use this console without fully understanding the ramifications of a command.") +
+                        tr("WARNING: Scammers have been active, telling users to type commands here, stealing their wallet contents. Do not use this console without fully understanding the ramification of a command.") +
                         "</span>",
                         true);
 }
@@ -919,7 +903,7 @@ void RPCConsole::on_lineEdit_returnPressed()
 
         cmdBeforeBrowsing = QString();
 
-        message(CMD_REQUEST, QString::fromStdString(strFilteredCmd));
+        message(CMD_REQUEST, cmd);
         Q_EMIT cmdRequest(cmd);
 
         cmd = QString::fromStdString(strFilteredCmd);
@@ -994,6 +978,21 @@ void RPCConsole::on_openDebugLogfileButton_clicked()
     GUIUtil::openDebugLogfile();
 }
 
+void RPCConsole::showBackups()
+{
+    GUIUtil::showBackups();
+}
+
+void RPCConsole::showConf()
+{
+    GUIUtil::showConf();
+}
+
+void RPCConsole::showFastbitcoinConf()
+{
+    GUIUtil::showFastbitcoinConf();
+}
+
 void RPCConsole::scrollToEnd()
 {
     QScrollBar *scrollbar = ui->messagesWidget->verticalScrollBar();
@@ -1031,30 +1030,6 @@ void RPCConsole::updateTrafficStats(quint64 totalBytesIn, quint64 totalBytesOut)
     ui->lblBytesOut->setText(FormatBytes(totalBytesOut));
 }
 
-///CCCC
-void RPCConsole::hyperlinks_slot1(){ GUIUtil::hyperlinks_slot1();}
-void RPCConsole::hyperlinks_slot2(){ GUIUtil::hyperlinks_slot2();}
-void RPCConsole::hyperlinks_slot3(){ GUIUtil::hyperlinks_slot3();}
-void RPCConsole::hyperlinks_slot4(){ GUIUtil::hyperlinks_slot4();}
-void RPCConsole::hyperlinks_slot5(){ GUIUtil::hyperlinks_slot5();}
-void RPCConsole::hyperlinks_slot6(){ GUIUtil::hyperlinks_slot6();}
-void RPCConsole::hyperlinks_slot7(){ GUIUtil::hyperlinks_slot7();}
-void RPCConsole::hyperlinks_slot8(){ GUIUtil::hyperlinks_slot8();}
-void RPCConsole::hyperlinks_slot9(){ GUIUtil::hyperlinks_slot9();}
-void RPCConsole::hyperlinks_slot10(){ GUIUtil::hyperlinks_slot10();}
-
-void RPCConsole::hyperlinks2_slot1(){ GUIUtil::hyperlinks2_slot1();}
-void RPCConsole::hyperlinks2_slot2(){ GUIUtil::hyperlinks2_slot2();}
-void RPCConsole::hyperlinks2_slot3(){ GUIUtil::hyperlinks2_slot3();}
-void RPCConsole::hyperlinks2_slot4(){ GUIUtil::hyperlinks2_slot4();}
-void RPCConsole::hyperlinks2_slot5(){ GUIUtil::hyperlinks2_slot5();}
-void RPCConsole::hyperlinks2_slot6(){ GUIUtil::hyperlinks2_slot6();}
-void RPCConsole::hyperlinks2_slot7(){ GUIUtil::hyperlinks2_slot7();}
-void RPCConsole::hyperlinks2_slot8(){ GUIUtil::hyperlinks2_slot8();}
-void RPCConsole::hyperlinks2_slot9(){ GUIUtil::hyperlinks2_slot9();}
-void RPCConsole::hyperlinks2_slot10(){ GUIUtil::hyperlinks2_slot10();}
-
-
 void RPCConsole::peerSelected(const QItemSelection &selected, const QItemSelection &deselected)
 {
     Q_UNUSED(deselected);
@@ -1083,7 +1058,7 @@ void RPCConsole::peerLayoutChanged()
     if (!clientModel || !clientModel->getPeerTableModel())
         return;
 
-    const CNodeCombinedStats *stats = nullptr;
+    const CNodeCombinedStats *stats = NULL;
     bool fUnselect = false;
     bool fReselect = false;
 
@@ -1232,7 +1207,7 @@ void RPCConsole::disconnectSelectedNode()
     for(int i = 0; i < nodes.count(); i++)
     {
         // Get currently selected peer address
-        NodeId id = nodes.at(i).data().toLongLong();
+        NodeId id = nodes.at(i).data().toInt();
         // Find the node, disconnect it and clear the selected node
         if(g_connman->DisconnectNode(id))
             clearSelectedNode();
@@ -1249,7 +1224,7 @@ void RPCConsole::banSelectedNode(int bantime)
     for(int i = 0; i < nodes.count(); i++)
     {
         // Get currently selected peer address
-        NodeId id = nodes.at(i).data().toLongLong();
+        NodeId id = nodes.at(i).data().toInt();
 
 	// Get currently selected peer address
 	int detailNodeRow = clientModel->getPeerTableModel()->getRowByNodeId(id);
@@ -1310,3 +1285,4 @@ void RPCConsole::setTabFocus(enum TabTypes tabType)
 {
     ui->tabWidget->setCurrentIndex(tabType);
 }
+//

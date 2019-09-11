@@ -52,7 +52,7 @@
     </message>
     </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>FastbitcoinGUI</name>
     <message>
         <source>&amp;Overview</source>
         <translation>&amp;கண்ணோட்டம்</translation>
@@ -90,8 +90,8 @@
         <translation>&amp;செய்தியை சரிசெய்...</translation>
     </message>
     <message>
-        <source>FastBitcoin</source>
-        <translation>FastBitcoin</translation>
+        <source>Fastbitcoin</source>
+        <translation>Fastbitcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -708,8 +708,8 @@
 <context>
     <name>fastbitcoin-core</name>
     <message>
-        <source>FastBitcoin FBC</source>
-        <translation>FastBitcoin மையம்</translation>
+        <source>Fastbitcoin Core</source>
+        <translation>Fastbitcoin மையம்</translation>
     </message>
     <message>
         <source>(default: %u)</source>

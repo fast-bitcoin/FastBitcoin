@@ -1,5 +1,5 @@
-Binaries for Bitcoin version 0.3.21 are available at:
-  https://sourceforge.net/projects/fastbitcoin/files/Bitcoin/fastbitcoin-0.3.21/
+Binaries for Fastbitcoin version 0.3.21 are available at:
+  https://sourceforge.net/projects/fastbitcoin/files/Fastbitcoin/fastbitcoin-0.3.21/
 
 Changes and new features from the 0.3.20 release include:
 

@@ -121,7 +121,7 @@ interface(`fastbitcoin_manage_lib_dirs',`
 ########################################
 ## <summary>
 ##	All of the rules required to administrate
-##	a fastbitcoin environment
+##	an fastbitcoin environment
 ## </summary>
 ## <param name="domain">
 ##	<summary>

@@ -1,4 +1,4 @@
-// Copyright (c) 2015-2016 The Bitcoin Core developers
+// Copyright (c) 2015-2016 The Fastbitcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -10,7 +10,7 @@
 #include "memusage.h"
 
 static inline size_t RecursiveDynamicUsage(const CScript& script) {
-    return memusage::DynamicUsage(script);
+    return memusage::DynamicUsage(*static_cast<const CScriptBase*>(&script));
 }
 
 static inline size_t RecursiveDynamicUsage(const COutPoint& out) {
@@ -61,11 +61,6 @@ static inline size_t RecursiveDynamicUsage(const CBlock& block) {
 
 static inline size_t RecursiveDynamicUsage(const CBlockLocator& locator) {
     return memusage::DynamicUsage(locator.vHave);
-}
-
-template<typename X>
-static inline size_t RecursiveDynamicUsage(const std::shared_ptr<X>& p) {
-    return p ? memusage::DynamicUsage(p) + RecursiveDynamicUsage(*p) : 0;
 }
 
 #endif // FASTBITCOIN_CORE_MEMUSAGE_H

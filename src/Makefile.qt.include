@@ -1,4 +1,4 @@
-# Copyright (c) 2013-2016 The Bitcoin Core developers
+# Copyright (c) 2013-2016 The Fastbitcoin Core developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -13,24 +13,18 @@ QT_TS = \
   qt/locale/fastbitcoin_be_BY.ts \
   qt/locale/fastbitcoin_bg_BG.ts \
   qt/locale/fastbitcoin_bg.ts \
-  qt/locale/fastbitcoin_bn.ts \
-  qt/locale/fastbitcoin_bs.ts \
   qt/locale/fastbitcoin_ca_ES.ts \
   qt/locale/fastbitcoin_ca.ts \
   qt/locale/fastbitcoin_ca@valencia.ts \
   qt/locale/fastbitcoin_cs.ts \
   qt/locale/fastbitcoin_cy.ts \
   qt/locale/fastbitcoin_da.ts \
-  qt/locale/fastbitcoin_de_DE.ts \
   qt/locale/fastbitcoin_de.ts \
   qt/locale/fastbitcoin_el_GR.ts \
   qt/locale/fastbitcoin_el.ts \
-  qt/locale/fastbitcoin_en_AU.ts \
   qt/locale/fastbitcoin_en_GB.ts \
   qt/locale/fastbitcoin_en.ts \
-  qt/locale/fastbitcoin_en_US.ts \
   qt/locale/fastbitcoin_eo.ts \
-  qt/locale/fastbitcoin_es_419.ts \
   qt/locale/fastbitcoin_es_AR.ts \
   qt/locale/fastbitcoin_es_CL.ts \
   qt/locale/fastbitcoin_es_CO.ts \
@@ -50,16 +44,13 @@ QT_TS = \
   qt/locale/fastbitcoin_fr_FR.ts \
   qt/locale/fastbitcoin_fr.ts \
   qt/locale/fastbitcoin_gl.ts \
-  qt/locale/fastbitcoin_he_IL.ts \
   qt/locale/fastbitcoin_he.ts \
   qt/locale/fastbitcoin_hi_IN.ts \
   qt/locale/fastbitcoin_hr.ts \
   qt/locale/fastbitcoin_hu.ts \
   qt/locale/fastbitcoin_id_ID.ts \
-  qt/locale/fastbitcoin_id.ts \
   qt/locale/fastbitcoin_it_IT.ts \
   qt/locale/fastbitcoin_it.ts \
-  qt/locale/fastbitcoin_ja_JP.ts \
   qt/locale/fastbitcoin_ja.ts \
   qt/locale/fastbitcoin_ka.ts \
   qt/locale/fastbitcoin_kk_KZ.ts \
@@ -72,11 +63,8 @@ QT_TS = \
   qt/locale/fastbitcoin_mk_MK.ts \
   qt/locale/fastbitcoin_mn.ts \
   qt/locale/fastbitcoin_ms_MY.ts \
-  qt/locale/fastbitcoin_my.ts \
-  qt/locale/fastbitcoin_nb_NO.ts \
   qt/locale/fastbitcoin_nb.ts \
   qt/locale/fastbitcoin_ne.ts \
-  qt/locale/fastbitcoin_nl_NL.ts \
   qt/locale/fastbitcoin_nl.ts \
   qt/locale/fastbitcoin_pam.ts \
   qt/locale/fastbitcoin_pl.ts \
@@ -86,7 +74,6 @@ QT_TS = \
   qt/locale/fastbitcoin_ro.ts \
   qt/locale/fastbitcoin_ru_RU.ts \
   qt/locale/fastbitcoin_ru.ts \
-  qt/locale/fastbitcoin_si.ts \
   qt/locale/fastbitcoin_sk.ts \
   qt/locale/fastbitcoin_sl_SI.ts \
   qt/locale/fastbitcoin_sq.ts \
@@ -94,9 +81,7 @@ QT_TS = \
   qt/locale/fastbitcoin_sr.ts \
   qt/locale/fastbitcoin_sv.ts \
   qt/locale/fastbitcoin_ta.ts \
-  qt/locale/fastbitcoin_te.ts \
   qt/locale/fastbitcoin_th_TH.ts \
-  qt/locale/fastbitcoin_th.ts \
   qt/locale/fastbitcoin_tr_TR.ts \
   qt/locale/fastbitcoin_tr.ts \
   qt/locale/fastbitcoin_uk.ts \
@@ -126,7 +111,8 @@ QT_FORMS_UI = \
   qt/forms/sendcoinsdialog.ui \
   qt/forms/sendcoinsentry.ui \
   qt/forms/signverifymessagedialog.ui \
-  qt/forms/transactiondescdialog.ui
+  qt/forms/transactiondescdialog.ui \
+  qt/forms/masternodelist.ui
 
 QT_MOC_CPP = \
   qt/moc_addressbookpage.cpp \
@@ -137,7 +123,6 @@ QT_MOC_CPP = \
   qt/moc_fastbitcoinamountfield.cpp \
   qt/moc_fastbitcoingui.cpp \
   qt/moc_fastbitcoinunits.cpp \
-  qt/moc_callback.cpp \
   qt/moc_clientmodel.cpp \
   qt/moc_coincontroldialog.cpp \
   qt/moc_coincontroltreewidget.cpp \
@@ -174,7 +159,8 @@ QT_MOC_CPP = \
   qt/moc_utilitydialog.cpp \
   qt/moc_walletframe.cpp \
   qt/moc_walletmodel.cpp \
-  qt/moc_walletview.cpp
+  qt/moc_walletview.cpp \
+  qt/moc_masternodelist.cpp
 
 FASTBITCOIN_MM = \
   qt/macdockiconhandler.mm \
@@ -183,7 +169,6 @@ FASTBITCOIN_MM = \
 QT_MOC = \
   qt/fastbitcoin.moc \
   qt/fastbitcoinamountfield.moc \
-  qt/callback.moc \
   qt/intro.moc \
   qt/overviewpage.moc \
   qt/rpcconsole.moc
@@ -206,7 +191,6 @@ FASTBITCOIN_QT_H = \
   qt/fastbitcoinamountfield.h \
   qt/fastbitcoingui.h \
   qt/fastbitcoinunits.h \
-  qt/callback.h \
   qt/clientmodel.h \
   qt/coincontroldialog.h \
   qt/coincontroltreewidget.h \
@@ -250,14 +234,15 @@ FASTBITCOIN_QT_H = \
   qt/walletmodel.h \
   qt/walletmodeltransaction.h \
   qt/walletview.h \
-  qt/winshutdownmonitor.h
+  qt/winshutdownmonitor.h \
+  qt/masternodelist.h
 
 RES_ICONS = \
   qt/res/icons/add.png \
   qt/res/icons/address-book.png \
   qt/res/icons/about.png \
   qt/res/icons/about_qt.png \
-  qt/res/icons/fastbitcoin.ico \
+  qt/res/icons/fastbitcoin_ic.ico \
   qt/res/icons/fastbitcoin_testnet.ico \
   qt/res/icons/fastbitcoin.png \
   qt/res/icons/chevron.png \
@@ -272,6 +257,11 @@ RES_ICONS = \
   qt/res/icons/connect2.png \
   qt/res/icons/connect3.png \
   qt/res/icons/connect4.png \
+  qt/res/icons/connect0_16.png \
+  qt/res/icons/connect1_16.png \
+  qt/res/icons/connect2_16.png \
+  qt/res/icons/connect3_16.png \
+  qt/res/icons/connect4_16.png \
   qt/res/icons/debugwindow.png \
   qt/res/icons/edit.png \
   qt/res/icons/editcopy.png \
@@ -288,7 +278,6 @@ RES_ICONS = \
   qt/res/icons/history.png \
   qt/res/icons/info.png \
   qt/res/icons/key.png \
-  qt/res/icons/fastbitcoin_splash.png \
   qt/res/icons/lock_closed.png \
   qt/res/icons/lock_open.png \
   qt/res/icons/network_disabled.png \
@@ -308,27 +297,9 @@ RES_ICONS = \
   qt/res/icons/tx_output.png \
   qt/res/icons/tx_mined.png \
   qt/res/icons/warning.png \
-  qt/res/icons/Bitcointalk.png \
-  qt/res/icons/FastbitcoinCC.png \
-  qt/res/icons/cryptoID.png \
-  qt/res/icons/GitHub.png \
-  qt/res/icons/Telegram.png \
-  qt/res/icons/Twitter.png \
-  qt/res/icons/BitZ.png \
-  qt/res/icons/Ccex.png \
-  qt/res/icons/Coinexchange.png \
-  qt/res/icons/Coinomi.png \
-  qt/res/icons/CryptoBridgeB.png \
-  qt/res/icons/Cryptopia.png \
-  qt/res/icons/Facebook.png \
-  qt/res/icons/InsightAPI.png \
-  qt/res/icons/Reddit.png \
-  qt/res/icons/TradeSat.png \
-  qt/res/icons/VEBITCOIN.png \ 
-  qt/res/icons/Hitbtc.png \  
   qt/res/icons/verify.png \
-  qt/res/icons/exrates.png
-  
+  qt/res/
+
 FASTBITCOIN_QT_BASE_CPP = \
   qt/bantablemodel.cpp \
   qt/fastbitcoinaddressvalidator.cpp \
@@ -351,7 +322,8 @@ FASTBITCOIN_QT_BASE_CPP = \
   qt/rpcconsole.cpp \
   qt/splashscreen.cpp \
   qt/trafficgraphwidget.cpp \
-  qt/utilitydialog.cpp
+  qt/utilitydialog.cpp \
+  qt/masternodelist.cpp
 
 FASTBITCOIN_QT_WINDOWS_CPP = qt/winshutdownmonitor.cpp
 
@@ -381,7 +353,8 @@ FASTBITCOIN_QT_WALLET_CPP = \
   qt/walletframe.cpp \
   qt/walletmodel.cpp \
   qt/walletmodeltransaction.cpp \
-  qt/walletview.cpp
+  qt/walletview.cpp \
+  qt/masternodelist.cpp
 
 FASTBITCOIN_QT_CPP = $(FASTBITCOIN_QT_BASE_CPP)
 if TARGET_WINDOWS
@@ -391,52 +364,33 @@ if ENABLE_WALLET
 FASTBITCOIN_QT_CPP += $(FASTBITCOIN_QT_WALLET_CPP)
 endif
 
+RES_CSS = \
+  qt/res/css/fastbitcoin_main.css \
+  qt/res/css/fastbitcoin_theme1.css \
+  qt/res/css/fastbitcoin_theme2.css \
+  qt/res/css/fastbitcoin_theme3.css 
+  
+  
 RES_IMAGES = \
+  qt/res/images/about.png \
+  qt/res/images/splash.png \
+  qt/res/images/splash_testnet.png \
+  qt/res/images/paper_wallet.png \
   qt/res/images/fastbitcoin_logo_horizontal.png \
-  qt/res/images/fastbitcoin_main_hgB_flower.png \
-  qt/res/images/fastbitcoin_main_hgB_machine.png \
-  qt/res/images/fastbitcoin_main_hgB.png \
-  qt/res/images/fastbitcoin_main_hgB_white.png
+  qt/res/images/drkblue_downArrow.png \
+  qt/res/images/drkblue_downArrow_small.png \
+  qt/res/images/drkblue_upArrow_small.png \
+  qt/res/images/drkblue_leftArrow_small.png \
+  qt/res/images/drkblue_rightArrow_small.png \
+  qt/res/images/drkblue_qtreeview_selected.png \
+  qt/res/images/fastbitcoin_main_hg.png \
+  qt/res/images/fastbitcoin_theme1_hg.png \
+  qt/res/images/fastbitcoin_theme2_hg.png \
+  qt/res/images/fastbitcoin_theme3_hg.png
 
-RES_CSS = qt/res/css/fastbitcoin_main.css
 
-RES_MOVIES =  \
-  qt/res/movies/spinner-000.png \
-  qt/res/movies/spinner-001.png \
-  qt/res/movies/spinner-002.png \
-  qt/res/movies/spinner-003.png \
-  qt/res/movies/spinner-004.png \
-  qt/res/movies/spinner-005.png \
-  qt/res/movies/spinner-006.png \
-  qt/res/movies/spinner-007.png \
-  qt/res/movies/spinner-008.png \
-  qt/res/movies/spinner-009.png \
-  qt/res/movies/spinner-010.png \
-  qt/res/movies/spinner-011.png \
-  qt/res/movies/spinner-012.png \
-  qt/res/movies/spinner-013.png \
-  qt/res/movies/spinner-014.png \
-  qt/res/movies/spinner-015.png \
-  qt/res/movies/spinner-016.png \
-  qt/res/movies/spinner-017.png \
-  qt/res/movies/spinner-018.png \
-  qt/res/movies/spinner-019.png \
-  qt/res/movies/spinner-020.png \
-  qt/res/movies/spinner-021.png \
-  qt/res/movies/spinner-022.png \
-  qt/res/movies/spinner-023.png \
-  qt/res/movies/spinner-024.png \
-  qt/res/movies/spinner-025.png \
-  qt/res/movies/spinner-026.png \
-  qt/res/movies/spinner-027.png \
-  qt/res/movies/spinner-028.png \
-  qt/res/movies/spinner-029.png \
-  qt/res/movies/spinner-030.png \
-  qt/res/movies/spinner-031.png \
-  qt/res/movies/spinner-032.png \
-  qt/res/movies/spinner-033.png \
-  qt/res/movies/spinner-034.png \
-  qt/res/movies/spinner-035.png
+
+RES_MOVIES = $(wildcard $(srcdir)/qt/res/movies/spinner-*.png)
 
 FASTBITCOIN_RC = qt/res/fastbitcoin-qt-res.rc
 
@@ -448,7 +402,7 @@ qt_libfastbitcoinqt_a_CPPFLAGS = $(AM_CPPFLAGS) $(FASTBITCOIN_INCLUDES) $(FASTBI
 qt_libfastbitcoinqt_a_CXXFLAGS = $(AM_CXXFLAGS) $(QT_PIE_FLAGS)
 
 qt_libfastbitcoinqt_a_SOURCES = $(FASTBITCOIN_QT_CPP) $(FASTBITCOIN_QT_H) $(QT_FORMS_UI) \
-  $(QT_QRC) $(QT_QRC_LOCALE) $(QT_TS) $(PROTOBUF_PROTO) $(RES_ICONS) $(RES_IMAGES) $(RES_MOVIES) $(RES_CSS)
+  $(QT_QRC) $(QT_QRC_LOCALE) $(QT_TS) $(PROTOBUF_PROTO) $(RES_ICONS) $(RES_CSS) $(RES_IMAGES) $(RES_MOVIES) 
 
 nodist_qt_libfastbitcoinqt_a_SOURCES = $(QT_MOC_CPP) $(QT_MOC) $(PROTOBUF_CC) \
   $(PROTOBUF_H) $(QT_QRC_CPP) $(QT_QRC_LOCALE_CPP)
@@ -485,7 +439,7 @@ endif
 if ENABLE_ZMQ
 qt_fastbitcoin_qt_LDADD += $(LIBFASTBITCOIN_ZMQ) $(ZMQ_LIBS)
 endif
-qt_fastbitcoin_qt_LDADD += $(LIBFASTBITCOIN_CLI) $(LIBFASTBITCOIN_COMMON) $(LIBFASTBITCOIN_UTIL) $(LIBFASTBITCOIN_CONSENSUS) $(LIBFASTBITCOIN_CRYPTO) $(LIBUNIVALUE) $(LIBLEVELDB) $(LIBLEVELDB_SSE42) $(LIBMEMENV) \
+qt_fastbitcoin_qt_LDADD += $(LIBFASTBITCOIN_CLI) $(LIBFASTBITCOIN_COMMON) $(LIBFASTBITCOIN_UTIL) $(LIBFASTBITCOIN_CONSENSUS) $(LIBFASTBITCOIN_CRYPTO) $(LIBUNIVALUE) $(LIBLEVELDB) $(LIBMEMENV) \
   $(BOOST_LIBS) $(QT_LIBS) $(QT_DBUS_LIBS) $(QR_LIBS) $(PROTOBUF_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(LIBSECP256K1) \
   $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS)
 qt_fastbitcoin_qt_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(QT_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)

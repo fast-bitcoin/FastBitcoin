@@ -1,4 +1,4 @@
-// Copyright (c) 2011-2019 The Bitcoin Core developers
+// Copyright (c) 2011-2016 The Fastbitcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -20,6 +20,8 @@
 #ifdef ENABLE_WALLET
 #include "wallet/wallet.h" // for CWallet::GetRequiredFee()
 #endif
+
+#include <boost/thread.hpp>
 
 #include <QDataWidgetMapper>
 #include <QDir>
@@ -76,16 +78,19 @@ OptionsDialog::OptionsDialog(QWidget *parent, bool enableWallet) :
 
     /* Display elements init */
     QDir translations(":translations");
-	
 	//themes kaali
-        ui->theme->addItem(QString("Fastbitcoin Theme"), QVariant("fastbitcoin_main"));
+	ui->theme->addItem(QString("Blue arrow"), QVariant("fastbitcoin_main"));
+    ui->theme->addItem(QString("Linux red"), QVariant("fastbitcoin_theme1"));
+    ui->theme->addItem(QString("Blue City Sky"), QVariant("fastbitcoin_theme2"));
+	ui->theme->addItem(QString("Lambo Car"), QVariant("fastbitcoin_theme3"));
+    ui->theme->addItem(QString("Fastbitcoin Classic"), QVariant("trad"));
 
     ui->fastbitcoinAtStartup->setToolTip(ui->fastbitcoinAtStartup->toolTip().arg(tr(PACKAGE_NAME)));
     ui->fastbitcoinAtStartup->setText(ui->fastbitcoinAtStartup->text().arg(tr(PACKAGE_NAME)));
 
     ui->lang->setToolTip(ui->lang->toolTip().arg(tr(PACKAGE_NAME)));
     ui->lang->addItem(QString("(") + tr("default") + QString(")"), QVariant(""));
-    for (const QString &langStr : translations.entryList())
+    Q_FOREACH(const QString &langStr, translations.entryList())
     {
         QLocale locale(langStr);
 
@@ -115,7 +120,7 @@ OptionsDialog::OptionsDialog(QWidget *parent, bool enableWallet) :
     ui->thirdPartyTxUrls->setPlaceholderText("https://example.com/tx/%s");
 #endif
 
-    ui->unit->setModel(new BitcoinUnits(this));
+    ui->unit->setModel(new FastbitcoinUnits(this));
 
     /* Widget-to-option mapper */
     mapper = new QDataWidgetMapper(this);
@@ -233,18 +238,6 @@ void OptionsDialog::on_resetButton_clicked()
         model->Reset();
         QApplication::quit();
     }
-}
-
-void OptionsDialog::on_openBitcoinConfButton_clicked()
-{
-    /* explain the purpose of the config file */
-    QMessageBox::information(this, tr("Configuration options"),
-        tr("The configuration file is used to specify advanced user options which override GUI settings. "
-           "Additionally, any command-line options will override this configuration file."));
-
-    /* show an error if there was some problem opening the file */
-    if (!GUIUtil::openBitcoinConf())
-        QMessageBox::critical(this, tr("Error"), tr("The configuration file could not be opened."));
 }
 
 void OptionsDialog::on_okButton_clicked()

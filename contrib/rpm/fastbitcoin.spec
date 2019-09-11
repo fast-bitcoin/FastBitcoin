@@ -20,8 +20,8 @@ Summary:	Peer to Peer Cryptographic Currency
 
 Group:		Applications/System
 License:	MIT
-URL:		https://fastbitcoin.cc/
-Source0:	https://fastbitcoin.cc/bin/fastbitcoin-core-%{version}/fastbitcoin-%{version}.tar.gz
+URL:		https://fastbitcoin.org/
+Source0:	https://fastbitcoin.org/bin/fastbitcoin-core-%{version}/fastbitcoin-%{version}.tar.gz
 Source1:	http://download.oracle.com/berkeley-db/db-%{bdbv}.NC.tar.gz
 
 Source10:	https://raw.githubusercontent.com/fastbitcoin/fastbitcoin/v%{version}/contrib/debian/examples/fastbitcoin.conf
@@ -37,7 +37,7 @@ Source30:	https://raw.githubusercontent.com/fastbitcoin/fastbitcoin/v%{version}/
 Source31:	https://raw.githubusercontent.com/fastbitcoin/fastbitcoin/v%{version}/contrib/rpm/fastbitcoin.fc
 Source32:	https://raw.githubusercontent.com/fastbitcoin/fastbitcoin/v%{version}/contrib/rpm/fastbitcoin.if
 
-Source100:	https://upload.wikimedia.org/wikipedia/commons/4/46/Bitcoin.svg
+Source100:	https://upload.wikimedia.org/wikipedia/commons/4/46/Fastbitcoin.svg
 
 %if 0%{?_use_libressl:1}
 BuildRequires:	libressl-devel
@@ -54,7 +54,7 @@ Patch0:		fastbitcoin-0.12.0-libressl.patch
 
 
 %description
-Bitcoin is a digital cryptographic currency that uses peer-to-peer technology to
+Fastbitcoin is a digital cryptographic currency that uses peer-to-peer technology to
 operate with no central authority or banks; managing transactions and the
 issuing of fastbitcoins is carried out collectively by the network.
 
@@ -79,17 +79,17 @@ BuildRequires:	%{_bindir}/inkscape
 BuildRequires:	%{_bindir}/convert
 
 %description core
-Bitcoin is a digital cryptographic currency that uses peer-to-peer technology to
+Fastbitcoin is a digital cryptographic currency that uses peer-to-peer technology to
 operate with no central authority or banks; managing transactions and the
 issuing of fastbitcoins is carried out collectively by the network.
 
 This package contains the Qt based graphical client and node. If you are looking
-to run a Bitcoin wallet, this is probably the package you want.
+to run a Fastbitcoin wallet, this is probably the package you want.
 %endif
 
 
 %package libs
-Summary:	Bitcoin shared libraries
+Summary:	Fastbitcoin shared libraries
 Group:		System Environment/Libraries
 
 %description libs
@@ -134,7 +134,7 @@ If you use the graphical fastbitcoin-core client then you almost certainly do no
 need this package.
 
 %package utils
-Summary:	Bitcoin utilities
+Summary:	Fastbitcoin utilities
 Group:		Applications/System
 
 %description utils
@@ -209,7 +209,7 @@ touch -a -m -t 201504280000 %{buildroot}%{_sysconfdir}/sysconfig/fastbitcoin
 mkdir -p %{buildroot}%{_unitdir}
 cat <<EOF > %{buildroot}%{_unitdir}/fastbitcoin.service
 [Unit]
-Description=Bitcoin daemon
+Description=Fastbitcoin daemon
 After=syslog.target network.target
 
 [Service]
@@ -265,10 +265,10 @@ mkdir -p %{buildroot}%{_datadir}/applications
 cat <<EOF > %{buildroot}%{_datadir}/applications/fastbitcoin-core.desktop
 [Desktop Entry]
 Encoding=UTF-8
-Name=Bitcoin
-Comment=Bitcoin P2P Cryptocurrency
-Comment[fr]=Bitcoin, monnaie virtuelle cryptographique pair à pair
-Comment[tr]=Bitcoin, eşten eşe kriptografik sanal para birimi
+Name=Fastbitcoin
+Comment=Fastbitcoin P2P Cryptocurrency
+Comment[fr]=Fastbitcoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Fastbitcoin, eşten eşe kriptografik sanal para birimi
 Exec=fastbitcoin-qt %u
 Terminal=false
 Type=Application
@@ -311,8 +311,10 @@ rm -f %{buildroot}%{_bindir}/test_*
 
 %check
 make check
-srcdir=src test/fastbitcoin-util-test.py
-test/functional/test_runner.py --extended
+pushd src
+srcdir=. test/fastbitcoin-util-test.py
+popd
+qa/pull-tester/rpc-tests.py -extended
 
 %post libs -p /sbin/ldconfig
 
@@ -322,7 +324,7 @@ test/functional/test_runner.py --extended
 getent group fastbitcoin >/dev/null || groupadd -r fastbitcoin
 getent passwd fastbitcoin >/dev/null ||
 	useradd -r -g fastbitcoin -d /var/lib/fastbitcoin -s /sbin/nologin \
-	-c "Bitcoin wallet server" fastbitcoin
+	-c "Fastbitcoin wallet server" fastbitcoin
 exit 0
 
 %post server
@@ -332,10 +334,10 @@ if [ `%{_sbindir}/sestatus |grep -c "disabled"` -eq 0 ]; then
 for selinuxvariant in %{selinux_variants}; do
 	%{_sbindir}/semodule -s ${selinuxvariant} -i %{_datadir}/selinux/${selinuxvariant}/fastbitcoin.pp &> /dev/null || :
 done
-%{_sbindir}/semanage port -a -t fastbitcoin_port_t -p tcp 9332
-%{_sbindir}/semanage port -a -t fastbitcoin_port_t -p tcp 9333
-%{_sbindir}/semanage port -a -t fastbitcoin_port_t -p tcp 19332
-%{_sbindir}/semanage port -a -t fastbitcoin_port_t -p tcp 19333
+%{_sbindir}/semanage port -a -t fastbitcoin_port_t -p tcp 8332
+%{_sbindir}/semanage port -a -t fastbitcoin_port_t -p tcp 8333
+%{_sbindir}/semanage port -a -t fastbitcoin_port_t -p tcp 18332
+%{_sbindir}/semanage port -a -t fastbitcoin_port_t -p tcp 18333
 %{_sbindir}/fixfiles -R fastbitcoin-server restore &> /dev/null || :
 %{_sbindir}/restorecon -R %{_localstatedir}/lib/fastbitcoin || :
 fi
@@ -351,10 +353,10 @@ fi
 # SELinux
 if [ $1 -eq 0 ]; then
 	if [ `%{_sbindir}/sestatus |grep -c "disabled"` -eq 0 ]; then
-	%{_sbindir}/semanage port -d -p tcp 9332
-	%{_sbindir}/semanage port -d -p tcp 8555
-	%{_sbindir}/semanage port -d -p tcp 19332
-	%{_sbindir}/semanage port -d -p tcp 19333
+	%{_sbindir}/semanage port -d -p tcp 8332
+	%{_sbindir}/semanage port -d -p tcp 8333
+	%{_sbindir}/semanage port -d -p tcp 18332
+	%{_sbindir}/semanage port -d -p tcp 18333
 	for selinuxvariant in %{selinux_variants}; do
 		%{_sbindir}/semodule -s ${selinuxvariant} -r fastbitcoin &> /dev/null || :
 	done

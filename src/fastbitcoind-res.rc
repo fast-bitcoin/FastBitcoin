@@ -16,8 +16,8 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "FastBitcoin"
-            VALUE "FileDescription",    "fastbitcoind (FastBitcoin node with a JSON-RPC server)"
+            VALUE "CompanyName",        "LIMXTEC"
+            VALUE "FileDescription",    "fastbitcoind (fastbitcoin node with a JSON-RPC server)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "fastbitcoind"
             VALUE "LegalCopyright",     COPYRIGHT_STR

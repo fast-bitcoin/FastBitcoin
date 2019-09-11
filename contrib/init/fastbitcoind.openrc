@@ -18,8 +18,8 @@ FASTBITCOIND_BIN=${FASTBITCOIND_BIN:-/usr/bin/fastbitcoind}
 FASTBITCOIND_NICE=${FASTBITCOIND_NICE:-${NICELEVEL:-0}}
 FASTBITCOIND_OPTS="${FASTBITCOIND_OPTS:-${FASTBITCOIN_OPTS}}"
 
-name="Bitcoin Core Daemon"
-description="Bitcoin cryptocurrency P2P network daemon"
+name="Fastbitcoin Core Daemon"
+description="Fastbitcoin cryptocurrency P2P network daemon"
 
 command="/usr/bin/fastbitcoind"
 command_args="-pid=\"${FASTBITCOIND_PIDFILE}\" \
@@ -84,7 +84,7 @@ checkconfig()
 		eerror "It is also recommended that you also set alertnotify so you are "
 		eerror "notified of problems:"
 		eerror ""
-		eerror "ie: alertnotify=echo %%s | mail -s \"Bitcoin Alert\"" \
+		eerror "ie: alertnotify=echo %%s | mail -s \"Fastbitcoin Alert\"" \
 			"admin@foo.com"
 		eerror ""
 		return 1

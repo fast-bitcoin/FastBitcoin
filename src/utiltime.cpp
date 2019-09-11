@@ -1,7 +1,7 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
-// Copyright (c) 2009-2019 The Bitcoin Core developers
-// Copyright (c) 2009-2019 The Litecoin Core developers
-// Copyright (c) 2017-2019 The Fastbitcoin Core developers
+// Copyright (c) 2009-2017 The Bitcoin Core developers 
+// Copyright (c) 2015-2017 The Dash developers 
+// Copyright (c) 2015-2017 The Fastbitcoin developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -11,31 +11,25 @@
 
 #include "utiltime.h"
 
-#include <atomic>
-
 #include <boost/date_time/posix_time/posix_time.hpp>
 #include <boost/thread.hpp>
 
-static std::atomic<int64_t> nMockTime(0); //!< For unit testing
+using namespace std;
+
+static int64_t nMockTime = 0; //!< For unit testing
 
 int64_t GetTime()
 {
-    int64_t mocktime = nMockTime.load(std::memory_order_relaxed);
-    if (mocktime) return mocktime;
+    if (nMockTime) return nMockTime;
 
-    time_t now = time(nullptr);
+    time_t now = time(NULL);
     assert(now > 0);
     return now;
 }
 
 void SetMockTime(int64_t nMockTimeIn)
 {
-    nMockTime.store(nMockTimeIn, std::memory_order_relaxed);
-}
-
-int64_t GetMockTime()
-{
-    return nMockTime.load(std::memory_order_relaxed);
+    nMockTime = nMockTimeIn;
 }
 
 int64_t GetTimeMillis()
@@ -57,6 +51,14 @@ int64_t GetTimeMicros()
 int64_t GetSystemTimeInSeconds()
 {
     return GetTimeMicros()/1000000;
+}
+
+/** Return a time useful for the debug log */
+int64_t GetLogTimeMicros()
+{
+    if (nMockTime) return nMockTime*1000000;
+
+    return GetTimeMicros();
 }
 
 void MilliSleep(int64_t n)

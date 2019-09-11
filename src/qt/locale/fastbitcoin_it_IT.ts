@@ -41,21 +41,9 @@
         <source>&amp;Delete</source>
         <translation>Cancella</translation>
     </message>
-    <message>
-        <source>Choose the address to send coins to</source>
-        <translation>Scegli l'indirizzo a cui inviare denaro</translation>
-    </message>
-    <message>
-        <source>C&amp;hoose</source>
-        <translation>Scegli</translation>
-    </message>
     </context>
 <context>
     <name>AddressTableModel</name>
-    <message>
-        <source>Address</source>
-        <translation>Indirizzo</translation>
-    </message>
     </context>
 <context>
     <name>AskPassphraseDialog</name>
@@ -88,7 +76,7 @@
     </message>
 </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>FastbitcoinGUI</name>
     <message>
         <source>&amp;Transactions</source>
         <translation>Transazioni</translation>
@@ -144,10 +132,6 @@
     </context>
 <context>
     <name>ReceiveRequestDialog</name>
-    <message>
-        <source>Address</source>
-        <translation>Indirizzo</translation>
-    </message>
     </context>
 <context>
     <name>RecentRequestsTableModel</name>
@@ -184,10 +168,6 @@
     </context>
 <context>
     <name>TransactionView</name>
-    <message>
-        <source>Address</source>
-        <translation>Indirizzo</translation>
-    </message>
     </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>

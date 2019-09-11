@@ -76,7 +76,7 @@
     </message>
 </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>FastbitcoinGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>Semnează &amp;mesajul...</translation>
@@ -142,8 +142,8 @@
         <translation>Deschide &amp;URI...</translation>
     </message>
     <message>
-        <source>Send coins to a FastBitcoin address</source>
-        <translation>Trimite monedele către o adresă FastBitcoin</translation>
+        <source>Send coins to a Fastbitcoin address</source>
+        <translation>Trimite monedele către o adresă Fastbitcoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -166,8 +166,8 @@
         <translation>&amp;Verifică mesajul...</translation>
     </message>
     <message>
-        <source>FastBitcoin</source>
-        <translation>FastBitcoin</translation>
+        <source>Fastbitcoin</source>
+        <translation>Fastbitcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -194,12 +194,12 @@
         <translation>Criptează cheile private care aparțin portofelului tău.</translation>
     </message>
     <message>
-        <source>Sign messages with your FastBitcoin addresses to prove you own them</source>
-        <translation>Semnează mesajele cu adresa ta de FastBitcoin pentru a face dovada că îți aparțin.</translation>
+        <source>Sign messages with your Fastbitcoin addresses to prove you own them</source>
+        <translation>Semnează mesajele cu adresa ta de Fastbitcoin pentru a face dovada că îți aparțin.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified FastBitcoin addresses</source>
-        <translation>Verifică mesajele cu scopul de a asigura faptul că au fost semnate cu adresa de FastBitcoin specificată.</translation>
+        <source>Verify messages to ensure they were signed with specified Fastbitcoin addresses</source>
+        <translation>Verifică mesajele cu scopul de a asigura faptul că au fost semnate cu adresa de Fastbitcoin specificată.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -748,8 +748,8 @@
 <context>
     <name>fastbitcoin-core</name>
     <message>
-        <source>FastBitcoin FBC</source>
-        <translation>FastBitcoin FBC</translation>
+        <source>Fastbitcoin Core</source>
+        <translation>Fastbitcoin Core</translation>
     </message>
     <message>
         <source>Information</source>

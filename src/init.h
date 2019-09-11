@@ -1,7 +1,7 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
-// Copyright (c) 2009-2019 The Bitcoin Core developers
-// Copyright (c) 2009-2019 The Litecoin Core developers
-// Copyright (c) 2017-2019 The Fastbitcoin Core developers
+// Copyright (c) 2009-2017 The Bitcoin Core developers 
+// Copyright (c) 2015-2017 The Dash developers 
+// Copyright (c) 2015-2017 The Fastbitcoin developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -29,35 +29,30 @@ void InitLogging();
 void InitParameterInteraction();
 
 /** Initialize fastbitcoin core: Basic context setup.
- *  @note This can be done before daemonization. Do not call Shutdown() if this function fails.
+ *  @note This can be done before daemonization.
  *  @pre Parameters should be parsed and config file should be read.
  */
 bool AppInitBasicSetup();
 /**
  * Initialization: parameter interaction.
- * @note This can be done before daemonization. Do not call Shutdown() if this function fails.
+ * @note This can be done before daemonization.
  * @pre Parameters should be parsed and config file should be read, AppInitBasicSetup should have been called.
  */
 bool AppInitParameterInteraction();
 /**
  * Initialization sanity checks: ecc init, sanity checks, dir lock.
- * @note This can be done before daemonization. Do not call Shutdown() if this function fails.
+ * @note This can be done before daemonization.
  * @pre Parameters should be parsed and config file should be read, AppInitParameterInteraction should have been called.
  */
 bool AppInitSanityChecks();
 /**
- * Lock fastbitcoin core data directory.
- * @note This should only be done after daemonization. Do not call Shutdown() if this function fails.
+ * Fastbitcoin core main initialization.
+ * @note This should only be done after daemonization.
  * @pre Parameters should be parsed and config file should be read, AppInitSanityChecks should have been called.
  */
-bool AppInitLockDataDirectory();
-/**
- * Bitcoin core main initialization.
- * @note This should only be done after daemonization. Call Shutdown() if this function fails.
- * @pre Parameters should be parsed and config file should be read, AppInitLockDataDirectory should have been called.
- */
 bool AppInitMain(boost::thread_group& threadGroup, CScheduler& scheduler);
-void PrepareShutdown();
+
+void PrepareShutdown();//TODO--
 /** The help message mode determines what help message to show */
 enum HelpMessageMode {
     HMM_FASTBITCOIND,

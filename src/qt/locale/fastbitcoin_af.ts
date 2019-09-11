@@ -62,20 +62,16 @@
         <translation>Ontvanger adresse</translation>
     </message>
     <message>
-        <source>These are your FastBitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Hierdie is die adresse vanwaar u FastBitcoin betalings stuur. U moet altyd die bedrag en die adres van die ontvanger nagaan voordat u enige munte stuur.</translation>
+        <source>These are your Fastbitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Hierdie is die adresse vanwaar u Fastbitcoin betalings stuur. U moet altyd die bedrag en die adres van die ontvanger nagaan voordat u enige munte stuur.</translation>
     </message>
     <message>
-        <source>These are your FastBitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Hierdie is die adresse waar u FastBitcoins sal ontvang. Ons beveel aan dat u 'n nuwe adres kies vir elke transaksie</translation>
+        <source>These are your Fastbitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Hierdie is die adresse waar u Fastbitcoins sal ontvang. Ons beveel aan dat u 'n nuwe adres kies vir elke transaksie</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
         <translation>&amp;Dupliseer Adres</translation>
-    </message>
-    <message>
-        <source>Copy &amp;Label</source>
-        <translation>Kopieer &amp;Etiket</translation>
     </message>
     <message>
         <source>&amp;Edit</source>
@@ -204,14 +200,6 @@
         <translation>U het die verkeerde wagwoord ingetik.</translation>
     </message>
     <message>
-        <source>Wallet decryption failed</source>
-        <translation>Beursie-dekripsie het misluk</translation>
-    </message>
-    <message>
-        <source>Wallet passphrase was successfully changed.</source>
-        <translation>Beursie wagwoordfrase is suksesvol verander.</translation>
-    </message>
-    <message>
         <source>Warning: The Caps Lock key is on!</source>
         <translation>WAARSKUWING:  Outomatiese Kapitalisering is aktief op u sleutelbord!</translation>
     </message>
@@ -219,20 +207,12 @@
 <context>
     <name>BanTableModel</name>
     <message>
-        <source>IP/Netmask</source>
-        <translation>IP/Netmasker</translation>
-    </message>
-    <message>
         <source>Banned Until</source>
         <translation>Verban tot</translation>
     </message>
 </context>
 <context>
-    <name>BitcoinGUI</name>
-    <message>
-        <source>Sign &amp;message...</source>
-        <translation>Teken &amp;boodskap...</translation>
-    </message>
+    <name>FastbitcoinGUI</name>
     <message>
         <source>Synchronizing with network...</source>
         <translation>Netwerk-sinkronisasie...</translation>
@@ -314,24 +294,12 @@
         <translation>Oop &amp; URI...</translation>
     </message>
     <message>
-        <source>Click to disable network activity.</source>
-        <translation>Kliek om netwerkaktiwiteit af te skakel.</translation>
-    </message>
-    <message>
-        <source>Network activity disabled.</source>
-        <translation>Netwerkaktiwiteit gedeaktiveer.</translation>
-    </message>
-    <message>
-        <source>Click to enable network activity again.</source>
-        <translation>Kliek om netwerkaktiwiteit weer aan te skakel.</translation>
-    </message>
-    <message>
         <source>Reindexing blocks on disk...</source>
         <translation>Besig met herindeksering van blokke op hardeskyf...</translation>
     </message>
     <message>
-        <source>Send coins to a FastBitcoin address</source>
-        <translation>Stuur munte na 'n FastBitcoin adres</translation>
+        <source>Send coins to a Fastbitcoin address</source>
+        <translation>Stuur munte na 'n Fastbitcoin adres</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -342,16 +310,8 @@
         <translation>Verander die wagwoord wat ek vir kodifikasie van my beursie gebruik</translation>
     </message>
     <message>
-        <source>&amp;Debug window</source>
-        <translation>&amp;Ontfout venster</translation>
-    </message>
-    <message>
-        <source>Open debugging and diagnostic console</source>
-        <translation>Maak ontfouting en diagnostiese konsole oop</translation>
-    </message>
-    <message>
-        <source>FastBitcoin</source>
-        <translation>FastBitcoin</translation>
+        <source>Fastbitcoin</source>
+        <translation>Fastbitcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -378,12 +338,12 @@
         <translation>Kodifiseer die private sleutes wat aan jou beursie gekoppel is.</translation>
     </message>
     <message>
-        <source>Sign messages with your FastBitcoin addresses to prove you own them</source>
-        <translation>Onderteken boodskappe met u FastBitcoin adresse om u eienaarskap te bewys</translation>
+        <source>Sign messages with your Fastbitcoin addresses to prove you own them</source>
+        <translation>Onderteken boodskappe met u Fastbitcoin adresse om u eienaarskap te bewys</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified FastBitcoin addresses</source>
-        <translation>Verifieër boodskappe om seker te maak dat dit met die gespesifiseerde FastBitcoin adresse</translation>
+        <source>Verify messages to ensure they were signed with specified Fastbitcoin addresses</source>
+        <translation>Verifieër boodskappe om seker te maak dat dit met die gespesifiseerde Fastbitcoin adresse</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -513,47 +473,15 @@
         <translation>Bevestig</translation>
     </message>
     <message>
-        <source>yes</source>
-        <translation>ja</translation>
-    </message>
-    <message>
-        <source>no</source>
-        <translation>nee</translation>
-    </message>
-    <message>
-        <source>Can vary +/- %1 satoshi(s) per input.</source>
-        <translation>Kan verskil met +/- %1 satoshi(s) per invoer.</translation>
-    </message>
-    <message>
         <source>(no label)</source>
         <translation>(geen etiket)</translation>
     </message>
-    <message>
-        <source>change from %1 (%2)</source>
-        <translation>verander van %1 (%2)</translation>
-    </message>
-    <message>
-        <source>(change)</source>
-        <translation>(verander)</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>EditAddressDialog</name>
     <message>
         <source>Edit Address</source>
         <translation>Wysig Adres</translation>
-    </message>
-    <message>
-        <source>&amp;Label</source>
-        <translation>&amp;Etiket</translation>
-    </message>
-    <message>
-        <source>&amp;Address</source>
-        <translation>&amp;Adres</translation>
-    </message>
-    <message>
-        <source>Could not unlock wallet.</source>
-        <translation>Kon beursie nie oopsluit nie.</translation>
     </message>
     </context>
 <context>
@@ -597,10 +525,6 @@
         <translation>Welkom by %1.</translation>
     </message>
     <message>
-        <source>Error: Specified data directory "%1" cannot be created.</source>
-        <translation>Fout: Gespesifiseerde dataleêr "%1" kon nie geskep word nie.</translation>
-    </message>
-    <message>
         <source>Error</source>
         <translation>Fout</translation>
     </message>
@@ -638,28 +562,8 @@
         <translation>Alle kliëntopsies na verstek terugstel.</translation>
     </message>
     <message>
-        <source>&amp;Network</source>
-        <translation>&amp;Netwerk</translation>
-    </message>
-    <message>
-        <source>W&amp;allet</source>
-        <translation>B&amp;eursie</translation>
-    </message>
-    <message>
         <source>Expert</source>
         <translation>Kenner</translation>
-    </message>
-    <message>
-        <source>Enable coin &amp;control features</source>
-        <translation>Bemagtig munt &amp;beheer funksies.</translation>
-    </message>
-    <message>
-        <source>&amp;Port:</source>
-        <translation>&amp;Poort:</translation>
-    </message>
-    <message>
-        <source>IPv4</source>
-        <translation>IPv4</translation>
     </message>
     <message>
         <source>IPv6</source>
@@ -668,14 +572,6 @@
     <message>
         <source>Tor</source>
         <translation>Tor</translation>
-    </message>
-    <message>
-        <source>&amp;OK</source>
-        <translation>&amp;OK</translation>
-    </message>
-    <message>
-        <source>&amp;Cancel</source>
-        <translation>&amp;Kanselleer</translation>
     </message>
     <message>
         <source>default</source>
@@ -1012,8 +908,8 @@
 <context>
     <name>fastbitcoin-core</name>
     <message>
-        <source>FastBitcoin FBC</source>
-        <translation>FastBitcoin Kern</translation>
+        <source>Fastbitcoin Core</source>
+        <translation>Fastbitcoin Kern</translation>
     </message>
     <message>
         <source>Information</source>

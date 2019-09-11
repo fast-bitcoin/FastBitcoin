@@ -1,114 +1,197 @@
-<TS language="nl" version="2.1">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="nl" version="2.0">
+<context>
+    <name>AboutDialog</name>
+    <message>
+        <location filename="../forms/aboutdialog.ui" line="14"/>
+        <source>About Fastbitcoin Core</source>
+        <translation>Over Fastbitcoin Core</translation>
+    </message>
+    <message>
+        <location filename="../forms/aboutdialog.ui" line="53"/>
+        <source>&lt;b&gt;Fastbitcoin Core&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Fastbitcoin Core&lt;/b&gt; versie</translation>
+    </message>
+    <message>
+        <location filename="../forms/aboutdialog.ui" line="94"/>
+        <source>Copyright &amp;copy; 2009-YYYY The Fastbitcoin and DASH Core developers.
+Copyright &amp;copy; 2014-YYYY The Fastbitcoin Core developers.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../forms/aboutdialog.ui" line="111"/>
+        <source>
+This is experimental software.
+
+Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
+This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
+        <translation>
+Dit is experimentele software.
+
+Gedistribueerd onder de MIT/X11 software licentie, zie het bijgevoegde bestand COPYING of http://www.opensource.org/licenses/mit-license.php.
+
+Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in de OpenSSL Toolkit (http://www.openssl.org/) en cryptografische software gemaakt door Eric Young (eay@cryptsoft.com) en UPnP software geschreven door Thomas Bernard.</translation>
+    </message>
+    <message>
+        <location filename="../utilitydialog.cpp" line="30"/>
+        <location filename="../utilitydialog.cpp" line="31"/>
+        <source>Copyright</source>
+        <translation>Auteursrecht</translation>
+    </message>
+    <message>
+        <location filename="../utilitydialog.cpp" line="30"/>
+        <source>The Fastbitcoin Core developers</source>
+        <translation>De Fastbitcoin Core ontwikkelaars</translation>
+    </message>
+    <message>
+        <location filename="../utilitydialog.cpp" line="31"/>
+        <source>The Fastbitcoin Core developers</source>
+        <translation>De Fastbitcoin Core ontwikkelaars</translation>
+    </message>
+    <message>
+        <location filename="../utilitydialog.cpp" line="43"/>
+        <location filename="../utilitydialog.cpp" line="45"/>
+        <source>(%1-bit)</source>
+        <translation>(%1-bit)</translation>
+    </message>
+</context>
 <context>
     <name>AddressBookPage</name>
     <message>
-        <source>Right-click to edit address or label</source>
-        <translation>Rechtermuisklik om het adres of label te wijzigen</translation>
+        <location filename="../forms/addressbookpage.ui" line="30"/>
+        <source>Double-click to edit address or label</source>
+        <translation>Dubbelklik om adres of label te wijzigen</translation>
     </message>
     <message>
+        <location filename="../forms/addressbookpage.ui" line="57"/>
         <source>Create a new address</source>
         <translation>Maak een nieuw adres aan</translation>
     </message>
     <message>
+        <location filename="../forms/addressbookpage.ui" line="60"/>
         <source>&amp;New</source>
         <translation>&amp;Nieuw</translation>
     </message>
     <message>
+        <location filename="../forms/addressbookpage.ui" line="71"/>
         <source>Copy the currently selected address to the system clipboard</source>
-        <translation>Kopieer het geselecteerde adres naar het klembord</translation>
+        <translation>Kopieer het huidig geselecteerde adres naar het klembord</translation>
     </message>
     <message>
+        <location filename="../forms/addressbookpage.ui" line="74"/>
         <source>&amp;Copy</source>
         <translation>&amp;Kopieer</translation>
     </message>
     <message>
-        <source>C&amp;lose</source>
-        <translation>S&amp;luiten</translation>
-    </message>
-    <message>
+        <location filename="../forms/addressbookpage.ui" line="85"/>
         <source>Delete the currently selected address from the list</source>
         <translation>Verwijder het geselecteerde adres van de lijst</translation>
     </message>
     <message>
-        <source>Export the data in the current tab to a file</source>
-        <translation>Exporteer de data in de huidige tab naar een bestand</translation>
-    </message>
-    <message>
-        <source>&amp;Export</source>
-        <translation>&amp;Exporteer</translation>
-    </message>
-    <message>
+        <location filename="../forms/addressbookpage.ui" line="88"/>
         <source>&amp;Delete</source>
         <translation>&amp;Verwijder</translation>
     </message>
     <message>
+        <location filename="../forms/addressbookpage.ui" line="112"/>
+        <source>Export the data in the current tab to a file</source>
+        <translation>Exporteer de data in de huidige tab naar een bestand</translation>
+    </message>
+    <message>
+        <location filename="../forms/addressbookpage.ui" line="115"/>
+        <source>&amp;Export</source>
+        <translation>&amp;Exporteer</translation>
+    </message>
+    <message>
+        <location filename="../forms/addressbookpage.ui" line="132"/>
+        <source>C&amp;lose</source>
+        <translation>S&amp;luiten</translation>
+    </message>
+    <message>
+        <location filename="../addressbookpage.cpp" line="45"/>
         <source>Choose the address to send coins to</source>
         <translation>Kies het adres om munten naar te versturen</translation>
     </message>
     <message>
+        <location filename="../addressbookpage.cpp" line="46"/>
         <source>Choose the address to receive coins with</source>
-        <translation>Kies het adres om munten op te ontvangen</translation>
+        <translation>Kies het adres om munten mee te ontvangen</translation>
     </message>
     <message>
+        <location filename="../addressbookpage.cpp" line="51"/>
         <source>C&amp;hoose</source>
         <translation>K&amp;iezen</translation>
     </message>
     <message>
+        <location filename="../addressbookpage.cpp" line="57"/>
         <source>Sending addresses</source>
-        <translation>Verzendadressen</translation>
+        <translation>Verzend adressen</translation>
     </message>
     <message>
+        <location filename="../addressbookpage.cpp" line="58"/>
         <source>Receiving addresses</source>
-        <translation>Ontvangstadressen</translation>
+        <translation>Ontvangst adressen</translation>
     </message>
     <message>
-        <source>These are your FastBitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Dit zijn uw FastBitcoinadressen om betalingen mee te verzenden. Controleer altijd het bedrag en het ontvangstadres voordat u uw fastbitcoins verzendt.</translation>
+        <location filename="../addressbookpage.cpp" line="65"/>
+        <source>These are your Fastbitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Dit zijn uw Fastbitcoin adressen om betalingen uit te voeren. Kijk steeds het bedrag en ontvangstadres na alvorens munten te verzenden.</translation>
     </message>
     <message>
-        <source>These are your FastBitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dit zijn uw FastBitcoin-adressen waarmee u betalingen kunt ontvangen. We raden u aan om een nieuw ontvangstadres voor elke transactie te gebruiken.</translation>
+        <location filename="../addressbookpage.cpp" line="69"/>
+        <source>These are your Fastbitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Dit zijn uw Fastbitcoin adressen om betalingen te ontvangen. Het is aangeraden om een nieuw ontvangstadres te gebruiken voor elke transactie.</translation>
     </message>
     <message>
+        <location filename="../addressbookpage.cpp" line="75"/>
         <source>&amp;Copy Address</source>
         <translation>&amp;Kopiëer Adres</translation>
     </message>
     <message>
+        <location filename="../addressbookpage.cpp" line="76"/>
         <source>Copy &amp;Label</source>
-        <translation>Kopieer &amp;Label</translation>
+        <translation>Kopiëer &amp;Label</translation>
     </message>
     <message>
+        <location filename="../addressbookpage.cpp" line="77"/>
         <source>&amp;Edit</source>
         <translation>&amp;Bewerk</translation>
     </message>
     <message>
+        <location filename="../addressbookpage.cpp" line="271"/>
         <source>Export Address List</source>
         <translation>Exporteer adreslijst</translation>
     </message>
     <message>
+        <location filename="../addressbookpage.cpp" line="272"/>
         <source>Comma separated file (*.csv)</source>
         <translation>Kommagescheiden bestand (*.csv)</translation>
     </message>
     <message>
+        <location filename="../addressbookpage.cpp" line="285"/>
         <source>Exporting Failed</source>
-        <translation>Export mislukt</translation>
+        <translation>Export Mislukt</translation>
     </message>
     <message>
-        <source>There was an error trying to save the address list to %1. Please try again.</source>
-        <translation>Een fout is opgetreden tijdens het opslaan van deze adreslijst naar %1. Probeer het nogmaals.</translation>
+        <location filename="../addressbookpage.cpp" line="286"/>
+        <source>There was an error trying to save the address list to %1.</source>
+        <translation>Er is een fout is opgetreden tijdens het opslaan van deze adreslijst naar %1.</translation>
     </message>
 </context>
 <context>
     <name>AddressTableModel</name>
     <message>
+        <location filename="../addresstablemodel.cpp" line="169"/>
         <source>Label</source>
         <translation>Label</translation>
     </message>
     <message>
+        <location filename="../addresstablemodel.cpp" line="169"/>
         <source>Address</source>
         <translation>Adres</translation>
     </message>
     <message>
+        <location filename="../addresstablemodel.cpp" line="205"/>
         <source>(no label)</source>
         <translation>(geen label)</translation>
     </message>
@@ -116,644 +199,1063 @@
 <context>
     <name>AskPassphraseDialog</name>
     <message>
+        <location filename="../forms/askpassphrasedialog.ui" line="26"/>
         <source>Passphrase Dialog</source>
-        <translation>Wachtwoorddialoog</translation>
+        <translation>Wachtwoorddialoogscherm</translation>
     </message>
     <message>
+        <location filename="../forms/askpassphrasedialog.ui" line="47"/>
         <source>Enter passphrase</source>
         <translation>Voer wachtwoord in</translation>
     </message>
     <message>
+        <location filename="../forms/askpassphrasedialog.ui" line="61"/>
         <source>New passphrase</source>
         <translation>Nieuw wachtwoord</translation>
     </message>
     <message>
+        <location filename="../forms/askpassphrasedialog.ui" line="75"/>
         <source>Repeat new passphrase</source>
         <translation>Herhaal nieuw wachtwoord</translation>
     </message>
     <message>
-        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Voer een nieuw wachtwoord in voor uw portemonnee.&lt;br/&gt;Gebruik een wachtwoord van &lt;b&gt;tien of meer willekeurige karakters&lt;/b&gt;, of &lt;b&gt;acht of meer woorden&lt;/b&gt;.</translation>
+        <location filename="../forms/askpassphrasedialog.ui" line="108"/>
+        <source>Serves to disable the trivial sendmoney when OS account compromised. Provides no real security.</source>
+        <translation>Dient voor het uitschakelen van de triviale sendmoney wanneer het gebruikersaccount van het besturingssysteem gecompromitteerd is. Biedt geen echte veiligheid.</translation>
     </message>
     <message>
+        <location filename="../forms/askpassphrasedialog.ui" line="111"/>
+        <source>For anonymization only</source>
+        <translation>Alleen voor anonimisatie</translation>
+    </message>
+    <message>
+        <location filename="../askpassphrasedialog.cpp" line="41"/>
+        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
+        <translation>Vul een nieuw wachtwoord in voor uw portemonnee. &lt;br/&gt; Gebruik een wachtwoord van &lt;b&gt;10 of meer lukrake karakters&lt;/b&gt;, of &lt;b&gt;acht of meer woorden&lt;/b&gt; . </translation>
+    </message>
+    <message>
+        <location filename="../askpassphrasedialog.cpp" line="42"/>
         <source>Encrypt wallet</source>
         <translation>Versleutel portemonnee</translation>
     </message>
     <message>
+        <location filename="../askpassphrasedialog.cpp" line="48"/>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
         <translation>Deze operatie vereist uw portemonneewachtwoord om de portemonnee te openen.</translation>
     </message>
     <message>
+        <location filename="../askpassphrasedialog.cpp" line="53"/>
         <source>Unlock wallet</source>
         <translation>Open portemonnee</translation>
     </message>
     <message>
+        <location filename="../askpassphrasedialog.cpp" line="56"/>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
         <translation>Deze operatie vereist uw portemonneewachtwoord om de portemonnee te ontsleutelen</translation>
     </message>
     <message>
+        <location filename="../askpassphrasedialog.cpp" line="61"/>
         <source>Decrypt wallet</source>
         <translation>Ontsleutel portemonnee</translation>
     </message>
     <message>
+        <location filename="../askpassphrasedialog.cpp" line="64"/>
         <source>Change passphrase</source>
         <translation>Wijzig wachtwoord</translation>
     </message>
     <message>
-        <source>Enter the old passphrase and new passphrase to the wallet.</source>
-        <translation>Voer het oude en nieuwe wachtwoord in voor uw portemonnee.</translation>
+        <location filename="../askpassphrasedialog.cpp" line="65"/>
+        <source>Enter the old and new passphrase to the wallet.</source>
+        <translation>Vul uw oude en nieuwe portemonneewachtwoord in.</translation>
     </message>
     <message>
+        <location filename="../askpassphrasedialog.cpp" line="112"/>
         <source>Confirm wallet encryption</source>
         <translation>Bevestig versleuteling van de portemonnee</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR FASTBITCOINS&lt;/b&gt;!</source>
-        <translation>Waarschuwing: Als u uw portemonnee versleutelt en uw wachtwoord vergeet, zult u &lt;b&gt;AL UW FASTBITCOINS VERLIEZEN&lt;/b&gt;!</translation>
+        <location filename="../askpassphrasedialog.cpp" line="113"/>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR FBC&lt;/b&gt;!</source>
+        <translation>Opgelet: Wanneer u uw beurs encrypteert en paswoordzin verliest, de zal u &lt;b&gt;AL UW FBC VERLIEZEN&lt;/b&gt;!</translation>
     </message>
     <message>
+        <location filename="../askpassphrasedialog.cpp" line="113"/>
         <source>Are you sure you wish to encrypt your wallet?</source>
         <translation>Weet u zeker dat u uw portemonnee wilt versleutelen?</translation>
     </message>
     <message>
+        <location filename="../askpassphrasedialog.cpp" line="122"/>
+        <location filename="../askpassphrasedialog.cpp" line="181"/>
         <source>Wallet encrypted</source>
         <translation>Portemonnee versleuteld</translation>
     </message>
     <message>
-        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your fastbitcoins from being stolen by malware infecting your computer.</source>
-        <translation>%1 zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw fastbitcoins stelen.</translation>
+        <location filename="../askpassphrasedialog.cpp" line="124"/>
+        <source>Fastbitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your fastbitcoins from being stolen by malware infecting your computer.</source>
+        <translation>Fastbitcoin zal nu sluiten om het encrypteerproces te voltooien. Onthoud dat het encrypteren de beurs niet volledig kan beschermen tegen het stelen van fastbitcoins door malware die uw computer besmet.</translation>
     </message>
     <message>
+        <location filename="../askpassphrasedialog.cpp" line="128"/>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
         <translation>BELANGRIJK: Elke eerder gemaakte backup van uw portemonneebestand dient u te vervangen door het nieuw gegenereerde, versleutelde portemonneebestand. Om veiligheidsredenen zullen eerdere backups van het niet-versleutelde portemonneebestand onbruikbaar worden zodra u uw nieuwe, versleutelde, portemonnee begint te gebruiken.</translation>
     </message>
     <message>
+        <location filename="../askpassphrasedialog.cpp" line="137"/>
+        <location filename="../askpassphrasedialog.cpp" line="144"/>
+        <location filename="../askpassphrasedialog.cpp" line="187"/>
+        <location filename="../askpassphrasedialog.cpp" line="193"/>
         <source>Wallet encryption failed</source>
         <translation>Portemonneeversleuteling mislukt</translation>
     </message>
     <message>
+        <location filename="../askpassphrasedialog.cpp" line="138"/>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
         <translation>Portemonneeversleuteling mislukt door een interne fout. Uw portemonnee is niet versleuteld.</translation>
     </message>
     <message>
+        <location filename="../askpassphrasedialog.cpp" line="145"/>
+        <location filename="../askpassphrasedialog.cpp" line="194"/>
         <source>The supplied passphrases do not match.</source>
         <translation>De opgegeven wachtwoorden komen niet overeen</translation>
     </message>
     <message>
+        <location filename="../askpassphrasedialog.cpp" line="157"/>
         <source>Wallet unlock failed</source>
         <translation>Portemonnee openen mislukt</translation>
     </message>
     <message>
+        <location filename="../askpassphrasedialog.cpp" line="158"/>
+        <location filename="../askpassphrasedialog.cpp" line="169"/>
+        <location filename="../askpassphrasedialog.cpp" line="188"/>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
         <translation>Het opgegeven wachtwoord voor de portemonnee-ontsleuteling is niet correct.</translation>
     </message>
     <message>
+        <location filename="../askpassphrasedialog.cpp" line="168"/>
         <source>Wallet decryption failed</source>
         <translation>Portemonnee-ontsleuteling mislukt</translation>
     </message>
     <message>
+        <location filename="../askpassphrasedialog.cpp" line="182"/>
         <source>Wallet passphrase was successfully changed.</source>
         <translation>Portemonneewachtwoord is met succes gewijzigd.</translation>
     </message>
     <message>
+        <location filename="../askpassphrasedialog.cpp" line="230"/>
+        <location filename="../askpassphrasedialog.cpp" line="254"/>
         <source>Warning: The Caps Lock key is on!</source>
         <translation>Waarschuwing: De Caps-Lock-toets staat aan!</translation>
     </message>
 </context>
 <context>
-    <name>BanTableModel</name>
+    <name>FastbitcoinGUI</name>
     <message>
-        <source>IP/Netmask</source>
-        <translation>IP/Netmasker</translation>
+        <location filename="../fastbitcoingui.cpp" line="76"/>
+        <source>Fastbitcoin Core</source>
+        <translation>Fastbitcoin Core</translation>
     </message>
     <message>
-        <source>Banned Until</source>
-        <translation>Geband tot</translation>
-    </message>
-</context>
-<context>
-    <name>BitcoinGUI</name>
-    <message>
-        <source>Sign &amp;message...</source>
-        <translation>&amp;Onderteken bericht...</translation>
-    </message>
-    <message>
-        <source>Synchronizing with network...</source>
-        <translation>Synchroniseren met netwerk...</translation>
-    </message>
-    <message>
-        <source>&amp;Overview</source>
-        <translation>&amp;Overzicht</translation>
-    </message>
-    <message>
-        <source>Node</source>
-        <translation>Node</translation>
-    </message>
-    <message>
-        <source>Show general overview of wallet</source>
-        <translation>Toon algemeen overzicht van uw portemonnee</translation>
-    </message>
-    <message>
-        <source>&amp;Transactions</source>
-        <translation>&amp;Transacties</translation>
-    </message>
-    <message>
-        <source>Browse transaction history</source>
-        <translation>Blader door transactiegescheidenis</translation>
-    </message>
-    <message>
-        <source>E&amp;xit</source>
-        <translation>A&amp;fsluiten</translation>
-    </message>
-    <message>
-        <source>Quit application</source>
-        <translation>Programma afsluiten</translation>
-    </message>
-    <message>
-        <source>&amp;About %1</source>
-        <translation>&amp;Over %1</translation>
-    </message>
-    <message>
-        <source>Show information about %1</source>
-        <translation>Toon informatie over %1</translation>
-    </message>
-    <message>
-        <source>About &amp;Qt</source>
-        <translation>Over &amp;Qt</translation>
-    </message>
-    <message>
-        <source>Show information about Qt</source>
-        <translation>Toon informatie over Qt</translation>
-    </message>
-    <message>
-        <source>&amp;Options...</source>
-        <translation>&amp;Opties...</translation>
-    </message>
-    <message>
-        <source>Modify configuration options for %1</source>
-        <translation>Wijzig configuratieopties voor %1</translation>
-    </message>
-    <message>
-        <source>&amp;Encrypt Wallet...</source>
-        <translation>&amp;Versleutel Portemonnee...</translation>
-    </message>
-    <message>
-        <source>&amp;Backup Wallet...</source>
-        <translation>&amp;Backup Portemonnee...</translation>
-    </message>
-    <message>
-        <source>&amp;Change Passphrase...</source>
-        <translation>&amp;Wijzig Wachtwoord</translation>
-    </message>
-    <message>
-        <source>&amp;Sending addresses...</source>
-        <translation>&amp;Verstuuradressen...</translation>
-    </message>
-    <message>
-        <source>&amp;Receiving addresses...</source>
-        <translation>&amp;Ontvangstadressen...</translation>
-    </message>
-    <message>
-        <source>Open &amp;URI...</source>
-        <translation>Open &amp;URI...</translation>
-    </message>
-    <message>
-        <source>Click to disable network activity.</source>
-        <translation>Klik om de netwerkactiviteit te stoppen.</translation>
-    </message>
-    <message>
-        <source>Network activity disabled.</source>
-        <translation>Netwerkactiviteit gestopt.</translation>
-    </message>
-    <message>
-        <source>Click to enable network activity again.</source>
-        <translation>Klik om de netwerkactiviteit opnieuw te starten.</translation>
-    </message>
-    <message>
-        <source>Syncing Headers (%1%)...</source>
-        <translation>Kopteksten synchroniseren (%1%)...</translation>
-    </message>
-    <message>
-        <source>Reindexing blocks on disk...</source>
-        <translation>Bezig met herindexeren van blokken op harde schijf...</translation>
-    </message>
-    <message>
-        <source>Send coins to a FastBitcoin address</source>
-        <translation>Verstuur munten naar een FastBitcoinadres</translation>
-    </message>
-    <message>
-        <source>Backup wallet to another location</source>
-        <translation>Backup portemonnee naar een andere locatie</translation>
-    </message>
-    <message>
-        <source>Change the passphrase used for wallet encryption</source>
-        <translation>Wijzig het wachtwoord voor uw portemonneversleuteling</translation>
-    </message>
-    <message>
-        <source>&amp;Debug window</source>
-        <translation>&amp;Debugscherm</translation>
-    </message>
-    <message>
-        <source>Open debugging and diagnostic console</source>
-        <translation>Open debugging en diagnostische console</translation>
-    </message>
-    <message>
-        <source>&amp;Verify message...</source>
-        <translation>&amp;Verifiëer bericht...</translation>
-    </message>
-    <message>
-        <source>FastBitcoin</source>
-        <translation>FastBitcoin</translation>
-    </message>
-    <message>
+        <location filename="../fastbitcoingui.cpp" line="85"/>
         <source>Wallet</source>
         <translation>Portemonnee</translation>
     </message>
     <message>
-        <source>&amp;Send</source>
-        <translation>&amp;Verstuur</translation>
+        <location filename="../fastbitcoingui.cpp" line="87"/>
+        <source>Node</source>
+        <translation>Node</translation>
     </message>
     <message>
+        <location filename="../fastbitcoingui.cpp" line="101"/>
+        <location filename="../fastbitcoingui.cpp" line="498"/>
+        <source>[testnet]</source>
+        <translation>[testnetwerk]</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="227"/>
+        <source>&amp;Overview</source>
+        <translation>&amp;Overzicht</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="228"/>
+        <source>Show general overview of wallet</source>
+        <translation>Toon algemeen overzicht van de portemonnee</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="234"/>
+        <source>&amp;Send</source>
+        <translation>&amp;Versturen</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="235"/>
+        <source>Send coins to a Fastbitcoin address</source>
+        <translation>Verzend munten naar een Fastbitcoin adres</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="241"/>
         <source>&amp;Receive</source>
         <translation>&amp;Ontvangen</translation>
     </message>
     <message>
+        <location filename="../fastbitcoingui.cpp" line="242"/>
+        <source>Request payments (generates QR codes and fastbitcoin: URIs)</source>
+        <translation>Vraag betaling (genereert QR codes en fastbitcoin: URIs)</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="248"/>
+        <source>&amp;Transactions</source>
+        <translation>&amp;Transacties</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="249"/>
+        <source>Browse transaction history</source>
+        <translation>Blader door transactieverleden</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="266"/>
+        <source>E&amp;xit</source>
+        <translation>&amp;Afsluiten</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="267"/>
+        <source>Quit application</source>
+        <translation>Programma afsluiten</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="271"/>
+        <location filename="../fastbitcoingui.cpp" line="273"/>
+        <source>&amp;About Fastbitcoin Core</source>
+        <translation>&amp;Over Fastbitcoin Core</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="274"/>
+        <source>Show information about Fastbitcoin</source>
+        <translation>Toon informatie over Fastbitcoin</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="277"/>
+        <location filename="../fastbitcoingui.cpp" line="279"/>
+        <source>About &amp;Qt</source>
+        <translation>Over &amp;Qt</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="281"/>
+        <source>Show information about Qt</source>
+        <translation>Toon informatie over Qt</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="283"/>
+        <source>&amp;Options...</source>
+        <translation>O&amp;pties...</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="284"/>
+        <source>Modify configuration options for Fastbitcoin</source>
+        <translation>Aanpassen van configuratie opties voor Fastbitcoin</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="287"/>
+        <location filename="../fastbitcoingui.cpp" line="289"/>
         <source>&amp;Show / Hide</source>
         <translation>&amp;Toon / Verberg</translation>
     </message>
     <message>
+        <location filename="../fastbitcoingui.cpp" line="290"/>
         <source>Show or hide the main Window</source>
         <translation>Toon of verberg het hoofdvenster</translation>
     </message>
     <message>
+        <location filename="../fastbitcoingui.cpp" line="292"/>
+        <source>&amp;Encrypt Wallet...</source>
+        <translation>&amp;Versleutel Portemonnee...</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="293"/>
         <source>Encrypt the private keys that belong to your wallet</source>
         <translation>Versleutel de geheime sleutels die bij uw portemonnee horen</translation>
     </message>
     <message>
-        <source>Sign messages with your FastBitcoin addresses to prove you own them</source>
-        <translation>Onderteken berichten met uw FastBitcoinadressen om te bewijzen dat u deze adressen bezit</translation>
+        <location filename="../fastbitcoingui.cpp" line="295"/>
+        <source>&amp;Backup Wallet...</source>
+        <translation>&amp;Backup Portemonnee...</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified FastBitcoin addresses</source>
-        <translation>Verifiëer handtekeningen om zeker te zijn dat de berichten zijn ondertekend met de gespecificeerde FastBitcoinadressen</translation>
+        <location filename="../fastbitcoingui.cpp" line="296"/>
+        <source>Backup wallet to another location</source>
+        <translation>Backup portemonnee naar een andere locatie</translation>
     </message>
     <message>
-        <source>&amp;File</source>
-        <translation>&amp;Bestand</translation>
+        <location filename="../fastbitcoingui.cpp" line="297"/>
+        <source>&amp;Change Passphrase...</source>
+        <translation>&amp;Wijzig Wachtwoord</translation>
     </message>
     <message>
-        <source>&amp;Settings</source>
-        <translation>&amp;Instellingen</translation>
+        <location filename="../fastbitcoingui.cpp" line="298"/>
+        <source>Change the passphrase used for wallet encryption</source>
+        <translation>Wijzig het wachtwoord voor uw portemonneversleuteling</translation>
     </message>
     <message>
-        <source>&amp;Help</source>
-        <translation>&amp;Hulp</translation>
+        <location filename="../fastbitcoingui.cpp" line="299"/>
+        <source>&amp;Unlock Wallet...</source>
+        <translation>&amp;Ontgrendel portemonnee</translation>
     </message>
     <message>
-        <source>Tabs toolbar</source>
-        <translation>Tab-werkbalk</translation>
+        <location filename="../fastbitcoingui.cpp" line="300"/>
+        <source>Unlock wallet</source>
+        <translation>Open portemonnee</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and fastbitcoin: URIs)</source>
-        <translation>Vraag betaling aan (genereert QR-codes en fastbitcoin: URI's)</translation>
+        <location filename="../fastbitcoingui.cpp" line="301"/>
+        <source>&amp;Lock Wallet</source>
+        <translation>&amp;Vergrendel portemonnee</translation>
     </message>
     <message>
+        <location filename="../fastbitcoingui.cpp" line="302"/>
+        <source>Sign &amp;message...</source>
+        <translation>&amp;Onderteken bericht...</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="303"/>
+        <source>Sign messages with your Fastbitcoin addresses to prove you own them</source>
+        <translation>Onderteken berichten met uw Fastbitcoin adres om te bewijzen dat u deze bezit</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="304"/>
+        <source>&amp;Verify message...</source>
+        <translation>&amp;Verifiëer bericht...</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="305"/>
+        <source>Verify messages to ensure they were signed with specified Fastbitcoin addresses</source>
+        <translation>Verifieer berichten om zeket te zijn dat deze werden ondertekend met het specifiek Fastbitcoin adres</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="307"/>
+        <source>&amp;Information</source>
+        <translation>&amp;Informatie</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="308"/>
+        <source>Show diagnostic information</source>
+        <translation>Toon diagnostische informatie</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="309"/>
+        <source>&amp;Debug console</source>
+        <translation>&amp;Debug console</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="310"/>
+        <source>Open debugging console</source>
+        <translation>Open debugging console</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="311"/>
+        <source>&amp;Network Monitor</source>
+        <translation>&amp;Netwerk Monitor</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="312"/>
+        <source>Show network monitor</source>
+        <translation>Toon netwerk monitor</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="313"/>
+        <source>Open &amp;Configuration File</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="314"/>
+        <source>Open configuration file</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="316"/>
+        <source>&amp;Sending addresses...</source>
+        <translation>&amp;Adressen aan het versturen.</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="317"/>
         <source>Show the list of used sending addresses and labels</source>
-        <translation>Toon de lijst met gebruikte verstuuradressen en -labels</translation>
+        <translation>Toon de lijst met gebruikt verzend adressen en labels</translation>
     </message>
     <message>
+        <location filename="../fastbitcoingui.cpp" line="318"/>
+        <source>&amp;Receiving addresses...</source>
+        <translation>&amp;Adressen aan het ontvangen...</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="319"/>
         <source>Show the list of used receiving addresses and labels</source>
-        <translation>Toon de lijst met gebruikte ontvangstadressen en labels</translation>
+        <translation>Toon de lijst met gebruikte ontvangst adressen en labels</translation>
     </message>
     <message>
+        <location filename="../fastbitcoingui.cpp" line="321"/>
+        <source>Open &amp;URI...</source>
+        <translation>Open &amp;URI...</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="322"/>
         <source>Open a fastbitcoin: URI or payment request</source>
         <translation>Open een fastbitcoin: URI of betalingsverzoek</translation>
     </message>
     <message>
+        <location filename="../fastbitcoingui.cpp" line="324"/>
         <source>&amp;Command-line options</source>
-        <translation>&amp;Opdrachtregelopties</translation>
+        <translation>&amp;Commandoregel-opties</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="325"/>
+        <source>Show the Fastbitcoin Core help message to get a list with possible Fastbitcoin command-line options</source>
+        <translation>Geef het help bericht weer om een lijst te krijgen met alle Fastbitcoin command-line opties</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="361"/>
+        <source>&amp;File</source>
+        <translation>&amp;Bestand</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="375"/>
+        <source>&amp;Settings</source>
+        <translation>&amp;Instellingen</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="388"/>
+        <source>&amp;Tools</source>
+        <translation>&amp;Gereedschap</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="395"/>
+        <source>&amp;Help</source>
+        <translation>&amp;Hulp</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="406"/>
+        <source>Tabs toolbar</source>
+        <translation>Tab-werkbalk</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="493"/>
+        <location filename="../fastbitcoingui.cpp" line="498"/>
+        <source>Fastbitcoin client</source>
+        <translation>Fastbitcoin cliënt </translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to FastBitcoin network</source>
-        <translation><numerusform>%n actieve verbinding met FastBitcoinnetwerk</numerusform><numerusform>%n actieve verbindingen met FastBitcoinnetwerk</numerusform></translation>
+        <location filename="../fastbitcoingui.cpp" line="643"/>
+        <source>%n active connection(s) to Fastbitcoin network</source>
+        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
     </message>
     <message>
-        <source>Indexing blocks on disk...</source>
-        <translation>Bezig met indexeren van blokken op harde schijf...</translation>
+        <location filename="../fastbitcoingui.cpp" line="655"/>
+        <source>Synchronizing with network...</source>
+        <translation>Synchroniseren met netwerk...</translation>
     </message>
     <message>
-        <source>Processing blocks on disk...</source>
-        <translation>Bezig met verwerken van blokken op harde schijf...</translation>
+        <location filename="../fastbitcoingui.cpp" line="658"/>
+        <source>Importing blocks from disk...</source>
+        <translation>Blokken aan het importeren vanaf harde schijf...</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="661"/>
+        <source>Reindexing blocks on disk...</source>
+        <translation>Bezig met herindexeren van blokken op harde schijf...</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="665"/>
+        <source>No block source available...</source>
+        <translation>Geen bron van blokken beschikbaar...</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="675"/>
+        <source>Processed %1 blocks of transaction history.</source>
+        <translation>%1 blokken van transactiehistorie verwerkt.</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="680"/>
+        <source>Up to date</source>
+        <translation>Bijgewerkt</translation>
     </message>
     <message numerus="yes">
-        <source>Processed %n block(s) of transaction history.</source>
-        <translation><numerusform>%n blok aan transactiegeschiedenis verwerkt.</numerusform><numerusform>%n blokken aan transactiegeschiedenis verwerkt.</numerusform></translation>
+        <location filename="../fastbitcoingui.cpp" line="701"/>
+        <source>%n hour(s)</source>
+        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../fastbitcoingui.cpp" line="705"/>
+        <source>%n day(s)</source>
+        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../fastbitcoingui.cpp" line="709"/>
+        <location filename="../fastbitcoingui.cpp" line="715"/>
+        <source>%n week(s)</source>
+        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
     </message>
     <message>
+        <location filename="../fastbitcoingui.cpp" line="715"/>
+        <source>%1 and %2</source>
+        <translation>%1 en %2</translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../fastbitcoingui.cpp" line="715"/>
+        <source>%n year(s)</source>
+        <translation><numerusform>%n jaren</numerusform><numerusform>
+</numerusform></translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="719"/>
         <source>%1 behind</source>
         <translation>%1 achter</translation>
     </message>
     <message>
-        <source>Last received block was generated %1 ago.</source>
-        <translation>Laatst ontvangen blok was %1 geleden gegenereerd.</translation>
-    </message>
-    <message>
-        <source>Transactions after this will not yet be visible.</source>
-        <translation>Transacties na dit moment zullen nu nog niet zichtbaar zijn.</translation>
-    </message>
-    <message>
-        <source>Error</source>
-        <translation>Fout</translation>
-    </message>
-    <message>
-        <source>Warning</source>
-        <translation>Waarschuwing</translation>
-    </message>
-    <message>
-        <source>Information</source>
-        <translation>Informatie</translation>
-    </message>
-    <message>
-        <source>Up to date</source>
-        <translation>Bijgewerkt</translation>
-    </message>
-    <message>
-        <source>Show the %1 help message to get a list with possible FastBitcoin command-line options</source>
-        <translation>Toon het %1 hulpbericht om een lijst te krijgen met mogelijke FastBitcoin commandoregelopties</translation>
-    </message>
-    <message>
-        <source>%1 client</source>
-        <translation>%1 client</translation>
-    </message>
-    <message>
-        <source>Connecting to peers...</source>
-        <translation>Gelijke worden verbonden...</translation>
-    </message>
-    <message>
+        <location filename="../fastbitcoingui.cpp" line="724"/>
         <source>Catching up...</source>
         <translation>Aan het bijwerken...</translation>
     </message>
     <message>
-        <source>Date: %1
-</source>
-        <translation>Datum: %1
-</translation>
+        <location filename="../fastbitcoingui.cpp" line="740"/>
+        <source>Last received block was generated %1 ago.</source>
+        <translation>Laatst ontvangen blok was %1 geleden gegenereerd.</translation>
     </message>
     <message>
-        <source>Amount: %1
-</source>
-        <translation>Aantal: %1
-</translation>
+        <location filename="../fastbitcoingui.cpp" line="742"/>
+        <source>Transactions after this will not yet be visible.</source>
+        <translation>Transacties na dit moment zullen nu nog niet zichtbaar zijn.</translation>
     </message>
     <message>
-        <source>Type: %1
-</source>
-        <translation>Type: %1
-</translation>
+        <location filename="../fastbitcoingui.cpp" line="755"/>
+        <source>Fastbitcoin</source>
+        <translation>Fastbitcoin</translation>
     </message>
     <message>
-        <source>Label: %1
-</source>
-        <translation>Label: %1
-</translation>
+        <location filename="../fastbitcoingui.cpp" line="769"/>
+        <source>Error</source>
+        <translation>Fout</translation>
     </message>
     <message>
-        <source>Address: %1
-</source>
-        <translation>Adres: %1
-</translation>
+        <location filename="../fastbitcoingui.cpp" line="772"/>
+        <source>Warning</source>
+        <translation>Waarschuwing</translation>
     </message>
     <message>
+        <location filename="../fastbitcoingui.cpp" line="775"/>
+        <source>Information</source>
+        <translation>Informatie</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="854"/>
         <source>Sent transaction</source>
-        <translation>Verstuurde transactie</translation>
+        <translation>Verzonden transactie</translation>
     </message>
     <message>
+        <location filename="../fastbitcoingui.cpp" line="854"/>
         <source>Incoming transaction</source>
         <translation>Binnenkomende transactie</translation>
     </message>
     <message>
-        <source>HD key generation is &lt;b&gt;enabled&lt;/b&gt;</source>
-        <translation>HD sleutel voortbrenging is &lt;b&gt;ingeschakeld&lt;/b&gt;</translation>
+        <location filename="../fastbitcoingui.cpp" line="855"/>
+        <source>Date: %1
+Amount: %2
+Type: %3
+Address: %4
+</source>
+        <translation>Datum: %1
+Bedrag: %2
+Type: %3
+Adres: %4
+</translation>
     </message>
     <message>
-        <source>HD key generation is &lt;b&gt;disabled&lt;/b&gt;</source>
-        <translation>HD sleutel voortbrenging is &lt;b&gt;uitgeschakeld&lt;/b&gt;</translation>
-    </message>
-    <message>
+        <location filename="../fastbitcoingui.cpp" line="926"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>Portemonnee is &lt;b&gt;versleuteld&lt;/b&gt; en momenteel &lt;b&gt;geopend&lt;/b&gt;</translation>
     </message>
     <message>
+        <location filename="../fastbitcoingui.cpp" line="936"/>
+        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for anonimization only</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="946"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Portemonnee is &lt;b&gt;versleuteld&lt;/b&gt; en momenteel &lt;b&gt;gesloten&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. FastBitcoin can no longer continue safely and will quit.</source>
-        <translation>Een fatale fout heeft zich voorgedaan. FastBitcoin kan niet veilig worden verdergezet en wordt afgesloten.</translation>
+        <location filename="../fastbitcoin.cpp" line="449"/>
+        <source>A fatal error occurred. Fastbitcoin can no longer continue safely and will quit.</source>
+        <translation>Een fatale fout is opgetreden. Fastbitcoin kan niet langer veilig opereren en zal sluiten.</translation>
+    </message>
+</context>
+<context>
+    <name>ClientModel</name>
+    <message>
+        <location filename="../clientmodel.cpp" line="164"/>
+        <source>Network Alert</source>
+        <translation>Netwerkwaarschuwing</translation>
     </message>
 </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
-        <source>Coin Selection</source>
-        <translation>Munt Selectie</translation>
+        <location filename="../forms/coincontroldialog.ui" line="14"/>
+        <source>Coin Control Address Selection</source>
+        <translation>Coin controle adres selectie</translation>
     </message>
     <message>
+        <location filename="../forms/coincontroldialog.ui" line="48"/>
         <source>Quantity:</source>
         <translation>Kwantiteit</translation>
     </message>
     <message>
+        <location filename="../forms/coincontroldialog.ui" line="77"/>
         <source>Bytes:</source>
         <translation>Bytes:</translation>
     </message>
     <message>
+        <location filename="../forms/coincontroldialog.ui" line="122"/>
         <source>Amount:</source>
         <translation>Bedrag:</translation>
     </message>
     <message>
+        <location filename="../forms/coincontroldialog.ui" line="151"/>
+        <source>Priority:</source>
+        <translation>Prioriteit:</translation>
+    </message>
+    <message>
+        <location filename="../forms/coincontroldialog.ui" line="196"/>
         <source>Fee:</source>
-        <translation>Transactiekosten:</translation>
+        <translation>Vergoeding:</translation>
     </message>
     <message>
-        <source>Dust:</source>
-        <translation>Stof:</translation>
+        <location filename="../forms/coincontroldialog.ui" line="228"/>
+        <source>Low Output:</source>
+        <translation>Lage uitvoer:</translation>
     </message>
     <message>
+        <location filename="../forms/coincontroldialog.ui" line="276"/>
         <source>After Fee:</source>
-        <translation>Naheffing:</translation>
+        <translation>Na vergoeding:</translation>
     </message>
     <message>
+        <location filename="../forms/coincontroldialog.ui" line="308"/>
         <source>Change:</source>
         <translation>Wisselgeld:</translation>
     </message>
     <message>
+        <location filename="../forms/coincontroldialog.ui" line="364"/>
         <source>(un)select all</source>
         <translation>(de)selecteer alles</translation>
     </message>
     <message>
+        <location filename="../forms/coincontroldialog.ui" line="377"/>
         <source>Tree mode</source>
         <translation>Boom modus</translation>
     </message>
     <message>
+        <location filename="../forms/coincontroldialog.ui" line="393"/>
         <source>List mode</source>
         <translation>Lijst modus</translation>
     </message>
     <message>
+        <location filename="../forms/coincontroldialog.ui" line="400"/>
+        <source>(1 locked)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../forms/coincontroldialog.ui" line="446"/>
         <source>Amount</source>
         <translation>Bedrag</translation>
     </message>
     <message>
-        <source>Received with label</source>
-        <translation>Ontvangen met label</translation>
+        <location filename="../forms/coincontroldialog.ui" line="451"/>
+        <source>Label</source>
+        <translation>Label</translation>
     </message>
     <message>
-        <source>Received with address</source>
-        <translation>Ontvangen met adres</translation>
+        <location filename="../forms/coincontroldialog.ui" line="456"/>
+        <source>Address</source>
+        <translation>Adres</translation>
     </message>
     <message>
+        <location filename="../forms/coincontroldialog.ui" line="461"/>
+        <source>Darksend Rounds</source>
+        <translation>Darksend Rondes</translation>
+    </message>
+    <message>
+        <location filename="../forms/coincontroldialog.ui" line="466"/>
         <source>Date</source>
         <translation>Datum</translation>
     </message>
     <message>
+        <location filename="../forms/coincontroldialog.ui" line="471"/>
         <source>Confirmations</source>
         <translation>Bevestigingen</translation>
     </message>
     <message>
+        <location filename="../forms/coincontroldialog.ui" line="474"/>
         <source>Confirmed</source>
         <translation>Bevestigd</translation>
     </message>
     <message>
+        <location filename="../forms/coincontroldialog.ui" line="479"/>
+        <source>Priority</source>
+        <translation>Prioriteit</translation>
+    </message>
+    <message>
+        <location filename="../coincontroldialog.cpp" line="43"/>
         <source>Copy address</source>
         <translation>Kopieer adres</translation>
     </message>
     <message>
+        <location filename="../coincontroldialog.cpp" line="44"/>
         <source>Copy label</source>
         <translation>Kopieer label</translation>
     </message>
     <message>
+        <location filename="../coincontroldialog.cpp" line="45"/>
+        <location filename="../coincontroldialog.cpp" line="71"/>
         <source>Copy amount</source>
         <translation>Kopieer bedrag</translation>
     </message>
     <message>
+        <location filename="../coincontroldialog.cpp" line="46"/>
         <source>Copy transaction ID</source>
         <translation>Kopieer transactie-ID</translation>
     </message>
     <message>
+        <location filename="../coincontroldialog.cpp" line="47"/>
         <source>Lock unspent</source>
-        <translation>Blokeer ongebruikte</translation>
+        <translation>Blokeer niet gebruikte</translation>
     </message>
     <message>
+        <location filename="../coincontroldialog.cpp" line="48"/>
         <source>Unlock unspent</source>
         <translation>Deblokkeer ongebruikte</translation>
     </message>
     <message>
+        <location filename="../coincontroldialog.cpp" line="70"/>
         <source>Copy quantity</source>
         <translation>Kopieer aantal</translation>
     </message>
     <message>
+        <location filename="../coincontroldialog.cpp" line="72"/>
         <source>Copy fee</source>
         <translation>Kopieer vergoeding</translation>
     </message>
     <message>
+        <location filename="../coincontroldialog.cpp" line="73"/>
         <source>Copy after fee</source>
         <translation>Kopieer na vergoeding</translation>
     </message>
     <message>
+        <location filename="../coincontroldialog.cpp" line="74"/>
         <source>Copy bytes</source>
         <translation>Kopieer bytes</translation>
     </message>
     <message>
-        <source>Copy dust</source>
-        <translation>Kopieër stof</translation>
+        <location filename="../coincontroldialog.cpp" line="75"/>
+        <source>Copy priority</source>
+        <translation>Kopieer prioriteit</translation>
     </message>
     <message>
+        <location filename="../coincontroldialog.cpp" line="76"/>
+        <source>Copy low output</source>
+        <translation>Kopieer lage uitvoer</translation>
+    </message>
+    <message>
+        <location filename="../coincontroldialog.cpp" line="77"/>
         <source>Copy change</source>
-        <translation>Kopieer wijziging</translation>
+        <translation>Kopieer wisselgeld</translation>
     </message>
     <message>
+        <location filename="../coincontroldialog.cpp" line="410"/>
+        <source>highest</source>
+        <translation>hoogste</translation>
+    </message>
+    <message>
+        <location filename="../coincontroldialog.cpp" line="411"/>
+        <source>higher</source>
+        <translation>hoger</translation>
+    </message>
+    <message>
+        <location filename="../coincontroldialog.cpp" line="412"/>
+        <source>high</source>
+        <translation>hoog</translation>
+    </message>
+    <message>
+        <location filename="../coincontroldialog.cpp" line="413"/>
+        <source>medium-high</source>
+        <translation>gemiddeld hoog</translation>
+    </message>
+    <message>
+        <location filename="../coincontroldialog.cpp" line="759"/>
+        <source>n/a</source>
+        <translation>niet beschikbaar</translation>
+    </message>
+    <message>
+        <location filename="../forms/coincontroldialog.ui" line="164"/>
+        <location filename="../coincontroldialog.cpp" line="414"/>
+        <source>medium</source>
+        <translation>gemiddeld</translation>
+    </message>
+    <message>
+        <location filename="../coincontroldialog.cpp" line="418"/>
+        <source>low-medium</source>
+        <translation>laag gemiddeld</translation>
+    </message>
+    <message>
+        <location filename="../coincontroldialog.cpp" line="419"/>
+        <source>low</source>
+        <translation>laag</translation>
+    </message>
+    <message>
+        <location filename="../coincontroldialog.cpp" line="420"/>
+        <source>lower</source>
+        <translation>lager</translation>
+    </message>
+    <message>
+        <location filename="../coincontroldialog.cpp" line="421"/>
+        <source>lowest</source>
+        <translation>laagste</translation>
+    </message>
+    <message>
+        <location filename="../coincontroldialog.cpp" line="432"/>
         <source>(%1 locked)</source>
-        <translation>(%1 geblokkeerd)</translation>
+        <translation>(%1 geblokeerd)</translation>
     </message>
     <message>
+        <location filename="../coincontroldialog.cpp" line="464"/>
+        <source>none</source>
+        <translation>geen</translation>
+    </message>
+    <message>
+        <location filename="../coincontroldialog.cpp" line="615"/>
+        <source>Dust</source>
+        <translation>Stof</translation>
+    </message>
+    <message>
+        <location filename="../coincontroldialog.cpp" line="615"/>
         <source>yes</source>
         <translation>ja</translation>
     </message>
     <message>
+        <location filename="../forms/coincontroldialog.ui" line="244"/>
+        <location filename="../coincontroldialog.cpp" line="615"/>
         <source>no</source>
         <translation>nee</translation>
     </message>
     <message>
-        <source>This label turns red if any recipient receives an amount smaller than the current dust threshold.</source>
-        <translation>Dit label wordt rood, als een ontvanger een bedrag van minder dan de huidige dust-drempel gekregen heeft.</translation>
+        <location filename="../coincontroldialog.cpp" line="625"/>
+        <source>This label turns red, if the transaction size is greater than 1000 bytes.</source>
+        <translation>Dit label wordt rood, als de transactie grootte meer dan 1000 bytes is.</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 satoshi(s) per input.</source>
-        <translation>Kan per input +/- %1 satoshi(s)  variëren.</translation>
+        <location filename="../coincontroldialog.cpp" line="626"/>
+        <location filename="../coincontroldialog.cpp" line="631"/>
+        <source>This means a fee of at least %1 per kB is required.</source>
+        <translation>Dit betekent dat een vergoeding van minimaal %1 per kB nodig is.</translation>
     </message>
     <message>
+        <location filename="../coincontroldialog.cpp" line="627"/>
+        <source>Can vary +/- 1 byte per input.</source>
+        <translation>Kan +/- byte per invoer variëren.</translation>
+    </message>
+    <message>
+        <location filename="../coincontroldialog.cpp" line="629"/>
+        <source>Transactions with higher priority are more likely to get included into a block.</source>
+        <translation>Transacties met een hogere prioriteit zullen eerder in een block gezet worden.</translation>
+    </message>
+    <message>
+        <location filename="../coincontroldialog.cpp" line="630"/>
+        <source>This label turns red, if the priority is smaller than &quot;medium&quot;.</source>
+        <translation>Als dit label rood is, is de prioriteit minder dan &quot;medium&quot;.</translation>
+    </message>
+    <message>
+        <location filename="../coincontroldialog.cpp" line="633"/>
+        <source>This label turns red, if any recipient receives an amount smaller than %1.</source>
+        <translation>Dit label wordt rood, als een ontvanger een bedrag van minder dan %1 gekregen heeft.</translation>
+    </message>
+    <message>
+        <location filename="../coincontroldialog.cpp" line="634"/>
+        <location filename="../coincontroldialog.cpp" line="638"/>
+        <source>This means a fee of at least %1 is required.</source>
+        <translation>Dit betekend dat een minimale vergoeding van %1 nodig is.</translation>
+    </message>
+    <message>
+        <location filename="../coincontroldialog.cpp" line="635"/>
+        <source>Amounts below 0.546 times the minimum relay fee are shown as dust.</source>
+        <translation>Bedragen beneden 0.546 keer het minimum relais vergoeding, worden als stof aangemerkt.</translation>
+    </message>
+    <message>
+        <location filename="../coincontroldialog.cpp" line="637"/>
+        <source>This label turns red, if the change is smaller than %1.</source>
+        <translation>Dit label wordt rood, als de wijziging is kleiner dan %1.</translation>
+    </message>
+    <message>
+        <location filename="../coincontroldialog.cpp" line="680"/>
+        <location filename="../coincontroldialog.cpp" line="741"/>
         <source>(no label)</source>
         <translation>(geen label)</translation>
     </message>
     <message>
+        <location filename="../coincontroldialog.cpp" line="734"/>
         <source>change from %1 (%2)</source>
         <translation>wijzig van %1 (%2)</translation>
     </message>
     <message>
+        <location filename="../coincontroldialog.cpp" line="735"/>
         <source>(change)</source>
         <translation>(wijzig)</translation>
     </message>
 </context>
 <context>
+    <name>DarksendConfig</name>
+    <message>
+        <location filename="../forms/Darksendconfig.ui" line="14"/>
+        <source>Configure Darksend</source>
+        <translation>Darksend configureren</translation>
+    </message>
+    <message>
+        <location filename="../forms/Darksendconfig.ui" line="26"/>
+        <source>Basic Privacy</source>
+        <translation>Eenvoudige Privacy</translation>
+    </message>
+    <message>
+        <location filename="../forms/Darksendconfig.ui" line="39"/>
+        <source>High Privacy</source>
+        <translation>Hoge Privacy</translation>
+    </message>
+    <message>
+        <location filename="../forms/Darksendconfig.ui" line="52"/>
+        <source>Maximum Privacy</source>
+        <translation>Maximum Privacy</translation>
+    </message>
+    <message>
+        <location filename="../forms/Darksendconfig.ui" line="65"/>
+        <source>Please select a privacy level.</source>
+        <translation>Kies een privacy niveau</translation>
+    </message>
+    <message>
+        <location filename="../forms/Darksendconfig.ui" line="78"/>
+        <source>Use 2 separate Xnodes to mix funds up to 1000 FBC</source>
+        <translation>Gebruik 2 verschillende Xnodes om tot en met  1000DRK te mixen</translation>
+    </message>
+    <message>
+        <location filename="../forms/Darksendconfig.ui" line="91"/>
+        <source>Use 8 separate Xnodes to mix funds up to 1000 FBC</source>
+        <translation>Gebruik 8 verschillende Xnodes om tot en met  1000DRK te mixen</translation>
+    </message>
+    <message>
+        <location filename="../forms/Darksendconfig.ui" line="104"/>
+        <source>Use 16 separate Xnodes</source>
+        <translation>Gebruik 16 verschillende Xnodes</translation>
+    </message>
+    <message>
+        <location filename="../forms/Darksendconfig.ui" line="117"/>
+        <source>This option is the quickest and will cost about ~0.025 FBC to anonymize 1000 FBC</source>
+        <translation>Deze optie is het snelst en kost ongeveer ~0.025DRK om 1000DRK te anonimiseren</translation>
+    </message>
+    <message>
+        <location filename="../forms/Darksendconfig.ui" line="130"/>
+        <source>This option is moderately fast and will cost about 0.05 FBC to anonymize 1000 FBC</source>
+        <translation>Deze optie is relatief snel en zal ongeveer 0.05 FBC kosten om 1000 FBC te anonimiseren </translation>
+    </message>
+    <message>
+        <location filename="../forms/Darksendconfig.ui" line="156"/>
+        <source>0.1 FBC per 1000 FBC you anonymize.</source>
+        <translation>0.1 FBC per 1000 FBC die je anonimiseert.</translation>
+    </message>
+    <message>
+        <location filename="../forms/Darksendconfig.ui" line="143"/>
+        <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
+        <translation>Deze optie is het langzaamst en meest veilig. Maximimum anonimiteit kost</translation>
+    </message>
+    <message>
+        <location filename="../Darksendconfig.cpp" line="43"/>
+        <location filename="../Darksendconfig.cpp" line="58"/>
+        <location filename="../Darksendconfig.cpp" line="73"/>
+        <source>Darksend Configuration</source>
+        <translation>Darksend Configuratie</translation>
+    </message>
+    <message>
+        <location filename="../Darksendconfig.cpp" line="44"/>
+        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Fastbitcoin&apos;s configuration screen.</source>
+        <translation>Darksend is succesvol geconfigureed als &apos;eenvoudig&apos; (%1 en 2 rondes). Je kan dit op elk ogenblik veranderen in het configuratiescherm van Darksend.</translation>
+    </message>
+    <message>
+        <location filename="../Darksendconfig.cpp" line="59"/>
+        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Fastbitcoin&apos;s configuration screen.</source>
+        <translation>Darksend is succesvol geconfigureed als &apos;hoog&apos;(%1 en 8 rondes). Je kan dit op elk ogenblik veranderen in het configuratiescherm van Darksend.</translation>
+    </message>
+    <message>
+        <location filename="../Darksendconfig.cpp" line="74"/>
+        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Fastbitcoin&apos;s configuration screen.</source>
+        <translation>Darksend is succesvol geconfigureed als &apos;maximum&apos;(%1 en 16 rondes). Je kan dit op elk ogenblik veranderen in het configuratiescherm van Darksend.</translation>
+    </message>
+</context>
+<context>
     <name>EditAddressDialog</name>
     <message>
+        <location filename="../forms/editaddressdialog.ui" line="14"/>
         <source>Edit Address</source>
         <translation>Bewerk Adres</translation>
     </message>
     <message>
+        <location filename="../forms/editaddressdialog.ui" line="25"/>
         <source>&amp;Label</source>
         <translation>&amp;Label</translation>
     </message>
     <message>
+        <location filename="../forms/editaddressdialog.ui" line="35"/>
         <source>The label associated with this address list entry</source>
         <translation>Het label dat bij dit adres item hoort</translation>
     </message>
     <message>
-        <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
-        <translation>Het adres dat bij dit adresitem hoort. Dit kan alleen bewerkt worden voor verstuuradressen.</translation>
-    </message>
-    <message>
+        <location filename="../forms/editaddressdialog.ui" line="42"/>
         <source>&amp;Address</source>
         <translation>&amp;Adres</translation>
     </message>
     <message>
+        <location filename="../forms/editaddressdialog.ui" line="52"/>
+        <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
+        <translation>Het adres dat bij dit adres item hoort. Dit kan alleen bewerkt worden voor verstuur adressen.</translation>
+    </message>
+    <message>
+        <location filename="../editaddressdialog.cpp" line="29"/>
         <source>New receiving address</source>
         <translation>Nieuw ontvangstadres</translation>
     </message>
     <message>
+        <location filename="../editaddressdialog.cpp" line="33"/>
         <source>New sending address</source>
-        <translation>Nieuw verzendadres</translation>
+        <translation>Nieuw adres om naar te verzenden</translation>
     </message>
     <message>
+        <location filename="../editaddressdialog.cpp" line="36"/>
         <source>Edit receiving address</source>
         <translation>Bewerk ontvangstadres</translation>
     </message>
     <message>
+        <location filename="../editaddressdialog.cpp" line="40"/>
         <source>Edit sending address</source>
-        <translation>Bewerk verzendadres</translation>
+        <translation>Bewerk adres om naar te verzenden</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid FastBitcoin address.</source>
-        <translation>Het opgegeven adres "%1" is een ongeldig FastBitcoinadres.</translation>
+        <location filename="../editaddressdialog.cpp" line="111"/>
+        <source>The entered address &quot;%1&quot; is not a valid Fastbitcoin address.</source>
+        <translation>Het ingevoerde adres &quot;%1&quot; is geen geldig Fastbitcoin adres.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is already in the address book.</source>
-        <translation>Het opgegeven adres "%1" bestaat al in uw adresboek.</translation>
+        <location filename="../editaddressdialog.cpp" line="116"/>
+        <source>The entered address &quot;%1&quot; is already in the address book.</source>
+        <translation>Het opgegeven adres &quot;%1&quot; bestaat al in uw adresboek.</translation>
     </message>
     <message>
+        <location filename="../editaddressdialog.cpp" line="121"/>
         <source>Could not unlock wallet.</source>
         <translation>Kon de portemonnee niet openen.</translation>
     </message>
     <message>
+        <location filename="../editaddressdialog.cpp" line="126"/>
         <source>New key generation failed.</source>
         <translation>Genereren nieuwe sleutel mislukt.</translation>
     </message>
@@ -761,22 +1263,27 @@
 <context>
     <name>FreespaceChecker</name>
     <message>
+        <location filename="../intro.cpp" line="69"/>
         <source>A new data directory will be created.</source>
         <translation>Een nieuwe gegevensmap wordt aangemaakt.</translation>
     </message>
     <message>
+        <location filename="../intro.cpp" line="91"/>
         <source>name</source>
         <translation>naam</translation>
     </message>
     <message>
+        <location filename="../intro.cpp" line="93"/>
         <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
         <translation>Map bestaat al. Voeg %1 toe als u van plan bent hier een nieuwe map aan te maken.</translation>
     </message>
     <message>
+        <location filename="../intro.cpp" line="96"/>
         <source>Path already exists, and is not a directory.</source>
-        <translation>Communicatiepad bestaat al, en is geen map.</translation>
+        <translation>Communicatiepad bestaat al, en is geen folder.</translation>
     </message>
     <message>
+        <location filename="../intro.cpp" line="103"/>
         <source>Cannot create data directory here.</source>
         <translation>Kan hier geen gegevensmap aanmaken.</translation>
     </message>
@@ -784,406 +1291,439 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
+        <location filename="../forms/helpmessagedialog.ui" line="19"/>
+        <source>Fastbitcoin Core - Command-line options</source>
+        <translation>Fastbitcoin Core - Command-line opties</translation>
+    </message>
+    <message>
+        <location filename="../utilitydialog.cpp" line="69"/>
+        <source>Fastbitcoin Core</source>
+        <translation>Fastbitcoin Core</translation>
+    </message>
+    <message>
+        <location filename="../utilitydialog.cpp" line="69"/>
         <source>version</source>
         <translation>versie</translation>
     </message>
     <message>
-        <source>(%1-bit)</source>
-        <translation>(%1-bit)</translation>
-    </message>
-    <message>
-        <source>About %1</source>
-        <translation>Over %1</translation>
-    </message>
-    <message>
-        <source>Command-line options</source>
-        <translation>Opdrachtregelopties</translation>
-    </message>
-    <message>
+        <location filename="../utilitydialog.cpp" line="71"/>
         <source>Usage:</source>
         <translation>Gebruik:</translation>
     </message>
     <message>
+        <location filename="../utilitydialog.cpp" line="72"/>
         <source>command-line options</source>
-        <translation>opdrachtregelopties</translation>
+        <translation>commandoregel-opties</translation>
     </message>
     <message>
-        <source>UI Options:</source>
-        <translation>UI-opties:</translation>
+        <location filename="../utilitydialog.cpp" line="76"/>
+        <source>UI options</source>
+        <translation>gebruikersinterfaceopties</translation>
     </message>
     <message>
-        <source>Choose data directory on startup (default: %u)</source>
-        <translation>Kies gegevensmap bij opstarten (standaard: %u)</translation>
+        <location filename="../utilitydialog.cpp" line="77"/>
+        <source>Choose data directory on startup (default: 0)</source>
+        <translation>Kies de gegevensmap tijdens het opstarten (standaard: 0)</translation>
     </message>
     <message>
-        <source>Set language, for example "de_DE" (default: system locale)</source>
-        <translation>Stel taal in, bijvoorbeeld "nl_NL" (standaard: systeemlocale)</translation>
+        <location filename="../utilitydialog.cpp" line="78"/>
+        <source>Set language, for example &quot;de_DE&quot; (default: system locale)</source>
+        <translation>Stel taal in, bijvoorbeeld &apos;&apos;de_DE&quot; (standaard: systeeminstellingen)</translation>
     </message>
     <message>
+        <location filename="../utilitydialog.cpp" line="79"/>
         <source>Start minimized</source>
         <translation>Geminimaliseerd starten</translation>
     </message>
     <message>
+        <location filename="../utilitydialog.cpp" line="80"/>
         <source>Set SSL root certificates for payment request (default: -system-)</source>
-        <translation>Zet SSL-rootcertificaat voor betalingsverzoeken (standaard: -systeem-)</translation>
+        <translation>Zet SSL root certificaten voor betalingsverzoek (standaard: -sytem-)</translation>
     </message>
     <message>
-        <source>Show splash screen on startup (default: %u)</source>
-        <translation>Toon opstartscherm bij opstarten (standaard: %u)</translation>
-    </message>
-    <message>
-        <source>Reset all settings changed in the GUI</source>
-        <translation>Reset alle wijzigingen aan instellingen gedaan in de GUI</translation>
+        <location filename="../utilitydialog.cpp" line="81"/>
+        <source>Show splash screen on startup (default: 1)</source>
+        <translation>Laat laadscherm zien bij het opstarten. (standaard: 1)</translation>
     </message>
 </context>
 <context>
     <name>Intro</name>
     <message>
+        <location filename="../forms/intro.ui" line="14"/>
         <source>Welcome</source>
         <translation>Welkom</translation>
     </message>
     <message>
-        <source>Welcome to %1.</source>
-        <translation>Welkom bij %1.</translation>
+        <location filename="../forms/intro.ui" line="23"/>
+        <source>Welcome to Fastbitcoin Core.</source>
+        <translation>Welkom bij Fastbitcoin Core</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where %1 will store its data.</source>
-        <translation>Omdat dit de eerste keer is dat het programma gestart is, kunt u nu kiezen waar %1 de data moet opslaan.</translation>
+        <location filename="../forms/intro.ui" line="49"/>
+        <source>As this is the first time the program is launched, you can choose where Fastbitcoin Core will store its data.</source>
+        <translation>Gezien dit de eerste keer is dat het programma word uitgevoerd, kunt u kiezen waar Fastbitcoin Core zijn gegevens opslaat.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the FastBitcoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>%1 zal een kopie van de FastBitcoin blokketen downloaden en opslaan. Tenminste %2 GB aan data wordt opgeslagen in deze map en het zal groeien in de tijd. De portemonnee wordt ook in deze map opgeslagen.</translation>
+        <location filename="../forms/intro.ui" line="59"/>
+        <source>Fastbitcoin Core will download and store a copy of the Fastbitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Fastbitcoin Core zal een kopie van de Fastbitcoin block chain downloaden en opslaan. Ten minste %1GB aan data zal worden opgeslagen in deze folder, dit zal toenemen in de toekomst. De beurs zal ook in deze folder worden opgeslagen.</translation>
     </message>
     <message>
+        <location filename="../forms/intro.ui" line="69"/>
         <source>Use the default data directory</source>
         <translation>Gebruik de standaard gegevensmap</translation>
     </message>
     <message>
+        <location filename="../forms/intro.ui" line="76"/>
         <source>Use a custom data directory:</source>
         <translation>Gebruik een persoonlijke gegevensmap:</translation>
     </message>
     <message>
-        <source>Error: Specified data directory "%1" cannot be created.</source>
-        <translation>Fout: De gespecificeerde directory "%1" kan niet worden gecreëerd.</translation>
+        <location filename="../intro.cpp" line="185"/>
+        <source>Fastbitcoin</source>
+        <translation>Fastbitcoin</translation>
     </message>
     <message>
+        <location filename="../intro.cpp" line="186"/>
+        <source>Error: Specified data directory &quot;%1&quot; can not be created.</source>
+        <translation>Fout: Opgegeven gegevensmap &quot;%1&quot; kan niet aangemaakt worden.</translation>
+    </message>
+    <message>
+        <location filename="../intro.cpp" line="210"/>
         <source>Error</source>
         <translation>Fout</translation>
     </message>
-    <message numerus="yes">
-        <source>%n GB of free space available</source>
-        <translation><numerusform>%n GB aan vrije opslagruimte beschikbaar</numerusform><numerusform>%n GB aan vrije opslagruimte beschikbaar</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>(of %n GB needed)</source>
-        <translation><numerusform>(van %n GB nodig)</numerusform><numerusform>(van %n GB nodig)</numerusform></translation>
-    </message>
-</context>
-<context>
-    <name>ModalOverlay</name>
     <message>
-        <source>Form</source>
-        <translation>Vorm</translation>
+        <location filename="../intro.cpp" line="219"/>
+        <source>GB of free space available</source>
+        <translation>GB aan vrije opslagruimte beschikbaar</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the fastbitcoin network, as detailed below.</source>
-        <translation>Recente transacties zijn mogelijk nog niet zichtbaar. De balans van de geldbeugel is daarom mogelijk niet correct. Deze informatie is correct van zodra de synchronisatie met het FastBitcoin-netwerk werd voltooid, zoals onderaan beschreven.</translation>
-    </message>
-    <message>
-        <source>Attempting to spend fastbitcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>Poging om fastbitcoins te besteden die door "nog niet weergegeven" transacties worden beïnvloed, worden niet door het netwerk geaccepteerd.</translation>
-    </message>
-    <message>
-        <source>Number of blocks left</source>
-        <translation>Aantal blokken resterend.</translation>
-    </message>
-    <message>
-        <source>Unknown...</source>
-        <translation>Onbekend...</translation>
-    </message>
-    <message>
-        <source>Last block time</source>
-        <translation>Tijd laatste blok</translation>
-    </message>
-    <message>
-        <source>Progress</source>
-        <translation>Vooruitgang</translation>
-    </message>
-    <message>
-        <source>Progress increase per hour</source>
-        <translation>Vooruitgang per uur</translation>
-    </message>
-    <message>
-        <source>calculating...</source>
-        <translation>Berekenen...</translation>
-    </message>
-    <message>
-        <source>Estimated time left until synced</source>
-        <translation>Geschatte tijd tot volledig synchroon</translation>
-    </message>
-    <message>
-        <source>Hide</source>
-        <translation>Verbergen</translation>
-    </message>
-    <message>
-        <source>Unknown. Syncing Headers (%1)...</source>
-        <translation>Onbekend. Kopteksten synchroniseren (%1%)...</translation>
+        <location filename="../intro.cpp" line="222"/>
+        <source>(of %1GB needed)</source>
+        <translation>(van %1GB benodigd)</translation>
     </message>
 </context>
 <context>
     <name>OpenURIDialog</name>
     <message>
+        <location filename="../forms/openuridialog.ui" line="14"/>
         <source>Open URI</source>
         <translation>Open URI</translation>
     </message>
     <message>
+        <location filename="../forms/openuridialog.ui" line="20"/>
         <source>Open payment request from URI or file</source>
         <translation>Open betalingsverzoek via URI of bestand</translation>
     </message>
     <message>
+        <location filename="../forms/openuridialog.ui" line="29"/>
         <source>URI:</source>
         <translation>URI:</translation>
     </message>
     <message>
+        <location filename="../forms/openuridialog.ui" line="40"/>
         <source>Select payment request file</source>
         <translation>Selecteer betalingsverzoek bestand</translation>
     </message>
     <message>
+        <location filename="../openuridialog.cpp" line="48"/>
         <source>Select payment request file to open</source>
-        <translation>Selecteer betalingsverzoekbestand om te openen</translation>
+        <translation>Selecteer betalingsverzoek bestand om te openen</translation>
     </message>
 </context>
 <context>
     <name>OptionsDialog</name>
     <message>
+        <location filename="../forms/optionsdialog.ui" line="14"/>
         <source>Options</source>
         <translation>Opties</translation>
     </message>
     <message>
+        <location filename="../forms/optionsdialog.ui" line="27"/>
         <source>&amp;Main</source>
         <translation>&amp;Algemeen</translation>
     </message>
     <message>
-        <source>Automatically start %1 after logging in to the system.</source>
-        <translation>Start %1 automatisch na inloggen in het systeem.</translation>
+        <location filename="../forms/optionsdialog.ui" line="33"/>
+        <source>Automatically start Fastbitcoin after logging in to the system.</source>
+        <translation>Fastbitcoin automatisch starten na inloggen op het systeem.</translation>
     </message>
     <message>
-        <source>&amp;Start %1 on system login</source>
-        <translation>&amp;Start %1 bij het inloggen op het systeem</translation>
+        <location filename="../forms/optionsdialog.ui" line="36"/>
+        <source>&amp;Start Fastbitcoin on system login</source>
+        <translation>&amp;Start Fastbitcoin bij inloggen systeem</translation>
     </message>
     <message>
+        <location filename="../forms/optionsdialog.ui" line="45"/>
         <source>Size of &amp;database cache</source>
-        <translation>Grootte van de &amp;databasecache</translation>
+        <translation>Grootte van de &amp;database cache</translation>
     </message>
     <message>
+        <location filename="../forms/optionsdialog.ui" line="61"/>
         <source>MB</source>
         <translation>MB</translation>
     </message>
     <message>
+        <location filename="../forms/optionsdialog.ui" line="88"/>
         <source>Number of script &amp;verification threads</source>
         <translation>Aantal threads voor &amp;scriptverificatie</translation>
     </message>
     <message>
-        <source>Accept connections from outside</source>
-        <translation>Accepteer binnenkomende verbindingen</translation>
-    </message>
-    <message>
-        <source>Allow incoming connections</source>
-        <translation>Sta inkomende verbindingen toe</translation>
-    </message>
-    <message>
-        <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
-        <translation>IP-adres van de proxy (bijv. IPv4: 127.0.0.1 / IPv6: ::1)</translation>
-    </message>
-    <message>
-        <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Exit in the menu.</source>
-        <translation>Minimaliseren in plaats van de applicatie af te sluiten wanneer het venster is afgesloten. Als deze optie is ingeschakeld, zal de toepassing pas worden afgesloten na het selecteren van Exit in het menu.</translation>
-    </message>
-    <message>
-        <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
-        <translation>URL's van derden (bijvoorbeeld block explorer) die in de transacties tab verschijnen als contextmenuelementen. %s in de URL is vervangen door transactiehash. Verscheidene URL's zijn gescheiden door een verticale streep |.  </translation>
-    </message>
-    <message>
-        <source>Third party transaction URLs</source>
-        <translation>Transactie-URLs van derde partijen</translation>
-    </message>
-    <message>
-        <source>Active command-line options that override above options:</source>
-        <translation>Actieve opdrachtregelopties die bovenstaande opties overschrijven:</translation>
-    </message>
-    <message>
-        <source>Reset all client options to default.</source>
-        <translation>Reset alle clientopties naar de standaardinstellingen.</translation>
-    </message>
-    <message>
-        <source>&amp;Reset Options</source>
-        <translation>&amp;Reset Opties</translation>
-    </message>
-    <message>
-        <source>&amp;Network</source>
-        <translation>&amp;Netwerk</translation>
-    </message>
-    <message>
+        <location filename="../forms/optionsdialog.ui" line="101"/>
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
         <translation>(0 = auto, &lt;0 = laat dit aantal kernen vrij)</translation>
     </message>
     <message>
+        <location filename="../forms/optionsdialog.ui" line="138"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This setting determines the amount of individual Xnodes that an input will be anonymized through. More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Deze instelling bepaalt het aantal individuele Xnodes waardoor een input zal worden geanonimiseerd. Meer anonimisatie rondes geeft een hoger niveau van privacy, maar kost ook meer aan vergoedingen.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="141"/>
+        <source>Darksend rounds to use</source>
+        <translation>Darksend rondes te gebruiken</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="165"/>
+        <source>This amount acts as a threshold to turn off Darksend once it&apos;s reached.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="180"/>
+        <source>Amount of Fastbitcoin to keep anonymized</source>
+        <translation>Aantal Fastbitcoin om geanonimiseerd te houden</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="206"/>
         <source>W&amp;allet</source>
         <translation>W&amp;allet</translation>
     </message>
     <message>
+        <location filename="../forms/optionsdialog.ui" line="212"/>
+        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
+        <translation>Optionele transactiekosten per kB. Transactiekosten helpen ervoor te zorgen dat uw transacties snel verwerkt worden. De meeste transacties zijn 1kB.</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="227"/>
+        <source>Pay transaction &amp;fee</source>
+        <translation>Betaal &amp;transactiekosten</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="271"/>
         <source>Expert</source>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Enable coin &amp;control features</source>
-        <translation>Coin &amp;Control activeren</translation>
-    </message>
-    <message>
-        <source>If you disable the spending of unconfirmed change, the change from a transaction cannot be used until that transaction has at least one confirmation. This also affects how your balance is computed.</source>
-        <translation>Indien het uitgeven van onbevestigd wisselgeld uitgeschakeld wordt dan kan het wisselgeld van een transactie niet worden gebruikt totdat de transactie ten minste een bevestiging heeft. Dit heeft ook invloed op de manier waarop uw saldo wordt berekend.</translation>
-    </message>
-    <message>
-        <source>&amp;Spend unconfirmed change</source>
-        <translation>&amp;Spendeer onbevestigd wisselgeld</translation>
-    </message>
-    <message>
-        <source>Automatically open the FastBitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Open de FastBitcoinpoort automatisch op de router. Dit werkt alleen als de router UPnP ondersteunt en het aanstaat.</translation>
-    </message>
-    <message>
-        <source>Map port using &amp;UPnP</source>
-        <translation>Portmapping via &amp;UPnP</translation>
-    </message>
-    <message>
-        <source>Connect to the FastBitcoin network through a SOCKS5 proxy.</source>
-        <translation>Verbind met het FastBitcoinnetwerk via een SOCKS5 proxy.</translation>
-    </message>
-    <message>
-        <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
-        <translation>&amp;Verbind via een SOCKS5-proxy (standaardproxy):</translation>
-    </message>
-    <message>
-        <source>Proxy &amp;IP:</source>
-        <translation>Proxy &amp;IP:</translation>
-    </message>
-    <message>
-        <source>&amp;Port:</source>
-        <translation>&amp;Poort:</translation>
-    </message>
-    <message>
-        <source>Port of the proxy (e.g. 9050)</source>
-        <translation>Poort van de proxy (bijv. 9050)</translation>
-    </message>
-    <message>
-        <source>Used for reaching peers via:</source>
-        <translation>Gebruikt om peers te bereiken via:</translation>
-    </message>
-    <message>
-        <source>Shows, if the supplied default SOCKS5 proxy is used to reach peers via this network type.</source>
-        <translation>Vertoningen, als de opgegeven standaard SOCKS5-proxy is gebruikt om peers te benaderen via dit type netwerk.</translation>
-    </message>
-    <message>
-        <source>IPv4</source>
-        <translation>IPv4</translation>
-    </message>
-    <message>
-        <source>IPv6</source>
-        <translation>IPv6</translation>
-    </message>
-    <message>
-        <source>Tor</source>
-        <translation>Tor</translation>
-    </message>
-    <message>
-        <source>Connect to the FastBitcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Maak verbinding met FastBitcoinnetwerk door een aparte SOCKS5-proxy voor verborgen diensten van Tor.</translation>
-    </message>
-    <message>
-        <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
-        <translation>Gebruikt aparte SOCKS5-proxy om peers te bereiken via verborgen diensten van Tor:</translation>
-    </message>
-    <message>
-        <source>&amp;Window</source>
-        <translation>&amp;Scherm</translation>
-    </message>
-    <message>
-        <source>&amp;Hide the icon from the system tray.</source>
-        <translation>&amp;Verberg het icoon van de systeembalk.</translation>
-    </message>
-    <message>
-        <source>Hide tray icon</source>
-        <translation>Verberg systeembalk icoon</translation>
-    </message>
-    <message>
-        <source>Show only a tray icon after minimizing the window.</source>
-        <translation>Laat alleen een systeemvakicoon zien wanneer het venster geminimaliseerd is</translation>
-    </message>
-    <message>
-        <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation>&amp;Minimaliseer naar het systeemvak in plaats van de taakbalk</translation>
-    </message>
-    <message>
-        <source>M&amp;inimize on close</source>
-        <translation>M&amp;inimaliseer bij sluiten van het venster</translation>
-    </message>
-    <message>
-        <source>&amp;Display</source>
-        <translation>&amp;Interface</translation>
-    </message>
-    <message>
-        <source>User Interface &amp;language:</source>
-        <translation>Taal &amp;Gebruikersinterface:</translation>
-    </message>
-    <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting %1.</source>
-        <translation>De taal van de gebruikersinterface kan hier ingesteld worden. Deze instelling zal pas van kracht worden nadat %1 herstart wordt.</translation>
-    </message>
-    <message>
-        <source>&amp;Unit to show amounts in:</source>
-        <translation>&amp;Eenheid om bedrag in te tonen:</translation>
-    </message>
-    <message>
-        <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Kies de standaardonderverdelingseenheid om weer te geven in uw programma, en voor het versturen van munten</translation>
-    </message>
-    <message>
+        <location filename="../forms/optionsdialog.ui" line="277"/>
         <source>Whether to show coin control features or not.</source>
         <translation>Munt controle functies weergeven of niet.</translation>
     </message>
     <message>
+        <location filename="../forms/optionsdialog.ui" line="280"/>
+        <source>Enable coin &amp;control features</source>
+        <translation>Coin &amp;Control activeren</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="287"/>
+        <source>If you disable the spending of unconfirmed change, the change from a transaction cannot be used until that transaction has at least one confirmation. This also affects how your balance is computed.</source>
+        <translation>Indien het uitgeven van onbevestigd wisselgeld uitgeschakeld wordt dan kan het wisselgeld van een transactie niet worden gebruikt totdat de transactie ten minste een bevestiging heeft. Dit heeft ook invloed op de manier waarop uw saldo wordt berekend.</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="290"/>
+        <source>&amp;Spend unconfirmed change</source>
+        <translation>&amp;Spendeer onbevestigd wisselgeld</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="301"/>
+        <source>&amp;Network</source>
+        <translation>&amp;Netwerk</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="307"/>
+        <source>Automatically open the Fastbitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Open automatisch de Fastbitcoin client poort op de router. Dit werkt alleen als uw router UPnP ondersteunt en deze is ingeschakeld.</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="310"/>
+        <source>Map port using &amp;UPnP</source>
+        <translation>Portmapping via &amp;UPnP</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="317"/>
+        <source>Connect to the Fastbitcoin network through a SOCKS proxy.</source>
+        <translation>Verbind met het Fastbitcoin netwerk via een SOCKS proxy.</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="320"/>
+        <source>&amp;Connect through SOCKS proxy (default proxy):</source>
+        <translation>&amp;Verbind via een SOCKS-proxy (standaardproxy):</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="329"/>
+        <source>Proxy &amp;IP:</source>
+        <translation>Proxy &amp;IP:</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="354"/>
+        <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
+        <translation>IP-adres van de proxy (bijv. IPv4: 127.0.0.1 / IPv6: ::1)</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="361"/>
+        <source>&amp;Port:</source>
+        <translation>&amp;Poort:</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="386"/>
+        <source>Port of the proxy (e.g. 9050)</source>
+        <translation>Poort van de proxy (bijv. 9050)</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="393"/>
+        <source>SOCKS &amp;Version:</source>
+        <translation>SOCKS-&amp;Versie:</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="406"/>
+        <source>SOCKS version of the proxy (e.g. 5)</source>
+        <translation>SOCKS-versie van de proxy (bijv. 5)</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="442"/>
+        <source>&amp;Window</source>
+        <translation>&amp;Scherm</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="448"/>
+        <source>Show only a tray icon after minimizing the window.</source>
+        <translation>Laat alleen een systeemvak-icoon zien wanneer het venster geminimaliseerd is</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="451"/>
+        <source>&amp;Minimize to the tray instead of the taskbar</source>
+        <translation>&amp;Minimaliseer naar het systeemvak in plaats van de taakbalk</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="458"/>
+        <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
+        <translation>Minimaliseer het venster in de plaats van de applicatie af te sluiten als het venster gesloten wordt. Wanneer deze optie aan staan, kan de applicatie alleen worden afgesloten door Afsluiten te kiezen in het menu.</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="461"/>
+        <source>M&amp;inimize on close</source>
+        <translation>Minimaliseer bij sluiten van het &amp;venster</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="482"/>
+        <source>&amp;Display</source>
+        <translation>&amp;Interface</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="490"/>
+        <source>User Interface &amp;language:</source>
+        <translation>Taal &amp;Gebruikersinterface:</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="503"/>
+        <source>The user interface language can be set here. This setting will take effect after restarting Fastbitcoin.</source>
+        <translation>De taal van de gebruikersinterface kan hier worden ingesteld. Deze instelling wordt pas van kracht na het herstarten van Fastbitcoin.</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="524"/>
+        <source>Language missing or translation incomplete? Help contributing translations here:
+https://www.transifex.com/projects/p/fastbitcoin/</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="550"/>
+        <source>&amp;Unit to show amounts in:</source>
+        <translation>&amp;Eenheid om bedrag in te tonen:</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="563"/>
+        <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
+        <translation>Kies de standaard onderverdelingseenheid om weer te geven in uw programma, en voor het versturen van munten</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="572"/>
+        <source>Whether to show Fastbitcoin addresses in the transaction list or not.</source>
+        <translation>Fastbitcoin adressen weergeven in transactielijsten of niet.</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="575"/>
+        <source>&amp;Display addresses in transaction list</source>
+        <translation>Toon a&amp;dressen in de transactielijst</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="584"/>
+        <location filename="../forms/optionsdialog.ui" line="597"/>
+        <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
+        <translation>Derde partijen URL&apos;s (bijvoorbeeld block explorer) dat in de transacties tab verschijnen als contextmenu elementen. %s in de URL is vervangen door transactie hash. Verscheidene URL&apos;s zijn gescheiden door een verticale streep |.  </translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="587"/>
+        <source>Third party transaction URLs</source>
+        <translation>Transactie-URLs van derde partijen</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="628"/>
+        <source>Active command-line options that override above options:</source>
+        <translation>Actieve commandoregelopties die bovenstaande opties overschrijven:</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="671"/>
+        <source>Reset all client options to default.</source>
+        <translation>Reset alle clientopties naar de standaardinstellingen.</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="674"/>
+        <source>&amp;Reset Options</source>
+        <translation>&amp;Reset Opties</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="735"/>
         <source>&amp;OK</source>
         <translation>&amp;OK</translation>
     </message>
     <message>
+        <location filename="../forms/optionsdialog.ui" line="742"/>
         <source>&amp;Cancel</source>
-        <translation>&amp;Annuleren</translation>
+        <translation>Ann&amp;uleren</translation>
     </message>
     <message>
+        <location filename="../optionsdialog.cpp" line="73"/>
         <source>default</source>
         <translation>standaard</translation>
     </message>
     <message>
+        <location filename="../optionsdialog.cpp" line="134"/>
         <source>none</source>
         <translation>geen</translation>
     </message>
     <message>
+        <location filename="../optionsdialog.cpp" line="222"/>
         <source>Confirm options reset</source>
         <translation>Bevestig reset opties</translation>
     </message>
     <message>
+        <location filename="../optionsdialog.cpp" line="223"/>
+        <location filename="../optionsdialog.cpp" line="253"/>
         <source>Client restart required to activate changes.</source>
         <translation>Herstart van de client is vereist om veranderingen door te voeren.</translation>
     </message>
     <message>
-        <source>Client will be shut down. Do you want to proceed?</source>
-        <translation>Applicatie zal worden afgesloten. Wilt u doorgaan?</translation>
+        <location filename="../optionsdialog.cpp" line="223"/>
+        <source>Client will be shutdown, do you want to proceed?</source>
+        <translation>De client zal worden afgesloten, wilt u doorgaan?</translation>
     </message>
     <message>
+        <location filename="../optionsdialog.cpp" line="257"/>
         <source>This change would require a client restart.</source>
         <translation>Om dit aan te passen moet de client opnieuw gestart worden.</translation>
     </message>
     <message>
+        <location filename="../optionsdialog.cpp" line="291"/>
         <source>The supplied proxy address is invalid.</source>
         <translation>Het opgegeven proxyadres is ongeldig.</translation>
     </message>
@@ -1191,289 +1731,476 @@
 <context>
     <name>OverviewPage</name>
     <message>
+        <location filename="../forms/overviewpage.ui" line="20"/>
         <source>Form</source>
         <translation>Vorm</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the FastBitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>De weergegeven informatie kan verouderd zijn. Uw portemonnee synchroniseert automatisch met het FastBitcoinnetwerk nadat een verbinding is gelegd, maar dit proces is nog niet voltooid.</translation>
+        <location filename="../forms/overviewpage.ui" line="63"/>
+        <source>Wallet</source>
+        <translation>Portemonnee</translation>
     </message>
     <message>
-        <source>Watch-only:</source>
-        <translation>Alleen-bekijkbaar:</translation>
+        <location filename="../forms/overviewpage.ui" line="70"/>
+        <location filename="../forms/overviewpage.ui" line="953"/>
+        <location filename="../forms/overviewpage.ui" line="1021"/>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Fastbitcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>De weergegeven informatie kan achterhaald zijn. De beurs synchroniseert automatisch met het Fastbitcoin netwerk nadat de verbinding is gelegd, maar dit proces is nog niet beeindigd.</translation>
     </message>
     <message>
+        <location filename="../forms/overviewpage.ui" line="114"/>
         <source>Available:</source>
         <translation>Beschikbaar:</translation>
     </message>
     <message>
+        <location filename="../forms/overviewpage.ui" line="130"/>
         <source>Your current spendable balance</source>
         <translation>Uw beschikbare saldo</translation>
     </message>
     <message>
+        <location filename="../forms/overviewpage.ui" line="146"/>
         <source>Pending:</source>
         <translation>Afwachtend:</translation>
     </message>
     <message>
+        <location filename="../forms/overviewpage.ui" line="162"/>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
         <translation>De som van de transacties die nog bevestigd moeten worden, en nog niet meetellen in uw beschikbare saldo</translation>
     </message>
     <message>
+        <location filename="../forms/overviewpage.ui" line="178"/>
         <source>Immature:</source>
         <translation>Immatuur:</translation>
     </message>
     <message>
+        <location filename="../forms/overviewpage.ui" line="191"/>
         <source>Mined balance that has not yet matured</source>
         <translation>Gedolven saldo dat nog niet tot wasdom is gekomen</translation>
     </message>
     <message>
-        <source>Balances</source>
-        <translation>Saldi</translation>
-    </message>
-    <message>
+        <location filename="../forms/overviewpage.ui" line="207"/>
         <source>Total:</source>
         <translation>Totaal:</translation>
     </message>
     <message>
+        <location filename="../forms/overviewpage.ui" line="223"/>
         <source>Your current total balance</source>
         <translation>Uw totale saldo</translation>
     </message>
     <message>
-        <source>Your current balance in watch-only addresses</source>
-        <translation>Uw huidige balans in alleen-bekijkbare adressen</translation>
+        <location filename="../forms/overviewpage.ui" line="302"/>
+        <source>Status:</source>
+        <translation>Status:</translation>
     </message>
     <message>
-        <source>Spendable:</source>
-        <translation>Besteedbaar:</translation>
+        <location filename="../forms/overviewpage.ui" line="309"/>
+        <source>Enabled/Disabled</source>
+        <translation>Ingeschakeld/Uitgeschakeld</translation>
     </message>
     <message>
-        <source>Recent transactions</source>
-        <translation>Recente transacties</translation>
+        <location filename="../forms/overviewpage.ui" line="316"/>
+        <source>Completion:</source>
+        <translation>Voltooiing:</translation>
     </message>
     <message>
-        <source>Unconfirmed transactions to watch-only addresses</source>
-        <translation>Onbevestigde transacties naar alleen-bekijkbare adressen</translation>
+        <location filename="../forms/overviewpage.ui" line="336"/>
+        <source>Darksend Balance:</source>
+        <translation>Darksend Balans:</translation>
     </message>
     <message>
-        <source>Mined balance in watch-only addresses that has not yet matured</source>
-        <translation>Ontgonnen saldo dat nog niet tot wasdom is gekomen</translation>
+        <location filename="../forms/overviewpage.ui" line="349"/>
+        <source>0 FBC</source>
+        <translation>0 FBC</translation>
     </message>
     <message>
-        <source>Current total balance in watch-only addresses</source>
-        <translation>Huidige balans in alleen-bekijkbare adressen.</translation>
+        <location filename="../forms/overviewpage.ui" line="356"/>
+        <source>Amount and Rounds:</source>
+        <translation>Bedrag en Rondes:</translation>
+    </message>
+    <message>
+        <location filename="../forms/overviewpage.ui" line="363"/>
+        <source>0 FBC / 0 Rounds</source>
+        <translation>0 FBC / 0 Rondes</translation>
+    </message>
+    <message>
+        <location filename="../forms/overviewpage.ui" line="370"/>
+        <source>Submitted Denom:</source>
+        <translation>Ingezonden Denom:</translation>
+    </message>
+    <message>
+        <location filename="../forms/overviewpage.ui" line="377"/>
+        <source>The denominations you submitted to the Xnode. To mix, other users must submit the exact same denominations.</source>
+        <translation>De denominaties zijn bij de Xnode ingebracht. Om te mixen moeten andere gebruikers exact dezelfde denominaties inbrengen.</translation>
+    </message>
+    <message>
+        <location filename="../forms/overviewpage.ui" line="380"/>
+        <source>n/a</source>
+        <translation>niet beschikbaar</translation>
+    </message>
+    <message>
+        <location filename="../forms/overviewpage.ui" line="946"/>
+        <location filename="../overviewpage.cpp" line="453"/>
+        <location filename="../overviewpage.cpp" line="467"/>
+        <location filename="../overviewpage.cpp" line="481"/>
+        <source>Darksend</source>
+        <translation>Darksend</translation>
+    </message>
+    <message>
+        <location filename="../forms/overviewpage.ui" line="839"/>
+        <source>Start/Stop Mixing</source>
+        <translation>Start/Stop met Mixen</translation>
+    </message>
+    <message>
+        <location filename="../forms/overviewpage.ui" line="871"/>
+        <source>(Last Message)</source>
+        <translation>(Laatste Bericht)</translation>
+    </message>
+    <message>
+        <location filename="../forms/overviewpage.ui" line="896"/>
+        <source>Try to manually submit a Darksend request.</source>
+        <translation>Probeer handmatig een Darksend verzoek in te dienen.</translation>
+    </message>
+    <message>
+        <location filename="../forms/overviewpage.ui" line="899"/>
+        <source>Try Mix</source>
+        <translation>Probeer te Mixen</translation>
+    </message>
+    <message>
+        <location filename="../forms/overviewpage.ui" line="918"/>
+        <source>Reset the current status of Darksend (can interrupt Darksend if it&apos;s in the process of Mixing, which can cost you money!)</source>
+        <translation>Reset de huidige status van Darksend (kan Darksend onderbreken indien het Mix proces bezig is, wat u geld kan kosten!)</translation>
+    </message>
+    <message>
+        <location filename="../forms/overviewpage.ui" line="924"/>
+        <source>Reset</source>
+        <translation>Reset</translation>
+    </message>
+    <message>
+        <location filename="../forms/overviewpage.ui" line="1014"/>
+        <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
+        <translation>&lt;b&gt;Recente transacties&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="126"/>
+        <location filename="../overviewpage.cpp" line="127"/>
+        <location filename="../overviewpage.cpp" line="128"/>
+        <source>out of sync</source>
+        <translation>niet gesynchroniseerd</translation>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="143"/>
+        <location filename="../overviewpage.cpp" line="350"/>
+        <source>Disabled</source>
+        <translation>Uitgeschakeld</translation>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="146"/>
+        <location filename="../overviewpage.cpp" line="352"/>
+        <location filename="../overviewpage.cpp" line="495"/>
+        <source>Start Darksend Mixing</source>
+        <translation>Start Darksend Mixing</translation>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="148"/>
+        <location filename="../overviewpage.cpp" line="497"/>
+        <source>Stop Darksend Mixing</source>
+        <translation>Stop Darksend Mixing</translation>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="270"/>
+        <source>No inputs detected</source>
+        <translation>Geen input gedetecteerd</translation>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="278"/>
+        <source>Found unconfirmed denominated outputs, will wait till they confirm to recalculate.</source>
+        <translation>Niet geconfirmeerde gedenummuriseerde  </translation>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="335"/>
+        <source>Rounds</source>
+        <translation>Rondes</translation>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="366"/>
+        <source>Enabled</source>
+        <translation>Ingeschakeld</translation>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="424"/>
+        <source>Last Darksend message:
+</source>
+        <translation>Laatste Darksend bericht:
+</translation>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="377"/>
+        <location filename="../overviewpage.cpp" line="406"/>
+        <source>Darksend is idle.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="381"/>
+        <source>Mixing in progress...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="387"/>
+        <source>Darksend request complete: Your transaction was accepted into the pool!</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="393"/>
+        <source>Submitted following entries to Xnode:</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="394"/>
+        <location filename="../overviewpage.cpp" line="395"/>
+        <location filename="../overviewpage.cpp" line="396"/>
+        <source>Submitted to Xnode, Waiting for more entries</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="399"/>
+        <source>Found enough users, signing ...</source>
+        <translation>Genoeg gebruikers gevonden, aan het signeren....</translation>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="400"/>
+        <source>Found enough users, signing ( waiting. )</source>
+        <translation>Genoeg gebruikers gevonden, aan het signeren (aan het wachten.)</translation>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="401"/>
+        <source>Found enough users, signing ( waiting.. )</source>
+        <translation>Genoeg gebruikers gevonden, aan het signeren (aan het wachten.)</translation>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="402"/>
+        <source>Found enough users, signing ( waiting... )</source>
+        <translation>Genoeg gebruikers gevonden, aan het signeren (aan het wachten.)</translation>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="404"/>
+        <source>Transmitting final transaction.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="408"/>
+        <source>Finalizing transaction.</source>
+        <translation>Transactie aan het afronden</translation>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="410"/>
+        <source>Darksend request incomplete:</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="410"/>
+        <source>Will retry...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="412"/>
+        <source>Darksend request complete:</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="414"/>
+        <source>Submitted to Xnode, waiting in queue .</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="415"/>
+        <source>Submitted to Xnode, waiting in queue ..</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="416"/>
+        <source>Submitted to Xnode, waiting in queue ...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="418"/>
+        <source>Unknown state:</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="432"/>
+        <source>N/A</source>
+        <translation>N.v.t.</translation>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="454"/>
+        <source>Darksend was successfully reset.</source>
+        <translation>Darksend is succesvol gereset</translation>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="468"/>
+        <source>Darksend requires at least %1 to use.</source>
+        <translation>Darksend benodigd ten minste %1 om te gebruiken.</translation>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="482"/>
+        <source>Wallet is locked and user declined to unlock. Disabling Darksend.</source>
+        <translation type="unfinished"/>
     </message>
 </context>
 <context>
     <name>PaymentServer</name>
     <message>
+        <location filename="../paymentserver.cpp" line="293"/>
+        <location filename="../paymentserver.cpp" line="505"/>
+        <location filename="../paymentserver.cpp" line="518"/>
+        <location filename="../paymentserver.cpp" line="613"/>
+        <location filename="../paymentserver.cpp" line="631"/>
+        <location filename="../paymentserver.cpp" line="647"/>
         <source>Payment request error</source>
         <translation>Fout bij betalingsverzoek</translation>
     </message>
     <message>
+        <location filename="../paymentserver.cpp" line="294"/>
         <source>Cannot start fastbitcoin: click-to-pay handler</source>
-        <translation>Kan fastbitcoin niet starten: click-to-pay handler</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../paymentserver.cpp" line="352"/>
+        <source>Net manager warning</source>
+        <translation>Netmanager waarschuwing</translation>
+    </message>
+    <message>
+        <location filename="../paymentserver.cpp" line="353"/>
+        <source>Your active proxy doesn&apos;t support SOCKS5, which is required for payment requests via proxy.</source>
+        <translation>Uw actieve proxy ondersteunt geen SOCKS5, dewelke vereist is voor betalingsverzoeken via proxy.</translation>
+    </message>
+    <message>
+        <location filename="../paymentserver.cpp" line="404"/>
+        <location filename="../paymentserver.cpp" line="417"/>
         <source>URI handling</source>
         <translation>URI-behandeling</translation>
     </message>
     <message>
+        <location filename="../paymentserver.cpp" line="405"/>
         <source>Payment request fetch URL is invalid: %1</source>
         <translation>URL om betalingsverzoek te verkrijgen is ongeldig: %1</translation>
     </message>
     <message>
-        <source>Invalid payment address %1</source>
-        <translation>Ongeldig betalingsadres %1</translation>
+        <location filename="../paymentserver.cpp" line="418"/>
+        <source>URI can not be parsed! This can be caused by an invalid Fastbitcoin address or malformed URI parameters.</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid FastBitcoin address or malformed URI parameters.</source>
-        <translation>URI kan niet verwerkt worden! Dit kan het gevolg zijn van een ongeldig FastBitcoin adres of misvormde URI parameters.</translation>
-    </message>
-    <message>
+        <location filename="../paymentserver.cpp" line="432"/>
         <source>Payment request file handling</source>
         <translation>Betalingsverzoek bestandsafhandeling</translation>
     </message>
     <message>
-        <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
-        <translation>Betalingsverzoekbestand kan niet gelezen of verwerkt worden! Dit kan veroorzaakt worden door een ongeldig betalingsverzoekbestand.</translation>
+        <location filename="../paymentserver.cpp" line="433"/>
+        <source>Payment request file can not be read or processed! This can be caused by an invalid payment request file.</source>
+        <translation>Betalingsverzoek-bestand kan niet gelezen of verwerkt worden! Dit kan veroorzaakt worden door een ongeldig betalingsverzoek-bestand.</translation>
     </message>
     <message>
-        <source>Payment request rejected</source>
-        <translation>Betalingsverzoek geweigerd</translation>
-    </message>
-    <message>
-        <source>Payment request network doesn't match client network.</source>
-        <translation>Betalingsaanvraagnetwerk komt niet overeen met klantennetwerk.</translation>
-    </message>
-    <message>
-        <source>Payment request expired.</source>
-        <translation>Betalingsverzoek verlopen.</translation>
-    </message>
-    <message>
-        <source>Payment request is not initialized.</source>
-        <translation>Betalingsaanvraag is niet geïnitialiseerd.</translation>
-    </message>
-    <message>
+        <location filename="../paymentserver.cpp" line="506"/>
         <source>Unverified payment requests to custom payment scripts are unsupported.</source>
-        <translation>Niet-geverifieerde betalingsverzoeken naar aangepaste betalingsscripts worden niet ondersteund.</translation>
+        <translation>Niet-geverifieerde betalingsverzoeken naar aangepaste betaling scripts worden niet ondersteund.</translation>
     </message>
     <message>
-        <source>Invalid payment request.</source>
-        <translation>Ongeldig betalingsverzoek.</translation>
-    </message>
-    <message>
+        <location filename="../paymentserver.cpp" line="514"/>
         <source>Requested payment amount of %1 is too small (considered dust).</source>
         <translation>Het gevraagde betalingsbedrag van %1 is te weinig (beschouwd als stof).</translation>
     </message>
     <message>
+        <location filename="../paymentserver.cpp" line="565"/>
         <source>Refund from %1</source>
         <translation>Restitutie van %1</translation>
     </message>
     <message>
-        <source>Payment request %1 is too large (%2 bytes, allowed %3 bytes).</source>
-        <translation>Betalingsverzoek %1 is te groot (%2 bytes, toegestaan ​​%3 bytes).</translation>
-    </message>
-    <message>
+        <location filename="../paymentserver.cpp" line="608"/>
         <source>Error communicating with %1: %2</source>
         <translation>Fout bij communiceren met %1: %2</translation>
     </message>
     <message>
-        <source>Payment request cannot be parsed!</source>
-        <translation>Betalingsverzoek kan niet worden verwerkt!</translation>
+        <location filename="../paymentserver.cpp" line="632"/>
+        <source>Payment request can not be parsed or processed!</source>
+        <translation>Betalingsverzoek kan niet juist worden ontleed of verwerkt!</translation>
     </message>
     <message>
+        <location filename="../paymentserver.cpp" line="643"/>
         <source>Bad response from server %1</source>
         <translation>Ongeldige respons van server %1</translation>
     </message>
     <message>
+        <location filename="../paymentserver.cpp" line="665"/>
         <source>Network request error</source>
-        <translation>Fout bij netwerkverzoek</translation>
+        <translation>Netwerkfout bij verzoek</translation>
     </message>
     <message>
+        <location filename="../paymentserver.cpp" line="676"/>
         <source>Payment acknowledged</source>
         <translation>Betaling bevestigd</translation>
     </message>
 </context>
 <context>
-    <name>PeerTableModel</name>
-    <message>
-        <source>User Agent</source>
-        <translation>User Agent</translation>
-    </message>
-    <message>
-        <source>Node/Service</source>
-        <translation>Node/Dienst</translation>
-    </message>
-    <message>
-        <source>NodeId</source>
-        <translation>Node ID</translation>
-    </message>
-    <message>
-        <source>Ping</source>
-        <translation>Ping</translation>
-    </message>
-</context>
-<context>
     <name>QObject</name>
     <message>
-        <source>Amount</source>
-        <translation>Bedrag</translation>
+        <location filename="../fastbitcoin.cpp" line="525"/>
+        <location filename="../fastbitcoin.cpp" line="532"/>
+        <location filename="../fastbitcoin.cpp" line="539"/>
+        <location filename="../fastbitcoin.cpp" line="552"/>
+        <source>Fastbitcoin</source>
+        <translation>Fastbitcoin</translation>
     </message>
     <message>
-        <source>Enter a FastBitcoin address (e.g. %1)</source>
-        <translation>Voer een FastBitcoinadres in (bijv. %1)</translation>
+        <location filename="../fastbitcoin.cpp" line="526"/>
+        <source>Error: Specified data directory &quot;%1&quot; does not exist.</source>
+        <translation>Fout: Opgegeven gegevensmap &quot;%1&quot; bestaat niet.</translation>
     </message>
     <message>
-        <source>%1 d</source>
-        <translation>%1 d</translation>
-    </message>
-    <message>
-        <source>%1 h</source>
-        <translation>%1 uur</translation>
-    </message>
-    <message>
-        <source>%1 m</source>
-        <translation>%1 m</translation>
-    </message>
-    <message>
-        <source>%1 s</source>
-        <translation>%1 s</translation>
-    </message>
-    <message>
-        <source>None</source>
-        <translation>Geen</translation>
-    </message>
-    <message>
-        <source>N/A</source>
-        <translation>N.v.t.</translation>
-    </message>
-    <message>
-        <source>%1 ms</source>
-        <translation>%1 ms</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n second(s)</source>
-        <translation><numerusform>%n seconde</numerusform><numerusform>%n seconden</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n minute(s)</source>
-        <translation><numerusform>%n minuut</numerusform><numerusform>%n minuten</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n hour(s)</source>
-        <translation><numerusform>%n uur</numerusform><numerusform>%n uren</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n day(s)</source>
-        <translation><numerusform>%n dag</numerusform><numerusform>%n dagen</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n week(s)</source>
-        <translation><numerusform>%n week</numerusform><numerusform>%n weken</numerusform></translation>
-    </message>
-    <message>
-        <source>%1 and %2</source>
-        <translation>%1 en %2</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n year(s)</source>
-        <translation><numerusform>%n jaar</numerusform><numerusform>%n jaren</numerusform></translation>
-    </message>
-    <message>
-        <source>%1 didn't yet exit safely...</source>
-        <translation>%1 sloot nog niet veilig af...</translation>
-    </message>
-</context>
-<context>
-    <name>QObject::QObject</name>
-    <message>
-        <source>Error: Specified data directory "%1" does not exist.</source>
-        <translation>Fout: Opgegeven gegevensmap "%1" bestaat niet.</translation>
-    </message>
-    <message>
+        <location filename="../fastbitcoin.cpp" line="533"/>
         <source>Error: Cannot parse configuration file: %1. Only use key=value syntax.</source>
-        <translation>Fout: Kan configuratiebestand niet verwerken: %1. Gebruik enkel de key=value syntax.</translation>
+        <translation>Fout: Kan configuratiebestand niet parsen: %1. Gebruik enkel de key=value syntax.</translation>
     </message>
     <message>
-        <source>Error: %1</source>
-        <translation>Fout: %1</translation>
+        <location filename="../fastbitcoin.cpp" line="540"/>
+        <source>Error reading Xnode configuration file: %1</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoin.cpp" line="552"/>
+        <source>Error: Invalid combination of -regtest and -testnet.</source>
+        <translation>Fout: Ongeldige combinatie van -regtest en -testnet</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoin.cpp" line="612"/>
+        <source>Fastbitcoin Core didn&apos;t yet exit safely...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../guiutil.cpp" line="101"/>
+        <source>Enter a Fastbitcoin address (e.g. iGJXtgFacXixKeK8Pxmk3a7YhXMc2o8EsB )</source>
+        <translation>Voer een Fastbitcoin adres in (b.v. iGJXtgFacXixKeK8Pxmk3a7YhXMc2o8EsB )</translation>
     </message>
 </context>
 <context>
     <name>QRImageWidget</name>
     <message>
+        <location filename="../receiverequestdialog.cpp" line="36"/>
         <source>&amp;Save Image...</source>
-        <translation>&amp;Sla afbeelding op...</translation>
+        <translation>&amp;Afbeelding opslaan...</translation>
     </message>
     <message>
+        <location filename="../receiverequestdialog.cpp" line="39"/>
         <source>&amp;Copy Image</source>
         <translation>&amp;Afbeelding kopiëren</translation>
     </message>
     <message>
+        <location filename="../receiverequestdialog.cpp" line="71"/>
         <source>Save QR Code</source>
         <translation>Sla QR-code op</translation>
     </message>
     <message>
+        <location filename="../receiverequestdialog.cpp" line="71"/>
         <source>PNG Image (*.png)</source>
         <translation>PNG afbeelding (*.png)</translation>
     </message>
@@ -1481,389 +2208,299 @@
 <context>
     <name>RPCConsole</name>
     <message>
-        <source>N/A</source>
-        <translation>N.v.t.</translation>
+        <location filename="../forms/rpcconsole.ui" line="14"/>
+        <source>Tools window</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Client version</source>
-        <translation>Clientversie</translation>
-    </message>
-    <message>
+        <location filename="../forms/rpcconsole.ui" line="24"/>
         <source>&amp;Information</source>
         <translation>&amp;Informatie</translation>
     </message>
     <message>
-        <source>Debug window</source>
-        <translation>Debug venster</translation>
+        <location filename="../forms/rpcconsole.ui" line="33"/>
+        <source>Xnode Count</source>
+        <translation>Xnode Telling</translation>
     </message>
     <message>
+        <location filename="../forms/rpcconsole.ui" line="46"/>
         <source>General</source>
         <translation>Algemeen</translation>
     </message>
     <message>
-        <source>Using BerkeleyDB version</source>
-        <translation>Gebruikt BerkeleyDB versie</translation>
-    </message>
-    <message>
-        <source>Datadir</source>
-        <translation>Data map</translation>
-    </message>
-    <message>
-        <source>Startup time</source>
-        <translation>Opstarttijd</translation>
-    </message>
-    <message>
-        <source>Network</source>
-        <translation>Netwerk</translation>
-    </message>
-    <message>
+        <location filename="../forms/rpcconsole.ui" line="53"/>
         <source>Name</source>
         <translation>Naam</translation>
     </message>
     <message>
+        <location filename="../forms/rpcconsole.ui" line="60"/>
+        <source>Client name</source>
+        <translation>Clientnaam</translation>
+    </message>
+    <message>
+        <location filename="../forms/rpcconsole.ui" line="70"/>
+        <location filename="../forms/rpcconsole.ui" line="139"/>
+        <location filename="../forms/rpcconsole.ui" line="192"/>
+        <location filename="../forms/rpcconsole.ui" line="215"/>
+        <location filename="../forms/rpcconsole.ui" line="231"/>
+        <location filename="../forms/rpcconsole.ui" line="247"/>
+        <location filename="../forms/rpcconsole.ui" line="276"/>
+        <location filename="../forms/rpcconsole.ui" line="292"/>
+        <location filename="../forms/rpcconsole.ui" line="315"/>
+        <location filename="../forms/rpcconsole.ui" line="341"/>
+        <source>N/A</source>
+        <translation>N.v.t.</translation>
+    </message>
+    <message>
+        <location filename="../forms/rpcconsole.ui" line="83"/>
         <source>Number of connections</source>
         <translation>Aantal connecties</translation>
     </message>
     <message>
-        <source>Block chain</source>
-        <translation>Blokketen</translation>
+        <location filename="../forms/rpcconsole.ui" line="90"/>
+        <source>Open the Fastbitcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open het Fastbitcoin debug log bestand in de huidige data folder. Dit kan enkele seconden in beslag nemen bij grote bestanden.</translation>
     </message>
     <message>
-        <source>Current number of blocks</source>
-        <translation>Huidig aantal blokken</translation>
-    </message>
-    <message>
-        <source>Memory Pool</source>
-        <translation>Geheugenpoel</translation>
-    </message>
-    <message>
-        <source>Current number of transactions</source>
-        <translation>Huidig aantal transacties</translation>
-    </message>
-    <message>
-        <source>Memory usage</source>
-        <translation>Geheugengebruik</translation>
-    </message>
-    <message>
-        <source>Received</source>
-        <translation>Ontvangen</translation>
-    </message>
-    <message>
-        <source>Sent</source>
-        <translation>Verstuurd</translation>
-    </message>
-    <message>
-        <source>&amp;Peers</source>
-        <translation>&amp;Peers</translation>
-    </message>
-    <message>
-        <source>Banned peers</source>
-        <translation>Gebande peers</translation>
-    </message>
-    <message>
-        <source>Select a peer to view detailed information.</source>
-        <translation>Selecteer een peer om gedetailleerde informatie te bekijken.</translation>
-    </message>
-    <message>
-        <source>Whitelisted</source>
-        <translation>Toegestaan</translation>
-    </message>
-    <message>
-        <source>Direction</source>
-        <translation>Directie</translation>
-    </message>
-    <message>
-        <source>Version</source>
-        <translation>Versie</translation>
-    </message>
-    <message>
-        <source>Starting Block</source>
-        <translation>Start Blok</translation>
-    </message>
-    <message>
-        <source>Synced Headers</source>
-        <translation>Gesynchroniseerde headers</translation>
-    </message>
-    <message>
-        <source>Synced Blocks</source>
-        <translation>Gesynchroniseerde blokken</translation>
-    </message>
-    <message>
-        <source>User Agent</source>
-        <translation>User Agent</translation>
-    </message>
-    <message>
-        <source>Open the %1 debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open het %1 debug-logbestand van de huidige datamap. Dit kan een aantal seconden duren voor grote logbestanden.</translation>
-    </message>
-    <message>
-        <source>Decrease font size</source>
-        <translation>Verklein lettergrootte</translation>
-    </message>
-    <message>
-        <source>Increase font size</source>
-        <translation>Vergroot lettergrootte</translation>
-    </message>
-    <message>
-        <source>Services</source>
-        <translation>Diensten</translation>
-    </message>
-    <message>
-        <source>Ban Score</source>
-        <translation>Ban score</translation>
-    </message>
-    <message>
-        <source>Connection Time</source>
-        <translation>Connectie tijd</translation>
-    </message>
-    <message>
-        <source>Last Send</source>
-        <translation>Laatst verstuurd</translation>
-    </message>
-    <message>
-        <source>Last Receive</source>
-        <translation>Laatst ontvangen</translation>
-    </message>
-    <message>
-        <source>Ping Time</source>
-        <translation>Ping Tijd</translation>
-    </message>
-    <message>
-        <source>The duration of a currently outstanding ping.</source>
-        <translation>De tijdsduur van een op het moment openstaande ping.</translation>
-    </message>
-    <message>
-        <source>Ping Wait</source>
-        <translation>Pingwachttijd</translation>
-    </message>
-    <message>
-        <source>Min Ping</source>
-        <translation>Min Ping</translation>
-    </message>
-    <message>
-        <source>Time Offset</source>
-        <translation>Tijdcompensatie</translation>
-    </message>
-    <message>
-        <source>Last block time</source>
-        <translation>Tijd laatste blok</translation>
-    </message>
-    <message>
+        <location filename="../forms/rpcconsole.ui" line="93"/>
         <source>&amp;Open</source>
         <translation>&amp;Open</translation>
     </message>
     <message>
+        <location filename="../forms/rpcconsole.ui" line="116"/>
+        <source>Startup time</source>
+        <translation>Opstarttijd</translation>
+    </message>
+    <message>
+        <location filename="../forms/rpcconsole.ui" line="129"/>
+        <source>Network</source>
+        <translation>Netwerk</translation>
+    </message>
+    <message>
+        <location filename="../forms/rpcconsole.ui" line="152"/>
+        <source>Last block time</source>
+        <translation>Tijd laatste blok</translation>
+    </message>
+    <message>
+        <location filename="../forms/rpcconsole.ui" line="165"/>
+        <source>Debug log file</source>
+        <translation>Debug-logbestand</translation>
+    </message>
+    <message>
+        <location filename="../forms/rpcconsole.ui" line="172"/>
+        <source>Using OpenSSL version</source>
+        <translation>Gebruikt OpenSSL versie</translation>
+    </message>
+    <message>
+        <location filename="../forms/rpcconsole.ui" line="182"/>
+        <source>Build date</source>
+        <translation>Bouwdatum</translation>
+    </message>
+    <message>
+        <location filename="../forms/rpcconsole.ui" line="205"/>
+        <source>Current number of blocks</source>
+        <translation>Huidig aantal blokken</translation>
+    </message>
+    <message>
+        <location filename="../forms/rpcconsole.ui" line="305"/>
+        <source>Client version</source>
+        <translation>Clientversie</translation>
+    </message>
+    <message>
+        <location filename="../forms/rpcconsole.ui" line="334"/>
+        <source>Block chain</source>
+        <translation>Blokketen</translation>
+    </message>
+    <message>
+        <location filename="../forms/rpcconsole.ui" line="349"/>
         <source>&amp;Console</source>
         <translation>&amp;Console</translation>
     </message>
     <message>
-        <source>&amp;Network Traffic</source>
-        <translation>&amp;Netwerkverkeer</translation>
-    </message>
-    <message>
-        <source>&amp;Clear</source>
-        <translation>&amp;Wissen</translation>
-    </message>
-    <message>
-        <source>Totals</source>
-        <translation>Totalen</translation>
-    </message>
-    <message>
-        <source>In:</source>
-        <translation>In:</translation>
-    </message>
-    <message>
-        <source>Out:</source>
-        <translation>Uit:</translation>
-    </message>
-    <message>
-        <source>Debug log file</source>
-        <translation>Debuglogbestand</translation>
-    </message>
-    <message>
+        <location filename="../forms/rpcconsole.ui" line="398"/>
         <source>Clear console</source>
         <translation>Maak console leeg</translation>
     </message>
     <message>
-        <source>1 &amp;hour</source>
-        <translation>1 &amp;uur</translation>
+        <location filename="../forms/rpcconsole.ui" line="421"/>
+        <source>&amp;Network Traffic</source>
+        <translation>&amp;Netwerkverkeer</translation>
     </message>
     <message>
-        <source>1 &amp;day</source>
-        <translation>1 &amp;dag</translation>
+        <location filename="../forms/rpcconsole.ui" line="473"/>
+        <source>&amp;Clear</source>
+        <translation>&amp;Wissen</translation>
     </message>
     <message>
-        <source>1 &amp;week</source>
-        <translation>1 &amp;week</translation>
+        <location filename="../forms/rpcconsole.ui" line="486"/>
+        <source>Totals</source>
+        <translation>Totalen</translation>
     </message>
     <message>
-        <source>1 &amp;year</source>
-        <translation>1 &amp;jaar</translation>
+        <location filename="../forms/rpcconsole.ui" line="550"/>
+        <location filename="../rpcconsole.cpp" line="367"/>
+        <source>In:</source>
+        <translation>In;</translation>
     </message>
     <message>
-        <source>&amp;Disconnect</source>
-        <translation>&amp;Verbreek verbinding</translation>
+        <location filename="../forms/rpcconsole.ui" line="630"/>
+        <location filename="../rpcconsole.cpp" line="368"/>
+        <source>Out:</source>
+        <translation>Uit:</translation>
     </message>
     <message>
-        <source>Ban for</source>
-        <translation>Ban Node voor</translation>
+        <location filename="../rpcconsole.cpp" line="333"/>
+        <source>Welcome to the Fastbitcoin RPC console.</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>&amp;Unban</source>
-        <translation>&amp;Maak ban voor Node ongedaan</translation>
-    </message>
-    <message>
-        <source>Welcome to the %1 RPC console.</source>
-        <translation>Welkom bij de %1 RPC-console.</translation>
-    </message>
-    <message>
+        <location filename="../rpcconsole.cpp" line="334"/>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
         <translation>Gebruik de pijltjestoetsen om door de geschiedenis te navigeren, en &lt;b&gt;Ctrl-L&lt;/b&gt; om het scherm leeg te maken.</translation>
     </message>
     <message>
+        <location filename="../rpcconsole.cpp" line="335"/>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
-        <translation>Typ &lt;b&gt;help&lt;/b&gt; voor een overzicht van de beschikbare opdrachten.</translation>
+        <translation>Typ &lt;b&gt;help&lt;/b&gt; voor een overzicht van de beschikbare commando&apos;s.</translation>
     </message>
     <message>
-        <source>WARNING: Scammers have been active, telling users to type commands here, stealing their wallet contents. Do not use this console without fully understanding the ramification of a command.</source>
-        <translation>WAARSCHUWING: Er zijn Scammers actief geweest, die gebruikers vragen om hier commando's te typen, waardoor de inhoud van hun portefeuille werd gestolen. Gebruik deze console niet zonder de toedracht van een opdracht volledig te begrijpen.</translation>
-    </message>
-    <message>
-        <source>Network activity disabled</source>
-        <translation>Netwerkactiviteit uitgeschakeld</translation>
-    </message>
-    <message>
+        <location filename="../rpcconsole.cpp" line="474"/>
         <source>%1 B</source>
         <translation>%1 B</translation>
     </message>
     <message>
+        <location filename="../rpcconsole.cpp" line="476"/>
         <source>%1 KB</source>
         <translation>%1 Kb</translation>
     </message>
     <message>
+        <location filename="../rpcconsole.cpp" line="478"/>
         <source>%1 MB</source>
         <translation>%1 MB</translation>
     </message>
     <message>
+        <location filename="../rpcconsole.cpp" line="480"/>
         <source>%1 GB</source>
         <translation>%1 Gb</translation>
     </message>
     <message>
-        <source>(node id: %1)</source>
-        <translation>(node id: %1)</translation>
+        <location filename="../rpcconsole.cpp" line="487"/>
+        <source>%1 m</source>
+        <translation>%1 m</translation>
     </message>
     <message>
-        <source>via %1</source>
-        <translation>via %1</translation>
+        <location filename="../rpcconsole.cpp" line="492"/>
+        <source>%1 h</source>
+        <translation>%1 uur</translation>
     </message>
     <message>
-        <source>never</source>
-        <translation>nooit</translation>
-    </message>
-    <message>
-        <source>Inbound</source>
-        <translation>Inkomend</translation>
-    </message>
-    <message>
-        <source>Outbound</source>
-        <translation>Uitgaand</translation>
-    </message>
-    <message>
-        <source>Yes</source>
-        <translation>Ja</translation>
-    </message>
-    <message>
-        <source>No</source>
-        <translation>Nee</translation>
-    </message>
-    <message>
-        <source>Unknown</source>
-        <translation>Onbekend</translation>
+        <location filename="../rpcconsole.cpp" line="494"/>
+        <source>%1 h %2 m</source>
+        <translation>%1 h %2 m</translation>
     </message>
 </context>
 <context>
     <name>ReceiveCoinsDialog</name>
     <message>
-        <source>&amp;Amount:</source>
-        <translation>&amp;Bedrag</translation>
-    </message>
-    <message>
-        <source>&amp;Label:</source>
-        <translation>&amp;Label:</translation>
-    </message>
-    <message>
-        <source>&amp;Message:</source>
-        <translation>&amp;Bericht</translation>
-    </message>
-    <message>
+        <location filename="../forms/receivecoinsdialog.ui" line="34"/>
         <source>Reuse one of the previously used receiving addresses. Reusing addresses has security and privacy issues. Do not use this unless re-generating a payment request made before.</source>
         <translation>Gebruik een van de eerder gebruikte ontvangstadressen opnieuw. Het opnieuw gebruiken van adressen heeft beveiliging- en privacy problemen. Gebruik dit niet, behalve als er eerder een betalingsverzoek opnieuw gegenereerd is.</translation>
     </message>
     <message>
+        <location filename="../forms/receivecoinsdialog.ui" line="37"/>
         <source>R&amp;euse an existing receiving address (not recommended)</source>
         <translation>H&amp;ergebruik en bestaand ontvangstadres (niet aanbevolen)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the FastBitcoin network.</source>
-        <translation>Een optioneel bericht om bij te voegen aan het betalingsverzoek, welke zal getoond worden wanneer het verzoek is geopend. Opmerking: Het bericht zal niet worden verzonden met de betaling over het FastBitcoinnetwerk.</translation>
+        <location filename="../forms/receivecoinsdialog.ui" line="51"/>
+        <location filename="../forms/receivecoinsdialog.ui" line="74"/>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Fastbitcoin network.</source>
+        <translation>Een optioneel bericht om aan het betalingsverzoek toe te voegen, die zal worden getoond wanneer het verzoek wordt geopend. Nota: Het bericht zal niet verzonden worden met de betaling over het Fastbitcoin netwerk.</translation>
     </message>
     <message>
+        <location filename="../forms/receivecoinsdialog.ui" line="54"/>
+        <source>&amp;Message:</source>
+        <translation>&amp;Bericht</translation>
+    </message>
+    <message>
+        <location filename="../forms/receivecoinsdialog.ui" line="67"/>
+        <location filename="../forms/receivecoinsdialog.ui" line="88"/>
         <source>An optional label to associate with the new receiving address.</source>
-        <translation>Een optioneel label om te associëren met het nieuwe ontvangstadres</translation>
+        <translation>Een optioneel label om te associëren met het nieuwe ontvangende adres</translation>
     </message>
     <message>
+        <location filename="../forms/receivecoinsdialog.ui" line="81"/>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
         <translation>Gebruik dit formulier om te verzoeken tot betaling. Alle velden zijn &lt;b&gt;optioneel&lt;/b&gt;.</translation>
     </message>
     <message>
+        <location filename="../forms/receivecoinsdialog.ui" line="91"/>
+        <source>&amp;Label:</source>
+        <translation>&amp;Label:</translation>
+    </message>
+    <message>
+        <location filename="../forms/receivecoinsdialog.ui" line="104"/>
+        <location filename="../forms/receivecoinsdialog.ui" line="126"/>
         <source>An optional amount to request. Leave this empty or zero to not request a specific amount.</source>
         <translation>Een optioneel te verzoeken bedrag. Laat dit leeg, of nul, om geen specifiek bedrag aan te vragen.</translation>
     </message>
     <message>
-        <source>Clear all fields of the form.</source>
-        <translation>Wis alle velden op het formulier.</translation>
+        <location filename="../forms/receivecoinsdialog.ui" line="107"/>
+        <source>&amp;Amount:</source>
+        <translation>&amp;Bedrag</translation>
     </message>
     <message>
-        <source>Clear</source>
-        <translation>Wissen</translation>
-    </message>
-    <message>
-        <source>Requested payments history</source>
-        <translation>Geschiedenis van de betalingsverzoeken</translation>
-    </message>
-    <message>
+        <location filename="../forms/receivecoinsdialog.ui" line="141"/>
         <source>&amp;Request payment</source>
         <translation>&amp;Betalingsverzoek</translation>
     </message>
     <message>
+        <location filename="../forms/receivecoinsdialog.ui" line="158"/>
+        <source>Clear all fields of the form.</source>
+        <translation>Wis alle velden op het formulier.</translation>
+    </message>
+    <message>
+        <location filename="../forms/receivecoinsdialog.ui" line="161"/>
+        <source>Clear</source>
+        <translation>Wissen</translation>
+    </message>
+    <message>
+        <location filename="../forms/receivecoinsdialog.ui" line="239"/>
+        <source>Requested payments history</source>
+        <translation>Geschiedenis van de betalingsverzoeken</translation>
+    </message>
+    <message>
+        <location filename="../forms/receivecoinsdialog.ui" line="261"/>
         <source>Show the selected request (does the same as double clicking an entry)</source>
         <translation>Toon het geselecteerde verzoek (doet hetzelfde als dubbelklikken)</translation>
     </message>
     <message>
+        <location filename="../forms/receivecoinsdialog.ui" line="264"/>
         <source>Show</source>
         <translation>Toon</translation>
     </message>
     <message>
+        <location filename="../forms/receivecoinsdialog.ui" line="278"/>
         <source>Remove the selected entries from the list</source>
         <translation>Verwijder de geselecteerde items van de lijst</translation>
     </message>
     <message>
+        <location filename="../forms/receivecoinsdialog.ui" line="281"/>
         <source>Remove</source>
         <translation>Verwijder</translation>
     </message>
     <message>
-        <source>Copy URI</source>
-        <translation>Kopieer URI</translation>
-    </message>
-    <message>
+        <location filename="../receivecoinsdialog.cpp" line="39"/>
         <source>Copy label</source>
         <translation>Kopieer label</translation>
     </message>
     <message>
+        <location filename="../receivecoinsdialog.cpp" line="40"/>
         <source>Copy message</source>
         <translation>Kopieer bericht</translation>
     </message>
     <message>
+        <location filename="../receivecoinsdialog.cpp" line="41"/>
         <source>Copy amount</source>
         <translation>Kopieer bedrag</translation>
     </message>
@@ -1871,54 +2508,67 @@
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
+        <location filename="../forms/receiverequestdialog.ui" line="29"/>
         <source>QR Code</source>
         <translation>QR-code</translation>
     </message>
     <message>
+        <location filename="../forms/receiverequestdialog.ui" line="75"/>
         <source>Copy &amp;URI</source>
         <translation>Kopieer &amp;URI</translation>
     </message>
     <message>
+        <location filename="../forms/receiverequestdialog.ui" line="82"/>
         <source>Copy &amp;Address</source>
         <translation>Kopieer &amp;adres</translation>
     </message>
     <message>
+        <location filename="../forms/receiverequestdialog.ui" line="89"/>
         <source>&amp;Save Image...</source>
         <translation>&amp;Sla afbeelding op...</translation>
     </message>
     <message>
+        <location filename="../receiverequestdialog.cpp" line="136"/>
         <source>Request payment to %1</source>
         <translation>Betalingsverzoek tot %1</translation>
     </message>
     <message>
+        <location filename="../receiverequestdialog.cpp" line="142"/>
         <source>Payment information</source>
         <translation>Betalingsinformatie</translation>
     </message>
     <message>
+        <location filename="../receiverequestdialog.cpp" line="143"/>
         <source>URI</source>
         <translation>URI</translation>
     </message>
     <message>
+        <location filename="../receiverequestdialog.cpp" line="145"/>
         <source>Address</source>
         <translation>Adres</translation>
     </message>
     <message>
+        <location filename="../receiverequestdialog.cpp" line="147"/>
         <source>Amount</source>
         <translation>Bedrag</translation>
     </message>
     <message>
+        <location filename="../receiverequestdialog.cpp" line="149"/>
         <source>Label</source>
         <translation>Label</translation>
     </message>
     <message>
+        <location filename="../receiverequestdialog.cpp" line="151"/>
         <source>Message</source>
         <translation>Bericht</translation>
     </message>
     <message>
+        <location filename="../receiverequestdialog.cpp" line="161"/>
         <source>Resulting URI too long, try to reduce the text for label / message.</source>
         <translation>Resulterende URI te lang, probeer de tekst korter te maken voor het label/bericht.</translation>
     </message>
     <message>
+        <location filename="../receiverequestdialog.cpp" line="166"/>
         <source>Error encoding URI into QR Code.</source>
         <translation>Fout tijdens encoderen URI in QR-code</translation>
     </message>
@@ -1926,297 +2576,339 @@
 <context>
     <name>RecentRequestsTableModel</name>
     <message>
+        <location filename="../recentrequeststablemodel.cpp" line="24"/>
         <source>Date</source>
         <translation>Datum</translation>
     </message>
     <message>
+        <location filename="../recentrequeststablemodel.cpp" line="24"/>
         <source>Label</source>
         <translation>Label</translation>
     </message>
     <message>
+        <location filename="../recentrequeststablemodel.cpp" line="24"/>
         <source>Message</source>
         <translation>Bericht</translation>
     </message>
     <message>
+        <location filename="../recentrequeststablemodel.cpp" line="24"/>
+        <source>Amount</source>
+        <translation>Bedrag</translation>
+    </message>
+    <message>
+        <location filename="../recentrequeststablemodel.cpp" line="62"/>
         <source>(no label)</source>
         <translation>(geen label)</translation>
     </message>
     <message>
+        <location filename="../recentrequeststablemodel.cpp" line="71"/>
         <source>(no message)</source>
         <translation>(geen bericht)</translation>
     </message>
     <message>
-        <source>(no amount requested)</source>
-        <translation>(geen bedrag aangevraagd)</translation>
-    </message>
-    <message>
-        <source>Requested</source>
-        <translation>Verzoek ingediend</translation>
+        <location filename="../recentrequeststablemodel.cpp" line="79"/>
+        <source>(no amount)</source>
+        <translation>(geen bedrag)</translation>
     </message>
 </context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
+        <location filename="../forms/sendcoinsdialog.ui" line="14"/>
+        <location filename="../sendcoinsdialog.cpp" line="429"/>
+        <location filename="../sendcoinsdialog.cpp" line="521"/>
+        <location filename="../sendcoinsdialog.cpp" line="531"/>
         <source>Send Coins</source>
-        <translation>Verstuurde munten</translation>
+        <translation>Verstuur munten</translation>
     </message>
     <message>
+        <location filename="../forms/sendcoinsdialog.ui" line="90"/>
         <source>Coin Control Features</source>
         <translation>Coin controle opties</translation>
     </message>
     <message>
+        <location filename="../forms/sendcoinsdialog.ui" line="110"/>
         <source>Inputs...</source>
         <translation>Invoer...</translation>
     </message>
     <message>
+        <location filename="../forms/sendcoinsdialog.ui" line="117"/>
         <source>automatically selected</source>
         <translation>automatisch geselecteerd</translation>
     </message>
     <message>
+        <location filename="../forms/sendcoinsdialog.ui" line="136"/>
         <source>Insufficient funds!</source>
         <translation>Onvoldoende fonds!</translation>
     </message>
     <message>
+        <location filename="../forms/sendcoinsdialog.ui" line="225"/>
         <source>Quantity:</source>
         <translation>Kwantiteit</translation>
     </message>
     <message>
+        <location filename="../forms/sendcoinsdialog.ui" line="260"/>
         <source>Bytes:</source>
         <translation>Bytes:</translation>
     </message>
     <message>
+        <location filename="../forms/sendcoinsdialog.ui" line="308"/>
         <source>Amount:</source>
         <translation>Bedrag:</translation>
     </message>
     <message>
+        <location filename="../forms/sendcoinsdialog.ui" line="340"/>
+        <source>Priority:</source>
+        <translation>Prioriteit:</translation>
+    </message>
+    <message>
+        <location filename="../forms/sendcoinsdialog.ui" line="353"/>
+        <source>medium</source>
+        <translation>gemiddeld</translation>
+    </message>
+    <message>
+        <location filename="../forms/sendcoinsdialog.ui" line="388"/>
         <source>Fee:</source>
-        <translation>Kosten:</translation>
+        <translation>Vergoeding:</translation>
     </message>
     <message>
+        <location filename="../forms/sendcoinsdialog.ui" line="420"/>
+        <source>Low Output:</source>
+        <translation>Lage uitvoer:</translation>
+    </message>
+    <message>
+        <location filename="../forms/sendcoinsdialog.ui" line="433"/>
+        <source>no</source>
+        <translation>nee</translation>
+    </message>
+    <message>
+        <location filename="../forms/sendcoinsdialog.ui" line="468"/>
         <source>After Fee:</source>
-        <translation>Naheffing:</translation>
+        <translation>Na vergoeding:</translation>
     </message>
     <message>
+        <location filename="../forms/sendcoinsdialog.ui" line="500"/>
         <source>Change:</source>
         <translation>Wisselgeld:</translation>
     </message>
     <message>
+        <location filename="../forms/sendcoinsdialog.ui" line="544"/>
         <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
-        <translation>Als dit is geactiveerd, maar het wisselgeldadres is leeg of ongeldig, dan wordt het wisselgeld verstuurd naar een nieuw gegenereerd adres.</translation>
+        <translation>Als dit is geactiveerd, maar het wisselgeldadres is leeg of ongeldig, dan wordt het wisselgeld verzonden naar een nieuw gegenereerd adres.</translation>
     </message>
     <message>
+        <location filename="../forms/sendcoinsdialog.ui" line="547"/>
         <source>Custom change address</source>
         <translation>Aangepast wisselgeldadres</translation>
     </message>
     <message>
-        <source>Transaction Fee:</source>
-        <translation>Transactiekosten:</translation>
-    </message>
-    <message>
-        <source>Choose...</source>
-        <translation>Kies...</translation>
-    </message>
-    <message>
-        <source>collapse fee-settings</source>
-        <translation>verberg kosteninstellingen</translation>
-    </message>
-    <message>
-        <source>per kilobyte</source>
-        <translation>per kilobyte</translation>
-    </message>
-    <message>
-        <source>If the custom fee is set to 1000 satoshis and the transaction is only 250 bytes, then "per kilobyte" only pays 250 satoshis in fee, while "total at least" pays 1000 satoshis. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>Als de aangepaste toeslag is ingesteld op 1000 satoshis en de transactie is maar 250 bytes, dan wordt bij "per kilobyte" 250 satoshis aan toeslag berekend, terwijl er bij "totaal tenminste" 1000 satoshis worden berekend. Voor transacties die groter zijn dan een kilobyte, wordt in beide gevallen per kilobyte de toeslag berekend.</translation>
-    </message>
-    <message>
-        <source>Hide</source>
-        <translation>Verbergen</translation>
-    </message>
-    <message>
-        <source>total at least</source>
-        <translation>totaal ten minste</translation>
-    </message>
-    <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for fastbitcoin transactions than the network can process.</source>
-        <translation>De minimale toeslag betalen is prima mits het transactievolume kleiner is dan de ruimte in de blokken. Let wel op dat dit tot gevolg kan hebben dat een transactie nooit wordt bevestigd als er meer vraag is naar fastbitcointransacties dan het netwerk kan verwerken.</translation>
-    </message>
-    <message>
-        <source>(read the tooltip)</source>
-        <translation>(lees de tooltip)</translation>
-    </message>
-    <message>
-        <source>Recommended:</source>
-        <translation>Aanbevolen:</translation>
-    </message>
-    <message>
-        <source>Custom:</source>
-        <translation>Handmatig:</translation>
-    </message>
-    <message>
-        <source>(Smart fee not initialized yet. This usually takes a few blocks...)</source>
-        <translation>(Slimme transactiekosten is nog niet geïnitialiseerd. Dit duurt meestal een paar blokken...)</translation>
-    </message>
-    <message>
-        <source>normal</source>
-        <translation>normaal</translation>
-    </message>
-    <message>
-        <source>fast</source>
-        <translation>snel</translation>
-    </message>
-    <message>
-        <source>Send to multiple recipients at once</source>
-        <translation>Verstuur in een keer aan verschillende ontvangers</translation>
-    </message>
-    <message>
-        <source>Add &amp;Recipient</source>
-        <translation>Voeg &amp;Ontvanger Toe</translation>
-    </message>
-    <message>
-        <source>Clear all fields of the form.</source>
-        <translation>Wis alle velden van het formulier.</translation>
-    </message>
-    <message>
-        <source>Dust:</source>
-        <translation>Stof:</translation>
-    </message>
-    <message>
-        <source>Confirmation time target:</source>
-        <translation>Bevestigingstijddoel:</translation>
-    </message>
-    <message>
-        <source>Clear &amp;All</source>
-        <translation>Verwijder &amp;Alles</translation>
-    </message>
-    <message>
-        <source>Balance:</source>
-        <translation>Saldo:</translation>
-    </message>
-    <message>
+        <location filename="../forms/sendcoinsdialog.ui" line="668"/>
         <source>Confirm the send action</source>
         <translation>Bevestig de verstuuractie</translation>
     </message>
     <message>
+        <location filename="../forms/sendcoinsdialog.ui" line="671"/>
         <source>S&amp;end</source>
-        <translation>V&amp;erstuur</translation>
+        <translation>&amp;Verstuur</translation>
     </message>
     <message>
+        <location filename="../forms/sendcoinsdialog.ui" line="691"/>
+        <source>Clear all fields of the form.</source>
+        <translation>Wis alle velden van het formulier.</translation>
+    </message>
+    <message>
+        <location filename="../forms/sendcoinsdialog.ui" line="694"/>
+        <source>Clear &amp;All</source>
+        <translation>Verwijder &amp;Alles</translation>
+    </message>
+    <message>
+        <location filename="../forms/sendcoinsdialog.ui" line="711"/>
+        <source>Send to multiple recipients at once</source>
+        <translation>Verstuur aan verschillende ontvangers ineens</translation>
+    </message>
+    <message>
+        <location filename="../forms/sendcoinsdialog.ui" line="714"/>
+        <source>Add &amp;Recipient</source>
+        <translation>Voeg &amp;Ontvanger Toe</translation>
+    </message>
+    <message>
+        <location filename="../forms/sendcoinsdialog.ui" line="752"/>
+        <source>Darksend</source>
+        <translation>Darksend</translation>
+    </message>
+    <message>
+        <location filename="../forms/sendcoinsdialog.ui" line="771"/>
+        <source>InstantX</source>
+        <translation>InstantX</translation>
+    </message>
+    <message>
+        <location filename="../forms/sendcoinsdialog.ui" line="778"/>
+        <source>Balance:</source>
+        <translation>Saldo:</translation>
+    </message>
+    <message>
+        <location filename="../sendcoinsdialog.cpp" line="53"/>
         <source>Copy quantity</source>
         <translation>Kopieer aantal</translation>
     </message>
     <message>
+        <location filename="../sendcoinsdialog.cpp" line="54"/>
         <source>Copy amount</source>
         <translation>Kopieer bedrag</translation>
     </message>
     <message>
+        <location filename="../sendcoinsdialog.cpp" line="55"/>
         <source>Copy fee</source>
         <translation>Kopieer vergoeding</translation>
     </message>
     <message>
+        <location filename="../sendcoinsdialog.cpp" line="56"/>
         <source>Copy after fee</source>
         <translation>Kopieer na vergoeding</translation>
     </message>
     <message>
+        <location filename="../sendcoinsdialog.cpp" line="57"/>
         <source>Copy bytes</source>
         <translation>Kopieer bytes</translation>
     </message>
     <message>
-        <source>Copy dust</source>
-        <translation>Kopieër stof</translation>
+        <location filename="../sendcoinsdialog.cpp" line="58"/>
+        <source>Copy priority</source>
+        <translation>Kopieer prioriteit</translation>
     </message>
     <message>
+        <location filename="../sendcoinsdialog.cpp" line="59"/>
+        <source>Copy low output</source>
+        <translation>Kopieer lage uitvoer</translation>
+    </message>
+    <message>
+        <location filename="../sendcoinsdialog.cpp" line="60"/>
         <source>Copy change</source>
         <translation>Kopieer wijziging</translation>
     </message>
     <message>
+        <location filename="../sendcoinsdialog.cpp" line="145"/>
+        <location filename="../sendcoinsdialog.cpp" line="151"/>
+        <location filename="../sendcoinsdialog.cpp" line="160"/>
+        <source>using</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../sendcoinsdialog.cpp" line="145"/>
+        <location filename="../sendcoinsdialog.cpp" line="151"/>
+        <source>anonymous funds</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../sendcoinsdialog.cpp" line="155"/>
+        <source>(Darksend requires this amount to be rounded up to the nearest %1).</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../sendcoinsdialog.cpp" line="160"/>
+        <source>any available funds (not recommended)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../sendcoinsdialog.cpp" line="166"/>
+        <source>and InstantX</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../sendcoinsdialog.cpp" line="190"/>
+        <location filename="../sendcoinsdialog.cpp" line="195"/>
+        <location filename="../sendcoinsdialog.cpp" line="200"/>
+        <location filename="../sendcoinsdialog.cpp" line="204"/>
         <source>%1 to %2</source>
         <translation>%1 tot %2</translation>
     </message>
     <message>
+        <location filename="../sendcoinsdialog.cpp" line="253"/>
         <source>Are you sure you want to send?</source>
         <translation>Weet u zeker dat u wilt verzenden?</translation>
     </message>
     <message>
-        <source>added as transaction fee</source>
-        <translation>toegevoegd als transactiekosten</translation>
+        <location filename="../sendcoinsdialog.cpp" line="262"/>
+        <source>are added as transaction fee</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Total Amount %1</source>
-        <translation>Totaalbedrag %1</translation>
+        <location filename="../sendcoinsdialog.cpp" line="276"/>
+        <source>Total Amount %1 (= %2)</source>
+        <translation>Totaal bedrag %1 (= %2)</translation>
     </message>
     <message>
+        <location filename="../sendcoinsdialog.cpp" line="278"/>
         <source>or</source>
         <translation>of</translation>
     </message>
     <message>
+        <location filename="../sendcoinsdialog.cpp" line="280"/>
         <source>Confirm send coins</source>
         <translation>Bevestig versturen munten</translation>
     </message>
     <message>
-        <source>The recipient address is not valid. Please recheck.</source>
-        <translation>Het adres van de ontvanger is niet geldig. Gelieve opnieuw te controleren.</translation>
+        <location filename="../sendcoinsdialog.cpp" line="435"/>
+        <source>Payment request expired</source>
+        <translation>Betalingsverzoek verlopen</translation>
     </message>
     <message>
+        <location filename="../sendcoinsdialog.cpp" line="443"/>
+        <source>Invalid payment address %1</source>
+        <translation>Ongeldig betalingsadres %1</translation>
+    </message>
+    <message>
+        <location filename="../sendcoinsdialog.cpp" line="498"/>
+        <source>The recipient address is not valid, please recheck.</source>
+        <translation>Het ontvangstadres is niet geldig, controleer uw invoer.</translation>
+    </message>
+    <message>
+        <location filename="../sendcoinsdialog.cpp" line="501"/>
         <source>The amount to pay must be larger than 0.</source>
         <translation>Het ingevoerde bedrag moet groter zijn dan 0.</translation>
     </message>
     <message>
+        <location filename="../sendcoinsdialog.cpp" line="504"/>
         <source>The amount exceeds your balance.</source>
-        <translation>Het bedrag is hoger dan uw huidige saldo.</translation>
+        <translation>Bedrag is hoger dan uw huidige saldo</translation>
     </message>
     <message>
+        <location filename="../sendcoinsdialog.cpp" line="507"/>
         <source>The total exceeds your balance when the %1 transaction fee is included.</source>
-        <translation>Het totaal overschrijdt uw huidige saldo wanneer de %1 transactiekosten worden meegerekend.</translation>
+        <translation>Totaal overschrijdt uw huidige saldo wanneer de %1 transactiekosten worden meegerekend</translation>
     </message>
     <message>
-        <source>Duplicate address found: addresses should only be used once each.</source>
-        <translation>Dubbel adres gevonden: adressen mogen maar één keer worden gebruikt worden.</translation>
+        <location filename="../sendcoinsdialog.cpp" line="510"/>
+        <source>Duplicate address found, can only send to each address once per send operation.</source>
+        <translation>Dubbel adres gevonden, u kunt slechts eenmaal naar een bepaald adres verzenden per verstuurtransactie</translation>
     </message>
     <message>
+        <location filename="../sendcoinsdialog.cpp" line="513"/>
         <source>Transaction creation failed!</source>
-        <translation>Transactiecreatie mislukt</translation>
+        <translation>Transactie creatie niet gelukt!</translation>
     </message>
     <message>
-        <source>The transaction was rejected with the following reason: %1</source>
-        <translation>De transactie werd afgewezen om de volgende reden: %1</translation>
+        <location filename="../sendcoinsdialog.cpp" line="517"/>
+        <source>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
+        <translation>De transactie was afgewezen. Dit kan gebeuren als u eerder uitgegeven munten opnieuw wilt versturen, zoals wanneer u een kopie van uw wallet.dat heeft gebruikt en in de kopie deze munten zijn gemarkeerd als uitgegeven, maar in de huidige nog niet.</translation>
     </message>
     <message>
-        <source>A fee higher than %1 is considered an absurdly high fee.</source>
-        <translation>Een vergoeding van meer dan %1 wordt beschouwd als een absurd hoge vergoeding.</translation>
+        <location filename="../sendcoinsdialog.cpp" line="522"/>
+        <source>Error: The wallet was unlocked only to anonymize coins.</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Payment request expired.</source>
-        <translation>Betalingsverzoek verlopen.</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n block(s)</source>
-        <translation><numerusform>%n blok</numerusform><numerusform>%n blokken</numerusform></translation>
+        <location filename="../sendcoinsdialog.cpp" line="635"/>
+        <source>Warning: Invalid Fastbitcoin address</source>
+        <translation>Waarschuwing: Ongeldig Fastbitcoin adres</translation>
     </message>
     <message>
-        <source>Pay only the required fee of %1</source>
-        <translation>Betaal alleen de verplichte transactiekosten van %1</translation>
-    </message>
-    <message numerus="yes">
-        <source>Estimated to begin confirmation within %n block(s).</source>
-        <translation><numerusform>Schatting is dat bevestiging begint over %n blok.</numerusform><numerusform>Schatting is dat bevestiging begint over %n blokken.</numerusform></translation>
-    </message>
-    <message>
-        <source>Warning: Invalid FastBitcoin address</source>
-        <translation>Waarschuwing: Ongeldig FastBitcoinadres</translation>
-    </message>
-    <message>
+        <location filename="../sendcoinsdialog.cpp" line="644"/>
         <source>Warning: Unknown change address</source>
         <translation>Waarschuwing: Onbekend wisselgeldadres</translation>
     </message>
     <message>
-        <source>Confirm custom change address</source>
-        <translation>Bevestig aangepast wisselgeldadres</translation>
-    </message>
-    <message>
-        <source>The address you selected for change is not part of this wallet. Any or all funds in your wallet may be sent to this address. Are you sure?</source>
-        <translation>Het wisselgeldadres dat u heeft geselecteerd maakt geen deel uit van deze portemonnee. Een deel of zelfs alle geld in uw portemonnee kan mogelijk naar dit adres worden verzonden. Weet je het zeker?</translation>
-    </message>
-    <message>
+        <location filename="../sendcoinsdialog.cpp" line="655"/>
         <source>(no label)</source>
         <translation>(geen label)</translation>
     </message>
@@ -2224,100 +2916,111 @@
 <context>
     <name>SendCoinsEntry</name>
     <message>
-        <source>A&amp;mount:</source>
-        <translation>B&amp;edrag:</translation>
-    </message>
-    <message>
-        <source>Pay &amp;To:</source>
-        <translation>Betaal &amp;Aan:</translation>
-    </message>
-    <message>
-        <source>&amp;Label:</source>
-        <translation>&amp;Label:</translation>
-    </message>
-    <message>
-        <source>Choose previously used address</source>
-        <translation>Kies een eerder gebruikt adres</translation>
-    </message>
-    <message>
+        <location filename="../forms/sendcoinsentry.ui" line="21"/>
         <source>This is a normal payment.</source>
         <translation>Dit is een normale betaling.</translation>
     </message>
     <message>
-        <source>The FastBitcoin address to send the payment to</source>
-        <translation>Het FastBitcoinadres om betaling aan te versturen</translation>
+        <location filename="../forms/sendcoinsentry.ui" line="36"/>
+        <source>Pay &amp;To:</source>
+        <translation>Betaal &amp;Aan:</translation>
     </message>
     <message>
+        <location filename="../forms/sendcoinsentry.ui" line="54"/>
+        <source>The address to send the payment to (e.g. iGJXtgFacXixKeK8Pxmk3a7YhXMc2o8EsB )</source>
+        <translation>Het adres om de betaling naar te versturen (bijv. iGJXtgFacXixKeK8Pxmk3a7YhXMc2o8EsB )</translation>
+    </message>
+    <message>
+        <location filename="../forms/sendcoinsentry.ui" line="61"/>
+        <source>Choose previously used address</source>
+        <translation>Kies een eerder gebruikt adres</translation>
+    </message>
+    <message>
+        <location filename="../forms/sendcoinsentry.ui" line="71"/>
         <source>Alt+A</source>
         <translation>Alt+A</translation>
     </message>
     <message>
+        <location filename="../forms/sendcoinsentry.ui" line="78"/>
         <source>Paste address from clipboard</source>
         <translation>Plak adres vanuit klembord</translation>
     </message>
     <message>
+        <location filename="../forms/sendcoinsentry.ui" line="88"/>
         <source>Alt+P</source>
         <translation>Alt+P</translation>
     </message>
     <message>
+        <location filename="../forms/sendcoinsentry.ui" line="95"/>
+        <location filename="../forms/sendcoinsentry.ui" line="619"/>
+        <location filename="../forms/sendcoinsentry.ui" line="1155"/>
         <source>Remove this entry</source>
         <translation>Verwijder deze toevoeging</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less fastbitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>De transactiekosten zal worden afgetrokken van het bedrag dat verstuurd wordt. De ontvangers zullen minder fastbitcoins ontvangen dan ingevoerd is in het hoeveelheidsveld. Als er meerdere ontvangers geselecteerd zijn, dan worden de transactiekosten gelijk verdeeld.</translation>
+        <location filename="../forms/sendcoinsentry.ui" line="111"/>
+        <source>&amp;Label:</source>
+        <translation>&amp;Label:</translation>
     </message>
     <message>
-        <source>S&amp;ubtract fee from amount</source>
-        <translation>Trek de transactiekosten a&amp;f van het bedrag.</translation>
-    </message>
-    <message>
-        <source>Message:</source>
-        <translation>Bericht:</translation>
-    </message>
-    <message>
-        <source>This is an unauthenticated payment request.</source>
-        <translation>Dit is een niet-geverifieerd betalingsverzoek.</translation>
-    </message>
-    <message>
-        <source>This is an authenticated payment request.</source>
-        <translation>Dit is een geverifieerd betalingsverzoek.</translation>
-    </message>
-    <message>
+        <location filename="../forms/sendcoinsentry.ui" line="124"/>
         <source>Enter a label for this address to add it to the list of used addresses</source>
         <translation>Vul een label voor dit adres in om het aan de lijst met gebruikte adressen toe te voegen</translation>
     </message>
     <message>
-        <source>A message that was attached to the fastbitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the FastBitcoin network.</source>
-        <translation>Een bericht dat werd toegevoegd aan de fastbitcoin: URI welke wordt opgeslagen met de transactie ter referentie. Opmerking: Dit bericht zal niet worden verzonden over het FastBitcoinnetwerk.</translation>
+        <location filename="../forms/sendcoinsentry.ui" line="131"/>
+        <location filename="../forms/sendcoinsentry.ui" line="652"/>
+        <location filename="../forms/sendcoinsentry.ui" line="1188"/>
+        <source>A&amp;mount:</source>
+        <translation>Bedra&amp;g:</translation>
     </message>
     <message>
+        <location filename="../forms/sendcoinsentry.ui" line="147"/>
+        <source>Message:</source>
+        <translation>Bericht:</translation>
+    </message>
+    <message>
+        <location filename="../forms/sendcoinsentry.ui" line="157"/>
+        <source>A message that was attached to the fastbitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Fastbitcoin network.</source>
+        <translation>Een boodschap die was bijgevoegd aan de fastbitcoin: URI die met de transactie voor uw referentie wordt opgeslagen. Opmerking: Dit bericht zal niet over het Fastbitcoin netwerk worden verzonden.</translation>
+    </message>
+    <message>
+        <location filename="../forms/sendcoinsentry.ui" line="583"/>
+        <source>This is an unverified payment request.</source>
+        <translation>Dit is een ongeverifieerd betalingsverzoek.</translation>
+    </message>
+    <message>
+        <location filename="../forms/sendcoinsentry.ui" line="601"/>
+        <location filename="../forms/sendcoinsentry.ui" line="1133"/>
         <source>Pay To:</source>
         <translation>Betaal Aan:</translation>
     </message>
     <message>
+        <location filename="../forms/sendcoinsentry.ui" line="635"/>
+        <location filename="../forms/sendcoinsentry.ui" line="1171"/>
         <source>Memo:</source>
         <translation>Memo:</translation>
     </message>
     <message>
+        <location filename="../forms/sendcoinsentry.ui" line="1115"/>
+        <source>This is a verified payment request.</source>
+        <translation>Dit is een geverifieerd betalingsverzoek.</translation>
+    </message>
+    <message>
+        <location filename="../sendcoinsentry.cpp" line="31"/>
         <source>Enter a label for this address to add it to your address book</source>
         <translation>Vul een label in voor dit adres om het toe te voegen aan uw adresboek</translation>
     </message>
 </context>
 <context>
-    <name>SendConfirmationDialog</name>
-    <message>
-        <source>Yes</source>
-        <translation>Ja</translation>
-    </message>
-</context>
-<context>
     <name>ShutdownWindow</name>
     <message>
-        <source>%1 is shutting down...</source>
-        <translation>%1 is aan het afsluiten...</translation>
+        <location filename="../utilitydialog.cpp" line="129"/>
+        <source>Fastbitcoin Core is shutting down...</source>
+        <translation>Fastbitcoin Core is aan het sluiten...</translation>
     </message>
     <message>
+        <location filename="../utilitydialog.cpp" line="130"/>
         <source>Do not shut down the computer until this window disappears.</source>
         <translation>Sluit de computer niet af totdat dit venster verdwenen is.</translation>
     </message>
@@ -2325,145 +3028,214 @@
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
+        <location filename="../forms/signverifymessagedialog.ui" line="14"/>
         <source>Signatures - Sign / Verify a Message</source>
-        <translation>Handtekeningen – Onderteken een bericht / Verifiëer een handtekening</translation>
+        <translation>Handtekeningen - Onderteken een bericht / Verifiëer een handtekening</translation>
     </message>
     <message>
+        <location filename="../forms/signverifymessagedialog.ui" line="24"/>
         <source>&amp;Sign Message</source>
-        <translation>&amp;Onderteken Bericht</translation>
+        <translation>O&amp;nderteken Bericht</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive fastbitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>U kunt berichten/overeenkomsten ondertekenen met uw adres om te bewijzen dat u FastBitcoins kunt versturen. Wees voorzichtig met het ondertekenen van iets vaags of willekeurigs, omdat phishingaanvallen u kunnen proberen te misleiden tot het ondertekenen van overeenkomsten om uw identiteit aan hen toe te vertrouwen. Onderteken alleen volledig gedetailleerde verklaringen voordat u akkoord gaat.</translation>
+        <location filename="../forms/signverifymessagedialog.ui" line="30"/>
+        <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>U kunt berichten ondertekenen met een van uw adressen om te bewijzen dat u dit adres bezit. Pas op dat u geen onduidelijke dingen ondertekent, want phishingaanvallen zouden u kunnen misleiden om zo uw identiteit te stelen. Onderteken alleen berichten waarmee u het volledig eens bent.</translation>
     </message>
     <message>
-        <source>The FastBitcoin address to sign the message with</source>
-        <translation>Het FastBitcoinadres om bericht mee te ondertekenen</translation>
+        <location filename="../forms/signverifymessagedialog.ui" line="48"/>
+        <source>The address to sign the message with (e.g. iGJXtgFacXixKeK8Pxmk3a7YhXMc2o8EsB )</source>
+        <translation>Het adres om het bericht mee te tekenen (vb. iGJXtgFacXixKeK8Pxmk3a7YhXMc2o8EsB )</translation>
     </message>
     <message>
+        <location filename="../forms/signverifymessagedialog.ui" line="55"/>
+        <location filename="../forms/signverifymessagedialog.ui" line="265"/>
         <source>Choose previously used address</source>
         <translation>Kies een eerder gebruikt adres</translation>
     </message>
     <message>
+        <location filename="../forms/signverifymessagedialog.ui" line="65"/>
+        <location filename="../forms/signverifymessagedialog.ui" line="275"/>
         <source>Alt+A</source>
         <translation>Alt+A</translation>
     </message>
     <message>
+        <location filename="../forms/signverifymessagedialog.ui" line="75"/>
         <source>Paste address from clipboard</source>
         <translation>Plak adres vanuit klembord</translation>
     </message>
     <message>
+        <location filename="../forms/signverifymessagedialog.ui" line="85"/>
         <source>Alt+P</source>
         <translation>Alt+P</translation>
     </message>
     <message>
+        <location filename="../forms/signverifymessagedialog.ui" line="97"/>
         <source>Enter the message you want to sign here</source>
         <translation>Typ hier het bericht dat u wilt ondertekenen</translation>
     </message>
     <message>
+        <location filename="../forms/signverifymessagedialog.ui" line="104"/>
         <source>Signature</source>
         <translation>Handtekening</translation>
     </message>
     <message>
+        <location filename="../forms/signverifymessagedialog.ui" line="131"/>
         <source>Copy the current signature to the system clipboard</source>
         <translation>Kopieer de huidige handtekening naar het systeemklembord</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this FastBitcoin address</source>
-        <translation>Onderteken een bericht om te bewijzen dat u een bepaald FastBitcoinadres bezit</translation>
+        <location filename="../forms/signverifymessagedialog.ui" line="152"/>
+        <source>Sign the message to prove you own this Fastbitcoin address</source>
+        <translation>Teken het bericht om te bewijzen dat u dit Fastbitcoin adres bezit</translation>
     </message>
     <message>
+        <location filename="../forms/signverifymessagedialog.ui" line="155"/>
         <source>Sign &amp;Message</source>
         <translation>Onderteken &amp;Bericht</translation>
     </message>
     <message>
+        <location filename="../forms/signverifymessagedialog.ui" line="169"/>
         <source>Reset all sign message fields</source>
         <translation>Verwijder alles in de invulvelden</translation>
     </message>
     <message>
+        <location filename="../forms/signverifymessagedialog.ui" line="172"/>
+        <location filename="../forms/signverifymessagedialog.ui" line="315"/>
         <source>Clear &amp;All</source>
         <translation>Verwijder &amp;Alles</translation>
     </message>
     <message>
+        <location filename="../forms/signverifymessagedialog.ui" line="231"/>
         <source>&amp;Verify Message</source>
         <translation>&amp;Verifiëer Bericht</translation>
     </message>
     <message>
-        <source>Enter the receiver's address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack. Note that this only proves the signing party receives with the address, it cannot prove sendership of any transaction!</source>
-        <translation>Voer het adres van de ontvanger in, bericht (zorg ervoor dat de regeleinden, spaties, tabs etc. precies kloppen) en onderteken onderaan om het bericht te verifiëren. Wees voorzicht om niet meer in de ondertekening te lezen dan in het getekende bericht zelf, om te voorkomen dat je wordt aangevallen met een man-in-the-middle attack. Houd er mee rekening dat dit alleen de ondertekende partij bewijst met het ontvangen adres, er kan niet bewezen worden dat er een transactie heeft plaatsgevonden!</translation>
+        <location filename="../forms/signverifymessagedialog.ui" line="237"/>
+        <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
+        <translation>Voer het ondertekenende adres, bericht en handtekening hieronder in (let erop dat u nieuwe regels, spaties en tabs juist overneemt) om de handtekening te verifiëren. Let erop dat u niet meer uit het bericht interpreteert dan er daadwerkelijk staat,  om te voorkomen dat u wordt misleid in een man-in-the-middle-aanval.</translation>
     </message>
     <message>
-        <source>The FastBitcoin address the message was signed with</source>
-        <translation>Het FastBitcoinadres waarmee het bericht ondertekend is</translation>
+        <location filename="../forms/signverifymessagedialog.ui" line="258"/>
+        <source>The address the message was signed with (e.g. iGJXtgFacXixKeK8Pxmk3a7YhXMc2o8EsB )</source>
+        <translation>Het adres waarmee het bericht werd ondertekend (vb. iGJXtgFacXixKeK8Pxmk3a7YhXMc2o8EsB )</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified FastBitcoin address</source>
-        <translation>Controleer een bericht om te verifiëren dat het gespecificeerde FastBitcoinadres het bericht heeft ondertekend.</translation>
+        <location filename="../forms/signverifymessagedialog.ui" line="295"/>
+        <source>Verify the message to ensure it was signed with the specified Fastbitcoin address</source>
+        <translation>Verifieer het bericht om zeker te zijn dat het getekend werd met het opgegeven Fastbitcoin adres</translation>
     </message>
     <message>
+        <location filename="../forms/signverifymessagedialog.ui" line="298"/>
         <source>Verify &amp;Message</source>
         <translation>Verifiëer &amp;Bericht</translation>
     </message>
     <message>
+        <location filename="../forms/signverifymessagedialog.ui" line="312"/>
         <source>Reset all verify message fields</source>
         <translation>Verwijder alles in de invulvelden</translation>
     </message>
     <message>
-        <source>Click "Sign Message" to generate signature</source>
-        <translation>Klik op "Onderteken Bericht" om de handtekening te genereren</translation>
+        <location filename="../signverifymessagedialog.cpp" line="30"/>
+        <source>Click &quot;Sign Message&quot; to generate signature</source>
+        <translation>Klik &quot;Onderteken Bericht&quot; om de handtekening te genereren</translation>
     </message>
     <message>
+        <location filename="../signverifymessagedialog.cpp" line="31"/>
+        <source>Enter a Fastbitcoin address (e.g. iGJXtgFacXixKeK8Pxmk3a7YhXMc2o8EsB )</source>
+        <translation>Voer een Fastbitcoin adres in (b.v. iGJXtgFacXixKeK8Pxmk3a7YhXMc2o8EsB )</translation>
+    </message>
+    <message>
+        <location filename="../signverifymessagedialog.cpp" line="114"/>
+        <location filename="../signverifymessagedialog.cpp" line="194"/>
         <source>The entered address is invalid.</source>
         <translation>Het opgegeven adres is ongeldig.</translation>
     </message>
     <message>
+        <location filename="../signverifymessagedialog.cpp" line="114"/>
+        <location filename="../signverifymessagedialog.cpp" line="122"/>
+        <location filename="../signverifymessagedialog.cpp" line="194"/>
+        <location filename="../signverifymessagedialog.cpp" line="202"/>
         <source>Please check the address and try again.</source>
-        <translation>Controleer het adres en probeer het opnieuw.</translation>
+        <translation>Controleer s.v.p. het adres en probeer het opnieuw.</translation>
     </message>
     <message>
+        <location filename="../signverifymessagedialog.cpp" line="122"/>
+        <location filename="../signverifymessagedialog.cpp" line="202"/>
         <source>The entered address does not refer to a key.</source>
         <translation>Het opgegeven adres verwijst niet naar een sleutel.</translation>
     </message>
     <message>
+        <location filename="../signverifymessagedialog.cpp" line="130"/>
         <source>Wallet unlock was cancelled.</source>
-        <translation>Portemonnee-ontsleuteling is geannuleerd.</translation>
+        <translation>Portemonnee-ontsleuteling is geannuleerd</translation>
     </message>
     <message>
+        <location filename="../signverifymessagedialog.cpp" line="138"/>
         <source>Private key for the entered address is not available.</source>
         <translation>Geheime sleutel voor het ingevoerde adres is niet beschikbaar.</translation>
     </message>
     <message>
+        <location filename="../signverifymessagedialog.cpp" line="150"/>
         <source>Message signing failed.</source>
         <translation>Ondertekenen van het bericht is mislukt.</translation>
     </message>
     <message>
+        <location filename="../signverifymessagedialog.cpp" line="155"/>
         <source>Message signed.</source>
         <translation>Bericht ondertekend.</translation>
     </message>
     <message>
+        <location filename="../signverifymessagedialog.cpp" line="213"/>
         <source>The signature could not be decoded.</source>
         <translation>De handtekening kon niet worden gedecodeerd.</translation>
     </message>
     <message>
+        <location filename="../signverifymessagedialog.cpp" line="213"/>
+        <location filename="../signverifymessagedialog.cpp" line="226"/>
         <source>Please check the signature and try again.</source>
-        <translation>Controleer de handtekening en probeer het opnieuw.</translation>
+        <translation>Controleer s.v.p. de handtekening en probeer het opnieuw.</translation>
     </message>
     <message>
+        <location filename="../signverifymessagedialog.cpp" line="226"/>
         <source>The signature did not match the message digest.</source>
         <translation>De handtekening hoort niet bij het bericht.</translation>
     </message>
     <message>
+        <location filename="../signverifymessagedialog.cpp" line="233"/>
         <source>Message verification failed.</source>
         <translation>Berichtverificatie mislukt.</translation>
     </message>
     <message>
+        <location filename="../signverifymessagedialog.cpp" line="238"/>
         <source>Message verified.</source>
-        <translation>Bericht geverifiëerd.</translation>
+        <translation>Bericht correct geverifiëerd.</translation>
     </message>
 </context>
 <context>
     <name>SplashScreen</name>
     <message>
+        <location filename="../splashscreen.cpp" line="33"/>
+        <source>Fastbitcoin Core</source>
+        <translation>Fastbitcoin Core</translation>
+    </message>
+    <message>
+        <location filename="../splashscreen.cpp" line="34"/>
+        <source>Version %1</source>
+        <translation>Versie %1</translation>
+    </message>
+    <message>
+        <location filename="../splashscreen.cpp" line="35"/>
+        <source>The Fastbitcoin Core developers</source>
+        <translation>De Fastbitcoin Core ontwikkelaars</translation>
+    </message>
+    <message>
+        <location filename="../splashscreen.cpp" line="36"/>
+        <source>The Fastbitcoin Core developers</source>
+        <translation>De Fastbitcoin Core ontwikkelaars</translation>
+    </message>
+    <message>
+        <location filename="../splashscreen.cpp" line="37"/>
         <source>[testnet]</source>
         <translation>[testnetwerk]</translation>
     </message>
@@ -2471,6 +3243,7 @@
 <context>
     <name>TrafficGraphWidget</name>
     <message>
+        <location filename="../trafficgraphwidget.cpp" line="79"/>
         <source>KB/s</source>
         <translation>KB/s</translation>
     </message>
@@ -2478,170 +3251,228 @@
 <context>
     <name>TransactionDesc</name>
     <message numerus="yes">
+        <location filename="../transactiondesc.cpp" line="28"/>
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>Open voor nog %n blok</numerusform><numerusform>Open voor nog %n blokken</numerusform></translation>
+        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
     </message>
     <message>
+        <location filename="../transactiondesc.cpp" line="30"/>
         <source>Open until %1</source>
-        <translation>Open tot %1</translation>
+        <translation>Openen totdat %1</translation>
     </message>
     <message>
-        <source>conflicted with a transaction with %1 confirmations</source>
-        <translation>geconflicteerd met een transactie met %1 confirmaties</translation>
+        <location filename="../transactiondesc.cpp" line="41"/>
+        <location filename="../transactiondesc.cpp" line="52"/>
+        <location filename="../transactiondesc.cpp" line="62"/>
+        <location filename="../transactiondesc.cpp" line="74"/>
+        <source>conflicted</source>
+        <translation>conflicterend</translation>
     </message>
     <message>
+        <location filename="../transactiondesc.cpp" line="43"/>
+        <source>%1/offline (verified via instantx)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../transactiondesc.cpp" line="45"/>
+        <source>%1/confirmed (verified via instantx)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../transactiondesc.cpp" line="47"/>
+        <source>%1 confirmations (verified via instantx)</source>
+        <translation>%1 confirmatie (geverifieerd met instantx)</translation>
+    </message>
+    <message>
+        <location filename="../transactiondesc.cpp" line="76"/>
         <source>%1/offline</source>
         <translation>%1/offline</translation>
     </message>
     <message>
-        <source>0/unconfirmed, %1</source>
-        <translation>0/onbevestigd, %1</translation>
-    </message>
-    <message>
-        <source>in memory pool</source>
-        <translation>in geheugenpoel</translation>
-    </message>
-    <message>
-        <source>not in memory pool</source>
-        <translation>niet in geheugenpoel</translation>
-    </message>
-    <message>
-        <source>abandoned</source>
-        <translation>opgegeven</translation>
-    </message>
-    <message>
+        <location filename="../transactiondesc.cpp" line="78"/>
         <source>%1/unconfirmed</source>
         <translation>%1/onbevestigd</translation>
     </message>
     <message>
+        <location filename="../transactiondesc.cpp" line="68"/>
+        <location filename="../transactiondesc.cpp" line="80"/>
         <source>%1 confirmations</source>
         <translation>%1 bevestigingen</translation>
     </message>
     <message>
+        <location filename="../transactiondesc.cpp" line="54"/>
+        <source>%1/offline (InstantX verification in progress - %2 of %3 signatures)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../transactiondesc.cpp" line="56"/>
+        <source>%1/confirmed (InstantX verification in progress - %2 of %3 signatures )</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../transactiondesc.cpp" line="58"/>
+        <source>%1 confirmations (InstantX verification in progress - %2 of %3 signatures)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../transactiondesc.cpp" line="64"/>
+        <source>%1/offline (InstantX verification failed)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../transactiondesc.cpp" line="66"/>
+        <source>%1/confirmed (InstantX verification failed)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../transactiondesc.cpp" line="98"/>
         <source>Status</source>
         <translation>Status</translation>
     </message>
     <message>
+        <location filename="../transactiondesc.cpp" line="103"/>
         <source>, has not been successfully broadcast yet</source>
         <translation>, is nog niet met succes uitgezonden</translation>
     </message>
+    <message numerus="yes">
+        <location filename="../transactiondesc.cpp" line="105"/>
+        <source>, broadcast through %n node(s)</source>
+        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
+    </message>
     <message>
+        <location filename="../transactiondesc.cpp" line="109"/>
         <source>Date</source>
         <translation>Datum</translation>
     </message>
     <message>
+        <location filename="../transactiondesc.cpp" line="116"/>
         <source>Source</source>
         <translation>Bron</translation>
     </message>
     <message>
+        <location filename="../transactiondesc.cpp" line="116"/>
         <source>Generated</source>
         <translation>Gegenereerd</translation>
     </message>
     <message>
+        <location filename="../transactiondesc.cpp" line="121"/>
+        <location filename="../transactiondesc.cpp" line="138"/>
         <source>From</source>
         <translation>Van</translation>
     </message>
     <message>
+        <location filename="../transactiondesc.cpp" line="138"/>
         <source>unknown</source>
         <translation>onbekend</translation>
     </message>
     <message>
+        <location filename="../transactiondesc.cpp" line="139"/>
+        <location filename="../transactiondesc.cpp" line="161"/>
+        <location filename="../transactiondesc.cpp" line="219"/>
         <source>To</source>
         <translation>Aan</translation>
     </message>
     <message>
+        <location filename="../transactiondesc.cpp" line="142"/>
+        <location filename="../transactiondesc.cpp" line="144"/>
         <source>own address</source>
         <translation>eigen adres</translation>
     </message>
     <message>
-        <source>watch-only</source>
-        <translation>alleen-bekijkbaar</translation>
-    </message>
-    <message>
+        <location filename="../transactiondesc.cpp" line="142"/>
         <source>label</source>
         <translation>label</translation>
     </message>
     <message>
+        <location filename="../transactiondesc.cpp" line="179"/>
+        <location filename="../transactiondesc.cpp" line="191"/>
+        <location filename="../transactiondesc.cpp" line="236"/>
+        <location filename="../transactiondesc.cpp" line="253"/>
+        <location filename="../transactiondesc.cpp" line="306"/>
         <source>Credit</source>
         <translation>Credit</translation>
     </message>
     <message numerus="yes">
+        <location filename="../transactiondesc.cpp" line="181"/>
         <source>matures in %n more block(s)</source>
-        <translation><numerusform>komt beschikbaar na %n nieuwe blok</numerusform><numerusform>komt beschikbaar na %n nieuwe blokken</numerusform></translation>
+        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
     </message>
     <message>
+        <location filename="../transactiondesc.cpp" line="183"/>
         <source>not accepted</source>
         <translation>niet geaccepteerd</translation>
     </message>
     <message>
+        <location filename="../transactiondesc.cpp" line="227"/>
+        <location filename="../transactiondesc.cpp" line="235"/>
+        <location filename="../transactiondesc.cpp" line="250"/>
+        <location filename="../transactiondesc.cpp" line="303"/>
         <source>Debit</source>
         <translation>Debet</translation>
     </message>
     <message>
-        <source>Total debit</source>
-        <translation>Totaal debit</translation>
-    </message>
-    <message>
-        <source>Total credit</source>
-        <translation>Totaal credit</translation>
-    </message>
-    <message>
+        <location filename="../transactiondesc.cpp" line="241"/>
         <source>Transaction fee</source>
         <translation>Transactiekosten</translation>
     </message>
     <message>
+        <location filename="../transactiondesc.cpp" line="257"/>
         <source>Net amount</source>
         <translation>Netto bedrag</translation>
     </message>
     <message>
+        <location filename="../transactiondesc.cpp" line="263"/>
+        <location filename="../transactiondesc.cpp" line="272"/>
         <source>Message</source>
         <translation>Bericht</translation>
     </message>
     <message>
+        <location filename="../transactiondesc.cpp" line="265"/>
         <source>Comment</source>
         <translation>Opmerking</translation>
     </message>
     <message>
+        <location filename="../transactiondesc.cpp" line="267"/>
         <source>Transaction ID</source>
-        <translation>Transactie-ID</translation>
+        <translation>Transactie-ID:</translation>
     </message>
     <message>
-        <source>Transaction total size</source>
-        <translation>Transactie totale grootte</translation>
-    </message>
-    <message>
-        <source>Output index</source>
-        <translation>Output index</translation>
-    </message>
-    <message>
+        <location filename="../transactiondesc.cpp" line="285"/>
         <source>Merchant</source>
         <translation>Handelaar</translation>
     </message>
     <message>
-        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>Gegenereerde munten moeten %1 blokken rijpen voordat ze kunnen worden besteed. Toen dit blok gegenereerd werd, werd het uitgezonden naar het netwerk om aan de blokketen toegevoegd te worden. Als het niet lukt om in de keten toegevoegd te worden, zal de status te veranderen naar "niet geaccepteerd" en zal het niet besteedbaar zijn. Dit kan soms gebeuren als een ander knooppunt een blok genereert binnen een paar seconden na die van u.</translation>
+        <location filename="../transactiondesc.cpp" line="292"/>
+        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <translation>Gegenereerde munten moeten %1 blokken rijpen voordat ze kunnen worden besteed. Toen dit blok gegenereerd werd, werd het uitgezonden naar het netwerk om aan de blokketen toegevoegd te worden. Als het niet lukt om in de keten toegevoegd te worden, zal de status te veranderen naar &quot;niet geaccepteerd&quot; en het zal deze niet besteedbaar zijn. Dit kan soms gebeuren als een ander knooppunt een blok genereert binnen een paar seconden na die van u.</translation>
     </message>
     <message>
+        <location filename="../transactiondesc.cpp" line="300"/>
         <source>Debug information</source>
         <translation>Debug-informatie</translation>
     </message>
     <message>
+        <location filename="../transactiondesc.cpp" line="308"/>
         <source>Transaction</source>
         <translation>Transactie</translation>
     </message>
     <message>
+        <location filename="../transactiondesc.cpp" line="311"/>
         <source>Inputs</source>
         <translation>Inputs</translation>
     </message>
     <message>
+        <location filename="../transactiondesc.cpp" line="332"/>
         <source>Amount</source>
         <translation>Bedrag</translation>
     </message>
     <message>
+        <location filename="../transactiondesc.cpp" line="333"/>
         <source>true</source>
         <translation>waar</translation>
     </message>
     <message>
+        <location filename="../transactiondesc.cpp" line="333"/>
         <source>false</source>
         <translation>onwaar</translation>
     </message>
@@ -2649,336 +3480,439 @@
 <context>
     <name>TransactionDescDialog</name>
     <message>
-        <source>This pane shows a detailed description of the transaction</source>
-        <translation>Dit venster laat een uitgebreide beschrijving van de transactie zien</translation>
+        <location filename="../forms/transactiondescdialog.ui" line="14"/>
+        <source>Transaction details</source>
+        <translation>Transactiedetails</translation>
     </message>
     <message>
-        <source>Details for %1</source>
-        <translation>Details voor %1</translation>
+        <location filename="../forms/transactiondescdialog.ui" line="20"/>
+        <source>This pane shows a detailed description of the transaction</source>
+        <translation>Dit venster laat een uitgebreide beschrijving van de transactie zien</translation>
     </message>
 </context>
 <context>
     <name>TransactionTableModel</name>
     <message>
+        <location filename="../transactiontablemodel.cpp" line="233"/>
         <source>Date</source>
         <translation>Datum</translation>
     </message>
     <message>
+        <location filename="../transactiontablemodel.cpp" line="233"/>
         <source>Type</source>
         <translation>Type</translation>
     </message>
     <message>
-        <source>Label</source>
-        <translation>Label</translation>
-    </message>
-    <message numerus="yes">
-        <source>Open for %n more block(s)</source>
-        <translation><numerusform>Open voor nog %n blok</numerusform><numerusform>Open voor nog %n blokken</numerusform></translation>
+        <location filename="../transactiontablemodel.cpp" line="233"/>
+        <source>Address</source>
+        <translation>Adres</translation>
     </message>
     <message>
+        <location filename="../transactiontablemodel.cpp" line="233"/>
+        <source>Amount</source>
+        <translation>Bedrag</translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../transactiontablemodel.cpp" line="285"/>
+        <source>Open for %n more block(s)</source>
+        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
+    </message>
+    <message>
+        <location filename="../transactiontablemodel.cpp" line="288"/>
         <source>Open until %1</source>
         <translation>Open tot %1</translation>
     </message>
     <message>
+        <location filename="../transactiontablemodel.cpp" line="291"/>
         <source>Offline</source>
-        <translation>Offline</translation>
+        <translation>Niet verbonden</translation>
     </message>
     <message>
+        <location filename="../transactiontablemodel.cpp" line="294"/>
         <source>Unconfirmed</source>
         <translation>Onbevestigd</translation>
     </message>
     <message>
-        <source>Abandoned</source>
-        <translation>Opgegeven</translation>
-    </message>
-    <message>
+        <location filename="../transactiontablemodel.cpp" line="297"/>
         <source>Confirming (%1 of %2 recommended confirmations)</source>
         <translation>Bevestigen (%1 van %2 aanbevolen bevestigingen)</translation>
     </message>
     <message>
+        <location filename="../transactiontablemodel.cpp" line="300"/>
         <source>Confirmed (%1 confirmations)</source>
         <translation>Bevestigd (%1 bevestigingen)</translation>
     </message>
     <message>
+        <location filename="../transactiontablemodel.cpp" line="303"/>
         <source>Conflicted</source>
         <translation>Conflicterend</translation>
     </message>
     <message>
+        <location filename="../transactiontablemodel.cpp" line="306"/>
         <source>Immature (%1 confirmations, will be available after %2)</source>
-        <translation>Niet beschikbaar (%1 bevestigingen, zal beschikbaar zijn na %2)</translation>
+        <translation>immatuur (%1 bevestigingen, zal beschikbaar zijn na %2)</translation>
     </message>
     <message>
+        <location filename="../transactiontablemodel.cpp" line="309"/>
         <source>This block was not received by any other nodes and will probably not be accepted!</source>
         <translation>Dit blok is niet ontvangen bij andere nodes en zal waarschijnlijk niet worden geaccepteerd!</translation>
     </message>
     <message>
+        <location filename="../transactiontablemodel.cpp" line="312"/>
         <source>Generated but not accepted</source>
         <translation>Gegenereerd maar niet geaccepteerd</translation>
     </message>
     <message>
+        <location filename="../transactiontablemodel.cpp" line="354"/>
         <source>Received with</source>
         <translation>Ontvangen met</translation>
     </message>
     <message>
+        <location filename="../transactiontablemodel.cpp" line="356"/>
         <source>Received from</source>
         <translation>Ontvangen van</translation>
     </message>
     <message>
+        <location filename="../transactiontablemodel.cpp" line="358"/>
+        <source>Received via Darksend</source>
+        <translation>Ontvangen via Darksend</translation>
+    </message>
+    <message>
+        <location filename="../transactiontablemodel.cpp" line="361"/>
         <source>Sent to</source>
         <translation>Verzonden aan</translation>
     </message>
     <message>
+        <location filename="../transactiontablemodel.cpp" line="363"/>
         <source>Payment to yourself</source>
         <translation>Betaling aan uzelf</translation>
     </message>
     <message>
+        <location filename="../transactiontablemodel.cpp" line="365"/>
         <source>Mined</source>
         <translation>Gedolven</translation>
     </message>
     <message>
-        <source>watch-only</source>
-        <translation>alleen-bekijkbaar</translation>
+        <location filename="../transactiontablemodel.cpp" line="368"/>
+        <source>Darksend Denominate</source>
+        <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../transactiontablemodel.cpp" line="370"/>
+        <source>Darksend Collateral Payment</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../transactiontablemodel.cpp" line="372"/>
+        <source>Darksend Make Collateral Inputs</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../transactiontablemodel.cpp" line="374"/>
+        <source>Darksend Create Denominations</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../transactiontablemodel.cpp" line="376"/>
+        <source>Darksent</source>
+        <translation>Darksent</translation>
+    </message>
+    <message>
+        <location filename="../transactiontablemodel.cpp" line="418"/>
         <source>(n/a)</source>
         <translation>(nvt)</translation>
     </message>
     <message>
-        <source>(no label)</source>
-        <translation>(geen label)</translation>
-    </message>
-    <message>
+        <location filename="../transactiontablemodel.cpp" line="610"/>
         <source>Transaction status. Hover over this field to show number of confirmations.</source>
-        <translation>Transactiestatus. Houd de cursor boven dit veld om het aantal bevestigingen te laten zien.</translation>
+        <translation>Transactiestatus. Houd de muiscursor boven dit veld om het aantal bevestigingen te laten zien.</translation>
     </message>
     <message>
+        <location filename="../transactiontablemodel.cpp" line="612"/>
         <source>Date and time that the transaction was received.</source>
         <translation>Datum en tijd waarop deze transactie is ontvangen.</translation>
     </message>
     <message>
+        <location filename="../transactiontablemodel.cpp" line="614"/>
         <source>Type of transaction.</source>
         <translation>Type transactie.</translation>
     </message>
     <message>
-        <source>Whether or not a watch-only address is involved in this transaction.</source>
-        <translation>Of er een alleen-bekijken-adres is betrokken bij deze transactie.</translation>
+        <location filename="../transactiontablemodel.cpp" line="616"/>
+        <source>Destination address of transaction.</source>
+        <translation>Ontvangend adres van transactie.</translation>
     </message>
     <message>
-        <source>User-defined intent/purpose of the transaction.</source>
-        <translation>Door gebruiker gedefinieerde intentie/doel van de transactie.</translation>
-    </message>
-    <message>
+        <location filename="../transactiontablemodel.cpp" line="618"/>
         <source>Amount removed from or added to balance.</source>
-        <translation>Bedrag verwijderd van of toegevoegd aan saldo.</translation>
+        <translation>Bedrag verwijderd van of toegevoegd aan saldo</translation>
     </message>
 </context>
 <context>
     <name>TransactionView</name>
     <message>
+        <location filename="../transactionview.cpp" line="60"/>
+        <location filename="../transactionview.cpp" line="76"/>
         <source>All</source>
         <translation>Alles</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="61"/>
         <source>Today</source>
         <translation>Vandaag</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="62"/>
         <source>This week</source>
         <translation>Deze week</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="63"/>
         <source>This month</source>
         <translation>Deze maand</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="64"/>
         <source>Last month</source>
         <translation>Vorige maand</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="65"/>
         <source>This year</source>
         <translation>Dit jaar</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="66"/>
         <source>Range...</source>
         <translation>Bereik...</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="77"/>
         <source>Received with</source>
         <translation>Ontvangen met</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="79"/>
         <source>Sent to</source>
         <translation>Verzonden aan</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="81"/>
+        <source>Darksent</source>
+        <translation>Darksent</translation>
+    </message>
+    <message>
+        <location filename="../transactionview.cpp" line="82"/>
+        <source>Darksend Make Collateral Inputs</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../transactionview.cpp" line="83"/>
+        <source>Darksend Create Denominations</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../transactionview.cpp" line="84"/>
+        <source>Darksend Denominate</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../transactionview.cpp" line="85"/>
+        <source>Darksend Collateral Payment</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../transactionview.cpp" line="86"/>
         <source>To yourself</source>
         <translation>Aan uzelf</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="87"/>
         <source>Mined</source>
         <translation>Gedolven</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="88"/>
         <source>Other</source>
         <translation>Anders</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="94"/>
         <source>Enter address or label to search</source>
         <translation>Vul adres of label in om te zoeken</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="100"/>
         <source>Min amount</source>
         <translation>Min. bedrag</translation>
     </message>
     <message>
-        <source>Abandon transaction</source>
-        <translation>Doe afstand van transactie</translation>
-    </message>
-    <message>
+        <location filename="../transactionview.cpp" line="134"/>
         <source>Copy address</source>
         <translation>Kopieer adres</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="135"/>
         <source>Copy label</source>
         <translation>Kopieer label</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="136"/>
         <source>Copy amount</source>
         <translation>Kopieer bedrag</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="137"/>
         <source>Copy transaction ID</source>
         <translation>Kopieer transactie-ID</translation>
     </message>
     <message>
-        <source>Copy raw transaction</source>
-        <translation>Kopieer ruwe transactie</translation>
-    </message>
-    <message>
-        <source>Copy full transaction details</source>
-        <translation>Kopieer volledige transactiedetials</translation>
-    </message>
-    <message>
+        <location filename="../transactionview.cpp" line="138"/>
         <source>Edit label</source>
         <translation>Bewerk label</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="139"/>
         <source>Show transaction details</source>
         <translation>Toon transactiedetails</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="302"/>
         <source>Export Transaction History</source>
-        <translation>Exporteer transactiegeschiedenis</translation>
+        <translation>Exporteer Transactieverleden</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="303"/>
         <source>Comma separated file (*.csv)</source>
         <translation>Kommagescheiden bestand (*.csv)</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="312"/>
         <source>Confirmed</source>
         <translation>Bevestigd</translation>
     </message>
     <message>
-        <source>Watch-only</source>
-        <translation>Alleen-bekijkbaar</translation>
-    </message>
-    <message>
+        <location filename="../transactionview.cpp" line="313"/>
         <source>Date</source>
         <translation>Datum</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="314"/>
         <source>Type</source>
         <translation>Type</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="315"/>
         <source>Label</source>
         <translation>Label</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="316"/>
         <source>Address</source>
         <translation>Adres</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="317"/>
+        <source>Amount</source>
+        <translation>Bedrag</translation>
+    </message>
+    <message>
+        <location filename="../transactionview.cpp" line="318"/>
         <source>ID</source>
         <translation>ID</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="321"/>
         <source>Exporting Failed</source>
-        <translation>Export mislukt</translation>
+        <translation>Export Mislukt</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="321"/>
         <source>There was an error trying to save the transaction history to %1.</source>
-        <translation>Er is een fout opgetreden bij het opslaan van de transactiegeschiedenis naar %1.</translation>
+        <translation>Er is een fout opgetreden bij het opslaan van het transactieverleden naar %1.</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="325"/>
         <source>Exporting Successful</source>
-        <translation>Export succesvol</translation>
+        <translation>Export Succesvol</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="325"/>
         <source>The transaction history was successfully saved to %1.</source>
-        <translation>De transactiegeschiedenis was succesvol bewaard in %1.</translation>
+        <translation>Het transactieverleden was succesvol bewaard in %1.</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="434"/>
         <source>Range:</source>
         <translation>Bereik:</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="442"/>
         <source>to</source>
         <translation>naar</translation>
     </message>
 </context>
 <context>
-    <name>UnitDisplayStatusBarControl</name>
-    <message>
-        <source>Unit to show amounts in. Click to select another unit.</source>
-        <translation>Eenheid om bedragen uit te drukken. Klik om een andere eenheid te selecteren.</translation>
-    </message>
-</context>
-<context>
     <name>WalletFrame</name>
     <message>
+        <location filename="../walletframe.cpp" line="26"/>
         <source>No wallet has been loaded.</source>
-        <translation>Er is geen portemonnee geladen.</translation>
+        <translation>Portemonnee werd niet geladen.</translation>
     </message>
 </context>
 <context>
     <name>WalletModel</name>
     <message>
+        <location filename="../walletmodel.cpp" line="271"/>
+        <location filename="../walletmodel.cpp" line="285"/>
         <source>Send Coins</source>
         <translation>Verstuur munten</translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../walletmodel.cpp" line="271"/>
+        <source>InstantX doesn&apos;t support sending values that high yet. Transactions are currently limited to %n FBC.</source>
+        <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
     </message>
 </context>
 <context>
     <name>WalletView</name>
     <message>
+        <location filename="../walletview.cpp" line="44"/>
         <source>&amp;Export</source>
         <translation>&amp;Exporteer</translation>
     </message>
     <message>
+        <location filename="../walletview.cpp" line="45"/>
         <source>Export the data in the current tab to a file</source>
         <translation>Exporteer de data in de huidige tab naar een bestand</translation>
     </message>
     <message>
+        <location filename="../walletview.cpp" line="231"/>
         <source>Backup Wallet</source>
         <translation>Portemonnee backuppen</translation>
     </message>
     <message>
+        <location filename="../walletview.cpp" line="232"/>
         <source>Wallet Data (*.dat)</source>
-        <translation>Portemonneedata (*.dat)</translation>
+        <translation>Portemonnee-data (*.dat)</translation>
     </message>
     <message>
+        <location filename="../walletview.cpp" line="238"/>
         <source>Backup Failed</source>
-        <translation>Backup mislukt</translation>
+        <translation>Backup Mislukt</translation>
     </message>
     <message>
+        <location filename="../walletview.cpp" line="238"/>
         <source>There was an error trying to save the wallet data to %1.</source>
-        <translation>Er is een fout opgetreden bij het wegschrijven van de portemonneedata naar %1.</translation>
+        <translation>Er is een fout opgetreden bij het wegschrijven van de portemonnee-data naar %1.</translation>
     </message>
     <message>
+        <location filename="../walletview.cpp" line="242"/>
         <source>Backup Successful</source>
-        <translation>Backup succesvol</translation>
+        <translation>Backup Succesvol</translation>
     </message>
     <message>
+        <location filename="../walletview.cpp" line="242"/>
         <source>The wallet data was successfully saved to %1.</source>
         <translation>De portemonneedata is succesvol opgeslagen in %1.</translation>
     </message>
@@ -2986,924 +3920,1360 @@
 <context>
     <name>fastbitcoin-core</name>
     <message>
-        <source>Options:</source>
-        <translation>Opties:</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="16"/>
+        <source>%s, you must set a rpcpassword in the configuration file:
+%s
+It is recommended you use the following random password:
+rpcuser=fastbitcoinrpc
+rpcpassword=%s
+(you do not need to remember this password)
+The username and password MUST NOT be the same.
+If the file does not exist, create it with owner-readable-only file permissions.
+It is also recommended to set alertnotify so you are notified of problems;
+for example: alertnotify=echo %%s | mail -s &quot;Fastbitcoin Alert&quot; admin@foo.com
+</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Specify data directory</source>
-        <translation>Stel datamap in</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="29"/>
+        <source>Acceptable ciphers (default: TLSv1.2+HIGH:TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!3DES:@STRENGTH)</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation>Verbind naar een node om adressen van anderen op te halen, en verbreek vervolgens de verbinding</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="32"/>
+        <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Specify your own public address</source>
-        <translation>Specificeer uw eigen publieke adres</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="34"/>
+        <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Accept command line and JSON-RPC commands</source>
-        <translation>Aanvaard opdrachtregel- en JSON-RPC-opdrachten</translation>
-    </message>
-    <message>
-        <source>Accept connections from outside (default: 1 if no -proxy or -connect/-noconnect)</source>
-        <translation>Accepteer verbindingen van buitenaf (standaard: 1 indien geen -proxy of -connect/-noconnect werd opgegeven)</translation>
-    </message>
-    <message>
-        <source>Connect only to the specified node(s); -noconnect or -connect=0 alone to disable automatic connections</source>
-        <translation>Verbind enkel met de opgegeven knooppunt(en); -noconnect of -connect = 0 alleen om automatische verbindingen uit te schakelen</translation>
-    </message>
-    <message>
-        <source>Distributed under the MIT software license, see the accompanying file %s or %s</source>
-        <translation>Uitgegeven onder de MIT software licentie, zie het bijgevoegde bestand %s of %s</translation>
-    </message>
-    <message>
-        <source>If &lt;category&gt; is not supplied or if &lt;category&gt; = 1, output all debugging information.</source>
-        <translation>Als er geen &lt;categorie&gt; is opgegeven of als de &lt;categorie&gt; 1 is, laat dan alle debugginginformatie zien.</translation>
-    </message>
-    <message>
-        <source>Prune configured below the minimum of %d MiB.  Please use a higher number.</source>
-        <translation>Snoeien is geconfigureerd on het minimum van %d MiB. Gebruik a.u.b. een hoger aantal.</translation>
-    </message>
-    <message>
-        <source>Prune: last wallet synchronisation goes beyond pruned data. You need to -reindex (download the whole blockchain again in case of pruned node)</source>
-        <translation>Snoei: laatste portemoneesynchronisatie gaat verder dan de gesnoeide data. U moet -reindex gebruiken (download opnieuw de gehele blokketen voor een weggesnoeide node)</translation>
-    </message>
-    <message>
-        <source>Rescans are not possible in pruned mode. You will need to use -reindex which will download the whole blockchain again.</source>
-        <translation>Herscannen is niet mogelijk in de snoeimodus. U moet -reindex gebruiken dat de hele blokketen opnieuw zal downloaden.</translation>
-    </message>
-    <message>
-        <source>Error: A fatal internal error occurred, see debug.log for details</source>
-        <translation>Fout: er is een fout opgetreden,  zie debug.log voor details</translation>
-    </message>
-    <message>
-        <source>Fee (in %s/kB) to add to transactions you send (default: %s)</source>
-        <translation>Transactiekosten (in %s/kB) toevoegen aan transacties die u doet (standaard: %s)</translation>
-    </message>
-    <message>
-        <source>Pruning blockstore...</source>
-        <translation>Snoei blokopslag...</translation>
-    </message>
-    <message>
-        <source>Run in the background as a daemon and accept commands</source>
-        <translation>Draai in de achtergrond als daemon en aanvaard opdrachten</translation>
-    </message>
-    <message>
-        <source>Unable to start HTTP server. See debug log for details.</source>
-        <translation>Niet mogelijk ok HTTP-server te starten. Zie debuglogboek voor details.</translation>
-    </message>
-    <message>
-        <source>FastBitcoin FBC</source>
-        <translation>FastBitcoin FBC</translation>
-    </message>
-    <message>
-        <source>The %s developers</source>
-        <translation>De %s ontwikkelaars</translation>
-    </message>
-    <message>
-        <source>A fee rate (in %s/kB) that will be used when fee estimation has insufficient data (default: %s)</source>
-        <translation>Een transactietarief (in %s/kB) dat gebruikt wordt als de transactiekosten schatting niet genoeg data heeft. (normaal: %s)</translation>
-    </message>
-    <message>
-        <source>Accept relayed transactions received from whitelisted peers even when not relaying transactions (default: %d)</source>
-        <translation>Accepteer doorgestuurde transacties ontvangen van goedgekeurde peers, ook wanneer je zelf geen transacties doorstuurt (standaard: %d)</translation>
-    </message>
-    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="37"/>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
-        <translation>Bind aan opgegeven adres en luister er altijd op. Gebruik [host]:port notatie voor IPv6</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. %s is probably already running.</source>
-        <translation>Kan geen lock verkrijgen op gegevensmap %s. %s draait waarschijnlijk al.</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="40"/>
+        <source>Cannot obtain a lock on data directory %s. Fastbitcoin Core is probably already running.</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
-        <translation>Verwijder alle transacties van de portemonnee en herstel alleen de delen van de blokketen door -rescan tijdens het opstarten</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="43"/>
+        <source>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:15)</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Error loading %s: You can't enable HD on a already existing non-HD wallet</source>
-        <translation>Fout bij het laden van %s: Je kan HD niet activeren voor een reeds bestaande niet-HD portemonnee</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="46"/>
+        <source>Darksend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Error reading %s! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
-        <translation>Waarschuwing: Fout bij het lezen van %s! Alle sleutels zijn in goede orde uitgelezen, maar transactiedata of adresboeklemma's zouden kunnen ontbreken of fouten bevatten.</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="49"/>
+        <source>Disable all Xnode and Darksend related functionality (0-1, default: 0)</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation>Voer opdracht uit zodra een portemonneetransactie verandert (%s in cmd wordt vervangen door TxID)</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="51"/>
+        <source>Enable instantx, show confirmations for locked transactions (bool, default: true)</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Extra transactions to keep in memory for compact block reconstructions (default: %u)</source>
-        <translation>Extra transacties wordt bijgehouden voor compacte blokreconstructie (standaard: %u)</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="54"/>
+        <source>Enable use of automated Darksend for funds stored in this wallet (0-1, default: 0)</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>If this block is in the chain assume that it and its ancestors are valid and potentially skip their script verification (0 to verify all, default: %s, testnet: %s)</source>
-        <translation>Als dit blok in de keten staat, gaat het ervan uit dat dit blok en zijn voorouders geldig zijn en mogelijk hun script verificatie overslaan (0 om alles te verifiëren, standaard:%s, testnet:%s)</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="57"/>
+        <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly. This is intended for regression testing tools and app development.</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Maximum allowed median peer time offset adjustment. Local perspective of time may be influenced by peers forward or backward by this amount. (default: %u seconds)</source>
-        <translation>Maximum toegestane peer tijd compensatie. Lokaal perspectief van tijd mag worden beinvloed door peers die met deze hoeveelheid voor of achter lopen. (standaard: %u seconden)</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="61"/>
+        <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Maximum total fees (in %s) to use in a single wallet transaction or raw transaction; setting this too low may abort large transactions (default: %s)</source>
-        <translation>Maximum totale transactiekosten (in %s) om te gebruiken in een enkele portemoneetransactie; als dit te laag is ingesteld kunnen grote transacties worden verhinderd (standaard: %s)</translation>
-    </message>
-    <message>
-        <source>Please check that your computer's date and time are correct! If your clock is wrong, %s will not work properly.</source>
-        <translation>Waarschuwing: Controleer dat de datum en tijd van uw computer correct zijn ingesteld! Bij een onjuist ingestelde klok zal %s niet goed werken.</translation>
-    </message>
-    <message>
-        <source>Please contribute if you find %s useful. Visit %s for further information about the software.</source>
-        <translation>Gelieve bij te dragen als je %s nuttig vindt. Bezoek %s voor meer informatie over de software.</translation>
-    </message>
-    <message>
-        <source>Reduce storage requirements by enabling pruning (deleting) of old blocks. This allows the pruneblockchain RPC to be called to delete specific blocks, and enables automatic pruning of old blocks if a target size in MiB is provided. This mode is incompatible with -txindex and -rescan. Warning: Reverting this setting requires re-downloading the entire blockchain. (default: 0 = disable pruning blocks, 1 = allow manual pruning via RPC, &gt;%u = automatically prune block files to stay under the specified target size in MiB)</source>
-        <translation>Beperk benodigde opslag door trimmen (verwijderen) van oude blokken in te schakelen. Dit maakt het mogelijk om de pruneblockchain RPC aan te roepen om specifieke blokken te verwijderen, en maakt het automatische trimmen van oude blokken mogelijk wanneer een doelgrootte in MiB is voorzien. Deze modus is niet compatibele met -txindex en -rescan. Waarschuwing: Terugzetten van deze instellingen vereist het opnieuw downloaden van gehele de blokketen. (standaard:0 = uitzetten trimmodus, 1 = manueel trimmen via RPC toestaan, &gt;%u = automatisch blokbestanden trimmen om beneden de gespecificeerde doelgrootte in MiB te blijven)</translation>
-    </message>
-    <message>
-        <source>Set lowest fee rate (in %s/kB) for transactions to be included in block creation. (default: %s)</source>
-        <translation>Specificeer het laagste tarief (in %s/kB) voor transacties die bij het maken van een blok moeten worden in rekening worden gebracht (standaard: %s)</translation>
-    </message>
-    <message>
-        <source>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</source>
-        <translation>Kies het aantal scriptverificatie processen (%u tot %d, 0 = auto, &lt;0 = laat dit aantal kernen vrij, standaard: %d)</translation>
-    </message>
-    <message>
-        <source>The block database contains a block which appears to be from the future. This may be due to your computer's date and time being set incorrectly. Only rebuild the block database if you are sure that your computer's date and time are correct</source>
-        <translation>De blokdatabase bevat een blok dat lijkt uit de toekomst te komen. Dit kan gebeuren omdat de datum en tijd van uw computer niet goed staat. Herbouw de blokdatabase pas nadat u de datum en tijd van uw computer correct heeft ingesteld.</translation>
-    </message>
-    <message>
-        <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
-        <translation>Dit is een pre-release testversie - gebruik op eigen risico! Gebruik deze niet voor het delven van munten of handelsdoeleinden</translation>
-    </message>
-    <message>
-        <source>Unable to rewind the database to a pre-fork state. You will need to redownload the blockchain</source>
-        <translation>Niet mogelijk om de databank terug te draaien naar een staat voor de vork. Je zal je blokketen opnieuw moeten downloaden</translation>
-    </message>
-    <message>
-        <source>Use UPnP to map the listening port (default: 1 when listening and no -proxy)</source>
-        <translation>Gebruik UPnP om de luisterende poort te mappen (standaard: 1 als er geluisterd worden en geen -proxy is meegegeven)</translation>
-    </message>
-    <message>
-        <source>Username and hashed password for JSON-RPC connections. The field &lt;userpw&gt; comes in the format: &lt;USERNAME&gt;:&lt;SALT&gt;$&lt;HASH&gt;. A canonical python script is included in share/rpcuser. The client then connects normally using the rpcuser=&lt;USERNAME&gt;/rpcpassword=&lt;PASSWORD&gt; pair of arguments. This option can be specified multiple times</source>
-        <translation>Gebruikersnaam en gehasht wachtwoord voor JSON-RPC-verbindingen. De velden &lt;userpw&gt; is in het formaat: &lt;GEBRUIKERSNAAM&gt;:&lt;SALT&gt;$&lt;HASH&gt;. Een kanoniek Pythonscript is inbegrepen in de share/rpcuser. De klant connecteert dan normaal via de rpcuser=&lt;GEBRUIKERSNAAM&gt;/rpcpassword=&lt;PASWOORD&gt; argumenten. Deze optie kan meerdere keren worden meegegeven</translation>
-    </message>
-    <message>
-        <source>Wallet will not create transactions that violate mempool chain limits (default: %u)</source>
-        <translation>Portemonnee creëert geen transacties die mempool-ketenlimieten schenden (standaard: %u)</translation>
-    </message>
-    <message>
-        <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
-        <translation>Waarschuwing: Het lijkt erop dat het netwerk geen consensus kan vinden! Sommige delvers lijken problemen te ondervinden.</translation>
-    </message>
-    <message>
-        <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
-        <translation>Waarschuwing: Het lijkt erop dat we geen consensus kunnen vinden met onze peers! Mogelijk dient u te upgraden, of andere nodes moeten wellicht upgraden.</translation>
-    </message>
-    <message>
-        <source>You need to rebuild the database using -reindex-chainstate to change -txindex</source>
-        <translation>Om -txindex te kunnen veranderen dient u de database opnieuw te bouwen met gebruik van -reindex-chainstate.</translation>
-    </message>
-    <message>
-        <source>%s corrupt, salvage failed</source>
-        <translation>%s corrupt, veiligstellen mislukt</translation>
-    </message>
-    <message>
-        <source>-maxmempool must be at least %d MB</source>
-        <translation>-maxmempool moet tenminste %d MB zijn</translation>
-    </message>
-    <message>
-        <source>&lt;category&gt; can be:</source>
-        <translation>&lt;categorie&gt; kan zijn:</translation>
-    </message>
-    <message>
-        <source>Append comment to the user agent string</source>
-        <translation>Voeg commentaar toe aan de user agent string</translation>
-    </message>
-    <message>
-        <source>Attempt to recover private keys from a corrupt wallet on startup</source>
-        <translation>Probeer privésleutels te herstellen van een corrupte wallet bij opstarten</translation>
-    </message>
-    <message>
-        <source>Block creation options:</source>
-        <translation>Blokcreatie-opties:</translation>
-    </message>
-    <message>
-        <source>Cannot resolve -%s address: '%s'</source>
-        <translation>Kan -%s adres niet herleiden: '%s'</translation>
-    </message>
-    <message>
-        <source>Chain selection options:</source>
-        <translation>Keten selectie opties:</translation>
-    </message>
-    <message>
-        <source>Change index out of range</source>
-        <translation>Wijzigingsindex buiten bereik</translation>
-    </message>
-    <message>
-        <source>Connection options:</source>
-        <translation>Verbindingsopties:</translation>
-    </message>
-    <message>
-        <source>Copyright (C) %i-%i</source>
-        <translation>Auteursrecht (C) %i-%i</translation>
-    </message>
-    <message>
-        <source>Corrupted block database detected</source>
-        <translation>Corrupte blokkendatabase gedetecteerd</translation>
-    </message>
-    <message>
-        <source>Debugging/Testing options:</source>
-        <translation>Foutopsporing/Testopties:</translation>
-    </message>
-    <message>
-        <source>Do not load the wallet and disable wallet RPC calls</source>
-        <translation>Laad de wallet niet en schakel wallet RPC oproepen uit</translation>
-    </message>
-    <message>
-        <source>Do you want to rebuild the block database now?</source>
-        <translation>Wilt u de blokkendatabase nu herbouwen?</translation>
-    </message>
-    <message>
-        <source>Enable publish hash block in &lt;address&gt;</source>
-        <translation>Sta toe om hashblok te publiceren in &lt;adres&gt;</translation>
-    </message>
-    <message>
-        <source>Enable publish hash transaction in &lt;address&gt;</source>
-        <translation>Stat toe om hashtransactie te publiceren in &lt;adres&gt;</translation>
-    </message>
-    <message>
-        <source>Enable publish raw block in &lt;address&gt;</source>
-        <translation>Sta toe rauw blok te publiceren in &lt;adres&gt;</translation>
-    </message>
-    <message>
-        <source>Enable publish raw transaction in &lt;address&gt;</source>
-        <translation>Sta toe ruwe transacties te publiceren in &lt;adres&gt;</translation>
-    </message>
-    <message>
-        <source>Enable transaction replacement in the memory pool (default: %u)</source>
-        <translation>Transactie vervanging inschakelen in het geheugen (standaard: %u)</translation>
-    </message>
-    <message>
-        <source>Error initializing block database</source>
-        <translation>Fout bij intialisatie blokkendatabase</translation>
-    </message>
-    <message>
-        <source>Error initializing wallet database environment %s!</source>
-        <translation>Probleem met initializeren van de database-omgeving %s!</translation>
-    </message>
-    <message>
-        <source>Error loading %s</source>
-        <translation>Fout bij het laden van %s</translation>
-    </message>
-    <message>
-        <source>Error loading %s: Wallet corrupted</source>
-        <translation>Fout bij het laden van %s: Portomonnee corrupt</translation>
-    </message>
-    <message>
-        <source>Error loading %s: Wallet requires newer version of %s</source>
-        <translation>Fout bij laden %s: Portemonnee vereist een nieuwere versie van %s</translation>
-    </message>
-    <message>
-        <source>Error loading %s: You can't disable HD on a already existing HD wallet</source>
-        <translation>Fout bij het laden van %s: Je kan HD niet deactiveren voor een reeds bestaande HD portemonnee</translation>
-    </message>
-    <message>
-        <source>Error loading block database</source>
-        <translation>Fout bij het laden van blokkendatabase</translation>
-    </message>
-    <message>
-        <source>Error opening block database</source>
-        <translation>Fout bij openen blokkendatabase</translation>
-    </message>
-    <message>
-        <source>Error: Disk space is low!</source>
-        <translation>Fout: Weinig vrije diskruimte!</translation>
-    </message>
-    <message>
-        <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation>Mislukt om op welke poort dan ook te luisteren. Gebruik -listen=0 as u dit wilt.</translation>
-    </message>
-    <message>
-        <source>Importing...</source>
-        <translation>Importeren...</translation>
-    </message>
-    <message>
-        <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
-        <translation>Incorrect of geen genesisblok gevonden. Verkeerde datamap voor het netwerk?</translation>
-    </message>
-    <message>
-        <source>Initialization sanity check failed. %s is shutting down.</source>
-        <translation>Initialisatie sanity check mislukt. %s is aan het afsluiten.</translation>
-    </message>
-    <message>
-        <source>Invalid -onion address: '%s'</source>
-        <translation>Ongeldig -onion adres '%s'</translation>
-    </message>
-    <message>
-        <source>Invalid amount for -%s=&lt;amount&gt;: '%s'</source>
-        <translation>Ongeldig bedrag voor -%s=&lt;bedrag&gt;: '%s'</translation>
-    </message>
-    <message>
-        <source>Invalid amount for -fallbackfee=&lt;amount&gt;: '%s'</source>
-        <translation>Ongeldig bedrag voor -fallbackfee=&lt;bedrag&gt;: '%s'</translation>
-    </message>
-    <message>
-        <source>Keep the transaction memory pool below &lt;n&gt; megabytes (default: %u)</source>
-        <translation>De transactiegeheugenpool moet onder de &lt;n&gt; megabytes blijven (standaard: %u)</translation>
-    </message>
-    <message>
-        <source>Loading banlist...</source>
-        <translation>Verbanningslijst aan het laden...</translation>
-    </message>
-    <message>
-        <source>Location of the auth cookie (default: data dir)</source>
-        <translation>Locatie van de auth cookie (standaard: data dir)</translation>
-    </message>
-    <message>
-        <source>Not enough file descriptors available.</source>
-        <translation>Niet genoeg file descriptors beschikbaar.</translation>
-    </message>
-    <message>
-        <source>Only connect to nodes in network &lt;net&gt; (ipv4, ipv6 or onion)</source>
-        <translation>Verbind alleen met nodes in netwerk &lt;net&gt; (ipv4, ipv6 of onion)</translation>
-    </message>
-    <message>
-        <source>Print this help message and exit</source>
-        <translation>Print dit helpbericht en sluit af</translation>
-    </message>
-    <message>
-        <source>Print version and exit</source>
-        <translation>Laat versie zien en sluit af</translation>
-    </message>
-    <message>
-        <source>Prune cannot be configured with a negative value.</source>
-        <translation>Snoeien kan niet worden geconfigureerd met een negatieve waarde.</translation>
-    </message>
-    <message>
-        <source>Prune mode is incompatible with -txindex.</source>
-        <translation>Snoeimodus is niet-compatibel met -txindex</translation>
-    </message>
-    <message>
-        <source>Rebuild chain state and block index from the blk*.dat files on disk</source>
-        <translation>Herbouw ketenstaat en block index met behulp van de blk*.dat bestanden op de hardeschijf</translation>
-    </message>
-    <message>
-        <source>Rebuild chain state from the currently indexed blocks</source>
-        <translation>Herbouw ketenstaat vanuit de huidige geindexeerde blokken</translation>
-    </message>
-    <message>
-        <source>Rewinding blocks...</source>
-        <translation>Blokken aan het terugdraaien...</translation>
-    </message>
-    <message>
-        <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
-        <translation>Zet database cache grootte in megabytes (%d tot %d, standaard: %d)</translation>
-    </message>
-    <message>
-        <source>Set maximum block size in bytes (default: %d)</source>
-        <translation>Stel maximum blokgrootte in in bytes (standaard: %d)</translation>
-    </message>
-    <message>
-        <source>Specify wallet file (within data directory)</source>
-        <translation>Specificeer het portemonnee bestand (vanuit de gegevensmap)</translation>
-    </message>
-    <message>
-        <source>The source code is available from %s.</source>
-        <translation>De broncode is beschikbaar van %s.</translation>
-    </message>
-    <message>
-        <source>Unable to bind to %s on this computer. %s is probably already running.</source>
-        <translation>Niet in staat om %s te verbinden op deze computer. %s draait waarschijnlijk al.</translation>
-    </message>
-    <message>
-        <source>Unsupported argument -benchmark ignored, use -debug=bench.</source>
-        <translation>Niet-ondersteund argument -benchmark genegeerd, gebruik -debug=bench.</translation>
-    </message>
-    <message>
-        <source>Unsupported argument -debugnet ignored, use -debug=net.</source>
-        <translation>Niet-ondersteund argument -debugnet genegeerd, gebruik -debug=net</translation>
-    </message>
-    <message>
-        <source>Unsupported argument -tor found, use -onion.</source>
-        <translation>Niet-ondersteund argument -tor gevonden, gebruik -onion.</translation>
-    </message>
-    <message>
-        <source>Use UPnP to map the listening port (default: %u)</source>
-        <translation>Gebruik UPnP om de luisterende poort te mappen (standaard: %u)</translation>
-    </message>
-    <message>
-        <source>Use the test chain</source>
-        <translation>Gebruik de test keten</translation>
-    </message>
-    <message>
-        <source>User Agent comment (%s) contains unsafe characters.</source>
-        <translation>User Agentcommentaar (%s) bevat onveilige karakters.</translation>
-    </message>
-    <message>
-        <source>Verifying blocks...</source>
-        <translation>Blokken aan het controleren...</translation>
-    </message>
-    <message>
-        <source>Verifying wallet...</source>
-        <translation>Portemonnee aan het controleren...</translation>
-    </message>
-    <message>
-        <source>Wallet %s resides outside data directory %s</source>
-        <translation>Portemonnee %s bevindt zich buiten de gegevensmap %s</translation>
-    </message>
-    <message>
-        <source>Wallet debugging/testing options:</source>
-        <translation>Portomonee debugging/testing opties:</translation>
-    </message>
-    <message>
-        <source>Wallet needed to be rewritten: restart %s to complete</source>
-        <translation>Portemonnee moest herschreven worden: Herstart %s om te voltooien</translation>
-    </message>
-    <message>
-        <source>Wallet options:</source>
-        <translation>Portemonnee instellingen:</translation>
-    </message>
-    <message>
-        <source>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</source>
-        <translation>Sta JSON-RPC verbindingen toe vanuit een gespecificeerde bron. Geldig voor &lt;ip&gt; zijn een enkel IP (bijv. 1.2.3.4), een netwerk/netmask (bijv. 1.2.3.4/255.255.255.0) of een netwerk/CIDR (bijv. 1.2.3.4/24). Deze optie kan meerdere keren gespecificeerd worden.</translation>
-    </message>
-    <message>
-        <source>Bind to given address and whitelist peers connecting to it. Use [host]:port notation for IPv6</source>
-        <translation>Bind aan opgegeven adres en keur peers die ermee verbinden goed. Gebruik [host]:poort notatie voor IPv6</translation>
-    </message>
-    <message>
-        <source>Bind to given address to listen for JSON-RPC connections. Use [host]:port notation for IPv6. This option can be specified multiple times (default: bind to all interfaces)</source>
-        <translation>Bind aan gegeven adres om te luisteren voor JSON-RPC verbindingen. Gebruik [host]:poort notatie voor IPv6. Deze optie kan meerdere keren gespecificeerd worden (standaard: bind aan alle interfaces.</translation>
-    </message>
-    <message>
-        <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
-        <translation>Creër nieuwe bestanden met standaard systeem bestandsrechten in plaats van umask 077 (alleen effectief met uitgeschakelde portemonnee functionaliteit)</translation>
-    </message>
-    <message>
-        <source>Discover own IP addresses (default: 1 when listening and no -externalip or -proxy)</source>
-        <translation>Ontdek eigen IP-adressen (standaard: 1 voor luisteren en geen -externalip of -proxy)</translation>
-    </message>
-    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="64"/>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
-        <translation>Fout: luisteren naar binnenkomende verbindingen mislukt (luisteren gaf foutmelding %s)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../fastbitcoinstrings.cpp" line="66"/>
+        <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="70"/>
+        <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="73"/>
+        <source>Error: Wallet unlocked for anonymization only, unable to create transaction.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="75"/>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
-        <translation>Voer opdracht uit zodra een waarschuwing is ontvangen of wanneer we een erg lange fork detecteren (%s in opdracht wordt vervangen door bericht)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Fees (in %s/kB) smaller than this are considered zero fee for relaying, mining and transaction creation (default: %s)</source>
-        <translation>Transactiekosten (in %s/kB) kleiner dan dit worden beschouw dat geen transactiekosten in rekening worden gebracht voor doorgeven, delven en transactiecreatie (standaard: %s)</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="78"/>
+        <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
-        <translation>Als paytxfee niet is ingesteld, voeg voldoende transactiekosten toe zodat transacties starten met bevestigingen binnen in n blokken (standaard: %u)</translation>
-    </message>
-    <message>
-        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
-        <translation>ongeldig bedrag voor -maxtxfee=&lt;bedrag&gt;: '%s' (moet ten minste de minimale doorgeeftransactiekosten van %s het voorkomen geplakt transacties voorkomen)</translation>
-    </message>
-    <message>
-        <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
-        <translation>Maximale grootte va  n de gegevens in gegevensdragertransacties die we doorgeven en mijnen (standaard: %u)</translation>
-    </message>
-    <message>
-        <source>Randomize credentials for every proxy connection. This enables Tor stream isolation (default: %u)</source>
-        <translation>Gebruik willekeurige inloggegevens voor elke proxyverbinding. Dit maakt streamislatie voor Tor mogelijk (standaard: %u)</translation>
-    </message>
-    <message>
-        <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
-        <translation>Stel maximumgrootte in bytes in voor hoge-prioriteits-/lage-transactiekosten-transacties (standaard: %d)</translation>
-    </message>
-    <message>
-        <source>The transaction amount is too small to send after the fee has been deducted</source>
-        <translation>Het transactiebedrag is te klein om te versturen nadat de transactiekosten in mindering zijn gebracht</translation>
-    </message>
-    <message>
-        <source>Use hierarchical deterministic key generation (HD) after BIP32. Only has effect during wallet creation/first start</source>
-        <translation>Gebruik hiërarchische deterministische sleutelgeneratie (HD) na BIP32. Dit heeft enkel effect bij het aanmaken van portemonnees of het eerste gebruik</translation>
-    </message>
-    <message>
-        <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
-        <translation>Goedgekeurde peers kunnen niet ge-DoS-banned worden en hun transacties worden altijd doorgegeven, zelfs als ze reeds in de mempool aanwezig zijn, nuttig voor bijv. een gateway</translation>
-    </message>
-    <message>
-        <source>You need to rebuild the database using -reindex to go back to unpruned mode.  This will redownload the entire blockchain</source>
-        <translation>U moet de database herbouwen met -reindex om terug te gaan naar de ongesnoeide modus. Dit zal de gehele blokketen opnieuw downloaden.</translation>
-    </message>
-    <message>
-        <source>(default: %u)</source>
-        <translation>(standaard: %u)</translation>
-    </message>
-    <message>
-        <source>Accept public REST requests (default: %u)</source>
-        <translation>Accepteer publieke REST-verzoeken (standaard: %u)</translation>
-    </message>
-    <message>
-        <source>Automatically create Tor hidden service (default: %d)</source>
-        <translation>Creëer automatisch verborgen dienst van Tor (standaard:%d)</translation>
-    </message>
-    <message>
-        <source>Connect through SOCKS5 proxy</source>
-        <translation>Verbind door SOCKS5 proxy</translation>
-    </message>
-    <message>
-        <source>Error reading from database, shutting down.</source>
-        <translation>Fout bij het lezen van de database, afsluiten. </translation>
-    </message>
-    <message>
-        <source>Imports blocks from external blk000??.dat file on startup</source>
-        <translation>Importeer blokken van externe blk000??.dat-bestand bij opstarten</translation>
-    </message>
-    <message>
-        <source>Information</source>
-        <translation>Informatie</translation>
-    </message>
-    <message>
-        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s' (must be at least %s)</source>
-        <translation>Ongeldig bedrag voor -paytxfee=&lt;bedrag&gt;: '%s' (Minimum %s)</translation>
-    </message>
-    <message>
-        <source>Invalid netmask specified in -whitelist: '%s'</source>
-        <translation>Ongeldig netmask gespecificeerd in -whitelist: '%s'</translation>
-    </message>
-    <message>
-        <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
-        <translation>Houd maximaal &lt;n&gt; onverbonden transacties in geheugen (standaard: %u)</translation>
-    </message>
-    <message>
-        <source>Need to specify a port with -whitebind: '%s'</source>
-        <translation>Verplicht een poort met -whitebind op te geven: '%s'</translation>
-    </message>
-    <message>
-        <source>Node relay options:</source>
-        <translation>Nodedoorgeefopties:</translation>
-    </message>
-    <message>
-        <source>RPC server options:</source>
-        <translation>RPC server opties:</translation>
-    </message>
-    <message>
-        <source>Reducing -maxconnections from %d to %d, because of system limitations.</source>
-        <translation>Verminder -maxconnections van %d naar %d, vanwege systeembeperkingen.</translation>
-    </message>
-    <message>
-        <source>Rescan the block chain for missing wallet transactions on startup</source>
-        <translation>Herscan de blokketen voor missende portemonneetransacties bij opstarten</translation>
-    </message>
-    <message>
-        <source>Send trace/debug info to console instead of debug.log file</source>
-        <translation>Verzend trace/debug-info naar de console in plaats van het debug.log-bestand</translation>
-    </message>
-    <message>
-        <source>Send transactions as zero-fee transactions if possible (default: %u)</source>
-        <translation>Indien mogelijk, verstuur zonder transactiekosten (standaard: %u)</translation>
-    </message>
-    <message>
-        <source>Show all debugging options (usage: --help -help-debug)</source>
-        <translation>Toon alle foutopsporingsopties (gebruik: --help -help-debug)</translation>
-    </message>
-    <message>
-        <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
-        <translation>Verklein debug.log-bestand bij het opstarten van de client (standaard: 1 als geen -debug)</translation>
-    </message>
-    <message>
-        <source>Signing transaction failed</source>
-        <translation>Ondertekenen van transactie mislukt</translation>
-    </message>
-    <message>
-        <source>The transaction amount is too small to pay the fee</source>
-        <translation>Het transactiebedrag is te klein om transactiekosten in rekening te brengen</translation>
-    </message>
-    <message>
-        <source>This is experimental software.</source>
-        <translation>Dit is experimentele software.</translation>
-    </message>
-    <message>
-        <source>Tor control port password (default: empty)</source>
-        <translation>Tor bepaalt poortwachtwoord (standaard: empty)</translation>
-    </message>
-    <message>
-        <source>Tor control port to use if onion listening enabled (default: %s)</source>
-        <translation>Tor bepaalt welke poort te gebruiken als luisteren naar onion wordt gebruikt (standaard: %s)</translation>
-    </message>
-    <message>
-        <source>Transaction amount too small</source>
-        <translation>Transactiebedrag te klein</translation>
-    </message>
-    <message>
-        <source>Transaction too large for fee policy</source>
-        <translation>De transactie is te groot voor het transactiekostenbeleid</translation>
-    </message>
-    <message>
-        <source>Transaction too large</source>
-        <translation>Transactie te groot</translation>
-    </message>
-    <message>
-        <source>Unable to bind to %s on this computer (bind returned error %s)</source>
-        <translation>Niet in staat om aan %s te binden op deze computer (bind gaf error %s)</translation>
-    </message>
-    <message>
-        <source>Upgrade wallet to latest format on startup</source>
-        <translation>Upgrade portemonee naar laatste formaat bij opstarten</translation>
-    </message>
-    <message>
-        <source>Username for JSON-RPC connections</source>
-        <translation>Gebruikersnaam voor JSON-RPC-verbindingen</translation>
-    </message>
-    <message>
-        <source>Warning</source>
-        <translation>Waarschuwing</translation>
-    </message>
-    <message>
-        <source>Warning: unknown new rules activated (versionbit %i)</source>
-        <translation>Waarschuwing: onbekende nieuwe regels geactiveerd (versionbit %i)</translation>
-    </message>
-    <message>
-        <source>Whether to operate in a blocks only mode (default: %u)</source>
-        <translation>Om in alleen een blokmodus te opereren (standaard: %u)</translation>
-    </message>
-    <message>
-        <source>Zapping all transactions from wallet...</source>
-        <translation>Bezig met het zappen van alle transacties van de portemonnee...</translation>
-    </message>
-    <message>
-        <source>ZeroMQ notification options:</source>
-        <translation>ZeroMQ notificatieopties:</translation>
-    </message>
-    <message>
-        <source>Password for JSON-RPC connections</source>
-        <translation>Wachtwoord voor JSON-RPC-verbindingen</translation>
-    </message>
-    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="81"/>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>Voer opdracht uit zodra het beste blok verandert (%s in cmd wordt vervangen door blokhash)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation>Sta DNS-naslag toe voor -addnode, -seednode en -connect</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="84"/>
+        <source>Fees smaller than this are considered zero fee (for transaction creation) (default:</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Loading addresses...</source>
-        <translation>Adressen aan het laden...</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="87"/>
+        <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: 100)</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
-        <translation>(1 = behoudt tx meta data bijv. account eigenaar en betalingsverzoek informatie, 2. sla tx meta data niet op)</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="90"/>
+        <source>Found unconfirmed denominated outputs, will wait till they confirm to continue.</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>-maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
-        <translation>-maxtxfee staat zeer hoog! Transactiekosten van de grootte kunnen worden gebruikt in een enkele transactie.</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="93"/>
+        <source>How thorough the block verification of -checkblocks is (0-4, default: 3)</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Do not keep transactions in the mempool longer than &lt;n&gt; hours (default: %u)</source>
-        <translation>Bewaar transactie niet langer dan &lt;n&gt; uren in de geheugenpool (standaard: %u)</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="95"/>
+        <source>In this mode -genproclimit controls how many blocks are generated immediately.</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Equivalent bytes per sigop in transactions for relay and mining (default: %u)</source>
-        <translation>Equivalente bytes per sigop in transacties voor doorsturen en delven (standaard: %u)</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="98"/>
+        <source>InstantX requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Fees (in %s/kB) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>Transactiekosten (in %s/kB) kleiner dan dit worden beschouwd dat geen transactiekosten in rekening worden gebracht voor transactiecreatie (standaard: %s)</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="101"/>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8800 or testnet: 8884)</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Force relay of transactions from whitelisted peers even if they violate local relay policy (default: %d)</source>
-        <translation>Forceer het doorsturen van transacties van goedgekeurde peers, zelfs wanneer deze niet voldoen aan de lokale doorstuurregels (standaard: %d)</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="103"/>
+        <source>Name to construct url for KeePass entry that stores the wallet passphrase</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>How thorough the block verification of -checkblocks is (0-4, default: %u)</source>
-        <translation>Hoe grondig de blokverificatie van -checkblocks is (0-4, standaard: %u)</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="105"/>
+        <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Maintain a full transaction index, used by the getrawtransaction rpc call (default: %u)</source>
-        <translation>Onderhoud een volledige transactieindex, gebruikt door de getrawtransaction rpc call (standaard: %u)</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="108"/>
+        <source>Output debugging information (default: 0, supplying &lt;category&gt; is optional)</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Number of seconds to keep misbehaving peers from reconnecting (default: %u)</source>
-        <translation>Aantal seconden dat zich misdragende peers niet opnieuw kunnen verbinden (standaard: %u)</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="110"/>
+        <source>Provide liquidity to Darksend by infrequently mixing coins on a continual basis (0-100, default: 0, 1=very frequent, high fees, 100=very infrequent, low fees)</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Output debugging information (default: %u, supplying &lt;category&gt; is optional)</source>
-        <translation>Output extra debugginginformatie (standaard: %u, het leveren van &lt;categorie&gt; is optioneel)</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="114"/>
+        <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect/-noconnect)</source>
-        <translation>Query voor peer-adressen via DNS-lookup , indien laag aan adressen  (default: 1 unless -connect/-noconnect)</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="117"/>
+        <source>Set external address:port to get to this Xnode (example: address:port)</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Support filtering of blocks and transaction with bloom filters (default: %u)</source>
-        <translation>Ondersteun filtering van blokken en transacties met bloomfilters (standaard: %u)</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="119"/>
+        <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>This is the transaction fee you may pay when fee estimates are not available.</source>
-        <translation>Dit is de transactiekost die je mogelijk betaald indien geschatte tarief niet beschikbaar is</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="121"/>
+        <source>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit %s and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
-        <translation>Dit product bevat software dat ontwikkeld is door het OpenSSL Project voor gebruik in de OpenSSL Toolkit %s en cryptografische software geschreven door Eric Young en UPnP software geschreven door Thomas Bernard.</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="124"/>
+        <source>Set the processor limit for when generation is on (-1 = unlimited, default: -1)</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Total length of network version string (%i) exceeds maximum length (%i). Reduce the number or size of uacomments.</source>
-        <translation>Totale lengte van netwerkversiestring (%i) overschrijdt maximale lengte (%i). Verminder het aantal of grootte van uacomments.</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="127"/>
+        <source>Show N confirmations for a successfully locked transaction (0-9999, default: 1)</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Tries to keep outbound traffic under the given target (in MiB per 24h), 0 = no limit (default: %d)</source>
-        <translation>Pogingen om uitgaand verkeer onder een bepaald doel te houden (in MiB per 24u), 0 = geen limiet (standaard: %d)</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="130"/>
+        <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
-        <translation>Niet-ondersteund argument -socks gevonden. Instellen van SOCKS-versie is niet meer mogelijk, alleen SOCKS5-proxies worden ondersteund.</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="133"/>
+        <source>Unable to bind to %s on this computer. Fastbitcoin Core is probably already running.</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Unsupported argument -whitelistalwaysrelay ignored, use -whitelistrelay and/or -whitelistforcerelay.</source>
-        <translation>Niet ondersteund argument -whitelistalwaysrelay genegeerd, gebruik -whitelistrelay en/of -whitelistforcerelay.</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="136"/>
+        <source>Unable to locate enough Darksend denominated funds for this transaction.</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
-        <translation>Gebruik een aparte SOCKS5 proxy om verborgen diensten van Tor te bereiken (standaard: %s)</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="138"/>
+        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 FBC.</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Warning: Unknown block versions being mined! It's possible unknown rules are in effect</source>
-        <translation>Waarschuwing: Onbekende blok versies worden gemined! Er zijn mogelijk onbekende regels in werking getreden</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="141"/>
+        <source>Unable to locate enough Darksend non-denominated funds for this transaction.</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Warning: Wallet file corrupt, data salvaged! Original %s saved as %s in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
-        <translation>Waarschuwing: portomonee bestand is corrupt, data is veiliggesteld! Originele %s is opgeslagen als %s in %s; als uw balans of transacties incorrect zijn dient u een backup terug te zetten.</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="143"/>
+        <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: -proxy)</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Whitelist peers connecting from the given IP address (e.g. 1.2.3.4) or CIDR notated network (e.g. 1.2.3.0/24). Can be specified multiple times.</source>
-        <translation>Goedgekeurde peers die verbinden vanaf een bepaald IP adres (vb. 1.2.3.4) of CIDR genoteerd netwerk (vb. 1.2.3.0/24). Kan meerdere keren worden gespecificeerd.</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="146"/>
+        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
+        <translation>Waarschuwing: -paytxfee is erg hoog ingesteld! Dit bedrag wordt in rekening gebracht bij het uitvoeren van een transactie.</translation>
     </message>
     <message>
-        <source>%s is set very high!</source>
-        <translation>%s is zeer hoog ingesteld!</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="149"/>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Fastbitcoin will not work properly.</source>
+        <translation>Waarschuwing: Controleer a.u.b. de datum en tijd van uw computer! Fastbitcoin zal niet goed functioneren indien dit niet correct is ingesteld.</translation>
     </message>
     <message>
-        <source>(default: %s)</source>
-        <translation>(standaard: %s)</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="152"/>
+        <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Always query for peer addresses via DNS lookup (default: %u)</source>
-        <translation>Vind anderen door middel van een DNS-naslag (standaard: %u)</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="155"/>
+        <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>How many blocks to check at startup (default: %u, 0 = all)</source>
-        <translation>Aantal te checken blokken bij het opstarten (standaard: %u, 0 = allemaal)</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="158"/>
+        <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Include IP addresses in debug output (default: %u)</source>
-        <translation>IP-adressen toevoegen in de debuguitvoer (standaard: %u)</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="161"/>
+        <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Invalid -proxy address: '%s'</source>
-        <translation>Ongeldig -proxy adres: '%s'</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="165"/>
+        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
+%s
+If the file does not exist, create it with owner-readable-only file permissions.</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Keypool ran out, please call keypoolrefill first</source>
-        <translation>Keypool op geraakt, roep alsjeblieft eerst keypoolrefill functie aan</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="170"/>
+        <source>You must specify a Xnodeprivkey in the configuration. Please see documentation for help.</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: %u or testnet: %u)</source>
-        <translation>Luister naar JSON-RPC-verbindingen op &lt;poort&gt; (standaard: %u of testnet: %u)</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="173"/>
+        <source>(default: 1)</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Listen for connections on &lt;port&gt; (default: %u or testnet: %u)</source>
-        <translation>Luister naar verbindingen op &lt;poort&gt; (standaard: %u of testnet: %u)</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="174"/>
+        <source>(default: wallet.dat)</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Maintain at most &lt;n&gt; connections to peers (default: %u)</source>
-        <translation>Onderhoud maximaal &lt;n&gt; verbindingen naar peers (standaard: %u)</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="175"/>
+        <source>&lt;category&gt; can be:</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Make the wallet broadcast transactions</source>
-        <translation>Laat de portemonnee transacties uitsturen</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="176"/>
+        <source>Accept command line and JSON-RPC commands</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
-        <translation>Maximum per-connectie ontvangstbuffer, &lt;n&gt;*1000 bytes (standaard: %u)</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="177"/>
+        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
-        <translation>Maximum per-connectie verstuurbuffer, &lt;n&gt;*1000 bytes (standaard: %u)</translation>
-    </message>
-    <message>
-        <source>Prepend debug output with timestamp (default: %u)</source>
-        <translation>Prepend debug output met tijdstempel (standaard: %u)</translation>
-    </message>
-    <message>
-        <source>Relay and mine data carrier transactions (default: %u)</source>
-        <translation>Geef gegevensdragertransacties door en mijn ze ook (standaard: %u)</translation>
-    </message>
-    <message>
-        <source>Relay non-P2SH multisig (default: %u)</source>
-        <translation>Geef non-P2SH multisig door (standaard: %u)</translation>
-    </message>
-    <message>
-        <source>Send transactions with full-RBF opt-in enabled (default: %u)</source>
-        <translation>Verstuur transacties met full-RBF opt-in ingeschakeld (standaard: %u)</translation>
-    </message>
-    <message>
-        <source>Set key pool size to &lt;n&gt; (default: %u)</source>
-        <translation>Stel sleutelpoelgrootte in op &lt;n&gt; (standaard: %u)</translation>
-    </message>
-    <message>
-        <source>Set maximum BIP141 block weight (default: %d)</source>
-        <translation>Zet het BIP141 maximum gewicht van een blok (standaard: %d)</translation>
-    </message>
-    <message>
-        <source>Set the number of threads to service RPC calls (default: %d)</source>
-        <translation>Stel het aantal threads in om RPC-aanvragen mee te bedienen (standaard: %d)</translation>
-    </message>
-    <message>
-        <source>Specify configuration file (default: %s)</source>
-        <translation>Specificeer configuratiebestand (standaard: %s)</translation>
-    </message>
-    <message>
-        <source>Specify connection timeout in milliseconds (minimum: 1, default: %d)</source>
-        <translation>Specificeer de time-out tijd in milliseconden (minimum: 1, standaard: %d)</translation>
-    </message>
-    <message>
-        <source>Specify pid file (default: %s)</source>
-        <translation>Specificeer pid-bestand (standaard: %s)</translation>
-    </message>
-    <message>
-        <source>Spend unconfirmed change when sending transactions (default: %u)</source>
-        <translation>Besteed onbevestigd wisselgeld bij het doen van transacties (standaard: %u)</translation>
-    </message>
-    <message>
-        <source>Starting network threads...</source>
-        <translation>Netwerkthread starten...</translation>
-    </message>
-    <message>
-        <source>The wallet will avoid paying less than the minimum relay fee.</source>
-        <translation>De portemonnee vermijdt minder te betalen dan het minimale relay vergoeding.</translation>
-    </message>
-    <message>
-        <source>This is the minimum transaction fee you pay on every transaction.</source>
-        <translation>Dit is het minimum transactietarief dat je betaald op elke transactie.</translation>
-    </message>
-    <message>
-        <source>This is the transaction fee you will pay if you send a transaction.</source>
-        <translation>Dit is het transactietarief dat je betaald wanneer je een transactie verstuurt.</translation>
-    </message>
-    <message>
-        <source>Threshold for disconnecting misbehaving peers (default: %u)</source>
-        <translation>Drempel om verbinding te verbreken naar zich misdragende peers (standaard: %u)</translation>
-    </message>
-    <message>
-        <source>Transaction amounts must not be negative</source>
-        <translation>Transactiebedragen moeten positief zijn</translation>
-    </message>
-    <message>
-        <source>Transaction has too long of a mempool chain</source>
-        <translation>Transactie heeft een te lange mempoolketen</translation>
-    </message>
-    <message>
-        <source>Transaction must have at least one recipient</source>
-        <translation>Transactie moet ten minste één ontvanger hebben</translation>
-    </message>
-    <message>
-        <source>Unknown network specified in -onlynet: '%s'</source>
-        <translation>Onbekend netwerk gespecificeerd in -onlynet: '%s'</translation>
-    </message>
-    <message>
-        <source>Insufficient funds</source>
-        <translation>Ontoereikend saldo</translation>
-    </message>
-    <message>
-        <source>Loading block index...</source>
-        <translation>Blokindex aan het laden...</translation>
-    </message>
-    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="178"/>
         <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>Voeg een node om naar te verbinden toe en probeer de verbinding open te houden</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Loading wallet...</source>
-        <translation>Portemonnee aan het laden...</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="179"/>
+        <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
+        <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../fastbitcoinstrings.cpp" line="180"/>
+        <source>Allow JSON-RPC connections from specified IP address</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="181"/>
+        <source>Already have that input.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="182"/>
+        <source>Always query for peer addresses via DNS lookup (default: 0)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="183"/>
+        <source>Attempt to recover private keys from a corrupt wallet.dat</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="184"/>
+        <source>Block creation options:</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="185"/>
+        <source>Can&apos;t denominate: no compatible inputs left.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="186"/>
         <source>Cannot downgrade wallet</source>
-        <translation>Kan portemonnee niet downgraden</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../fastbitcoinstrings.cpp" line="187"/>
+        <source>Cannot resolve -bind address: &apos;%s&apos;</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="188"/>
+        <source>Cannot resolve -externalip address: &apos;%s&apos;</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="189"/>
         <source>Cannot write default address</source>
-        <translation>Kan standaardadres niet schrijven</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Rescanning...</source>
-        <translation>Blokketen aan het herscannen...</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="190"/>
+        <source>Clear list of wallet transactions (diagnostic tool; implies -rescan)</source>
+        <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../fastbitcoinstrings.cpp" line="191"/>
+        <source>Collateral is not valid.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="192"/>
+        <source>Collateral not valid.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="193"/>
+        <source>Connect only to the specified node(s)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="194"/>
+        <source>Connect through SOCKS proxy</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="195"/>
+        <source>Connect to JSON-RPC on &lt;port&gt; (default: 8800 or testnet: 8884)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="196"/>
+        <source>Connect to KeePassHttp on port &lt;port&gt; (default: 19455)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="197"/>
+        <source>Connect to a node to retrieve peer addresses, and disconnect</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="198"/>
+        <source>Connection options:</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="199"/>
+        <source>Corrupted block database detected</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="200"/>
+        <source>Fastbitcoin Core Daemon</source>
+        <translation>Fastbitcoin Core Daemon</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="201"/>
+        <source>Fastbitcoin Core RPC client version</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="202"/>
+        <source>Darksend is disabled.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="203"/>
+        <source>Darksend options:</source>
+        <translation>Darksend opties:</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="204"/>
+        <source>Debugging/Testing options:</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="205"/>
+        <source>Disable safemode, override a real safe mode event (default: 0)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="206"/>
+        <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="207"/>
+        <source>Do not load the wallet and disable wallet RPC calls</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="208"/>
+        <source>Do you want to rebuild the block database now?</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="209"/>
         <source>Done loading</source>
         <translation>Klaar met laden</translation>
     </message>
     <message>
+        <location filename="../fastbitcoinstrings.cpp" line="210"/>
+        <source>Downgrading and trying again.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="211"/>
+        <source>Enable the client to act as a Xnode (0-1, default: 0)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="212"/>
+        <source>Entries are full.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="213"/>
+        <source>Error connecting to Xnode.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="214"/>
+        <source>Error initializing block database</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="215"/>
+        <source>Error initializing wallet database environment %s!</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="216"/>
+        <source>Error loading block database</source>
+        <translation>Fout tijdens laden van block database</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="217"/>
+        <source>Error loading wallet.dat</source>
+        <translation>Fout bij het laden van wallet.dat</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="218"/>
+        <source>Error loading wallet.dat: Wallet corrupted</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="219"/>
+        <source>Error loading wallet.dat: Wallet requires newer version of Fastbitcoin</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="220"/>
+        <source>Error opening block database</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="221"/>
+        <source>Error reading from database, shutting down.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="222"/>
+        <source>Error recovering public key.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="223"/>
         <source>Error</source>
         <translation>Fout</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="224"/>
+        <source>Error: Disk space is low!</source>
+        <translation>Fout: Schijfruimte is laag!</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="225"/>
+        <source>Error: Wallet locked, unable to create transaction!</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="226"/>
+        <source>Error: You already have pending entries in the Darksend pool</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="227"/>
+        <source>Error: system error: </source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="228"/>
+        <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="229"/>
+        <source>Failed to read block info</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="230"/>
+        <source>Failed to read block</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="231"/>
+        <source>Failed to sync block index</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="232"/>
+        <source>Failed to write block index</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="233"/>
+        <source>Failed to write block info</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="234"/>
+        <source>Failed to write block</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="235"/>
+        <source>Failed to write file info</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="236"/>
+        <source>Failed to write to coin database</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="237"/>
+        <source>Failed to write transaction index</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="238"/>
+        <source>Failed to write undo data</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="239"/>
+        <source>Fee per kB to add to transactions you send</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="240"/>
+        <source>Fees smaller than this are considered zero fee (for relaying) (default:</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="241"/>
+        <source>Force safe mode (default: 0)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="242"/>
+        <source>Generate coins (default: 0)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="243"/>
+        <source>Get help for a command</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="244"/>
+        <source>How many blocks to check at startup (default: 288, 0 = all)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="245"/>
+        <source>If &lt;category&gt; is not supplied, output all debugging information.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="246"/>
+        <source>Ignore Xnodes less than version (example: 70050; default : 0)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="247"/>
+        <source>Importing...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="248"/>
+        <source>Imports blocks from external blk000??.dat file</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="249"/>
+        <source>Incompatible mode.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="250"/>
+        <source>Incompatible version.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="251"/>
+        <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="252"/>
+        <source>Information</source>
+        <translation>Informatie</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="253"/>
+        <source>Initialization sanity check failed. Fastbitcoin Core is shutting down.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="254"/>
+        <source>Input is not valid.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="255"/>
+        <source>InstantX options:</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="256"/>
+        <source>Insufficient funds</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="257"/>
+        <source>Insufficient funds.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="258"/>
+        <source>Invalid -onion address: &apos;%s&apos;</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="259"/>
+        <source>Invalid -proxy address: &apos;%s&apos;</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="260"/>
+        <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="261"/>
+        <source>Invalid amount for -mintxfee=&lt;amount&gt;: &apos;%s&apos;</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="262"/>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="263"/>
+        <source>Invalid amount</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="264"/>
+        <source>Invalid Xnodeprivkey. Please see documenation.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="265"/>
+        <source>Invalid private key.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="266"/>
+        <source>Invalid script detected.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="267"/>
+        <source>KeePassHttp id for the established association</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="268"/>
+        <source>KeePassHttp key for AES encrypted communication with KeePass</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="269"/>
+        <source>Keep N fastbitcoin anonymized (default: 0)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="270"/>
+        <source>Keep at most &lt;n&gt; unconnectable blocks in memory (default: %u)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="271"/>
+        <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="272"/>
+        <source>Last Darksend was too recent.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="273"/>
+        <source>Last successful Darksend action was too recent.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="274"/>
+        <source>Limit size of signature cache to &lt;n&gt; entries (default: 50000)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="275"/>
+        <source>List commands</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="276"/>
+        <source>Listen for connections on &lt;port&gt; (default: 8886 or testnet: 8885)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="277"/>
+        <source>Loading addresses...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="278"/>
+        <source>Loading block index...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="279"/>
+        <source>Loading Xnode list...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="280"/>
+        <source>Loading wallet... (%3.2f %%)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="281"/>
+        <source>Loading wallet...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="282"/>
+        <source>Log transaction priority and fee per kB when mining blocks (default: 0)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="283"/>
+        <source>Maintain a full transaction index (default: 0)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="284"/>
+        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="285"/>
+        <source>Xnode options:</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="286"/>
+        <source>Xnode queue is full.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="287"/>
+        <source>Xnode:</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="288"/>
+        <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="289"/>
+        <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: 1000)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="290"/>
+        <source>Missing input transaction information.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="291"/>
+        <source>No compatible Xnode found.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="292"/>
+        <source>No funds detected in need of denominating.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="293"/>
+        <source>No Xnodes detected.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="294"/>
+        <source>No matching denominations found for mixing.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="295"/>
+        <source>Non-standard public key detected.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="296"/>
+        <source>Not compatible with existing transactions.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="297"/>
+        <source>Not enough file descriptors available.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="298"/>
+        <source>Not in the Xnode list.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="299"/>
+        <source>Only accept block chain matching built-in checkpoints (default: 1)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="300"/>
+        <source>Only connect to nodes in network &lt;net&gt; (IPv4, IPv6 or Tor)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="301"/>
+        <source>Options:</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="302"/>
+        <source>Password for JSON-RPC connections</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="303"/>
+        <source>Prepend debug output with timestamp (default: 1)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="304"/>
+        <source>Print block on startup, if found in block index</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="305"/>
+        <source>Print block tree on startup (default: 0)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="306"/>
+        <source>RPC SSL options: (see the Fastbitcoin Wiki for SSL setup instructions)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="307"/>
+        <source>RPC client options:</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="308"/>
+        <source>RPC server options:</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="309"/>
+        <source>Randomly drop 1 of every &lt;n&gt; network messages</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="310"/>
+        <source>Randomly fuzz 1 of every &lt;n&gt; network messages</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="311"/>
+        <source>Rebuild block chain index from current blk000??.dat files</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="312"/>
+        <source>Rescan the block chain for missing wallet transactions</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="313"/>
+        <source>Rescanning...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="314"/>
+        <source>Run a thread to flush wallet periodically (default: 1)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="315"/>
+        <source>Run in the background as a daemon and accept commands</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="316"/>
+        <source>SSL options: (see the Fastbitcoin Wiki for SSL setup instructions)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="317"/>
+        <source>Select SOCKS version for -proxy (4 or 5, default: 5)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="318"/>
+        <source>Send command to Fastbitcoin Core</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="319"/>
+        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="320"/>
+        <source>Send trace/debug info to console instead of debug.log file</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="321"/>
+        <source>Server certificate file (default: server.cert)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="322"/>
+        <source>Server private key (default: server.pem)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="323"/>
+        <source>Session not complete!</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="324"/>
+        <source>Session timed out (30 seconds), please resubmit.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="325"/>
+        <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="326"/>
+        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="327"/>
+        <source>Set maximum block size in bytes (default: %d)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="328"/>
+        <source>Set minimum block size in bytes (default: 0)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="329"/>
+        <source>Set the Xnode private key</source>
+        <translation>Stel de Xnode private key in</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="330"/>
+        <source>Set the number of threads to service RPC calls (default: 4)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="331"/>
+        <source>Sets the DB_PRIVATE flag in the wallet db environment (default: 1)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="332"/>
+        <source>Show all debugging options (usage: --help -help-debug)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="333"/>
+        <source>Show benchmark information (default: 0)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="334"/>
+        <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="335"/>
+        <source>Signing failed.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="336"/>
+        <source>Signing timed out, please resubmit.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="337"/>
+        <source>Signing transaction failed</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="338"/>
+        <source>Specify configuration file (default: fastbitcoin.conf)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="339"/>
+        <source>Specify connection timeout in milliseconds (default: 5000)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="340"/>
+        <source>Specify data directory</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="341"/>
+        <source>Specify Xnode configuration file (default: Xnode.conf)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="342"/>
+        <source>Specify pid file (default: fastbitcoind.pid)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="343"/>
+        <source>Specify wallet file (within data directory)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="344"/>
+        <source>Specify your own public address</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="345"/>
+        <source>Spend unconfirmed change when sending transactions (default: 1)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="346"/>
+        <source>Start Fastbitcoin Core Daemon</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="347"/>
+        <source>System error: </source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="348"/>
+        <source>This help message</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="349"/>
+        <source>This is intended for regression testing tools and app development.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="350"/>
+        <source>This is not a Xnode.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="351"/>
+        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="352"/>
+        <source>To use the %s option</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="353"/>
+        <source>Transaction amount too small</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="354"/>
+        <source>Transaction amounts must be positive</source>
+        <translation>Transactiebedrag moet positief zijn</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="355"/>
+        <source>Transaction created successfully.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="356"/>
+        <source>Transaction fees are too high.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="357"/>
+        <source>Transaction not valid.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="358"/>
+        <source>Transaction too large</source>
+        <translation>Transactie te groot</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="359"/>
+        <source>Unable to bind to %s on this computer (bind returned error %s)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="360"/>
+        <source>Unable to sign Xnode payment winner, wrong key?</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="361"/>
+        <source>Unable to sign spork message, wrong key?</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="362"/>
+        <source>Unknown -socks proxy version requested: %i</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="363"/>
+        <source>Unknown network specified in -onlynet: &apos;%s&apos;</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="364"/>
+        <source>Upgrade wallet to latest format</source>
+        <translation>Upgrade portemonnee naar nieuwste format</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="365"/>
+        <source>Usage (deprecated, use fastbitcoin-cli):</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="366"/>
+        <source>Usage:</source>
+        <translation>Gebruik:</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="367"/>
+        <source>Use KeePass 2 integration using KeePassHttp plugin (default: 0)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="368"/>
+        <source>Use N separate Xnodes to anonymize funds  (2-8, default: 2)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="369"/>
+        <source>Use OpenSSL (https) for JSON-RPC connections</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="370"/>
+        <source>Use UPnP to map the listening port (default: 0)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="371"/>
+        <source>Use UPnP to map the listening port (default: 1 when listening)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="372"/>
+        <source>Use the test network</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="373"/>
+        <source>Username for JSON-RPC connections</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="374"/>
+        <source>Value more than Darksend pool maximum allows.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="375"/>
+        <source>Verifying blocks...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="376"/>
+        <source>Verifying wallet...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="377"/>
+        <source>Wait for RPC server to start</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="378"/>
+        <source>Wallet %s resides outside data directory %s</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="379"/>
+        <source>Wallet is locked.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="380"/>
+        <source>Wallet needed to be rewritten: restart Fastbitcoin to complete</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="381"/>
+        <source>Wallet options:</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="382"/>
+        <source>Warning</source>
+        <translation>Waarschuwing</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="383"/>
+        <source>Warning: Deprecated argument -debugnet ignored, use -debug=net</source>
+        <translation>Waarschuwing: Verouderd parameter -debugnet niet uitgevoerd, gebruik -debug=net</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="384"/>
+        <source>Warning: This version is obsolete, upgrade required!</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <source>Wrong state.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="385"/>
+        <source>You need to rebuild the database using -reindex to change -txindex</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="386"/>
+        <source>Zapping all transactions from wallet...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="387"/>
+        <source>on startup</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="388"/>
+        <source>version</source>
+        <translation>versie</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="389"/>
+        <source>wallet.dat corrupt, salvage failed</source>
+        <translation type="unfinished"/>
     </message>
 </context>
 </TS>

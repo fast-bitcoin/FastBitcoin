@@ -3,7 +3,7 @@
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
-        <translation>Feu clic dret per a editar l'adreça o l'etiquetaccn</translation>
+        <translation>Feu clic dret per a editar l'adreça o l'etiqueta</translation>
     </message>
     <message>
         <source>Create a new address</source>
@@ -62,12 +62,12 @@
         <translation>Adreces de recepció</translation>
     </message>
     <message>
-        <source>These are your FastBitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Aquestes són les vostres adreces de FastBitcoin per enviar els pagaments. Sempre reviseu l'import i l'adreça del destinatari abans de transferir monedes.</translation>
+        <source>These are your Fastbitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Aquestes són les vostres adreces de Fastbitcoin per enviar els pagaments. Sempre reviseu l'import i l'adreça del destinatari abans de transferir monedes.</translation>
     </message>
     <message>
-        <source>These are your FastBitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Aquestes són les vostres adreces FastBitcoin per rebre pagaments. Es recomana utilitzar una adreça nova de recepció per a cada transacció.</translation>
+        <source>These are your Fastbitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Aquestes són les vostres adreces Fastbitcoin per rebre pagaments. Es recomana utilitzar una adreça nova de recepció per a cada transacció.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -232,7 +232,7 @@
     </message>
 </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>FastbitcoinGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>Signa el &amp;missatge...</translation>
@@ -334,8 +334,8 @@
         <translation>S'estan reindexant els blocs al disc...</translation>
     </message>
     <message>
-        <source>Send coins to a FastBitcoin address</source>
-        <translation>Envia monedes a una adreça FastBitcoin</translation>
+        <source>Send coins to a Fastbitcoin address</source>
+        <translation>Envia monedes a una adreça Fastbitcoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -358,8 +358,8 @@
         <translation>&amp;Verifica el missatge...</translation>
     </message>
     <message>
-        <source>FastBitcoin</source>
-        <translation>FastBitcoin</translation>
+        <source>Fastbitcoin</source>
+        <translation>Fastbitcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -386,12 +386,12 @@
         <translation>Encripta les claus privades pertanyents al moneder</translation>
     </message>
     <message>
-        <source>Sign messages with your FastBitcoin addresses to prove you own them</source>
-        <translation>Signa el missatges amb la seva adreça de FastBitcoin per provar que les poseeixes</translation>
+        <source>Sign messages with your Fastbitcoin addresses to prove you own them</source>
+        <translation>Signa el missatges amb la seva adreça de Fastbitcoin per provar que les poseeixes</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified FastBitcoin addresses</source>
-        <translation>Verifiqueu els missatges per assegurar-vos que han estat signats amb una adreça FastBitcoin específica.</translation>
+        <source>Verify messages to ensure they were signed with specified Fastbitcoin addresses</source>
+        <translation>Verifiqueu els missatges per assegurar-vos que han estat signats amb una adreça Fastbitcoin específica.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -430,8 +430,8 @@
         <translation>Opcions de la &amp;línia d'ordres</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to FastBitcoin network</source>
-        <translation><numerusform>%n connexió activa a la xarxa FastBitcoin</numerusform><numerusform>%n connexions actives a la xarxa FastBitcoin</numerusform></translation>
+        <source>%n active connection(s) to Fastbitcoin network</source>
+        <translation><numerusform>%n connexió activa a la xarxa Fastbitcoin</numerusform><numerusform>%n connexions actives a la xarxa Fastbitcoin</numerusform></translation>
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -474,8 +474,8 @@
         <translation>Al dia</translation>
     </message>
     <message>
-        <source>Show the %1 help message to get a list with possible FastBitcoin command-line options</source>
-        <translation>Mostra el missatge d'ajuda del %1 per obtenir una llista amb les possibles opcions de línia d'ordres de FastBitcoin</translation>
+        <source>Show the %1 help message to get a list with possible Fastbitcoin command-line options</source>
+        <translation>Mostra el missatge d'ajuda del %1 per obtenir una llista amb les possibles opcions de línia d'ordres de Fastbitcoin</translation>
     </message>
     <message>
         <source>%1 client</source>
@@ -540,8 +540,8 @@
         <translation>El moneder està &lt;b&gt;encriptat&lt;/b&gt; i actualment &lt;b&gt;bloquejat&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. FastBitcoin can no longer continue safely and will quit.</source>
-        <translation>S'ha produït un error fatal. FastBitcoin no pot continuar amb seguretat i finalitzarà.</translation>
+        <source>A fatal error occurred. Fastbitcoin can no longer continue safely and will quit.</source>
+        <translation>S'ha produït un error fatal. Fastbitcoin no pot continuar amb seguretat i finalitzarà.</translation>
     </message>
 </context>
 <context>
@@ -734,8 +734,8 @@
         <translation>Edita l'adreça d'enviament</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid FastBitcoin address.</source>
-        <translation>L'adreça introduïda «%1» no és una adreça de FastBitcoin vàlida.</translation>
+        <source>The entered address "%1" is not a valid Fastbitcoin address.</source>
+        <translation>L'adreça introduïda «%1» no és una adreça de Fastbitcoin vàlida.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -843,8 +843,8 @@
         <translation>Com és la primera vegada que s'executa el programa, podeu triar on %1 emmagatzemarà les dades.</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the FastBitcoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>%1 baixarà i emmagatzemarà una còpia de la cadena de blocs de FastBitcoin. Com a mínim %2GB de dades s'emmagatzemaran en aquest directori, i augmentarà al llarg del temps. El moneder també s'emmagatzemarà en aquest directori.</translation>
+        <source>%1 will download and store a copy of the Fastbitcoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>%1 baixarà i emmagatzemarà una còpia de la cadena de blocs de Fastbitcoin. Com a mínim %2GB de dades s'emmagatzemaran en aquest directori, i augmentarà al llarg del temps. El moneder també s'emmagatzemarà en aquest directori.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -876,10 +876,6 @@
     <message>
         <source>Form</source>
         <translation>Formulari</translation>
-    </message>
-    <message>
-        <source>Unknown...</source>
-        <translation>Desconegut...</translation>
     </message>
     <message>
         <source>Last block time</source>
@@ -1024,16 +1020,16 @@
         <translation>&amp;Gasta el canvi sense confirmar</translation>
     </message>
     <message>
-        <source>Automatically open the FastBitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Obre el port del client de FastBitcoin al router de forma automàtica. Això només funciona quan el router implementa UPnP i l'opció està activada.</translation>
+        <source>Automatically open the Fastbitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Obre el port del client de Fastbitcoin al router de forma automàtica. Això només funciona quan el router implementa UPnP i l'opció està activada.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Port obert amb &amp;UPnP</translation>
     </message>
     <message>
-        <source>Connect to the FastBitcoin network through a SOCKS5 proxy.</source>
-        <translation>Connecta a la xarxa FastBitcoin a través d'un proxy SOCKS5.</translation>
+        <source>Connect to the Fastbitcoin network through a SOCKS5 proxy.</source>
+        <translation>Connecta a la xarxa Fastbitcoin a través d'un proxy SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1072,8 +1068,8 @@
         <translation>Tor</translation>
     </message>
     <message>
-        <source>Connect to the FastBitcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>Conectar a la red de FastBitcoin a través de un proxy SOCKS5 per als serveis ocults de Tor</translation>
+        <source>Connect to the Fastbitcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Conectar a la red de Fastbitcoin a través de un proxy SOCKS5 per als serveis ocults de Tor</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
@@ -1171,8 +1167,8 @@
         <translation>Formulari</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the FastBitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>La informació mostrada pot no estar al día. El teu moneder es sincronitza automàticament amb la xarxa FastBitcoin un cop s'ha establert connexió, però aquest proces no s'ha completat encara.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Fastbitcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>La informació mostrada pot no estar al día. El teu moneder es sincronitza automàticament amb la xarxa Fastbitcoin un cop s'ha establert connexió, però aquest proces no s'ha completat encara.</translation>
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1262,8 +1258,8 @@
         <translation>Adreça de pagament no vàlida %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid FastBitcoin address or malformed URI parameters.</source>
-        <translation>L'URI no pot ser analitzat! Això pot ser a causa d'una adreça de FastBitcoin no vàlida o per paràmetres URI amb mal format.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid Fastbitcoin address or malformed URI parameters.</source>
+        <translation>L'URI no pot ser analitzat! Això pot ser a causa d'una adreça de Fastbitcoin no vàlida o per paràmetres URI amb mal format.</translation>
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1348,8 +1344,8 @@
         <translation>Import</translation>
     </message>
     <message>
-        <source>Enter a FastBitcoin address (e.g. %1)</source>
-        <translation>Introduïu una adreça de FastBitcoin (p. ex. %1)</translation>
+        <source>Enter a Fastbitcoin address (e.g. %1)</source>
+        <translation>Introduïu una adreça de Fastbitcoin (p. ex. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1386,11 +1382,7 @@
     </context>
 <context>
     <name>QObject::QObject</name>
-    <message>
-        <source>Error: %1</source>
-        <translation>Avís: %1</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>QRImageWidget</name>
     <message>
@@ -1696,8 +1688,8 @@
         <translation>R&amp;eutilitza una adreça de recepció anterior (no recomanat)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the FastBitcoin network.</source>
-        <translation>Un missatge opcional que s'adjuntarà a la sol·licitud de pagament, que es mostrarà quan s'obri la sol·licitud. Nota: El missatge no s'enviarà amb el pagament per la xarxa FastBitcoin.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Fastbitcoin network.</source>
+        <translation>Un missatge opcional que s'adjuntarà a la sol·licitud de pagament, que es mostrarà quan s'obri la sol·licitud. Nota: El missatge no s'enviarà amb el pagament per la xarxa Fastbitcoin.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2073,8 +2065,8 @@
         <translation>Paga només la comissió necessària de %1</translation>
     </message>
     <message>
-        <source>Warning: Invalid FastBitcoin address</source>
-        <translation>Avís: adreça FastBitcoin no vàlida</translation>
+        <source>Warning: Invalid Fastbitcoin address</source>
+        <translation>Avís: adreça Fastbitcoin no vàlida</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2108,8 +2100,8 @@
         <translation>Això és un pagament normal.</translation>
     </message>
     <message>
-        <source>The FastBitcoin address to send the payment to</source>
-        <translation>L'adreça FastBitcoin on enviar el pagament</translation>
+        <source>The Fastbitcoin address to send the payment to</source>
+        <translation>L'adreça Fastbitcoin on enviar el pagament</translation>
     </message>
     <message>
         <source>Alt+A</source>
@@ -2152,8 +2144,8 @@
         <translation>Introduïu una etiqueta per a aquesta adreça per afegir-la a la llista d'adreces utilitzades</translation>
     </message>
     <message>
-        <source>A message that was attached to the fastbitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the FastBitcoin network.</source>
-        <translation>Un missatge que s'ha adjuntat al fastbitcoin: URI que s'emmagatzemarà amb la transacció per a la vostra referència. Nota: el missatge no s'enviarà a través de la xarxa FastBitcoin.</translation>
+        <source>A message that was attached to the fastbitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Fastbitcoin network.</source>
+        <translation>Un missatge que s'ha adjuntat al fastbitcoin: URI que s'emmagatzemarà amb la transacció per a la vostra referència. Nota: el missatge no s'enviarà a través de la xarxa Fastbitcoin.</translation>
     </message>
     <message>
         <source>Pay To:</source>
@@ -2197,8 +2189,8 @@
         <translation>Podeu signar missatges/acords amb les vostres adreces per provar que rebeu les fastbitcoins que s'hi envien. Aneu amb compte no signar res que sigui vague o aleatori, perquè en alguns atacs de suplantació es pot provar que hi signeu la vostra identitat. Només signeu aquelles declaracions completament detallades en què hi esteu d'acord. </translation>
     </message>
     <message>
-        <source>The FastBitcoin address to sign the message with</source>
-        <translation>L'adreça FastBitcoin amb què signar el missatge</translation>
+        <source>The Fastbitcoin address to sign the message with</source>
+        <translation>L'adreça Fastbitcoin amb què signar el missatge</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2229,8 +2221,8 @@
         <translation>Copia la signatura actual al porta-retalls del sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this FastBitcoin address</source>
-        <translation>Signa el missatge per provar que ets propietari d'aquesta adreça FastBitcoin</translation>
+        <source>Sign the message to prove you own this Fastbitcoin address</source>
+        <translation>Signa el missatge per provar que ets propietari d'aquesta adreça Fastbitcoin</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2253,12 +2245,12 @@
         <translation>Introduïu l'adreça del receptor, el missatge (assegureu-vos de copiar els salts de línia, espais, tabuladors, etc. exactament) i signatura de sota per verificar el missatge. Tingueu cura de no llegir més en la signatura del que està al missatge signat, per evitar ser enganyat per un atac d'home-en-el-mig. Tingueu en compte que això només demostra que la part que signa rep amb l'adreça, i no es pot provar l'enviament de qualsevol transacció!</translation>
     </message>
     <message>
-        <source>The FastBitcoin address the message was signed with</source>
-        <translation>L'adreça FastBitcoin amb què va ser signat el missatge</translation>
+        <source>The Fastbitcoin address the message was signed with</source>
+        <translation>L'adreça Fastbitcoin amb què va ser signat el missatge</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified FastBitcoin address</source>
-        <translation>Verificar el missatge per assegurar-se que ha estat signat amb una adreça FastBitcoin específica</translation>
+        <source>Verify the message to ensure it was signed with the specified Fastbitcoin address</source>
+        <translation>Verificar el missatge per assegurar-se que ha estat signat amb una adreça Fastbitcoin específica</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2344,10 +2336,6 @@
     <message>
         <source>%1/offline</source>
         <translation>%1/fora de línia</translation>
-    </message>
-    <message>
-        <source>abandoned</source>
-        <translation>abandonada</translation>
     </message>
     <message>
         <source>%1/unconfirmed</source>
@@ -2480,11 +2468,7 @@
         <source>This pane shows a detailed description of the transaction</source>
         <translation>Aquest panell mostra una descripció detallada de la transacció</translation>
     </message>
-    <message>
-        <source>Details for %1</source>
-        <translation>Detalls per %1</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>TransactionTableModel</name>
     <message>
@@ -2675,10 +2659,6 @@
         <translation>Copia la transacció crua</translation>
     </message>
     <message>
-        <source>Copy full transaction details</source>
-        <translation>Copia els detalls complets de la transacció</translation>
-    </message>
-    <message>
         <source>Edit label</source>
         <translation>Editar etiqueta</translation>
     </message>
@@ -2862,8 +2842,8 @@
         <translation>No s'ha pogut iniciar el servidor HTTP. Vegeu debug.log per a més detalls.</translation>
     </message>
     <message>
-        <source>FastBitcoin FBC</source>
-        <translation>FastBitcoin FBC</translation>
+        <source>Fastbitcoin Core</source>
+        <translation>Fastbitcoin Core</translation>
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
@@ -3160,10 +3140,6 @@
     <message>
         <source>Warning</source>
         <translation>Avís</translation>
-    </message>
-    <message>
-        <source>Warning: unknown new rules activated (versionbit %i)</source>
-        <translation>Avís: regles noves desconegudes activades (versionbit %i)</translation>
     </message>
     <message>
         <source>Zapping all transactions from wallet...</source>

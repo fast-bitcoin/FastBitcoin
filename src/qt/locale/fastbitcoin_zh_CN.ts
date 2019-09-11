@@ -1,782 +1,1288 @@
-<TS language="zh_CN" version="2.1">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="zh_CN" version="2.0">
+<context>
+    <name>AboutDialog</name>
+    <message>
+        <location filename="../forms/aboutdialog.ui" line="14"/>
+        <source>About Fastbitcoin Core</source>
+        <translation>关于 Fastbitcoin Core</translation>
+    </message>
+    <message>
+        <location filename="../forms/aboutdialog.ui" line="53"/>
+        <source>&lt;b&gt;Fastbitcoin Core&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Fastbitcoin Core&lt;/b&gt; 版本 </translation>
+    </message>
+    <message>
+        <location filename="../forms/aboutdialog.ui" line="94"/>
+        <source>Copyright &amp;copy; 2009-YYYY The Fastbitcoin and Dash Core developers.
+Copyright &amp;copy; 2014-YYYY The Fastbitcoin Core developers.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../forms/aboutdialog.ui" line="111"/>
+        <source>
+This is experimental software.
+
+Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
+This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
+        <translation>
+本软件为仍处于实验阶段的软件。
+
+基于MIT/X11软件许可协议发布，详情请查看附带文本或者浏览此链接http://www.opensource.org/licenses/mit-license.php 。
+
+本软件涉及并使用了其他项目软件，如OpenSSL项目的开发工具包以使用OpenSSL(http://www.openssl.org/)，由Eric Young(eay@cryptsoft.com)所开发的加密软件，以及由Thomas Bernard开发的UPnP。</translation>
+    </message>
+    <message>
+        <location filename="../utilitydialog.cpp" line="30"/>
+        <location filename="../utilitydialog.cpp" line="31"/>
+        <source>Copyright</source>
+        <translation>版权</translation>
+    </message>
+    <message>
+        <location filename="../utilitydialog.cpp" line="30"/>
+        <source>The Fastbitcoin Core developers</source>
+        <translation>Fastbitcoin Core 的开发者</translation>
+    </message>
+    <message>
+        <location filename="../utilitydialog.cpp" line="31"/>
+        <source>The Fastbitcoin Core developers</source>
+        <translation>Fastbitcoin Core 的开发者</translation>
+    </message>
+    <message>
+        <location filename="../utilitydialog.cpp" line="43"/>
+        <location filename="../utilitydialog.cpp" line="45"/>
+        <source>(%1-bit)</source>
+        <translation>(%1 位)</translation>
+    </message>
+</context>
 <context>
     <name>AddressBookPage</name>
     <message>
-        <source>Right-click to edit address or label</source>
-        <translation>鼠标右击编辑地址或标签</translation>
+        <location filename="../forms/addressbookpage.ui" line="30"/>
+        <source>Double-click to edit address or label</source>
+        <translation>双击编辑地址或标签</translation>
     </message>
     <message>
+        <location filename="../forms/addressbookpage.ui" line="57"/>
         <source>Create a new address</source>
         <translation>创建新地址</translation>
     </message>
     <message>
+        <location filename="../forms/addressbookpage.ui" line="60"/>
         <source>&amp;New</source>
         <translation>新建(&amp;N)</translation>
     </message>
     <message>
+        <location filename="../forms/addressbookpage.ui" line="71"/>
         <source>Copy the currently selected address to the system clipboard</source>
         <translation>复制当前选中的地址到系统剪贴板</translation>
     </message>
     <message>
+        <location filename="../forms/addressbookpage.ui" line="74"/>
         <source>&amp;Copy</source>
         <translation>复制(&amp;C)</translation>
     </message>
     <message>
-        <source>C&amp;lose</source>
-        <translation>关闭(&amp;l)</translation>
-    </message>
-    <message>
+        <location filename="../forms/addressbookpage.ui" line="85"/>
         <source>Delete the currently selected address from the list</source>
         <translation>从列表中删除选中的地址</translation>
     </message>
     <message>
-        <source>Export the data in the current tab to a file</source>
-        <translation>导出当前分页里的数据到文件</translation>
-    </message>
-    <message>
-        <source>&amp;Export</source>
-        <translation>导出(&amp;E)</translation>
-    </message>
-    <message>
+        <location filename="../forms/addressbookpage.ui" line="88"/>
         <source>&amp;Delete</source>
         <translation>删除(&amp;D)</translation>
     </message>
     <message>
+        <location filename="../forms/addressbookpage.ui" line="112"/>
+        <source>Export the data in the current tab to a file</source>
+        <translation>导出当前数据到文件</translation>
+    </message>
+    <message>
+        <location filename="../forms/addressbookpage.ui" line="115"/>
+        <source>&amp;Export</source>
+        <translation>导出(&amp;E)</translation>
+    </message>
+    <message>
+        <location filename="../forms/addressbookpage.ui" line="132"/>
+        <source>C&amp;lose</source>
+        <translation>关闭(&amp;C)</translation>
+    </message>
+    <message>
+        <location filename="../addressbookpage.cpp" line="45"/>
         <source>Choose the address to send coins to</source>
-        <translation>选择要付钱过去的地址</translation>
+        <translation>选择发款地址</translation>
     </message>
     <message>
+        <location filename="../addressbookpage.cpp" line="46"/>
         <source>Choose the address to receive coins with</source>
-        <translation>选择要收钱进来的地址</translation>
+        <translation>选择收款地址</translation>
     </message>
     <message>
+        <location filename="../addressbookpage.cpp" line="51"/>
         <source>C&amp;hoose</source>
-        <translation>选择</translation>
+        <translation>选择(&amp;H)</translation>
     </message>
     <message>
+        <location filename="../addressbookpage.cpp" line="57"/>
         <source>Sending addresses</source>
-        <translation>付款地址</translation>
+        <translation>正在发送地址</translation>
     </message>
     <message>
+        <location filename="../addressbookpage.cpp" line="58"/>
         <source>Receiving addresses</source>
-        <translation>收款地址</translation>
+        <translation>正在接收地址</translation>
     </message>
     <message>
-        <source>These are your FastBitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>这些是你要付款过去的莱特币地址。在付钱之前，务必要检查金额和收款地址是否正确。</translation>
+        <location filename="../addressbookpage.cpp" line="65"/>
+        <source>These are your Fastbitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>这些是您用以发送暗黑币的地址。请务必在每次发送前检查金额及接收地址。</translation>
     </message>
     <message>
-        <source>These are your FastBitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>这些是你用来收款的莱特币地址。建议在每次交易时，都使用一个新的收款地址。</translation>
+        <location filename="../addressbookpage.cpp" line="69"/>
+        <source>These are your Fastbitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>这些是您用以接收暗黑币的地址。推荐使用新地址以接收每次的转账。</translation>
     </message>
     <message>
+        <location filename="../addressbookpage.cpp" line="75"/>
         <source>&amp;Copy Address</source>
-        <translation>复制地址</translation>
+        <translation>复制地址(&amp;C)</translation>
     </message>
     <message>
+        <location filename="../addressbookpage.cpp" line="76"/>
         <source>Copy &amp;Label</source>
-        <translation>复制标签</translation>
+        <translation>复制标签(&amp;L)</translation>
     </message>
     <message>
+        <location filename="../addressbookpage.cpp" line="77"/>
         <source>&amp;Edit</source>
-        <translation>编辑</translation>
+        <translation>编辑(&amp;E)</translation>
     </message>
     <message>
+        <location filename="../addressbookpage.cpp" line="271"/>
         <source>Export Address List</source>
         <translation>导出地址列表</translation>
     </message>
     <message>
+        <location filename="../addressbookpage.cpp" line="272"/>
         <source>Comma separated file (*.csv)</source>
         <translation>逗号分隔文件 (*.csv)</translation>
     </message>
     <message>
+        <location filename="../addressbookpage.cpp" line="285"/>
         <source>Exporting Failed</source>
         <translation>导出失败</translation>
     </message>
     <message>
-        <source>There was an error trying to save the address list to %1. Please try again.</source>
-        <translation>存储地址列表到 %1 时发生错误。请再试一次。</translation>
+        <location filename="../addressbookpage.cpp" line="286"/>
+        <source>There was an error trying to save the address list to %1.</source>
+        <translation>地址列表保存至 %1 时发生错误。</translation>
     </message>
 </context>
 <context>
     <name>AddressTableModel</name>
     <message>
+        <location filename="../addresstablemodel.cpp" line="169"/>
         <source>Label</source>
         <translation>标签</translation>
     </message>
     <message>
+        <location filename="../addresstablemodel.cpp" line="169"/>
         <source>Address</source>
         <translation>地址</translation>
     </message>
     <message>
+        <location filename="../addresstablemodel.cpp" line="205"/>
         <source>(no label)</source>
-        <translation>(无标签)</translation>
+        <translation>(没有标签)</translation>
     </message>
 </context>
 <context>
     <name>AskPassphraseDialog</name>
     <message>
+        <location filename="../forms/askpassphrasedialog.ui" line="26"/>
         <source>Passphrase Dialog</source>
         <translation>密码对话框</translation>
     </message>
     <message>
+        <location filename="../forms/askpassphrasedialog.ui" line="47"/>
         <source>Enter passphrase</source>
         <translation>输入密码</translation>
     </message>
     <message>
+        <location filename="../forms/askpassphrasedialog.ui" line="61"/>
         <source>New passphrase</source>
         <translation>新密码</translation>
     </message>
     <message>
+        <location filename="../forms/askpassphrasedialog.ui" line="75"/>
         <source>Repeat new passphrase</source>
         <translation>重复新密码</translation>
     </message>
     <message>
-        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>输入钱包的新密码。&lt;br/&gt;密码请用&lt;b&gt;10 个以上的随机字符&lt;/b&gt;，或是&lt;b&gt;8 个以上的字词&lt;/b&gt;。</translation>
+        <location filename="../forms/askpassphrasedialog.ui" line="108"/>
+        <source>Serves to disable the trivial sendmoney when OS account compromised. Provides no real security.</source>
+        <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../forms/askpassphrasedialog.ui" line="111"/>
+        <source>For anonymization only</source>
+        <translation>仅限匿名</translation>
+    </message>
+    <message>
+        <location filename="../askpassphrasedialog.cpp" line="41"/>
+        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
+        <translation>输入钱包的新密码。&lt;br/&gt;使用的密码请至少包含&lt;b&gt;10个以上随机字符&lt;/&gt;，或者是&lt;b&gt;8个以上的单词&lt;/b&gt;。</translation>
+    </message>
+    <message>
+        <location filename="../askpassphrasedialog.cpp" line="42"/>
         <source>Encrypt wallet</source>
         <translation>加密钱包</translation>
     </message>
     <message>
+        <location filename="../askpassphrasedialog.cpp" line="48"/>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>这个操作需要你的钱包密码来解锁钱包。</translation>
+        <translation>此操作需要您首先使用密码解锁该钱包。</translation>
     </message>
     <message>
+        <location filename="../askpassphrasedialog.cpp" line="53"/>
         <source>Unlock wallet</source>
         <translation>解锁钱包</translation>
     </message>
     <message>
+        <location filename="../askpassphrasedialog.cpp" line="56"/>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>这个操作需要你的钱包密码来把钱包解密。</translation>
+        <translation>该操作需要您首先使用密码解密钱包。</translation>
     </message>
     <message>
+        <location filename="../askpassphrasedialog.cpp" line="61"/>
         <source>Decrypt wallet</source>
         <translation>解密钱包</translation>
     </message>
     <message>
+        <location filename="../askpassphrasedialog.cpp" line="64"/>
         <source>Change passphrase</source>
-        <translation>修改密码</translation>
+        <translation>更改密码</translation>
     </message>
     <message>
-        <source>Enter the old passphrase and new passphrase to the wallet.</source>
-        <translation>请输入钱包的旧密码和新密码。</translation>
+        <location filename="../askpassphrasedialog.cpp" line="65"/>
+        <source>Enter the old and new passphrase to the wallet.</source>
+        <translation>请输入该钱包的旧密码与新密码。</translation>
     </message>
     <message>
+        <location filename="../askpassphrasedialog.cpp" line="112"/>
         <source>Confirm wallet encryption</source>
-        <translation>确认钱包加密</translation>
+        <translation>确认加密钱包</translation>
     </message>
     <message>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR FASTBITCOINS&lt;/b&gt;!</source>
-        <translation>警告: 如果把钱包加密后又忘记密码，你就会从此&lt;b&gt;失去其中所有的莱特币了&lt;/b&gt;！</translation>
+        <location filename="../askpassphrasedialog.cpp" line="113"/>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR FBC&lt;/b&gt;!</source>
+        <translation>警告：如果您加密了钱包却将该密码遗忘，您将&lt;b&gt;丢失您的暗黑币&lt;/b&gt;</translation>
     </message>
     <message>
+        <location filename="../askpassphrasedialog.cpp" line="113"/>
         <source>Are you sure you wish to encrypt your wallet?</source>
-        <translation>你确定要把钱包加密吗？</translation>
+        <translation>您确定需要为钱包加密吗？</translation>
     </message>
     <message>
+        <location filename="../askpassphrasedialog.cpp" line="122"/>
+        <location filename="../askpassphrasedialog.cpp" line="181"/>
         <source>Wallet encrypted</source>
         <translation>钱包已加密</translation>
     </message>
     <message>
-        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your fastbitcoins from being stolen by malware infecting your computer.</source>
-        <translation>%1 现在要关闭，以完成加密过程。请注意，加密钱包不能完全防止入侵你的电脑的恶意程序偷取钱币。</translation>
+        <location filename="../askpassphrasedialog.cpp" line="124"/>
+        <source>Fastbitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your fastbitcoins from being stolen by malware infecting your computer.</source>
+        <translation>暗黑币即将关闭以完成加密。请牢记即便是加密后的钱包也无法完全保护您的暗黑币免遭被恶意程序入侵等被偷之患。</translation>
     </message>
     <message>
+        <location filename="../askpassphrasedialog.cpp" line="128"/>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>重要: 请改用新产生的有加密的钱包文件，来取代旧钱包文件的备份。为了安全性，当你开始使用新的有加密的钱包后，旧钱包文件的备份就不能再使用了。</translation>
+        <translation>重要提示：您以前备份的钱包文件应该替换成最新生成的加密钱包文件（重新备份）。从安全性上考虑，您以前备份的未加密的钱包文件，在您使用新的加密钱包后将无效，请重新备份。</translation>
     </message>
     <message>
+        <location filename="../askpassphrasedialog.cpp" line="137"/>
+        <location filename="../askpassphrasedialog.cpp" line="144"/>
+        <location filename="../askpassphrasedialog.cpp" line="187"/>
+        <location filename="../askpassphrasedialog.cpp" line="193"/>
         <source>Wallet encryption failed</source>
         <translation>钱包加密失败</translation>
     </message>
     <message>
+        <location filename="../askpassphrasedialog.cpp" line="138"/>
         <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
-        <translation>因为内部错误导致钱包加密失败。你的钱包还是没加密。</translation>
+        <translation>由于一个本地错误，加密钱包的操作已经失败。您的钱包没能被加密。</translation>
     </message>
     <message>
+        <location filename="../askpassphrasedialog.cpp" line="145"/>
+        <location filename="../askpassphrasedialog.cpp" line="194"/>
         <source>The supplied passphrases do not match.</source>
-        <translation>提供的密码不一致。</translation>
+        <translation>密码不匹配。</translation>
     </message>
     <message>
+        <location filename="../askpassphrasedialog.cpp" line="157"/>
         <source>Wallet unlock failed</source>
         <translation>钱包解锁失败</translation>
     </message>
     <message>
+        <location filename="../askpassphrasedialog.cpp" line="158"/>
+        <location filename="../askpassphrasedialog.cpp" line="169"/>
+        <location filename="../askpassphrasedialog.cpp" line="188"/>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>输入用来解密钱包的密码不正确。</translation>
+        <translation>用于解密钱包的密码不正确。</translation>
     </message>
     <message>
+        <location filename="../askpassphrasedialog.cpp" line="168"/>
         <source>Wallet decryption failed</source>
-        <translation>钱包解密失败</translation>
+        <translation>钱包解密失败。</translation>
     </message>
     <message>
+        <location filename="../askpassphrasedialog.cpp" line="182"/>
         <source>Wallet passphrase was successfully changed.</source>
-        <translation>钱包密码修改成功。</translation>
+        <translation>修改钱包密码成功。</translation>
     </message>
     <message>
+        <location filename="../askpassphrasedialog.cpp" line="230"/>
+        <location filename="../askpassphrasedialog.cpp" line="254"/>
         <source>Warning: The Caps Lock key is on!</source>
-        <translation>警告: 大写字母锁定已开启！</translation>
+        <translation>警告：大写锁定键处于打开状态！</translation>
     </message>
 </context>
 <context>
-    <name>BanTableModel</name>
+    <name>FastbitcoinGUI</name>
     <message>
-        <source>IP/Netmask</source>
-        <translation>IP/网络掩码</translation>
+        <location filename="../fastbitcoingui.cpp" line="76"/>
+        <source>Fastbitcoin Core</source>
+        <translation>暗黑币 内核</translation>
     </message>
     <message>
-        <source>Banned Until</source>
-        <translation>在此之前禁止：</translation>
-    </message>
-</context>
-<context>
-    <name>BitcoinGUI</name>
-    <message>
-        <source>Sign &amp;message...</source>
-        <translation>消息签名(&amp;M)...</translation>
-    </message>
-    <message>
-        <source>Synchronizing with network...</source>
-        <translation>正在与网络同步...</translation>
-    </message>
-    <message>
-        <source>&amp;Overview</source>
-        <translation>概况(&amp;O)</translation>
-    </message>
-    <message>
-        <source>Node</source>
-        <translation>节点</translation>
-    </message>
-    <message>
-        <source>Show general overview of wallet</source>
-        <translation>显示钱包概况</translation>
-    </message>
-    <message>
-        <source>&amp;Transactions</source>
-        <translation>交易记录(&amp;T)</translation>
-    </message>
-    <message>
-        <source>Browse transaction history</source>
-        <translation>查看交易历史</translation>
-    </message>
-    <message>
-        <source>E&amp;xit</source>
-        <translation>退出(&amp;X)</translation>
-    </message>
-    <message>
-        <source>Quit application</source>
-        <translation>退出程序</translation>
-    </message>
-    <message>
-        <source>&amp;About %1</source>
-        <translation>关于 %1</translation>
-    </message>
-    <message>
-        <source>Show information about %1</source>
-        <translation>显示 %1 相关信息</translation>
-    </message>
-    <message>
-        <source>About &amp;Qt</source>
-        <translation>关于Qt(&amp;Q)</translation>
-    </message>
-    <message>
-        <source>Show information about Qt</source>
-        <translation>显示 Qt 相关信息</translation>
-    </message>
-    <message>
-        <source>&amp;Options...</source>
-        <translation>选项(&amp;O)...</translation>
-    </message>
-    <message>
-        <source>Modify configuration options for %1</source>
-        <translation>修改%1配置选项</translation>
-    </message>
-    <message>
-        <source>&amp;Encrypt Wallet...</source>
-        <translation>加密钱包(&amp;E)...</translation>
-    </message>
-    <message>
-        <source>&amp;Backup Wallet...</source>
-        <translation>备份钱包(&amp;B)...</translation>
-    </message>
-    <message>
-        <source>&amp;Change Passphrase...</source>
-        <translation>更改密码(&amp;C)...</translation>
-    </message>
-    <message>
-        <source>&amp;Sending addresses...</source>
-        <translation>正在发送地址(&amp;S)...</translation>
-    </message>
-    <message>
-        <source>&amp;Receiving addresses...</source>
-        <translation>正在接收地址(&amp;R)...</translation>
-    </message>
-    <message>
-        <source>Open &amp;URI...</source>
-        <translation>打开 &amp;URI...</translation>
-    </message>
-    <message>
-        <source>Click to disable network activity.</source>
-        <translation>点击禁用网络活动。</translation>
-    </message>
-    <message>
-        <source>Network activity disabled.</source>
-        <translation>网络活动已禁用。</translation>
-    </message>
-    <message>
-        <source>Click to enable network activity again.</source>
-        <translation>点击重新开启网络活动。</translation>
-    </message>
-    <message>
-        <source>Syncing Headers (%1%)...</source>
-        <translation>同步区块头 (%1%)...</translation>
-    </message>
-    <message>
-        <source>Reindexing blocks on disk...</source>
-        <translation>正在为数据块重建索引...</translation>
-    </message>
-    <message>
-        <source>Send coins to a FastBitcoin address</source>
-        <translation>向一个莱特币地址发送莱特币</translation>
-    </message>
-    <message>
-        <source>Backup wallet to another location</source>
-        <translation>备份钱包到其他文件夹</translation>
-    </message>
-    <message>
-        <source>Change the passphrase used for wallet encryption</source>
-        <translation>更改钱包加密口令</translation>
-    </message>
-    <message>
-        <source>&amp;Debug window</source>
-        <translation>调试窗口(&amp;D)</translation>
-    </message>
-    <message>
-        <source>Open debugging and diagnostic console</source>
-        <translation>打开调试和诊断控制台</translation>
-    </message>
-    <message>
-        <source>&amp;Verify message...</source>
-        <translation>验证消息(&amp;V)...</translation>
-    </message>
-    <message>
-        <source>FastBitcoin</source>
-        <translation>莱特币</translation>
-    </message>
-    <message>
+        <location filename="../fastbitcoingui.cpp" line="85"/>
         <source>Wallet</source>
         <translation>钱包</translation>
     </message>
     <message>
+        <location filename="../fastbitcoingui.cpp" line="87"/>
+        <source>Node</source>
+        <translation>节点</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="101"/>
+        <location filename="../fastbitcoingui.cpp" line="498"/>
+        <source>[testnet]</source>
+        <translation>[测试网络]</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="227"/>
+        <source>&amp;Overview</source>
+        <translation>概况(&amp;O)</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="228"/>
+        <source>Show general overview of wallet</source>
+        <translation>显示钱包概况</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="234"/>
         <source>&amp;Send</source>
         <translation>发送(&amp;S)</translation>
     </message>
     <message>
+        <location filename="../fastbitcoingui.cpp" line="235"/>
+        <source>Send coins to a Fastbitcoin address</source>
+        <translation>向暗黑币地址发送</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="241"/>
         <source>&amp;Receive</source>
         <translation>接收(&amp;R)</translation>
     </message>
     <message>
+        <location filename="../fastbitcoingui.cpp" line="242"/>
+        <source>Request payments (generates QR codes and fastbitcoin: URIs)</source>
+        <translation>请求付款(产生QR码以及暗黑币:URIs)</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="248"/>
+        <source>&amp;Transactions</source>
+        <translation>交易记录(&amp;T)</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="249"/>
+        <source>Browse transaction history</source>
+        <translation>查看交易历史</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="266"/>
+        <source>E&amp;xit</source>
+        <translation>退出(&amp;X)</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="267"/>
+        <source>Quit application</source>
+        <translation>退出程序</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="271"/>
+        <location filename="../fastbitcoingui.cpp" line="273"/>
+        <source>&amp;About Fastbitcoin Core</source>
+        <translation>关于暗黑币内核(&amp;A)</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="274"/>
+        <source>Show information about Fastbitcoin</source>
+        <translation>显示关于暗黑币的信息</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="277"/>
+        <location filename="../fastbitcoingui.cpp" line="279"/>
+        <source>About &amp;Qt</source>
+        <translation>关于 &amp;Qt</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="281"/>
+        <source>Show information about Qt</source>
+        <translation>显示 Qt 相关信息</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="283"/>
+        <source>&amp;Options...</source>
+        <translation>选项(&amp;O)...</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="284"/>
+        <source>Modify configuration options for Fastbitcoin</source>
+        <translation>更改暗黑币设置</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="287"/>
+        <location filename="../fastbitcoingui.cpp" line="289"/>
         <source>&amp;Show / Hide</source>
         <translation>显示 / 隐藏(&amp;S)</translation>
     </message>
     <message>
+        <location filename="../fastbitcoingui.cpp" line="290"/>
         <source>Show or hide the main Window</source>
         <translation>显示或隐藏主窗口</translation>
     </message>
     <message>
+        <location filename="../fastbitcoingui.cpp" line="292"/>
+        <source>&amp;Encrypt Wallet...</source>
+        <translation>加密钱包(&amp;E)...</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="293"/>
         <source>Encrypt the private keys that belong to your wallet</source>
         <translation>对钱包中的私钥加密</translation>
     </message>
     <message>
-        <source>Sign messages with your FastBitcoin addresses to prove you own them</source>
-        <translation>用莱特币地址关联的私钥为消息签名，以证明您拥有这个莱特币地址</translation>
+        <location filename="../fastbitcoingui.cpp" line="295"/>
+        <source>&amp;Backup Wallet...</source>
+        <translation>备份钱包(&amp;B)...</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified FastBitcoin addresses</source>
-        <translation>校验消息，确保该消息是由指定的莱特币地址所有者签名的</translation>
+        <location filename="../fastbitcoingui.cpp" line="296"/>
+        <source>Backup wallet to another location</source>
+        <translation>备份钱包到其他文件夹</translation>
     </message>
     <message>
-        <source>&amp;File</source>
-        <translation>文件(&amp;F)</translation>
+        <location filename="../fastbitcoingui.cpp" line="297"/>
+        <source>&amp;Change Passphrase...</source>
+        <translation>更改密码(&amp;C)...</translation>
     </message>
     <message>
-        <source>&amp;Settings</source>
-        <translation>设置(&amp;S)</translation>
+        <location filename="../fastbitcoingui.cpp" line="298"/>
+        <source>Change the passphrase used for wallet encryption</source>
+        <translation>更改钱包加密口令</translation>
     </message>
     <message>
-        <source>&amp;Help</source>
-        <translation>帮助(&amp;H)</translation>
+        <location filename="../fastbitcoingui.cpp" line="299"/>
+        <source>&amp;Unlock Wallet...</source>
+        <translation>解锁钱包(&amp;U)</translation>
     </message>
     <message>
-        <source>Tabs toolbar</source>
-        <translation>分页工具栏</translation>
+        <location filename="../fastbitcoingui.cpp" line="300"/>
+        <source>Unlock wallet</source>
+        <translation>解锁钱包</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and fastbitcoin: URIs)</source>
-        <translation>请求支付 (生成二维码和 fastbitcoin: URI)</translation>
+        <location filename="../fastbitcoingui.cpp" line="301"/>
+        <source>&amp;Lock Wallet</source>
+        <translation>锁定钱包(&amp;L)</translation>
     </message>
     <message>
+        <location filename="../fastbitcoingui.cpp" line="302"/>
+        <source>Sign &amp;message...</source>
+        <translation>消息签名(&amp;M)...</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="303"/>
+        <source>Sign messages with your Fastbitcoin addresses to prove you own them</source>
+        <translation>使用您的暗黑币地址进行消息签名以证明对此地址的所有权</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="304"/>
+        <source>&amp;Verify message...</source>
+        <translation>验证消息(&amp;V)...</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="305"/>
+        <source>Verify messages to ensure they were signed with specified Fastbitcoin addresses</source>
+        <translation>校验消息签名以证明此消息是由特定暗黑币地址所签发</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="307"/>
+        <source>&amp;Information</source>
+        <translation>信息(&amp;I)</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="308"/>
+        <source>Show diagnostic information</source>
+        <translation>显示诊断信息</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="309"/>
+        <source>&amp;Debug console</source>
+        <translation>Debug控制台(&amp;D)</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="310"/>
+        <source>Open debugging console</source>
+        <translation>打开调试控制台</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="311"/>
+        <source>&amp;Network Monitor</source>
+        <translation>网络流量监控(&amp;N)</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="312"/>
+        <source>Show network monitor</source>
+        <translation>显示网络流量监控</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="313"/>
+        <source>Open &amp;Configuration File</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="314"/>
+        <source>Open configuration file</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="316"/>
+        <source>&amp;Sending addresses...</source>
+        <translation>&amp;付款地址 </translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="317"/>
         <source>Show the list of used sending addresses and labels</source>
         <translation>显示用过的发送地址和标签的列表</translation>
     </message>
     <message>
+        <location filename="../fastbitcoingui.cpp" line="318"/>
+        <source>&amp;Receiving addresses...</source>
+        <translation>&amp;收款地址</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="319"/>
         <source>Show the list of used receiving addresses and labels</source>
         <translation>显示用过的接收地址和标签的列表</translation>
     </message>
     <message>
-        <source>Open a fastbitcoin: URI or payment request</source>
-        <translation>打开一个 fastbitcoin: URI 或支付请求</translation>
+        <location filename="../fastbitcoingui.cpp" line="321"/>
+        <source>Open &amp;URI...</source>
+        <translation>打开 &amp;URI...</translation>
     </message>
     <message>
+        <location filename="../fastbitcoingui.cpp" line="322"/>
+        <source>Open a fastbitcoin: URI or payment request</source>
+        <translation>打开一个暗黑币:URI或者付款请求</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="324"/>
         <source>&amp;Command-line options</source>
-        <translation>命令行选项(&amp;C)</translation>
+        <translation>&amp;命令行 选项</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="325"/>
+        <source>Show the Fastbitcoin Core help message to get a list with possible Fastbitcoin command-line options</source>
+        <translation>显示暗黑币内核帮助信息并以列表形式展示可用的暗黑币命令行选项</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="361"/>
+        <source>&amp;File</source>
+        <translation>文件(&amp;F)</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="375"/>
+        <source>&amp;Settings</source>
+        <translation>设置(&amp;S)</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="388"/>
+        <source>&amp;Tools</source>
+        <translation>工具(&amp;T)</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="395"/>
+        <source>&amp;Help</source>
+        <translation>帮助(&amp;H)</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="406"/>
+        <source>Tabs toolbar</source>
+        <translation>分页工具栏</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="493"/>
+        <location filename="../fastbitcoingui.cpp" line="498"/>
+        <source>Fastbitcoin client</source>
+        <translation>暗黑币客户端</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to FastBitcoin network</source>
-        <translation><numerusform>%n 个到莱特币网络的活动连接</numerusform></translation>
+        <location filename="../fastbitcoingui.cpp" line="643"/>
+        <source>%n active connection(s) to Fastbitcoin network</source>
+        <translation><numerusform>%n (个)至暗黑币网络的有效连接</numerusform></translation>
     </message>
     <message>
-        <source>Indexing blocks on disk...</source>
+        <location filename="../fastbitcoingui.cpp" line="655"/>
+        <source>Synchronizing with network...</source>
+        <translation>正在与网络同步...</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="658"/>
+        <source>Importing blocks from disk...</source>
+        <translation>正在从磁盘导入数据块...</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="661"/>
+        <source>Reindexing blocks on disk...</source>
         <translation>正在为数据块建立索引...</translation>
     </message>
     <message>
-        <source>Processing blocks on disk...</source>
-        <translation>正在处理数据块...</translation>
-    </message>
-    <message numerus="yes">
-        <source>Processed %n block(s) of transaction history.</source>
-        <translation><numerusform>已处理 %n 个交易历史数据块。</numerusform></translation>
+        <location filename="../fastbitcoingui.cpp" line="665"/>
+        <source>No block source available...</source>
+        <translation>沒有可用的区块来源...</translation>
     </message>
     <message>
+        <location filename="../fastbitcoingui.cpp" line="675"/>
+        <source>Processed %1 blocks of transaction history.</source>
+        <translation>已处理 %1 个交易历史数据块。</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="680"/>
+        <source>Up to date</source>
+        <translation>已是最新</translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../fastbitcoingui.cpp" line="701"/>
+        <source>%n hour(s)</source>
+        <translation><numerusform>%n 小时</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../fastbitcoingui.cpp" line="705"/>
+        <source>%n day(s)</source>
+        <translation><numerusform>%n 天</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../fastbitcoingui.cpp" line="709"/>
+        <location filename="../fastbitcoingui.cpp" line="715"/>
+        <source>%n week(s)</source>
+        <translation><numerusform>%n 周</numerusform></translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="715"/>
+        <source>%1 and %2</source>
+        <translation>%1 和 %2</translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../fastbitcoingui.cpp" line="715"/>
+        <source>%n year(s)</source>
+        <translation><numerusform>%n 年</numerusform></translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="719"/>
         <source>%1 behind</source>
         <translation>落后 %1 </translation>
     </message>
     <message>
-        <source>Last received block was generated %1 ago.</source>
-        <translation>最新收到的区块产生于 %1。</translation>
-    </message>
-    <message>
-        <source>Transactions after this will not yet be visible.</source>
-        <translation>在此之后的交易尚未可见</translation>
-    </message>
-    <message>
-        <source>Error</source>
-        <translation>错误</translation>
-    </message>
-    <message>
-        <source>Warning</source>
-        <translation>警告</translation>
-    </message>
-    <message>
-        <source>Information</source>
-        <translation>信息</translation>
-    </message>
-    <message>
-        <source>Up to date</source>
-        <translation>已是最新</translation>
-    </message>
-    <message>
-        <source>Show the %1 help message to get a list with possible FastBitcoin command-line options</source>
-        <translation>显示 %1 帮助信息，获取可用命令行选项列表</translation>
-    </message>
-    <message>
-        <source>%1 client</source>
-        <translation>%1 客戶</translation>
-    </message>
-    <message>
-        <source>Connecting to peers...</source>
-        <translation>正在连接到节点……</translation>
-    </message>
-    <message>
+        <location filename="../fastbitcoingui.cpp" line="724"/>
         <source>Catching up...</source>
         <translation>更新中...</translation>
     </message>
     <message>
-        <source>Date: %1
-</source>
-        <translation>日期: %1
-</translation>
+        <location filename="../fastbitcoingui.cpp" line="740"/>
+        <source>Last received block was generated %1 ago.</source>
+        <translation>最新收到的区块产生于 %1。</translation>
     </message>
     <message>
-        <source>Amount: %1
-</source>
-        <translation>金额: %1
-</translation>
+        <location filename="../fastbitcoingui.cpp" line="742"/>
+        <source>Transactions after this will not yet be visible.</source>
+        <translation>在此之后的交易尚未可见</translation>
     </message>
     <message>
-        <source>Type: %1
-</source>
-        <translation>类型: %1
-</translation>
+        <location filename="../fastbitcoingui.cpp" line="755"/>
+        <source>Fastbitcoin</source>
+        <translation>暗黑币</translation>
     </message>
     <message>
-        <source>Label: %1
-</source>
-        <translation>标签: %1
-</translation>
+        <location filename="../fastbitcoingui.cpp" line="769"/>
+        <source>Error</source>
+        <translation>错误</translation>
     </message>
     <message>
-        <source>Address: %1
-</source>
-        <translation>地址: %1
-</translation>
+        <location filename="../fastbitcoingui.cpp" line="772"/>
+        <source>Warning</source>
+        <translation>警告</translation>
     </message>
     <message>
+        <location filename="../fastbitcoingui.cpp" line="775"/>
+        <source>Information</source>
+        <translation>信息</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="854"/>
         <source>Sent transaction</source>
         <translation>发送交易</translation>
     </message>
     <message>
+        <location filename="../fastbitcoingui.cpp" line="854"/>
         <source>Incoming transaction</source>
         <translation>流入交易</translation>
     </message>
     <message>
-        <source>HD key generation is &lt;b&gt;enabled&lt;/b&gt;</source>
-        <translation>HD密钥生成&lt;b&gt;启用&lt;/b&gt;</translation>
+        <location filename="../fastbitcoingui.cpp" line="855"/>
+        <source>Date: %1
+Amount: %2
+Type: %3
+Address: %4
+</source>
+        <translation>日期: %1
+金额: %2
+类别: %3
+地址: %4
+</translation>
     </message>
     <message>
-        <source>HD key generation is &lt;b&gt;disabled&lt;/b&gt;</source>
-        <translation>HD密钥生成&lt;b&gt;禁用&lt;/b&gt;</translation>
-    </message>
-    <message>
+        <location filename="../fastbitcoingui.cpp" line="926"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
         <translation>钱包已被&lt;b&gt;加密&lt;/b&gt;，当前为&lt;b&gt;解锁&lt;/b&gt;状态</translation>
     </message>
     <message>
+        <location filename="../fastbitcoingui.cpp" line="936"/>
+        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for anonimization only</source>
+        <translation>钱包已被&lt;b&gt;加密&lt;/b&gt;并且目前处于&lt;b&gt;解锁&lt;/b&gt;状态以进行匿名处理</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoingui.cpp" line="946"/>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>钱包已被&lt;b&gt;加密&lt;/b&gt;，当前为&lt;b&gt;锁定&lt;/b&gt;状态</translation>
     </message>
     <message>
-        <source>A fatal error occurred. FastBitcoin can no longer continue safely and will quit.</source>
-        <translation>发生严重错误。客户端无法安全地继续运行，即将退出。</translation>
+        <location filename="../fastbitcoin.cpp" line="449"/>
+        <source>A fatal error occurred. Fastbitcoin can no longer continue safely and will quit.</source>
+        <translation>发生致命错误。暗黑币客户端将关闭。</translation>
+    </message>
+</context>
+<context>
+    <name>ClientModel</name>
+    <message>
+        <location filename="../clientmodel.cpp" line="164"/>
+        <source>Network Alert</source>
+        <translation>网络警报</translation>
     </message>
 </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
-        <source>Coin Selection</source>
-        <translation>选择钱币</translation>
+        <location filename="../forms/coincontroldialog.ui" line="14"/>
+        <source>Coin Control Address Selection</source>
+        <translation>选择交易源地址</translation>
     </message>
     <message>
+        <location filename="../forms/coincontroldialog.ui" line="48"/>
         <source>Quantity:</source>
         <translation>总量：</translation>
     </message>
     <message>
+        <location filename="../forms/coincontroldialog.ui" line="77"/>
         <source>Bytes:</source>
         <translation>字节：</translation>
     </message>
     <message>
+        <location filename="../forms/coincontroldialog.ui" line="122"/>
         <source>Amount:</source>
         <translation>金额：</translation>
     </message>
     <message>
+        <location filename="../forms/coincontroldialog.ui" line="151"/>
+        <source>Priority:</source>
+        <translation>优先级：</translation>
+    </message>
+    <message>
+        <location filename="../forms/coincontroldialog.ui" line="196"/>
         <source>Fee:</source>
         <translation>费用：</translation>
     </message>
     <message>
-        <source>Dust:</source>
-        <translation>小额：</translation>
+        <location filename="../forms/coincontroldialog.ui" line="228"/>
+        <source>Low Output:</source>
+        <translation>低输出</translation>
     </message>
     <message>
+        <location filename="../forms/coincontroldialog.ui" line="276"/>
         <source>After Fee:</source>
         <translation>加上交易费用后:</translation>
     </message>
     <message>
+        <location filename="../forms/coincontroldialog.ui" line="308"/>
         <source>Change:</source>
         <translation>变更 : </translation>
     </message>
     <message>
+        <location filename="../forms/coincontroldialog.ui" line="364"/>
         <source>(un)select all</source>
         <translation>(不)全选</translation>
     </message>
     <message>
+        <location filename="../forms/coincontroldialog.ui" line="377"/>
         <source>Tree mode</source>
         <translation>树状模式</translation>
     </message>
     <message>
+        <location filename="../forms/coincontroldialog.ui" line="393"/>
         <source>List mode</source>
         <translation>列表模式</translation>
     </message>
     <message>
+        <location filename="../forms/coincontroldialog.ui" line="400"/>
+        <source>(1 locked)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../forms/coincontroldialog.ui" line="446"/>
         <source>Amount</source>
         <translation>金额</translation>
     </message>
     <message>
-        <source>Received with label</source>
-        <translation>按标签收款</translation>
+        <location filename="../forms/coincontroldialog.ui" line="451"/>
+        <source>Label</source>
+        <translation>标签</translation>
     </message>
     <message>
-        <source>Received with address</source>
-        <translation>按地址收款</translation>
+        <location filename="../forms/coincontroldialog.ui" line="456"/>
+        <source>Address</source>
+        <translation>地址</translation>
     </message>
     <message>
+        <location filename="../forms/coincontroldialog.ui" line="461"/>
+        <source>Darksend Rounds</source>
+        <translation>匿名发送 循环次数</translation>
+    </message>
+    <message>
+        <location filename="../forms/coincontroldialog.ui" line="466"/>
         <source>Date</source>
         <translation>日期</translation>
     </message>
     <message>
+        <location filename="../forms/coincontroldialog.ui" line="471"/>
         <source>Confirmations</source>
         <translation>确认</translation>
     </message>
     <message>
+        <location filename="../forms/coincontroldialog.ui" line="474"/>
         <source>Confirmed</source>
         <translation>已确认</translation>
     </message>
     <message>
+        <location filename="../forms/coincontroldialog.ui" line="479"/>
+        <source>Priority</source>
+        <translation>优先级</translation>
+    </message>
+    <message>
+        <location filename="../coincontroldialog.cpp" line="43"/>
         <source>Copy address</source>
         <translation>复制地址</translation>
     </message>
     <message>
+        <location filename="../coincontroldialog.cpp" line="44"/>
         <source>Copy label</source>
         <translation>复制标签</translation>
     </message>
     <message>
+        <location filename="../coincontroldialog.cpp" line="45"/>
+        <location filename="../coincontroldialog.cpp" line="71"/>
         <source>Copy amount</source>
         <translation>复制金额</translation>
     </message>
     <message>
+        <location filename="../coincontroldialog.cpp" line="46"/>
         <source>Copy transaction ID</source>
-        <translation>复制交易识别码</translation>
+        <translation>复制交易编号</translation>
     </message>
     <message>
+        <location filename="../coincontroldialog.cpp" line="47"/>
         <source>Lock unspent</source>
         <translation>锁定未花费</translation>
     </message>
     <message>
+        <location filename="../coincontroldialog.cpp" line="48"/>
         <source>Unlock unspent</source>
         <translation>解锁未花费</translation>
     </message>
     <message>
+        <location filename="../coincontroldialog.cpp" line="70"/>
         <source>Copy quantity</source>
-        <translation>复制数目</translation>
+        <translation>复制金额</translation>
     </message>
     <message>
+        <location filename="../coincontroldialog.cpp" line="72"/>
         <source>Copy fee</source>
-        <translation>复制手续费</translation>
+        <translation>复制交易费</translation>
     </message>
     <message>
+        <location filename="../coincontroldialog.cpp" line="73"/>
         <source>Copy after fee</source>
-        <translation>复制计费后金额</translation>
+        <translation>复制含交易费的金额</translation>
     </message>
     <message>
+        <location filename="../coincontroldialog.cpp" line="74"/>
         <source>Copy bytes</source>
-        <translation>复制字节数</translation>
+        <translation>复制字节</translation>
     </message>
     <message>
-        <source>Copy dust</source>
-        <translation>复制零散金额</translation>
+        <location filename="../coincontroldialog.cpp" line="75"/>
+        <source>Copy priority</source>
+        <translation>复制优先级</translation>
     </message>
     <message>
+        <location filename="../coincontroldialog.cpp" line="76"/>
+        <source>Copy low output</source>
+        <translation>复制低输出</translation>
+    </message>
+    <message>
+        <location filename="../coincontroldialog.cpp" line="77"/>
         <source>Copy change</source>
-        <translation>复制找零金额</translation>
+        <translation>复制零钱</translation>
     </message>
     <message>
+        <location filename="../coincontroldialog.cpp" line="410"/>
+        <source>highest</source>
+        <translation>最高</translation>
+    </message>
+    <message>
+        <location filename="../coincontroldialog.cpp" line="411"/>
+        <source>higher</source>
+        <translation>更高</translation>
+    </message>
+    <message>
+        <location filename="../coincontroldialog.cpp" line="412"/>
+        <source>high</source>
+        <translation>高</translation>
+    </message>
+    <message>
+        <location filename="../coincontroldialog.cpp" line="413"/>
+        <source>medium-high</source>
+        <translation>中高</translation>
+    </message>
+    <message>
+        <location filename="../coincontroldialog.cpp" line="759"/>
+        <source>n/a</source>
+        <translation>n/a</translation>
+    </message>
+    <message>
+        <location filename="../forms/coincontroldialog.ui" line="164"/>
+        <location filename="../coincontroldialog.cpp" line="414"/>
+        <source>medium</source>
+        <translation>中等</translation>
+    </message>
+    <message>
+        <location filename="../coincontroldialog.cpp" line="418"/>
+        <source>low-medium</source>
+        <translation>中低</translation>
+    </message>
+    <message>
+        <location filename="../coincontroldialog.cpp" line="419"/>
+        <source>low</source>
+        <translation>低</translation>
+    </message>
+    <message>
+        <location filename="../coincontroldialog.cpp" line="420"/>
+        <source>lower</source>
+        <translation>更低</translation>
+    </message>
+    <message>
+        <location filename="../coincontroldialog.cpp" line="421"/>
+        <source>lowest</source>
+        <translation>最低</translation>
+    </message>
+    <message>
+        <location filename="../coincontroldialog.cpp" line="432"/>
         <source>(%1 locked)</source>
-        <translation>(锁定 %1 枚)</translation>
+        <translation>(%1 锁定)</translation>
     </message>
     <message>
+        <location filename="../coincontroldialog.cpp" line="464"/>
+        <source>none</source>
+        <translation>无</translation>
+    </message>
+    <message>
+        <location filename="../coincontroldialog.cpp" line="615"/>
+        <source>Dust</source>
+        <translation>尘埃交易</translation>
+    </message>
+    <message>
+        <location filename="../coincontroldialog.cpp" line="615"/>
         <source>yes</source>
         <translation>是</translation>
     </message>
     <message>
+        <location filename="../forms/coincontroldialog.ui" line="244"/>
+        <location filename="../coincontroldialog.cpp" line="615"/>
         <source>no</source>
         <translation>否</translation>
     </message>
     <message>
-        <source>This label turns red if any recipient receives an amount smaller than the current dust threshold.</source>
-        <translation>当任何一个收款金额小于目前的零散金额上限时，文字会变红色。</translation>
+        <location filename="../coincontroldialog.cpp" line="625"/>
+        <source>This label turns red, if the transaction size is greater than 1000 bytes.</source>
+        <translation>如果这笔交易大于1000字节，标签会变成红色。</translation>
     </message>
     <message>
-        <source>Can vary +/- %1 satoshi(s) per input.</source>
-        <translation>每组输入可能有 +/- %1 个 satoshi 的误差。</translation>
+        <location filename="../coincontroldialog.cpp" line="626"/>
+        <location filename="../coincontroldialog.cpp" line="631"/>
+        <source>This means a fee of at least %1 per kB is required.</source>
+        <translation>这意味着将对交易收取 %1/千字节 的交易费。</translation>
     </message>
     <message>
+        <location filename="../coincontroldialog.cpp" line="627"/>
+        <source>Can vary +/- 1 byte per input.</source>
+        <translation>每笔输入可能会有 正负1字节的偏差。</translation>
+    </message>
+    <message>
+        <location filename="../coincontroldialog.cpp" line="629"/>
+        <source>Transactions with higher priority are more likely to get included into a block.</source>
+        <translation>交易的优先级越高，被矿工收入数据块的速度也越快。</translation>
+    </message>
+    <message>
+        <location filename="../coincontroldialog.cpp" line="630"/>
+        <source>This label turns red, if the priority is smaller than &quot;medium&quot;.</source>
+        <translation>如果优先级小于&quot;中位数&quot; ，标签将变成红色。</translation>
+    </message>
+    <message>
+        <location filename="../coincontroldialog.cpp" line="633"/>
+        <source>This label turns red, if any recipient receives an amount smaller than %1.</source>
+        <translation>如果收款地址收到小于%1的比特币，标签将变成红色。</translation>
+    </message>
+    <message>
+        <location filename="../coincontroldialog.cpp" line="634"/>
+        <location filename="../coincontroldialog.cpp" line="638"/>
+        <source>This means a fee of at least %1 is required.</source>
+        <translation>这意味着至少需要 %1的交易费。</translation>
+    </message>
+    <message>
+        <location filename="../coincontroldialog.cpp" line="635"/>
+        <source>Amounts below 0.546 times the minimum relay fee are shown as dust.</source>
+        <translation>小于最小转发交易费的0.546倍的 转账金额将被视为 尘埃交易。</translation>
+    </message>
+    <message>
+        <location filename="../coincontroldialog.cpp" line="637"/>
+        <source>This label turns red, if the change is smaller than %1.</source>
+        <translation>如果零钱小于 %1，标签将变成红色。</translation>
+    </message>
+    <message>
+        <location filename="../coincontroldialog.cpp" line="680"/>
+        <location filename="../coincontroldialog.cpp" line="741"/>
         <source>(no label)</source>
-        <translation>(无标签)</translation>
+        <translation>(没有标签)</translation>
     </message>
     <message>
+        <location filename="../coincontroldialog.cpp" line="734"/>
         <source>change from %1 (%2)</source>
-        <translation>找零前是 %1 (%2)</translation>
+        <translation>来自%1的零钱 (%2)</translation>
     </message>
     <message>
+        <location filename="../coincontroldialog.cpp" line="735"/>
         <source>(change)</source>
-        <translation>(找零)</translation>
+        <translation>(零钱)</translation>
+    </message>
+</context>
+<context>
+    <name>DarksendConfig</name>
+    <message>
+        <location filename="../forms/Darksendconfig.ui" line="14"/>
+        <source>Configure Darksend</source>
+        <translation>配置匿名发送</translation>
+    </message>
+    <message>
+        <location filename="../forms/Darksendconfig.ui" line="26"/>
+        <source>Basic Privacy</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../forms/Darksendconfig.ui" line="39"/>
+        <source>High Privacy</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../forms/Darksendconfig.ui" line="52"/>
+        <source>Maximum Privacy</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../forms/Darksendconfig.ui" line="65"/>
+        <source>Please select a privacy level.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../forms/Darksendconfig.ui" line="78"/>
+        <source>Use 2 separate Xnodes to mix funds up to 1000 FBC</source>
+        <translation>使用2个独立主节点进行混合至多1000个FBC</translation>
+    </message>
+    <message>
+        <location filename="../forms/Darksendconfig.ui" line="91"/>
+        <source>Use 8 separate Xnodes to mix funds up to 1000 FBC</source>
+        <translation>使用8个独立主节点进行混合至多1000个FBC</translation>
+    </message>
+    <message>
+        <location filename="../forms/Darksendconfig.ui" line="104"/>
+        <source>Use 16 separate Xnodes</source>
+        <translation>使用16个独立主节点</translation>
+    </message>
+    <message>
+        <location filename="../forms/Darksendconfig.ui" line="117"/>
+        <source>This option is the quickest and will cost about ~0.025 FBC to anonymize 1000 FBC</source>
+        <translation>此选项提供最快速度并且将花费大概0.025DRK的费用以匿名化1000DRK</translation>
+    </message>
+    <message>
+        <location filename="../forms/Darksendconfig.ui" line="130"/>
+        <source>This option is moderately fast and will cost about 0.05 FBC to anonymize 1000 FBC</source>
+        <translation>此选项提供中等速度并且将花费大概0.05DRK的费用以匿名化1000DRK</translation>
+    </message>
+    <message>
+        <location filename="../forms/Darksendconfig.ui" line="156"/>
+        <source>0.1 FBC per 1000 FBC you anonymize.</source>
+        <translation>0.1DRK每匿名化1000DRK</translation>
+    </message>
+    <message>
+        <location filename="../forms/Darksendconfig.ui" line="143"/>
+        <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
+        <translation>此选项提供最慢速度但是却最安全的匿名服务。最多匿名化将花费</translation>
+    </message>
+    <message>
+        <location filename="../Darksendconfig.cpp" line="43"/>
+        <location filename="../Darksendconfig.cpp" line="58"/>
+        <location filename="../Darksendconfig.cpp" line="73"/>
+        <source>Darksend Configuration</source>
+        <translation>匿名发送配置</translation>
+    </message>
+    <message>
+        <location filename="../Darksendconfig.cpp" line="44"/>
+        <source>Darksend was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening Fastbitcoin&apos;s configuration screen.</source>
+        <translation>匿名发送已成功设置为基本配置(%1 至 2轮循环)。你可以通过打开暗黑币的配置界面随时改变此配置。</translation>
+    </message>
+    <message>
+        <location filename="../Darksendconfig.cpp" line="59"/>
+        <source>Darksend was successfully set to high (%1 and 8 rounds). You can change this at any time by opening Fastbitcoin&apos;s configuration screen.</source>
+        <translation>匿名发送已成功设置为高循环配置(%1 至 8轮循环)。你可以通过打开暗黑币的配置界面随时改变此配置。</translation>
+    </message>
+    <message>
+        <location filename="../Darksendconfig.cpp" line="74"/>
+        <source>Darksend was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening Fastbitcoin&apos;s configuration screen.</source>
+        <translation>匿名发送已成功设置为最大循环配置(%1 至 16轮循环)。你可以通过打开暗黑币的配置界面随时改变此配置。</translation>
     </message>
 </context>
 <context>
     <name>EditAddressDialog</name>
     <message>
+        <location filename="../forms/editaddressdialog.ui" line="14"/>
         <source>Edit Address</source>
         <translation>编辑地址</translation>
     </message>
     <message>
+        <location filename="../forms/editaddressdialog.ui" line="25"/>
         <source>&amp;Label</source>
         <translation>标签(&amp;L)</translation>
     </message>
     <message>
+        <location filename="../forms/editaddressdialog.ui" line="35"/>
         <source>The label associated with this address list entry</source>
         <translation>与此地址相关的标签项</translation>
     </message>
     <message>
-        <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
-        <translation>该地址已与地址列表中的条目关联，只能被发送地址修改。</translation>
-    </message>
-    <message>
+        <location filename="../forms/editaddressdialog.ui" line="42"/>
         <source>&amp;Address</source>
         <translation>地址(&amp;A)</translation>
     </message>
     <message>
+        <location filename="../forms/editaddressdialog.ui" line="52"/>
+        <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
+        <translation>该地址已与地址列表中的条目关联，只能被发送地址修改。</translation>
+    </message>
+    <message>
+        <location filename="../editaddressdialog.cpp" line="29"/>
         <source>New receiving address</source>
-        <translation>新建收款地址</translation>
+        <translation>新建接收地址</translation>
     </message>
     <message>
+        <location filename="../editaddressdialog.cpp" line="33"/>
         <source>New sending address</source>
-        <translation>新建付款地址</translation>
+        <translation>新建发送地址</translation>
     </message>
     <message>
+        <location filename="../editaddressdialog.cpp" line="36"/>
         <source>Edit receiving address</source>
-        <translation>编辑收款地址</translation>
+        <translation>编辑接收地址</translation>
     </message>
     <message>
+        <location filename="../editaddressdialog.cpp" line="40"/>
         <source>Edit sending address</source>
-        <translation>编辑付款地址</translation>
+        <translation>编辑发送地址</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid FastBitcoin address.</source>
-        <translation>输入的地址 %1 并不是有效的莱特币地址。</translation>
+        <location filename="../editaddressdialog.cpp" line="111"/>
+        <source>The entered address &quot;%1&quot; is not a valid Fastbitcoin address.</source>
+        <translation>此&quot;%1&quot;地址不是暗黑币有效地址</translation>
     </message>
     <message>
-        <source>The entered address "%1" is already in the address book.</source>
-        <translation>输入的地址 %1 已经存在地址簿。</translation>
+        <location filename="../editaddressdialog.cpp" line="116"/>
+        <source>The entered address &quot;%1&quot; is already in the address book.</source>
+        <translation>输入的地址“%1”已经存在于地址簿中。</translation>
     </message>
     <message>
+        <location filename="../editaddressdialog.cpp" line="121"/>
         <source>Could not unlock wallet.</source>
-        <translation>无法将钱包解锁。</translation>
+        <translation>无法解锁钱包</translation>
     </message>
     <message>
+        <location filename="../editaddressdialog.cpp" line="126"/>
         <source>New key generation failed.</source>
-        <translation>产生新的密钥失败了。</translation>
+        <translation>新的密钥生成失败。</translation>
     </message>
 </context>
 <context>
     <name>FreespaceChecker</name>
     <message>
+        <location filename="../intro.cpp" line="69"/>
         <source>A new data directory will be created.</source>
         <translation>一个新的数据目录将被创建。</translation>
     </message>
     <message>
+        <location filename="../intro.cpp" line="91"/>
         <source>name</source>
         <translation>名称</translation>
     </message>
     <message>
+        <location filename="../intro.cpp" line="93"/>
         <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
         <translation>目录已存在。如果您打算在这里创建一个新目录，添加 %1。</translation>
     </message>
     <message>
+        <location filename="../intro.cpp" line="96"/>
         <source>Path already exists, and is not a directory.</source>
         <translation>路径已存在，并且不是一个目录。</translation>
     </message>
     <message>
+        <location filename="../intro.cpp" line="103"/>
         <source>Cannot create data directory here.</source>
         <translation>无法在此创建数据目录。</translation>
     </message>
@@ -784,407 +1290,440 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
+        <location filename="../forms/helpmessagedialog.ui" line="19"/>
+        <source>Fastbitcoin Core - Command-line options</source>
+        <translation>暗黑币内核 - 命令行选项</translation>
+    </message>
+    <message>
+        <location filename="../utilitydialog.cpp" line="69"/>
+        <source>Fastbitcoin Core</source>
+        <translation>暗黑币 内核</translation>
+    </message>
+    <message>
+        <location filename="../utilitydialog.cpp" line="69"/>
         <source>version</source>
         <translation>版本</translation>
     </message>
     <message>
-        <source>(%1-bit)</source>
-        <translation>(%1 位)</translation>
-    </message>
-    <message>
-        <source>About %1</source>
-        <translation>關於 %1</translation>
-    </message>
-    <message>
-        <source>Command-line options</source>
-        <translation>命令行选项</translation>
-    </message>
-    <message>
+        <location filename="../utilitydialog.cpp" line="71"/>
         <source>Usage:</source>
         <translation>使用：</translation>
     </message>
     <message>
+        <location filename="../utilitydialog.cpp" line="72"/>
         <source>command-line options</source>
         <translation>命令行选项</translation>
     </message>
     <message>
-        <source>UI Options:</source>
-        <translation>界面选项：</translation>
+        <location filename="../utilitydialog.cpp" line="76"/>
+        <source>UI options</source>
+        <translation>UI选项</translation>
     </message>
     <message>
-        <source>Choose data directory on startup (default: %u)</source>
-        <translation>在启动时选择目录（默认%u）</translation>
+        <location filename="../utilitydialog.cpp" line="77"/>
+        <source>Choose data directory on startup (default: 0)</source>
+        <translation>在启动时选择数据目录（默认：0）</translation>
     </message>
     <message>
-        <source>Set language, for example "de_DE" (default: system locale)</source>
-        <translation>设置语言, 例如“zh-CN”（默认：系统语言）</translation>
+        <location filename="../utilitydialog.cpp" line="78"/>
+        <source>Set language, for example &quot;de_DE&quot; (default: system locale)</source>
+        <translation>设置语言, 例如“zh-TW”（默认为系统语言）</translation>
     </message>
     <message>
+        <location filename="../utilitydialog.cpp" line="79"/>
         <source>Start minimized</source>
-        <translation>启动时最小化</translation>
+        <translation>启动时最小化
+</translation>
     </message>
     <message>
+        <location filename="../utilitydialog.cpp" line="80"/>
         <source>Set SSL root certificates for payment request (default: -system-)</source>
-        <translation>设置付款请求的SSL根证书（默认：-系统-）</translation>
+        <translation>设置SSL根证书的付款请求(默认：-系统-)</translation>
     </message>
     <message>
-        <source>Show splash screen on startup (default: %u)</source>
-        <translation>显示启动画面（默认：%u）</translation>
-    </message>
-    <message>
-        <source>Reset all settings changed in the GUI</source>
-        <translation>重置图形界面所有的变更设置</translation>
+        <location filename="../utilitydialog.cpp" line="81"/>
+        <source>Show splash screen on startup (default: 1)</source>
+        <translation>启动时显示版权页 (缺省: 1)</translation>
     </message>
 </context>
 <context>
     <name>Intro</name>
     <message>
+        <location filename="../forms/intro.ui" line="14"/>
         <source>Welcome</source>
         <translation>欢迎</translation>
     </message>
     <message>
-        <source>Welcome to %1.</source>
-        <translation>
-歡迎來到 %1</translation>
+        <location filename="../forms/intro.ui" line="23"/>
+        <source>Welcome to Fastbitcoin Core.</source>
+        <translation>欢迎来到暗黑币内核</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where %1 will store its data.</source>
-        <translation>由于这是第一次启动此程序，您可以选择%1的数据所存储的位置</translation>
+        <location filename="../forms/intro.ui" line="49"/>
+        <source>As this is the first time the program is launched, you can choose where Fastbitcoin Core will store its data.</source>
+        <translation>本次启动是您第一次使用，您可以选择将暗黑币内核程序相应的数据文件存储在您想存储的文件路径</translation>
     </message>
     <message>
-        <source>%1 will download and store a copy of the FastBitcoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>%1 会下载并存储一份莱特币区块链的副本。至少有 %2GB 的数据会存储到这个目录中，并且还会持续增长。另外钱包资料也会储存在这个目录。</translation>
+        <location filename="../forms/intro.ui" line="59"/>
+        <source>Fastbitcoin Core will download and store a copy of the Fastbitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>暗黑币内核程序将开始下载并存储一份暗黑币数据块链资源。至少%1GB大小的数据将被保存在这个路径下。该数据会随着日后使用而增加其大小。您的钱包同样也会被保存在这个路径下。</translation>
     </message>
     <message>
+        <location filename="../forms/intro.ui" line="69"/>
         <source>Use the default data directory</source>
         <translation>使用默认的数据目录</translation>
     </message>
     <message>
+        <location filename="../forms/intro.ui" line="76"/>
         <source>Use a custom data directory:</source>
         <translation>使用自定义的数据目录：</translation>
     </message>
     <message>
-        <source>Error: Specified data directory "%1" cannot be created.</source>
-        <translation>错误：无法创建 指定的数据目录 "%1" </translation>
+        <location filename="../intro.cpp" line="185"/>
+        <source>Fastbitcoin</source>
+        <translation>暗黑币</translation>
     </message>
     <message>
+        <location filename="../intro.cpp" line="186"/>
+        <source>Error: Specified data directory &quot;%1&quot; can not be created.</source>
+        <translation>错误：指定的数据目录“%1”无法创建。</translation>
+    </message>
+    <message>
+        <location filename="../intro.cpp" line="210"/>
         <source>Error</source>
         <translation>错误</translation>
     </message>
-    <message numerus="yes">
-        <source>%n GB of free space available</source>
-        <translation><numerusform>有 %n GB 空闲空间</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>(of %n GB needed)</source>
-        <translation><numerusform>(需要%n GB空间)</numerusform></translation>
-    </message>
-</context>
-<context>
-    <name>ModalOverlay</name>
     <message>
-        <source>Form</source>
-        <translation>表单</translation>
+        <location filename="../intro.cpp" line="219"/>
+        <source>GB of free space available</source>
+        <translation>可用空间（GB）</translation>
     </message>
     <message>
-        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the fastbitcoin network, as detailed below.</source>
-        <translation>近期交易可能尚未显示，因此当前余额可能不准确。以上信息将在与莱特币网络完全同步后更正。详情如下</translation>
-    </message>
-    <message>
-        <source>Attempting to spend fastbitcoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
-        <translation>尝试使用受未可见交易影响的余额将不被网络接受。</translation>
-    </message>
-    <message>
-        <source>Number of blocks left</source>
-        <translation>剩余区块数量</translation>
-    </message>
-    <message>
-        <source>Unknown...</source>
-        <translation>未知</translation>
-    </message>
-    <message>
-        <source>Last block time</source>
-        <translation>上一数据块时间</translation>
-    </message>
-    <message>
-        <source>Progress</source>
-        <translation>进度</translation>
-    </message>
-    <message>
-        <source>Progress increase per hour</source>
-        <translation>每小时进度增加</translation>
-    </message>
-    <message>
-        <source>calculating...</source>
-        <translation>正在计算</translation>
-    </message>
-    <message>
-        <source>Estimated time left until synced</source>
-        <translation>预计剩余同步时间</translation>
-    </message>
-    <message>
-        <source>Hide</source>
-        <translation>隐藏</translation>
-    </message>
-    <message>
-        <source>Unknown. Syncing Headers (%1)...</source>
-        <translation>未知状态。同步区块头（%1）</translation>
+        <location filename="../intro.cpp" line="222"/>
+        <source>(of %1GB needed)</source>
+        <translation>（需要 %1GB）</translation>
     </message>
 </context>
 <context>
     <name>OpenURIDialog</name>
     <message>
+        <location filename="../forms/openuridialog.ui" line="14"/>
         <source>Open URI</source>
         <translation>打开 URI</translation>
     </message>
     <message>
+        <location filename="../forms/openuridialog.ui" line="20"/>
         <source>Open payment request from URI or file</source>
         <translation>打开来自URI或文件的付款请求 </translation>
     </message>
     <message>
+        <location filename="../forms/openuridialog.ui" line="29"/>
         <source>URI:</source>
         <translation>URI: </translation>
     </message>
     <message>
+        <location filename="../forms/openuridialog.ui" line="40"/>
         <source>Select payment request file</source>
         <translation>选择付款请求文件 </translation>
     </message>
     <message>
+        <location filename="../openuridialog.cpp" line="48"/>
         <source>Select payment request file to open</source>
-        <translation>选择要打开的付款请求文件</translation>
+        <translation>选择需要打开的付款请求文件 </translation>
     </message>
 </context>
 <context>
     <name>OptionsDialog</name>
     <message>
+        <location filename="../forms/optionsdialog.ui" line="14"/>
         <source>Options</source>
         <translation>选项</translation>
     </message>
     <message>
+        <location filename="../forms/optionsdialog.ui" line="27"/>
         <source>&amp;Main</source>
         <translation>主要(&amp;M)</translation>
     </message>
     <message>
-        <source>Automatically start %1 after logging in to the system.</source>
-        <translation>在登入系统后自动启动 %1</translation>
+        <location filename="../forms/optionsdialog.ui" line="33"/>
+        <source>Automatically start Fastbitcoin after logging in to the system.</source>
+        <translation>登录系统后自动启动暗黑币客户端</translation>
     </message>
     <message>
-        <source>&amp;Start %1 on system login</source>
-        <translation>系统登入时启动 %1</translation>
+        <location filename="../forms/optionsdialog.ui" line="36"/>
+        <source>&amp;Start Fastbitcoin on system login</source>
+        <translation>登录后启动暗黑币(&amp;S)</translation>
     </message>
     <message>
+        <location filename="../forms/optionsdialog.ui" line="45"/>
         <source>Size of &amp;database cache</source>
         <translation>数据库缓存大小(&amp;D)</translation>
     </message>
     <message>
+        <location filename="../forms/optionsdialog.ui" line="61"/>
         <source>MB</source>
         <translation>MB</translation>
     </message>
     <message>
+        <location filename="../forms/optionsdialog.ui" line="88"/>
         <source>Number of script &amp;verification threads</source>
-        <translation>脚本验证线程数(&amp;V)</translation>
+        <translation>脚本&amp;验证 进程数 </translation>
     </message>
     <message>
-        <source>Accept connections from outside</source>
-        <translation>接收外部连接</translation>
-    </message>
-    <message>
-        <source>Allow incoming connections</source>
-        <translation>允许流入连接</translation>
-    </message>
-    <message>
-        <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
-        <translation>代理的 IP 地址 (例如 IPv4: 127.0.0.1 / IPv6: ::1)</translation>
-    </message>
-    <message>
-        <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Exit in the menu.</source>
-        <translation>窗口被关闭时最小化而不是退出应用程序。当此选项启用时，应用程序只会在菜单中选择退出时退出。</translation>
-    </message>
-    <message>
-        <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
-        <translation>出现在交易的选项卡的上下文菜单项的第三方网址 (例如：区块链接查询) 。 %s的URL被替换为交易哈希。多个的URL需要竖线 | 分隔。</translation>
-    </message>
-    <message>
-        <source>Third party transaction URLs</source>
-        <translation>第三方交易网址</translation>
-    </message>
-    <message>
-        <source>Active command-line options that override above options:</source>
-        <translation>有效的命令行参数覆盖上述选项:</translation>
-    </message>
-    <message>
-        <source>Reset all client options to default.</source>
-        <translation>恢复客户端的缺省设置</translation>
-    </message>
-    <message>
-        <source>&amp;Reset Options</source>
-        <translation>恢复缺省设置(&amp;R)</translation>
-    </message>
-    <message>
-        <source>&amp;Network</source>
-        <translation>网络(&amp;N)</translation>
-    </message>
-    <message>
+        <location filename="../forms/optionsdialog.ui" line="101"/>
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
         <translation>(0 = 自动, &lt;0 = 离开很多免费的核心)</translation>
     </message>
     <message>
-        <source>W&amp;allet</source>
-        <translation>钱包(&amp;A)</translation>
+        <location filename="../forms/optionsdialog.ui" line="138"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;This setting determines the amount of individual Xnodes that an input will be anonymized through. More rounds of anonymization gives a higher degree of privacy, but also costs more in fees.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;此选项用以调整进行匿名化操作的主节点数量。越多的循环次数提供了更高级别的匿名性，同时也会花费更多的手续费&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
+        <location filename="../forms/optionsdialog.ui" line="141"/>
+        <source>Darksend rounds to use</source>
+        <translation>匿名传送的循环次数</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="165"/>
+        <source>This amount acts as a threshold to turn off Darksend once it&apos;s reached.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="180"/>
+        <source>Amount of Fastbitcoin to keep anonymized</source>
+        <translation>匿名化暗黑币数量</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="206"/>
+        <source>W&amp;allet</source>
+        <translation>&amp;钱包</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="212"/>
+        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
+        <translation>可选的每 kB 交易费，这有助于您的交易被更快的处理。大多数交易都是 1 kB。</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="227"/>
+        <source>Pay transaction &amp;fee</source>
+        <translation>支付交易费用(&amp;F)</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="271"/>
         <source>Expert</source>
         <translation>专家</translation>
     </message>
     <message>
-        <source>Enable coin &amp;control features</source>
-        <translation>启动货币控制功能(&amp;C)</translation>
-    </message>
-    <message>
-        <source>If you disable the spending of unconfirmed change, the change from a transaction cannot be used until that transaction has at least one confirmation. This also affects how your balance is computed.</source>
-        <translation>如果禁用未确认的零钱，则零钱至少需要1个确认才能使用。同时账户余额计算会受到影响。</translation>
-    </message>
-    <message>
-        <source>&amp;Spend unconfirmed change</source>
-        <translation>使用未经确认的零钱(&amp;S)</translation>
-    </message>
-    <message>
-        <source>Automatically open the FastBitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>自动在路由器中打开莱特币端口。只有当您的路由器开启了 UPnP 选项时此功能才有效。</translation>
-    </message>
-    <message>
-        <source>Map port using &amp;UPnP</source>
-        <translation>使用 &amp;UPnP 映射端口</translation>
-    </message>
-    <message>
-        <source>Connect to the FastBitcoin network through a SOCKS5 proxy.</source>
-        <translation>通过 SOCKS5 代理连接莱特币网络。</translation>
-    </message>
-    <message>
-        <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
-        <translation>通过 SO&amp;CKS5 代理连接(默认代理)：</translation>
-    </message>
-    <message>
-        <source>Proxy &amp;IP:</source>
-        <translation>代理服务器 &amp;IP：</translation>
-    </message>
-    <message>
-        <source>&amp;Port:</source>
-        <translation>端口(&amp;P)：</translation>
-    </message>
-    <message>
-        <source>Port of the proxy (e.g. 9050)</source>
-        <translation>代理端口（例如 9050）</translation>
-    </message>
-    <message>
-        <source>Used for reaching peers via:</source>
-        <translation>连接到同伴的方式：</translation>
-    </message>
-    <message>
-        <source>Shows, if the supplied default SOCKS5 proxy is used to reach peers via this network type.</source>
-        <translation>如果默认的SOCKS5代理被用于在该网络下连接同伴，则显示</translation>
-    </message>
-    <message>
-        <source>IPv4</source>
-        <translation>IPv4</translation>
-    </message>
-    <message>
-        <source>IPv6</source>
-        <translation>IPv6</translation>
-    </message>
-    <message>
-        <source>Tor</source>
-        <translation>Tor</translation>
-    </message>
-    <message>
-        <source>Connect to the FastBitcoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
-        <translation>在 Tor 匿名网络下通过不同的 SOCKS5 代理连接莱特币网络</translation>
-    </message>
-    <message>
-        <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
-        <translation>通过Tor隐藏服务连接节点时 使用不同的SOCKS5代理</translation>
-    </message>
-    <message>
-        <source>&amp;Window</source>
-        <translation>窗口(&amp;W)</translation>
-    </message>
-    <message>
-        <source>&amp;Hide the icon from the system tray.</source>
-        <translation>不在通知区显示图标</translation>
-    </message>
-    <message>
-        <source>Hide tray icon</source>
-        <translation>不显示通知区图标</translation>
-    </message>
-    <message>
-        <source>Show only a tray icon after minimizing the window.</source>
-        <translation>最小化窗口后仅显示托盘图标</translation>
-    </message>
-    <message>
-        <source>&amp;Minimize to the tray instead of the taskbar</source>
-        <translation>最小化到托盘(&amp;M)</translation>
-    </message>
-    <message>
-        <source>M&amp;inimize on close</source>
-        <translation>单击关闭按钮最小化(&amp;I)</translation>
-    </message>
-    <message>
-        <source>&amp;Display</source>
-        <translation>显示(&amp;D)</translation>
-    </message>
-    <message>
-        <source>User Interface &amp;language:</source>
-        <translation>用户界面语言(&amp;L)：</translation>
-    </message>
-    <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting %1.</source>
-        <translation>可以在这里设定用户界面的语言。这个设定在重启 %1 后才会生效。</translation>
-    </message>
-    <message>
-        <source>&amp;Unit to show amounts in:</source>
-        <translation>莱特币金额单位(&amp;U)：</translation>
-    </message>
-    <message>
-        <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>选择莱特币单位。</translation>
-    </message>
-    <message>
+        <location filename="../forms/optionsdialog.ui" line="277"/>
         <source>Whether to show coin control features or not.</source>
         <translation>是否需要交易源地址控制功能。</translation>
     </message>
     <message>
+        <location filename="../forms/optionsdialog.ui" line="280"/>
+        <source>Enable coin &amp;control features</source>
+        <translation>启动货币 &amp;控制功能</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="287"/>
+        <source>If you disable the spending of unconfirmed change, the change from a transaction cannot be used until that transaction has at least one confirmation. This also affects how your balance is computed.</source>
+        <translation>如果禁用未确认的零钱，则零钱至少需要1个确认才能使用。同时账户余额显示会受到影响。</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="290"/>
+        <source>&amp;Spend unconfirmed change</source>
+        <translation>&amp;选择未经确认的花费</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="301"/>
+        <source>&amp;Network</source>
+        <translation>网络(&amp;N)</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="307"/>
+        <source>Automatically open the Fastbitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>自动在路由器上打开暗黑币客户端端口。此项设置仅在您的路由器支持UPnP功能并且处于打开情况下才可正常工作</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="310"/>
+        <source>Map port using &amp;UPnP</source>
+        <translation>使用 &amp;UPnP 映射端口</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="317"/>
+        <source>Connect to the Fastbitcoin network through a SOCKS proxy.</source>
+        <translation>通过SOCKS代理连接暗黑币网络。</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="320"/>
+        <source>&amp;Connect through SOCKS proxy (default proxy):</source>
+        <translation>通过 SO&amp;CKS 代理连接 (默认代理):</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="329"/>
+        <source>Proxy &amp;IP:</source>
+        <translation>代理服务器 &amp;IP：</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="354"/>
+        <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
+        <translation>代理的 IP 地址 (例如 IPv4: 127.0.0.1 / IPv6: ::1)</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="361"/>
+        <source>&amp;Port:</source>
+        <translation>端口(&amp;P)：</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="386"/>
+        <source>Port of the proxy (e.g. 9050)</source>
+        <translation>代理端口（例如 9050）</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="393"/>
+        <source>SOCKS &amp;Version:</source>
+        <translation>Socks 版本(&amp;V)：</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="406"/>
+        <source>SOCKS version of the proxy (e.g. 5)</source>
+        <translation>Socks 代理版本（例如 5）</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="442"/>
+        <source>&amp;Window</source>
+        <translation>窗口(&amp;W)</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="448"/>
+        <source>Show only a tray icon after minimizing the window.</source>
+        <translation>最小化窗口后仅显示托盘图标</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="451"/>
+        <source>&amp;Minimize to the tray instead of the taskbar</source>
+        <translation>最小化到托盘(&amp;M)</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="458"/>
+        <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
+        <translation>当窗口关闭时程序最小化而不是退出。当使用该选项时，程序只能通过在菜单中选择退出来关闭</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="461"/>
+        <source>M&amp;inimize on close</source>
+        <translation>单击关闭按钮最小化(&amp;I)</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="482"/>
+        <source>&amp;Display</source>
+        <translation>显示(&amp;D)</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="490"/>
+        <source>User Interface &amp;language:</source>
+        <translation>用户界面语言(&amp;L)：</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="503"/>
+        <source>The user interface language can be set here. This setting will take effect after restarting Fastbitcoin.</source>
+        <translation>在此可以进行设置用户界面的语言。此设置需要重启暗黑币客户端以生效</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="524"/>
+        <source>Language missing or translation incomplete? Help contributing translations here:
+https://www.transifex.com/projects/p/fastbitcoin/</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="550"/>
+        <source>&amp;Unit to show amounts in:</source>
+        <translation>比特币金额单位(&amp;U)：</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="563"/>
+        <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
+        <translation>选择比特币单位。</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="572"/>
+        <source>Whether to show Fastbitcoin addresses in the transaction list or not.</source>
+        <translation>是否在交易列表中显示暗黑币地址。</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="575"/>
+        <source>&amp;Display addresses in transaction list</source>
+        <translation>在交易清单中显示比特币地址(&amp;D)</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="584"/>
+        <location filename="../forms/optionsdialog.ui" line="597"/>
+        <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
+        <translation>出现在交易的选项卡的上下文菜单项的第三方网址 (例如：区块链接查询) 。 %s的URL被替换为交易哈希。多个的URL需要竖线 | 分隔。</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="587"/>
+        <source>Third party transaction URLs</source>
+        <translation>第三方交易网址</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="628"/>
+        <source>Active command-line options that override above options:</source>
+        <translation>有效的命令行参数覆盖上述选项:</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="671"/>
+        <source>Reset all client options to default.</source>
+        <translation>恢复客户端的缺省设置</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="674"/>
+        <source>&amp;Reset Options</source>
+        <translation>恢复缺省设置(&amp;R)</translation>
+    </message>
+    <message>
+        <location filename="../forms/optionsdialog.ui" line="735"/>
         <source>&amp;OK</source>
         <translation>确定(&amp;O)</translation>
     </message>
     <message>
+        <location filename="../forms/optionsdialog.ui" line="742"/>
         <source>&amp;Cancel</source>
         <translation>取消(&amp;C)</translation>
     </message>
     <message>
+        <location filename="../optionsdialog.cpp" line="73"/>
         <source>default</source>
         <translation>默认</translation>
     </message>
     <message>
+        <location filename="../optionsdialog.cpp" line="134"/>
         <source>none</source>
         <translation>无</translation>
     </message>
     <message>
+        <location filename="../optionsdialog.cpp" line="222"/>
         <source>Confirm options reset</source>
         <translation>确认恢复缺省设置</translation>
     </message>
     <message>
+        <location filename="../optionsdialog.cpp" line="223"/>
+        <location filename="../optionsdialog.cpp" line="253"/>
         <source>Client restart required to activate changes.</source>
         <translation>更改生效需要重启客户端。</translation>
     </message>
     <message>
-        <source>Client will be shut down. Do you want to proceed?</source>
-        <translation>客户端即将关闭，您想继续吗？</translation>
+        <location filename="../optionsdialog.cpp" line="223"/>
+        <source>Client will be shutdown, do you want to proceed?</source>
+        <translation>客户端即将关闭，确定继续吗？</translation>
     </message>
     <message>
+        <location filename="../optionsdialog.cpp" line="257"/>
         <source>This change would require a client restart.</source>
         <translation>此更改需要重启客户端。</translation>
     </message>
     <message>
+        <location filename="../optionsdialog.cpp" line="291"/>
         <source>The supplied proxy address is invalid.</source>
         <translation>提供的代理服务器地址无效。</translation>
     </message>
@@ -1192,676 +1731,776 @@
 <context>
     <name>OverviewPage</name>
     <message>
+        <location filename="../forms/overviewpage.ui" line="20"/>
         <source>Form</source>
         <translation>表单</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the FastBitcoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>现在显示的消息可能是过期的。在连接上莱特币网络节点后，您的钱包将自动与网络同步，但是这个过程还没有完成。</translation>
+        <location filename="../forms/overviewpage.ui" line="63"/>
+        <source>Wallet</source>
+        <translation>钱包</translation>
     </message>
     <message>
-        <source>Watch-only:</source>
-        <translation>查看-只有:</translation>
+        <location filename="../forms/overviewpage.ui" line="70"/>
+        <location filename="../forms/overviewpage.ui" line="953"/>
+        <location filename="../forms/overviewpage.ui" line="1021"/>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Fastbitcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>显示的信息可能已过期。在建立连接后您的钱包自动与暗黑币网络同步数据，此同步过程目前尚未完毕。</translation>
     </message>
     <message>
+        <location filename="../forms/overviewpage.ui" line="114"/>
         <source>Available:</source>
         <translation>可使用的余额：</translation>
     </message>
     <message>
+        <location filename="../forms/overviewpage.ui" line="130"/>
         <source>Your current spendable balance</source>
         <translation>您当前可使用的余额</translation>
     </message>
     <message>
+        <location filename="../forms/overviewpage.ui" line="146"/>
         <source>Pending:</source>
         <translation>等待中的余额：</translation>
     </message>
     <message>
+        <location filename="../forms/overviewpage.ui" line="162"/>
         <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
         <translation>尚未确认的交易总额，未计入当前余额</translation>
     </message>
     <message>
+        <location filename="../forms/overviewpage.ui" line="178"/>
         <source>Immature:</source>
         <translation>未成熟的：</translation>
     </message>
     <message>
+        <location filename="../forms/overviewpage.ui" line="191"/>
         <source>Mined balance that has not yet matured</source>
         <translation>尚未成熟的挖矿收入余额</translation>
     </message>
     <message>
-        <source>Balances</source>
-        <translation>余额</translation>
-    </message>
-    <message>
+        <location filename="../forms/overviewpage.ui" line="207"/>
         <source>Total:</source>
         <translation>总额：</translation>
     </message>
     <message>
+        <location filename="../forms/overviewpage.ui" line="223"/>
         <source>Your current total balance</source>
         <translation>您当前的总余额</translation>
     </message>
     <message>
-        <source>Your current balance in watch-only addresses</source>
-        <translation>您当前 观察地址(watch-only address)的余额 </translation>
+        <location filename="../forms/overviewpage.ui" line="302"/>
+        <source>Status:</source>
+        <translation>状态:</translation>
     </message>
     <message>
-        <source>Spendable:</source>
-        <translation>可使用：</translation>
+        <location filename="../forms/overviewpage.ui" line="309"/>
+        <source>Enabled/Disabled</source>
+        <translation>打开/关闭</translation>
     </message>
     <message>
-        <source>Recent transactions</source>
-        <translation>最近交易记录</translation>
+        <location filename="../forms/overviewpage.ui" line="316"/>
+        <source>Completion:</source>
+        <translation>完成度:</translation>
     </message>
     <message>
-        <source>Unconfirmed transactions to watch-only addresses</source>
-        <translation>观察地址(watch-only address)的未确认交易记录 </translation>
+        <location filename="../forms/overviewpage.ui" line="336"/>
+        <source>Darksend Balance:</source>
+        <translation>匿名传送余额:</translation>
     </message>
     <message>
-        <source>Mined balance in watch-only addresses that has not yet matured</source>
-        <translation>观察地址(watch-only address)中尚未成熟(matured)的挖矿收入余额：</translation>
+        <location filename="../forms/overviewpage.ui" line="349"/>
+        <source>0 FBC</source>
+        <translation>0 FBC</translation>
     </message>
     <message>
-        <source>Current total balance in watch-only addresses</source>
-        <translation>观察地址(watch-only address)中的当前总余额 </translation>
+        <location filename="../forms/overviewpage.ui" line="356"/>
+        <source>Amount and Rounds:</source>
+        <translation>数量与循环次数:</translation>
+    </message>
+    <message>
+        <location filename="../forms/overviewpage.ui" line="363"/>
+        <source>0 FBC / 0 Rounds</source>
+        <translation>0 FBC/ 0 轮循环</translation>
+    </message>
+    <message>
+        <location filename="../forms/overviewpage.ui" line="370"/>
+        <source>Submitted Denom:</source>
+        <translation>提交的面额:</translation>
+    </message>
+    <message>
+        <location filename="../forms/overviewpage.ui" line="377"/>
+        <source>The denominations you submitted to the Xnode. To mix, other users must submit the exact same denominations.</source>
+        <translation>您向主节点所提交的用以面额化混合的FBC，当其他用户提交相同的面额化FBC数量时，将开始混合。</translation>
+    </message>
+    <message>
+        <location filename="../forms/overviewpage.ui" line="380"/>
+        <source>n/a</source>
+        <translation>n/a</translation>
+    </message>
+    <message>
+        <location filename="../forms/overviewpage.ui" line="946"/>
+        <location filename="../overviewpage.cpp" line="453"/>
+        <location filename="../overviewpage.cpp" line="467"/>
+        <location filename="../overviewpage.cpp" line="481"/>
+        <source>Darksend</source>
+        <translation>匿名发送</translation>
+    </message>
+    <message>
+        <location filename="../forms/overviewpage.ui" line="839"/>
+        <source>Start/Stop Mixing</source>
+        <translation>开始/关闭 混合</translation>
+    </message>
+    <message>
+        <location filename="../forms/overviewpage.ui" line="871"/>
+        <source>(Last Message)</source>
+        <translation>(最近一次信息)</translation>
+    </message>
+    <message>
+        <location filename="../forms/overviewpage.ui" line="896"/>
+        <source>Try to manually submit a Darksend request.</source>
+        <translation>尝试手动提交一次匿名化请求</translation>
+    </message>
+    <message>
+        <location filename="../forms/overviewpage.ui" line="899"/>
+        <source>Try Mix</source>
+        <translation>尝试混合</translation>
+    </message>
+    <message>
+        <location filename="../forms/overviewpage.ui" line="918"/>
+        <source>Reset the current status of Darksend (can interrupt Darksend if it&apos;s in the process of Mixing, which can cost you money!)</source>
+        <translation>重置目前匿名状态(此操作可能会影响您目前正在执行的混合过程，并且产生费用!)</translation>
+    </message>
+    <message>
+        <location filename="../forms/overviewpage.ui" line="924"/>
+        <source>Reset</source>
+        <translation>重置</translation>
+    </message>
+    <message>
+        <location filename="../forms/overviewpage.ui" line="1014"/>
+        <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
+        <translation>&lt;b&gt;最近交易记录&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="126"/>
+        <location filename="../overviewpage.cpp" line="127"/>
+        <location filename="../overviewpage.cpp" line="128"/>
+        <source>out of sync</source>
+        <translation>数据同步中</translation>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="143"/>
+        <location filename="../overviewpage.cpp" line="350"/>
+        <source>Disabled</source>
+        <translation>关闭</translation>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="146"/>
+        <location filename="../overviewpage.cpp" line="352"/>
+        <location filename="../overviewpage.cpp" line="495"/>
+        <source>Start Darksend Mixing</source>
+        <translation>开始匿名化混合</translation>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="148"/>
+        <location filename="../overviewpage.cpp" line="497"/>
+        <source>Stop Darksend Mixing</source>
+        <translation>关闭匿名化混合</translation>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="270"/>
+        <source>No inputs detected</source>
+        <translation>未检测到输入</translation>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="278"/>
+        <source>Found unconfirmed denominated outputs, will wait till they confirm to recalculate.</source>
+        <translation>未确认的面额化输出，将等待他们确认及重新计算</translation>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="335"/>
+        <source>Rounds</source>
+        <translation>循环次数</translation>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="366"/>
+        <source>Enabled</source>
+        <translation>打开</translation>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="424"/>
+        <source>Last Darksend message:
+</source>
+        <translation>最后一次匿名信息:
+</translation>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="377"/>
+        <location filename="../overviewpage.cpp" line="406"/>
+        <source>Darksend is idle.</source>
+        <translation>匿名化处于空闲状态</translation>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="381"/>
+        <source>Mixing in progress...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="387"/>
+        <source>Darksend request complete: Your transaction was accepted into the pool!</source>
+        <translation>匿名化请求已完成: 您的交易成功被匿名池接受</translation>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="393"/>
+        <source>Submitted following entries to Xnode:</source>
+        <translation>正在向主节点提交:</translation>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="394"/>
+        <location filename="../overviewpage.cpp" line="395"/>
+        <location filename="../overviewpage.cpp" line="396"/>
+        <source>Submitted to Xnode, Waiting for more entries</source>
+        <translation>已向主节点提交，等待更多实例</translation>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="399"/>
+        <source>Found enough users, signing ...</source>
+        <translation>用户数已满足，开始签名 ... </translation>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="400"/>
+        <source>Found enough users, signing ( waiting. )</source>
+        <translation>用户数已满足，开始签名 (等待中.)</translation>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="401"/>
+        <source>Found enough users, signing ( waiting.. )</source>
+        <translation>用户数已满足，开始签名 (等待中..)</translation>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="402"/>
+        <source>Found enough users, signing ( waiting... )</source>
+        <translation>用户数已满足，开始签名 (等待中...)</translation>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="404"/>
+        <source>Transmitting final transaction.</source>
+        <translation>发送最终交易。</translation>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="408"/>
+        <source>Finalizing transaction.</source>
+        <translation>正在完成交易。</translation>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="410"/>
+        <source>Darksend request incomplete:</source>
+        <translation>匿名化请求未完成:</translation>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="410"/>
+        <source>Will retry...</source>
+        <translation>即将重试...</translation>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="412"/>
+        <source>Darksend request complete:</source>
+        <translation>匿名化请求已完成:</translation>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="414"/>
+        <source>Submitted to Xnode, waiting in queue .</source>
+        <translation>已提交至主节点，在队列中等待 .</translation>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="415"/>
+        <source>Submitted to Xnode, waiting in queue ..</source>
+        <translation>已提交至主节点，在队列中等待 ..</translation>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="416"/>
+        <source>Submitted to Xnode, waiting in queue ...</source>
+        <translation>已提交至主节点，在队列中等待 ...</translation>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="418"/>
+        <source>Unknown state:</source>
+        <translation>位置状态:</translation>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="432"/>
+        <source>N/A</source>
+        <translation>不可用</translation>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="454"/>
+        <source>Darksend was successfully reset.</source>
+        <translation>匿名化被成功重置。</translation>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="468"/>
+        <source>Darksend requires at least %1 to use.</source>
+        <translation>匿名化要求至少 1% 以使用</translation>
+    </message>
+    <message>
+        <location filename="../overviewpage.cpp" line="482"/>
+        <source>Wallet is locked and user declined to unlock. Disabling Darksend.</source>
+        <translation>钱包已锁定需要用户解锁。 正在关闭匿名化。</translation>
     </message>
 </context>
 <context>
     <name>PaymentServer</name>
     <message>
+        <location filename="../paymentserver.cpp" line="293"/>
+        <location filename="../paymentserver.cpp" line="505"/>
+        <location filename="../paymentserver.cpp" line="518"/>
+        <location filename="../paymentserver.cpp" line="613"/>
+        <location filename="../paymentserver.cpp" line="631"/>
+        <location filename="../paymentserver.cpp" line="647"/>
         <source>Payment request error</source>
-        <translation>要求付款时发生错误</translation>
+        <translation>支付请求出错</translation>
     </message>
     <message>
+        <location filename="../paymentserver.cpp" line="294"/>
         <source>Cannot start fastbitcoin: click-to-pay handler</source>
-        <translation>无法启动 fastbitcoin 协议的“
-一键支付”处理器</translation>
+        <translation>不能启动暗黑币：click-to-pay handler</translation>
     </message>
     <message>
+        <location filename="../paymentserver.cpp" line="352"/>
+        <source>Net manager warning</source>
+        <translation>网络管理器警告</translation>
+    </message>
+    <message>
+        <location filename="../paymentserver.cpp" line="353"/>
+        <source>Your active proxy doesn&apos;t support SOCKS5, which is required for payment requests via proxy.</source>
+        <translation>您的活动代理不支持 SOCKS5，而通过代理进行支付请求时这是必须的。</translation>
+    </message>
+    <message>
+        <location filename="../paymentserver.cpp" line="404"/>
+        <location filename="../paymentserver.cpp" line="417"/>
         <source>URI handling</source>
         <translation>URI 处理</translation>
     </message>
     <message>
+        <location filename="../paymentserver.cpp" line="405"/>
         <source>Payment request fetch URL is invalid: %1</source>
-        <translation>取得付款请求的 URL 无效: %1</translation>
+        <translation>付款请求URI链接非法: %1</translation>
     </message>
     <message>
-        <source>Invalid payment address %1</source>
-        <translation>无效的付款地址 %1</translation>
+        <location filename="../paymentserver.cpp" line="418"/>
+        <source>URI can not be parsed! This can be caused by an invalid Fastbitcoin address or malformed URI parameters.</source>
+        <translation>URI无法被解析！此问题可能是由无效的暗黑币地址或者无效的URI参数导致。</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid FastBitcoin address or malformed URI parameters.</source>
-        <translation>无法解析 URI 地址！可能是因为莱特币地址无效，或是 URI 参数格式错误。</translation>
-    </message>
-    <message>
+        <location filename="../paymentserver.cpp" line="432"/>
         <source>Payment request file handling</source>
-        <translation>处理付款请求文件</translation>
+        <translation>付款请求文件处理 </translation>
     </message>
     <message>
-        <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
-        <translation>无法读取付款请求文件！可能是文件无效造成的。</translation>
+        <location filename="../paymentserver.cpp" line="433"/>
+        <source>Payment request file can not be read or processed! This can be caused by an invalid payment request file.</source>
+        <translation>付款请求文件不能读取或无法识别！这可能是个不合格的付款请求文件。</translation>
     </message>
     <message>
-        <source>Payment request rejected</source>
-        <translation>付款请求已被拒绝</translation>
-    </message>
-    <message>
-        <source>Payment request network doesn't match client network.</source>
-        <translation>付款请求的网络类型跟客户端不符。</translation>
-    </message>
-    <message>
-        <source>Payment request expired.</source>
-        <translation>付款请求已过期。</translation>
-    </message>
-    <message>
-        <source>Payment request is not initialized.</source>
-        <translation>支付请求未成形。</translation>
-    </message>
-    <message>
+        <location filename="../paymentserver.cpp" line="506"/>
         <source>Unverified payment requests to custom payment scripts are unsupported.</source>
         <translation>不支持到自定义付款脚本的未验证付款请求。</translation>
     </message>
     <message>
-        <source>Invalid payment request.</source>
-        <translation>无效的支付请求。</translation>
-    </message>
-    <message>
+        <location filename="../paymentserver.cpp" line="514"/>
         <source>Requested payment amount of %1 is too small (considered dust).</source>
         <translation>请求支付的金额 %1 太小（就像尘埃）。</translation>
     </message>
     <message>
+        <location filename="../paymentserver.cpp" line="565"/>
         <source>Refund from %1</source>
         <translation>退款来自 %1</translation>
     </message>
     <message>
-        <source>Payment request %1 is too large (%2 bytes, allowed %3 bytes).</source>
-        <translation>支付请求 %1 太大 (%2 字节。只允许 %3 字节)。</translation>
-    </message>
-    <message>
+        <location filename="../paymentserver.cpp" line="608"/>
         <source>Error communicating with %1: %2</source>
         <translation>%1: %2 通讯出错</translation>
     </message>
     <message>
-        <source>Payment request cannot be parsed!</source>
-        <translation>无法解析 付款请求！</translation>
+        <location filename="../paymentserver.cpp" line="632"/>
+        <source>Payment request can not be parsed or processed!</source>
+        <translation>支付请求不能被解析或处理！</translation>
     </message>
     <message>
+        <location filename="../paymentserver.cpp" line="643"/>
         <source>Bad response from server %1</source>
         <translation>来自 %1 服务器的错误响应</translation>
     </message>
     <message>
+        <location filename="../paymentserver.cpp" line="665"/>
         <source>Network request error</source>
         <translation>网络请求出错</translation>
     </message>
     <message>
+        <location filename="../paymentserver.cpp" line="676"/>
         <source>Payment acknowledged</source>
-        <translation>付款已确认</translation>
-    </message>
-</context>
-<context>
-    <name>PeerTableModel</name>
-    <message>
-        <source>User Agent</source>
-        <translation>用户代理</translation>
-    </message>
-    <message>
-        <source>Node/Service</source>
-        <translation>节点/服务</translation>
-    </message>
-    <message>
-        <source>NodeId</source>
-        <translation>节点ID</translation>
-    </message>
-    <message>
-        <source>Ping</source>
-        <translation> </translation>
+        <translation>支付已到账</translation>
     </message>
 </context>
 <context>
     <name>QObject</name>
     <message>
-        <source>Amount</source>
-        <translation>金额</translation>
+        <location filename="../fastbitcoin.cpp" line="525"/>
+        <location filename="../fastbitcoin.cpp" line="532"/>
+        <location filename="../fastbitcoin.cpp" line="539"/>
+        <location filename="../fastbitcoin.cpp" line="552"/>
+        <source>Fastbitcoin</source>
+        <translation>暗黑币</translation>
     </message>
     <message>
-        <source>Enter a FastBitcoin address (e.g. %1)</source>
-        <translation>请输入一个莱特币地址 (例如 %1)</translation>
-    </message>
-    <message>
-        <source>%1 d</source>
-        <translation>%1 天</translation>
-    </message>
-    <message>
-        <source>%1 h</source>
-        <translation>%1 小时</translation>
-    </message>
-    <message>
-        <source>%1 m</source>
-        <translation>%1 分钟</translation>
-    </message>
-    <message>
-        <source>%1 s</source>
-        <translation>%1 秒</translation>
-    </message>
-    <message>
-        <source>None</source>
-        <translation>无</translation>
-    </message>
-    <message>
-        <source>N/A</source>
-        <translation>不可用</translation>
-    </message>
-    <message>
-        <source>%1 ms</source>
-        <translation>%1 毫秒</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n second(s)</source>
-        <translation><numerusform>%n 秒</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n minute(s)</source>
-        <translation><numerusform>%n 分钟</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n hour(s)</source>
-        <translation><numerusform>%n 小时</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n day(s)</source>
-        <translation><numerusform>%n 天</numerusform></translation>
-    </message>
-    <message numerus="yes">
-        <source>%n week(s)</source>
-        <translation><numerusform>%n 周</numerusform></translation>
-    </message>
-    <message>
-        <source>%1 and %2</source>
-        <translation>%1 和 %2</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n year(s)</source>
-        <translation><numerusform>%n 年</numerusform></translation>
-    </message>
-    <message>
-        <source>%1 didn't yet exit safely...</source>
-        <translation>%1 尚未安全退出</translation>
-    </message>
-</context>
-<context>
-    <name>QObject::QObject</name>
-    <message>
-        <source>Error: Specified data directory "%1" does not exist.</source>
+        <location filename="../fastbitcoin.cpp" line="526"/>
+        <source>Error: Specified data directory &quot;%1&quot; does not exist.</source>
         <translation>错误：指定的数据目录“%1”不存在。</translation>
     </message>
     <message>
+        <location filename="../fastbitcoin.cpp" line="533"/>
         <source>Error: Cannot parse configuration file: %1. Only use key=value syntax.</source>
-        <translation>错误：无法解析配置文件：%1。只接受 key=value语法。</translation>
+        <translation>错误: 无法解析配置文件: %1. 只有钥匙=重要的私匙.</translation>
     </message>
     <message>
-        <source>Error: %1</source>
-        <translation>错误：%1</translation>
+        <location filename="../fastbitcoin.cpp" line="540"/>
+        <source>Error reading Xnode configuration file: %1</source>
+        <translation>读取主节点配置错误：%1</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoin.cpp" line="552"/>
+        <source>Error: Invalid combination of -regtest and -testnet.</source>
+        <translation>错误：无效的 -regtest 与 -testnet 结合体。</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoin.cpp" line="612"/>
+        <source>Fastbitcoin Core didn&apos;t yet exit safely...</source>
+        <translation>暗黑币内核尚未安全退出...</translation>
+    </message>
+    <message>
+        <location filename="../guiutil.cpp" line="101"/>
+        <source>Enter a Fastbitcoin address (e.g. iGJXtgFacXixKeK8Pxmk3a7YhXMc2o8EsB )</source>
+        <translation>输入一个暗黑币地址(如 iGJXtgFacXixKeK8Pxmk3a7YhXMc2o8EsB )</translation>
     </message>
 </context>
 <context>
     <name>QRImageWidget</name>
     <message>
+        <location filename="../receiverequestdialog.cpp" line="36"/>
         <source>&amp;Save Image...</source>
         <translation>保存图片(&amp;S)...</translation>
     </message>
     <message>
+        <location filename="../receiverequestdialog.cpp" line="39"/>
         <source>&amp;Copy Image</source>
-        <translation>复制图片</translation>
+        <translation>复制图片(&amp;C)</translation>
     </message>
     <message>
+        <location filename="../receiverequestdialog.cpp" line="71"/>
         <source>Save QR Code</source>
         <translation>保存二维码</translation>
     </message>
     <message>
+        <location filename="../receiverequestdialog.cpp" line="71"/>
         <source>PNG Image (*.png)</source>
-        <translation>PNG 图像(*.png)</translation>
+        <translation>PNG图片(*.png)</translation>
     </message>
 </context>
 <context>
     <name>RPCConsole</name>
     <message>
-        <source>N/A</source>
-        <translation>不可用</translation>
+        <location filename="../forms/rpcconsole.ui" line="14"/>
+        <source>Tools window</source>
+        <translation>工具窗口</translation>
     </message>
     <message>
-        <source>Client version</source>
-        <translation>客户端版本</translation>
-    </message>
-    <message>
+        <location filename="../forms/rpcconsole.ui" line="24"/>
         <source>&amp;Information</source>
-        <translation>信息</translation>
+        <translation>信息(&amp;I)</translation>
     </message>
     <message>
-        <source>Debug window</source>
-        <translation>调试窗口</translation>
+        <location filename="../forms/rpcconsole.ui" line="33"/>
+        <source>Xnode Count</source>
+        <translation>主节点统计</translation>
     </message>
     <message>
+        <location filename="../forms/rpcconsole.ui" line="46"/>
         <source>General</source>
         <translation>常规</translation>
     </message>
     <message>
-        <source>Using BerkeleyDB version</source>
-        <translation>使用的 BerkeleyDB 版本</translation>
-    </message>
-    <message>
-        <source>Datadir</source>
-        <translation>数据目录</translation>
-    </message>
-    <message>
-        <source>Startup time</source>
-        <translation>启动时间</translation>
-    </message>
-    <message>
-        <source>Network</source>
-        <translation>网络</translation>
-    </message>
-    <message>
+        <location filename="../forms/rpcconsole.ui" line="53"/>
         <source>Name</source>
         <translation>姓名</translation>
     </message>
     <message>
+        <location filename="../forms/rpcconsole.ui" line="60"/>
+        <source>Client name</source>
+        <translation>客户端名称</translation>
+    </message>
+    <message>
+        <location filename="../forms/rpcconsole.ui" line="70"/>
+        <location filename="../forms/rpcconsole.ui" line="139"/>
+        <location filename="../forms/rpcconsole.ui" line="192"/>
+        <location filename="../forms/rpcconsole.ui" line="215"/>
+        <location filename="../forms/rpcconsole.ui" line="231"/>
+        <location filename="../forms/rpcconsole.ui" line="247"/>
+        <location filename="../forms/rpcconsole.ui" line="276"/>
+        <location filename="../forms/rpcconsole.ui" line="292"/>
+        <location filename="../forms/rpcconsole.ui" line="315"/>
+        <location filename="../forms/rpcconsole.ui" line="341"/>
+        <source>N/A</source>
+        <translation>不可用</translation>
+    </message>
+    <message>
+        <location filename="../forms/rpcconsole.ui" line="83"/>
         <source>Number of connections</source>
         <translation>连接数</translation>
     </message>
     <message>
-        <source>Block chain</source>
-        <translation>数据链</translation>
+        <location filename="../forms/rpcconsole.ui" line="90"/>
+        <source>Open the Fastbitcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>从目前数据路径下打开暗黑币的调试日志。如果您的日志文件比较大可能会多花费一些时间。</translation>
     </message>
     <message>
-        <source>Current number of blocks</source>
-        <translation>当前数据块数量</translation>
-    </message>
-    <message>
-        <source>Memory Pool</source>
-        <translation>资金池</translation>
-    </message>
-    <message>
-        <source>Current number of transactions</source>
-        <translation>当前交易数量</translation>
-    </message>
-    <message>
-        <source>Memory usage</source>
-        <translation>内存使用</translation>
-    </message>
-    <message>
-        <source>Received</source>
-        <translation>收到</translation>
-    </message>
-    <message>
-        <source>Sent</source>
-        <translation>发送</translation>
-    </message>
-    <message>
-        <source>&amp;Peers</source>
-        <translation>同伴(&amp;P)</translation>
-    </message>
-    <message>
-        <source>Banned peers</source>
-        <translation>节点黑名单</translation>
-    </message>
-    <message>
-        <source>Select a peer to view detailed information.</source>
-        <translation>选择节点查看详细信息。</translation>
-    </message>
-    <message>
-        <source>Whitelisted</source>
-        <translation>白名单</translation>
-    </message>
-    <message>
-        <source>Direction</source>
-        <translation>方向</translation>
-    </message>
-    <message>
-        <source>Version</source>
-        <translation>版本</translation>
-    </message>
-    <message>
-        <source>Starting Block</source>
-        <translation>正在启动数据块</translation>
-    </message>
-    <message>
-        <source>Synced Headers</source>
-        <translation>同步区块头</translation>
-    </message>
-    <message>
-        <source>Synced Blocks</source>
-        <translation>同步区块链</translation>
-    </message>
-    <message>
-        <source>User Agent</source>
-        <translation>用户代理</translation>
-    </message>
-    <message>
-        <source>Decrease font size</source>
-        <translation>缩小文字</translation>
-    </message>
-    <message>
-        <source>Increase font size</source>
-        <translation>放大文字</translation>
-    </message>
-    <message>
-        <source>Services</source>
-        <translation>服务</translation>
-    </message>
-    <message>
-        <source>Ban Score</source>
-        <translation>禁止得分</translation>
-    </message>
-    <message>
-        <source>Connection Time</source>
-        <translation>连接时间</translation>
-    </message>
-    <message>
-        <source>Last Send</source>
-        <translation>最后发送</translation>
-    </message>
-    <message>
-        <source>Last Receive</source>
-        <translation>最后接收</translation>
-    </message>
-    <message>
-        <source>Ping Time</source>
-        <translation>Ping 时间</translation>
-    </message>
-    <message>
-        <source>The duration of a currently outstanding ping.</source>
-        <translation>目前这一次 ping 已经过去的时间。</translation>
-    </message>
-    <message>
-        <source>Ping Wait</source>
-        <translation>Ping等待</translation>
-    </message>
-    <message>
-        <source>Min Ping</source>
-        <translation>最小Ping值</translation>
-    </message>
-    <message>
-        <source>Time Offset</source>
-        <translation>时间偏移</translation>
-    </message>
-    <message>
-        <source>Last block time</source>
-        <translation>上一数据块时间</translation>
-    </message>
-    <message>
+        <location filename="../forms/rpcconsole.ui" line="93"/>
         <source>&amp;Open</source>
         <translation>打开(&amp;O)</translation>
     </message>
     <message>
-        <source>&amp;Console</source>
-        <translation>控制台(&amp;C)</translation>
+        <location filename="../forms/rpcconsole.ui" line="116"/>
+        <source>Startup time</source>
+        <translation>启动时间</translation>
     </message>
     <message>
-        <source>&amp;Network Traffic</source>
-        <translation>网络流量(&amp;N)</translation>
+        <location filename="../forms/rpcconsole.ui" line="129"/>
+        <source>Network</source>
+        <translation>网络</translation>
     </message>
     <message>
-        <source>&amp;Clear</source>
-        <translation>清除(&amp;C)</translation>
+        <location filename="../forms/rpcconsole.ui" line="152"/>
+        <source>Last block time</source>
+        <translation>上一数据块时间</translation>
     </message>
     <message>
-        <source>Totals</source>
-        <translation>总数</translation>
-    </message>
-    <message>
-        <source>In:</source>
-        <translation>输入:</translation>
-    </message>
-    <message>
-        <source>Out:</source>
-        <translation>输出：</translation>
-    </message>
-    <message>
+        <location filename="../forms/rpcconsole.ui" line="165"/>
         <source>Debug log file</source>
         <translation>调试日志文件</translation>
     </message>
     <message>
+        <location filename="../forms/rpcconsole.ui" line="172"/>
+        <source>Using OpenSSL version</source>
+        <translation>使用 OpenSSL 版本</translation>
+    </message>
+    <message>
+        <location filename="../forms/rpcconsole.ui" line="182"/>
+        <source>Build date</source>
+        <translation>创建时间</translation>
+    </message>
+    <message>
+        <location filename="../forms/rpcconsole.ui" line="205"/>
+        <source>Current number of blocks</source>
+        <translation>当前数据块数量</translation>
+    </message>
+    <message>
+        <location filename="../forms/rpcconsole.ui" line="305"/>
+        <source>Client version</source>
+        <translation>客户端版本</translation>
+    </message>
+    <message>
+        <location filename="../forms/rpcconsole.ui" line="334"/>
+        <source>Block chain</source>
+        <translation>数据链</translation>
+    </message>
+    <message>
+        <location filename="../forms/rpcconsole.ui" line="349"/>
+        <source>&amp;Console</source>
+        <translation>控制台(&amp;C)</translation>
+    </message>
+    <message>
+        <location filename="../forms/rpcconsole.ui" line="398"/>
         <source>Clear console</source>
         <translation>清空控制台</translation>
     </message>
     <message>
-        <source>1 &amp;hour</source>
-        <translation>1 小时(&amp;H)</translation>
+        <location filename="../forms/rpcconsole.ui" line="421"/>
+        <source>&amp;Network Traffic</source>
+        <translation>网络流量(&amp;N)</translation>
     </message>
     <message>
-        <source>1 &amp;day</source>
-        <translation>1 天(&amp;D)</translation>
+        <location filename="../forms/rpcconsole.ui" line="473"/>
+        <source>&amp;Clear</source>
+        <translation>清除(&amp;C)</translation>
     </message>
     <message>
-        <source>1 &amp;week</source>
-        <translation>1 周(&amp;W)</translation>
+        <location filename="../forms/rpcconsole.ui" line="486"/>
+        <source>Totals</source>
+        <translation>总数</translation>
     </message>
     <message>
-        <source>1 &amp;year</source>
-        <translation>1 年(&amp;Y)</translation>
+        <location filename="../forms/rpcconsole.ui" line="550"/>
+        <location filename="../rpcconsole.cpp" line="367"/>
+        <source>In:</source>
+        <translation>输入：</translation>
     </message>
     <message>
-        <source>&amp;Disconnect</source>
-        <translation>(&amp;D)断开</translation>
+        <location filename="../forms/rpcconsole.ui" line="630"/>
+        <location filename="../rpcconsole.cpp" line="368"/>
+        <source>Out:</source>
+        <translation>输出：</translation>
     </message>
     <message>
-        <source>Ban for</source>
-        <translation>禁止</translation>
+        <location filename="../rpcconsole.cpp" line="333"/>
+        <source>Welcome to the Fastbitcoin RPC console.</source>
+        <translation>欢迎来到暗黑币RPC控制台。</translation>
     </message>
     <message>
-        <source>&amp;Unban</source>
-        <translation>重新允许</translation>
-    </message>
-    <message>
-        <source>Welcome to the %1 RPC console.</source>
-        <translation>欢迎使用 %1 的 RPC 控制台。</translation>
-    </message>
-    <message>
+        <location filename="../rpcconsole.cpp" line="334"/>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
         <translation>使用上下方向键浏览历史,  &lt;b&gt;Ctrl-L&lt;/b&gt;清除屏幕。</translation>
     </message>
     <message>
+        <location filename="../rpcconsole.cpp" line="335"/>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
         <translation>使用 &lt;b&gt;help&lt;/b&gt; 命令显示帮助信息。</translation>
     </message>
     <message>
-        <source>WARNING: Scammers have been active, telling users to type commands here, stealing their wallet contents. Do not use this console without fully understanding the ramification of a command.</source>
-        <translation>警告： 已有骗子通过要求用户在此输入指令以盗取钱包。不要在没有完全理解命令规范时使用控制台。</translation>
-    </message>
-    <message>
-        <source>Network activity disabled</source>
-        <translation>网络活动已禁用</translation>
-    </message>
-    <message>
+        <location filename="../rpcconsole.cpp" line="474"/>
         <source>%1 B</source>
         <translation>%1 字节</translation>
     </message>
     <message>
+        <location filename="../rpcconsole.cpp" line="476"/>
         <source>%1 KB</source>
         <translation>%1 KB</translation>
     </message>
     <message>
+        <location filename="../rpcconsole.cpp" line="478"/>
         <source>%1 MB</source>
         <translation>%1 MB</translation>
     </message>
     <message>
+        <location filename="../rpcconsole.cpp" line="480"/>
         <source>%1 GB</source>
         <translation>%1 GB</translation>
     </message>
     <message>
-        <source>(node id: %1)</source>
-        <translation>(节点ID: %1)</translation>
+        <location filename="../rpcconsole.cpp" line="487"/>
+        <source>%1 m</source>
+        <translation>%1 分钟</translation>
     </message>
     <message>
-        <source>via %1</source>
-        <translation>通过 %1</translation>
+        <location filename="../rpcconsole.cpp" line="492"/>
+        <source>%1 h</source>
+        <translation>%1 小时</translation>
     </message>
     <message>
-        <source>never</source>
-        <translation>从未</translation>
-    </message>
-    <message>
-        <source>Inbound</source>
-        <translation>传入</translation>
-    </message>
-    <message>
-        <source>Outbound</source>
-        <translation>传出</translation>
-    </message>
-    <message>
-        <source>Yes</source>
-        <translation>是</translation>
-    </message>
-    <message>
-        <source>No</source>
-        <translation>否</translation>
-    </message>
-    <message>
-        <source>Unknown</source>
-        <translation>未知</translation>
+        <location filename="../rpcconsole.cpp" line="494"/>
+        <source>%1 h %2 m</source>
+        <translation>%1 小时 %2 分钟</translation>
     </message>
 </context>
 <context>
     <name>ReceiveCoinsDialog</name>
     <message>
-        <source>&amp;Amount:</source>
-        <translation>总额(&amp;A)：</translation>
-    </message>
-    <message>
-        <source>&amp;Label:</source>
-        <translation>标签(&amp;L)：</translation>
-    </message>
-    <message>
-        <source>&amp;Message:</source>
-        <translation>消息(&amp;M)：</translation>
-    </message>
-    <message>
+        <location filename="../forms/receivecoinsdialog.ui" line="34"/>
         <source>Reuse one of the previously used receiving addresses. Reusing addresses has security and privacy issues. Do not use this unless re-generating a payment request made before.</source>
         <translation>重复使用以前用过的接收地址。重用地址有安全和隐私方面的隐患。除非是为重复生成同一项支付请求，否则请不要这样做。</translation>
     </message>
     <message>
+        <location filename="../forms/receivecoinsdialog.ui" line="37"/>
         <source>R&amp;euse an existing receiving address (not recommended)</source>
         <translation>重用现有的接收地址（不推荐）</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the FastBitcoin network.</source>
-        <translation>可在付款请求上备注一条信息，在打开付款请求时可以看到。注意：该消息不是通过莱特币网络传送。</translation>
+        <location filename="../forms/receivecoinsdialog.ui" line="51"/>
+        <location filename="../forms/receivecoinsdialog.ui" line="74"/>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Fastbitcoin network.</source>
+        <translation>可在付款请求中附加一条消息，当打开此请求时会显示这条消息。 注意：此条消息不会随着该请求被暗黑币网络发送。</translation>
     </message>
     <message>
+        <location filename="../forms/receivecoinsdialog.ui" line="54"/>
+        <source>&amp;Message:</source>
+        <translation>消息(&amp;M)：</translation>
+    </message>
+    <message>
+        <location filename="../forms/receivecoinsdialog.ui" line="67"/>
+        <location filename="../forms/receivecoinsdialog.ui" line="88"/>
         <source>An optional label to associate with the new receiving address.</source>
         <translation>可为新建的收款地址添加一个标签。</translation>
     </message>
     <message>
+        <location filename="../forms/receivecoinsdialog.ui" line="81"/>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
         <translation>使用此表单要求付款。所有字段都是&lt;b&gt;可选&lt;/b&gt;。</translation>
     </message>
     <message>
+        <location filename="../forms/receivecoinsdialog.ui" line="91"/>
+        <source>&amp;Label:</source>
+        <translation>标签(&amp;L)：</translation>
+    </message>
+    <message>
+        <location filename="../forms/receivecoinsdialog.ui" line="104"/>
+        <location filename="../forms/receivecoinsdialog.ui" line="126"/>
         <source>An optional amount to request. Leave this empty or zero to not request a specific amount.</source>
         <translation>可选的请求金额。留空或填零为不要求具体金额。</translation>
     </message>
     <message>
-        <source>Clear all fields of the form.</source>
-        <translation>清除此表单的所有字段。</translation>
+        <location filename="../forms/receivecoinsdialog.ui" line="107"/>
+        <source>&amp;Amount:</source>
+        <translation>总额(&amp;A)：</translation>
     </message>
     <message>
-        <source>Clear</source>
-        <translation>清除</translation>
-    </message>
-    <message>
-        <source>Requested payments history</source>
-        <translation>请求付款的历史</translation>
-    </message>
-    <message>
+        <location filename="../forms/receivecoinsdialog.ui" line="141"/>
         <source>&amp;Request payment</source>
         <translation>请求付款(&amp;R)</translation>
     </message>
     <message>
+        <location filename="../forms/receivecoinsdialog.ui" line="158"/>
+        <source>Clear all fields of the form.</source>
+        <translation>清空此表单的所有字段。</translation>
+    </message>
+    <message>
+        <location filename="../forms/receivecoinsdialog.ui" line="161"/>
+        <source>Clear</source>
+        <translation>清除</translation>
+    </message>
+    <message>
+        <location filename="../forms/receivecoinsdialog.ui" line="239"/>
+        <source>Requested payments history</source>
+        <translation>请求付款的历史</translation>
+    </message>
+    <message>
+        <location filename="../forms/receivecoinsdialog.ui" line="261"/>
         <source>Show the selected request (does the same as double clicking an entry)</source>
         <translation>显示选中的请求 (双击也可以显示)</translation>
     </message>
     <message>
+        <location filename="../forms/receivecoinsdialog.ui" line="264"/>
         <source>Show</source>
         <translation>显示</translation>
     </message>
     <message>
+        <location filename="../forms/receivecoinsdialog.ui" line="278"/>
         <source>Remove the selected entries from the list</source>
         <translation>从列表中移除选中的条目</translation>
     </message>
     <message>
+        <location filename="../forms/receivecoinsdialog.ui" line="281"/>
         <source>Remove</source>
         <translation>移除</translation>
     </message>
     <message>
-        <source>Copy URI</source>
-        <translation>复制URI</translation>
-    </message>
-    <message>
+        <location filename="../receivecoinsdialog.cpp" line="39"/>
         <source>Copy label</source>
         <translation>复制标签</translation>
     </message>
     <message>
+        <location filename="../receivecoinsdialog.cpp" line="40"/>
         <source>Copy message</source>
-        <translation>复制消息</translation>
+        <translation>复制消息 </translation>
     </message>
     <message>
+        <location filename="../receivecoinsdialog.cpp" line="41"/>
         <source>Copy amount</source>
         <translation>复制金额</translation>
     </message>
@@ -1869,449 +2508,519 @@
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
+        <location filename="../forms/receiverequestdialog.ui" line="29"/>
         <source>QR Code</source>
         <translation>二维码</translation>
     </message>
     <message>
+        <location filename="../forms/receiverequestdialog.ui" line="75"/>
         <source>Copy &amp;URI</source>
         <translation>复制 URI(&amp;U)</translation>
     </message>
     <message>
+        <location filename="../forms/receiverequestdialog.ui" line="82"/>
         <source>Copy &amp;Address</source>
         <translation>复制地址(&amp;A)</translation>
     </message>
     <message>
+        <location filename="../forms/receiverequestdialog.ui" line="89"/>
         <source>&amp;Save Image...</source>
         <translation>保存图片(&amp;S)...</translation>
     </message>
     <message>
+        <location filename="../receiverequestdialog.cpp" line="136"/>
         <source>Request payment to %1</source>
         <translation>请求付款到 %1</translation>
     </message>
     <message>
+        <location filename="../receiverequestdialog.cpp" line="142"/>
         <source>Payment information</source>
         <translation>付款信息</translation>
     </message>
     <message>
+        <location filename="../receiverequestdialog.cpp" line="143"/>
         <source>URI</source>
         <translation>URI</translation>
     </message>
     <message>
+        <location filename="../receiverequestdialog.cpp" line="145"/>
         <source>Address</source>
         <translation>地址</translation>
     </message>
     <message>
+        <location filename="../receiverequestdialog.cpp" line="147"/>
         <source>Amount</source>
         <translation>金额</translation>
     </message>
     <message>
+        <location filename="../receiverequestdialog.cpp" line="149"/>
         <source>Label</source>
         <translation>标签</translation>
     </message>
     <message>
+        <location filename="../receiverequestdialog.cpp" line="151"/>
         <source>Message</source>
         <translation>消息</translation>
     </message>
     <message>
+        <location filename="../receiverequestdialog.cpp" line="161"/>
         <source>Resulting URI too long, try to reduce the text for label / message.</source>
         <translation>URI 太长，请试着精简标签或消息文本。</translation>
     </message>
     <message>
+        <location filename="../receiverequestdialog.cpp" line="166"/>
         <source>Error encoding URI into QR Code.</source>
-        <translation>把 URI 编码成二维码时发生错误。</translation>
+        <translation>将 URI 转为二维码失败。</translation>
     </message>
 </context>
 <context>
     <name>RecentRequestsTableModel</name>
     <message>
+        <location filename="../recentrequeststablemodel.cpp" line="24"/>
         <source>Date</source>
         <translation>日期</translation>
     </message>
     <message>
+        <location filename="../recentrequeststablemodel.cpp" line="24"/>
         <source>Label</source>
         <translation>标签</translation>
     </message>
     <message>
+        <location filename="../recentrequeststablemodel.cpp" line="24"/>
         <source>Message</source>
         <translation>消息</translation>
     </message>
     <message>
-        <source>(no label)</source>
-        <translation>(无标签)</translation>
+        <location filename="../recentrequeststablemodel.cpp" line="24"/>
+        <source>Amount</source>
+        <translation>金额</translation>
     </message>
     <message>
+        <location filename="../recentrequeststablemodel.cpp" line="62"/>
+        <source>(no label)</source>
+        <translation>(没有标签)</translation>
+    </message>
+    <message>
+        <location filename="../recentrequeststablemodel.cpp" line="71"/>
         <source>(no message)</source>
         <translation>(无消息)</translation>
     </message>
     <message>
-        <source>(no amount requested)</source>
-        <translation>（无请求金额）</translation>
-    </message>
-    <message>
-        <source>Requested</source>
-        <translation>总额</translation>
+        <location filename="../recentrequeststablemodel.cpp" line="79"/>
+        <source>(no amount)</source>
+        <translation>(无金额) </translation>
     </message>
 </context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
+        <location filename="../forms/sendcoinsdialog.ui" line="14"/>
+        <location filename="../sendcoinsdialog.cpp" line="429"/>
+        <location filename="../sendcoinsdialog.cpp" line="521"/>
+        <location filename="../sendcoinsdialog.cpp" line="531"/>
         <source>Send Coins</source>
-        <translation>发送莱特币</translation>
+        <translation>发送货币</translation>
     </message>
     <message>
+        <location filename="../forms/sendcoinsdialog.ui" line="90"/>
         <source>Coin Control Features</source>
         <translation>交易源地址控制功能</translation>
     </message>
     <message>
+        <location filename="../forms/sendcoinsdialog.ui" line="110"/>
         <source>Inputs...</source>
         <translation>输入...</translation>
     </message>
     <message>
+        <location filename="../forms/sendcoinsdialog.ui" line="117"/>
         <source>automatically selected</source>
         <translation>自动选择</translation>
     </message>
     <message>
+        <location filename="../forms/sendcoinsdialog.ui" line="136"/>
         <source>Insufficient funds!</source>
         <translation>存款不足！</translation>
     </message>
     <message>
+        <location filename="../forms/sendcoinsdialog.ui" line="225"/>
         <source>Quantity:</source>
         <translation>总量：</translation>
     </message>
     <message>
+        <location filename="../forms/sendcoinsdialog.ui" line="260"/>
         <source>Bytes:</source>
         <translation>字节：</translation>
     </message>
     <message>
+        <location filename="../forms/sendcoinsdialog.ui" line="308"/>
         <source>Amount:</source>
         <translation>金额：</translation>
     </message>
     <message>
+        <location filename="../forms/sendcoinsdialog.ui" line="340"/>
+        <source>Priority:</source>
+        <translation>优先级：</translation>
+    </message>
+    <message>
+        <location filename="../forms/sendcoinsdialog.ui" line="353"/>
+        <source>medium</source>
+        <translation>中等</translation>
+    </message>
+    <message>
+        <location filename="../forms/sendcoinsdialog.ui" line="388"/>
         <source>Fee:</source>
         <translation>费用：</translation>
     </message>
     <message>
+        <location filename="../forms/sendcoinsdialog.ui" line="420"/>
+        <source>Low Output:</source>
+        <translation>低输出</translation>
+    </message>
+    <message>
+        <location filename="../forms/sendcoinsdialog.ui" line="433"/>
+        <source>no</source>
+        <translation>否</translation>
+    </message>
+    <message>
+        <location filename="../forms/sendcoinsdialog.ui" line="468"/>
         <source>After Fee:</source>
         <translation>加上交易费用后:</translation>
     </message>
     <message>
+        <location filename="../forms/sendcoinsdialog.ui" line="500"/>
         <source>Change:</source>
         <translation>变更 : </translation>
     </message>
     <message>
+        <location filename="../forms/sendcoinsdialog.ui" line="544"/>
         <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
         <translation>如果激活该选项，但是零钱地址用光或者非法，将会新生成零钱地址，转入零钱。</translation>
     </message>
     <message>
+        <location filename="../forms/sendcoinsdialog.ui" line="547"/>
         <source>Custom change address</source>
         <translation>自定义零钱地址</translation>
     </message>
     <message>
-        <source>Transaction Fee:</source>
-        <translation>交易费用:</translation>
-    </message>
-    <message>
-        <source>Choose...</source>
-        <translation>选择... </translation>
-    </message>
-    <message>
-        <source>collapse fee-settings</source>
-        <translation>收起  费用设置 </translation>
-    </message>
-    <message>
-        <source>per kilobyte</source>
-        <translation>每kb</translation>
-    </message>
-    <message>
-        <source>If the custom fee is set to 1000 satoshis and the transaction is only 250 bytes, then "per kilobyte" only pays 250 satoshis in fee, while "total at least" pays 1000 satoshis. For transactions bigger than a kilobyte both pay by kilobyte.</source>
-        <translation>如果自定义交易费设置为 1000聪而交易大小只有250字节，则“每千字节" 模式只支付250聪交易费， 而"最少"模式则支付1000聪。 大于1000字节的交易按每千字节付费。</translation>
-    </message>
-    <message>
-        <source>Hide</source>
-        <translation>隐藏</translation>
-    </message>
-    <message>
-        <source>total at least</source>
-        <translation>最小额 </translation>
-    </message>
-    <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for fastbitcoin transactions than the network can process.</source>
-        <translation>交易量小时只支付最小交易费是可以的。但是请注意，当交易量大到超出网络可处理时您的交易可能永远无法确认。</translation>
-    </message>
-    <message>
-        <source>(read the tooltip)</source>
-        <translation>(请注意提示信息)</translation>
-    </message>
-    <message>
-        <source>Recommended:</source>
-        <translation>推荐：</translation>
-    </message>
-    <message>
-        <source>Custom:</source>
-        <translation>自定义：</translation>
-    </message>
-    <message>
-        <source>(Smart fee not initialized yet. This usually takes a few blocks...)</source>
-        <translation>(智能交易费用 尚未初始化。 需要再下载一些数据块...)</translation>
-    </message>
-    <message>
-        <source>normal</source>
-        <translation>一般</translation>
-    </message>
-    <message>
-        <source>fast</source>
-        <translation>快速</translation>
-    </message>
-    <message>
-        <source>Send to multiple recipients at once</source>
-        <translation>一次发送给多个接收者</translation>
-    </message>
-    <message>
-        <source>Add &amp;Recipient</source>
-        <translation>添加收款人(&amp;R)</translation>
-    </message>
-    <message>
-        <source>Clear all fields of the form.</source>
-        <translation>清除此表单的所有字段。</translation>
-    </message>
-    <message>
-        <source>Dust:</source>
-        <translation>小额：</translation>
-    </message>
-    <message>
-        <source>Confirmation time target:</source>
-        <translation>确认时间目标：</translation>
-    </message>
-    <message>
-        <source>Clear &amp;All</source>
-        <translation>清除所有(&amp;A)</translation>
-    </message>
-    <message>
-        <source>Balance:</source>
-        <translation>余额：</translation>
-    </message>
-    <message>
+        <location filename="../forms/sendcoinsdialog.ui" line="668"/>
         <source>Confirm the send action</source>
-        <translation>确认发送货币</translation>
+        <translation>确认并发送货币</translation>
     </message>
     <message>
+        <location filename="../forms/sendcoinsdialog.ui" line="671"/>
         <source>S&amp;end</source>
         <translation>发送(&amp;E)</translation>
     </message>
     <message>
-        <source>Copy quantity</source>
-        <translation>复制数目</translation>
+        <location filename="../forms/sendcoinsdialog.ui" line="691"/>
+        <source>Clear all fields of the form.</source>
+        <translation>清除此表单的所有字段。</translation>
     </message>
     <message>
+        <location filename="../forms/sendcoinsdialog.ui" line="694"/>
+        <source>Clear &amp;All</source>
+        <translation>清除所有(&amp;A)</translation>
+    </message>
+    <message>
+        <location filename="../forms/sendcoinsdialog.ui" line="711"/>
+        <source>Send to multiple recipients at once</source>
+        <translation>一次发送给多个接收者</translation>
+    </message>
+    <message>
+        <location filename="../forms/sendcoinsdialog.ui" line="714"/>
+        <source>Add &amp;Recipient</source>
+        <translation>添加收款人(&amp;R)</translation>
+    </message>
+    <message>
+        <location filename="../forms/sendcoinsdialog.ui" line="752"/>
+        <source>Darksend</source>
+        <translation>匿名发送</translation>
+    </message>
+    <message>
+        <location filename="../forms/sendcoinsdialog.ui" line="771"/>
+        <source>InstantX</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../forms/sendcoinsdialog.ui" line="778"/>
+        <source>Balance:</source>
+        <translation>余额：</translation>
+    </message>
+    <message>
+        <location filename="../sendcoinsdialog.cpp" line="53"/>
+        <source>Copy quantity</source>
+        <translation>复制金额</translation>
+    </message>
+    <message>
+        <location filename="../sendcoinsdialog.cpp" line="54"/>
         <source>Copy amount</source>
         <translation>复制金额</translation>
     </message>
     <message>
+        <location filename="../sendcoinsdialog.cpp" line="55"/>
         <source>Copy fee</source>
-        <translation>复制手续费</translation>
+        <translation>复制交易费</translation>
     </message>
     <message>
+        <location filename="../sendcoinsdialog.cpp" line="56"/>
         <source>Copy after fee</source>
-        <translation>复制计费后金额</translation>
+        <translation>复制含交易费的金额</translation>
     </message>
     <message>
+        <location filename="../sendcoinsdialog.cpp" line="57"/>
         <source>Copy bytes</source>
-        <translation>复制字节数</translation>
+        <translation>复制字节</translation>
     </message>
     <message>
-        <source>Copy dust</source>
-        <translation>复制零散金额</translation>
+        <location filename="../sendcoinsdialog.cpp" line="58"/>
+        <source>Copy priority</source>
+        <translation>复制优先级</translation>
     </message>
     <message>
+        <location filename="../sendcoinsdialog.cpp" line="59"/>
+        <source>Copy low output</source>
+        <translation>复制低输出</translation>
+    </message>
+    <message>
+        <location filename="../sendcoinsdialog.cpp" line="60"/>
         <source>Copy change</source>
-        <translation>复制找零金额</translation>
+        <translation>复制零钱</translation>
     </message>
     <message>
+        <location filename="../sendcoinsdialog.cpp" line="145"/>
+        <location filename="../sendcoinsdialog.cpp" line="151"/>
+        <location filename="../sendcoinsdialog.cpp" line="160"/>
+        <source>using</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../sendcoinsdialog.cpp" line="145"/>
+        <location filename="../sendcoinsdialog.cpp" line="151"/>
+        <source>anonymous funds</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../sendcoinsdialog.cpp" line="155"/>
+        <source>(Darksend requires this amount to be rounded up to the nearest %1).</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../sendcoinsdialog.cpp" line="160"/>
+        <source>any available funds (not recommended)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../sendcoinsdialog.cpp" line="166"/>
+        <source>and InstantX</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../sendcoinsdialog.cpp" line="190"/>
+        <location filename="../sendcoinsdialog.cpp" line="195"/>
+        <location filename="../sendcoinsdialog.cpp" line="200"/>
+        <location filename="../sendcoinsdialog.cpp" line="204"/>
         <source>%1 to %2</source>
         <translation>%1 到 %2</translation>
     </message>
     <message>
+        <location filename="../sendcoinsdialog.cpp" line="253"/>
         <source>Are you sure you want to send?</source>
         <translation>您确定要发出吗？</translation>
     </message>
     <message>
-        <source>added as transaction fee</source>
-        <translation>已添加交易费</translation>
+        <location filename="../sendcoinsdialog.cpp" line="262"/>
+        <source>are added as transaction fee</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Total Amount %1</source>
-        <translation>总金额 %1</translation>
+        <location filename="../sendcoinsdialog.cpp" line="276"/>
+        <source>Total Amount %1 (= %2)</source>
+        <translation>总额 %1 (= %2)</translation>
     </message>
     <message>
+        <location filename="../sendcoinsdialog.cpp" line="278"/>
         <source>or</source>
         <translation>或</translation>
     </message>
     <message>
+        <location filename="../sendcoinsdialog.cpp" line="280"/>
         <source>Confirm send coins</source>
         <translation>确认发送货币</translation>
     </message>
     <message>
-        <source>The recipient address is not valid. Please recheck.</source>
-        <translation>接收人地址无效。请重新检查。</translation>
+        <location filename="../sendcoinsdialog.cpp" line="435"/>
+        <source>Payment request expired</source>
+        <translation>支付请求已过期</translation>
     </message>
     <message>
+        <location filename="../sendcoinsdialog.cpp" line="443"/>
+        <source>Invalid payment address %1</source>
+        <translation>无效的付款地址 %1</translation>
+    </message>
+    <message>
+        <location filename="../sendcoinsdialog.cpp" line="498"/>
+        <source>The recipient address is not valid, please recheck.</source>
+        <translation>收款人地址不合法，请检查。</translation>
+    </message>
+    <message>
+        <location filename="../sendcoinsdialog.cpp" line="501"/>
         <source>The amount to pay must be larger than 0.</source>
         <translation>支付金额必须大于0。</translation>
     </message>
     <message>
+        <location filename="../sendcoinsdialog.cpp" line="504"/>
         <source>The amount exceeds your balance.</source>
         <translation>金额超出您的账上余额。</translation>
     </message>
     <message>
+        <location filename="../sendcoinsdialog.cpp" line="507"/>
         <source>The total exceeds your balance when the %1 transaction fee is included.</source>
         <translation>计入 %1 交易费后的金额超出您的账上余额。</translation>
     </message>
     <message>
-        <source>Duplicate address found: addresses should only be used once each.</source>
-        <translation>发现重复地址：每个地址应该只使用一次。</translation>
+        <location filename="../sendcoinsdialog.cpp" line="510"/>
+        <source>Duplicate address found, can only send to each address once per send operation.</source>
+        <translation>发现重复的地址, 每次只能对同一地址发送一次。</translation>
     </message>
     <message>
+        <location filename="../sendcoinsdialog.cpp" line="513"/>
         <source>Transaction creation failed!</source>
         <translation>交易创建失败！</translation>
     </message>
     <message>
-        <source>The transaction was rejected with the following reason: %1</source>
-        <translation>交易因以下原因拒绝：%1</translation>
+        <location filename="../sendcoinsdialog.cpp" line="517"/>
+        <source>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
+        <translation>错误：该交易被拒绝！发生这种错误的原因可能是：钱包中的比特币已经被用掉，有可能您复制了wallet.dat钱包文件，然后用复制的钱包文件支付了比特币，但是这个钱包文件中没有记录。</translation>
     </message>
     <message>
-        <source>A fee higher than %1 is considered an absurdly high fee.</source>
-        <translation>超过 %1 的交易费被认为是荒谬的高费率。</translation>
+        <location filename="../sendcoinsdialog.cpp" line="522"/>
+        <source>Error: The wallet was unlocked only to anonymize coins.</source>
+        <translation>错误： 钱包被锁定以用于匿名化您的暗黑币。</translation>
     </message>
     <message>
-        <source>Payment request expired.</source>
-        <translation>付款请求已过期。</translation>
-    </message>
-    <message numerus="yes">
-        <source>%n block(s)</source>
-        <translation><numerusform>%n 个区块</numerusform></translation>
+        <location filename="../sendcoinsdialog.cpp" line="635"/>
+        <source>Warning: Invalid Fastbitcoin address</source>
+        <translation>警告：无效的暗黑币地址</translation>
     </message>
     <message>
-        <source>Pay only the required fee of %1</source>
-        <translation>只支付必要费用 %1</translation>
-    </message>
-    <message numerus="yes">
-        <source>Estimated to begin confirmation within %n block(s).</source>
-        <translation><numerusform>预计 %n 个数据块后被确认。</numerusform></translation>
-    </message>
-    <message>
-        <source>Warning: Invalid FastBitcoin address</source>
-        <translation>警告: 莱特币地址无效</translation>
-    </message>
-    <message>
+        <location filename="../sendcoinsdialog.cpp" line="644"/>
         <source>Warning: Unknown change address</source>
         <translation>警告：未知的更改地址</translation>
     </message>
     <message>
-        <source>The address you selected for change is not part of this wallet. Any or all funds in your wallet may be sent to this address. Are you sure?</source>
-        <translation>你选择的找零地址未被包含在本钱包中，你钱包中的部分或全部金额将被发送至该地址。你确定要这样做吗？</translation>
-    </message>
-    <message>
+        <location filename="../sendcoinsdialog.cpp" line="655"/>
         <source>(no label)</source>
-        <translation>(无标签)</translation>
+        <translation>(没有标签)</translation>
     </message>
 </context>
 <context>
     <name>SendCoinsEntry</name>
     <message>
-        <source>A&amp;mount:</source>
-        <translation>金额(&amp;M)</translation>
-    </message>
-    <message>
-        <source>Pay &amp;To:</source>
-        <translation>付给(&amp;T)：</translation>
-    </message>
-    <message>
-        <source>&amp;Label:</source>
-        <translation>标签(&amp;L)：</translation>
-    </message>
-    <message>
-        <source>Choose previously used address</source>
-        <translation>选择以前用过的地址</translation>
-    </message>
-    <message>
+        <location filename="../forms/sendcoinsentry.ui" line="21"/>
         <source>This is a normal payment.</source>
         <translation>这是笔正常的支付。</translation>
     </message>
     <message>
-        <source>The FastBitcoin address to send the payment to</source>
-        <translation>付款目的地址</translation>
+        <location filename="../forms/sendcoinsentry.ui" line="36"/>
+        <source>Pay &amp;To:</source>
+        <translation>付给(&amp;T)：</translation>
     </message>
     <message>
+        <location filename="../forms/sendcoinsentry.ui" line="54"/>
+        <source>The address to send the payment to (e.g. iGJXtgFacXixKeK8Pxmk3a7YhXMc2o8EsB )</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../forms/sendcoinsentry.ui" line="61"/>
+        <source>Choose previously used address</source>
+        <translation>选择以前用过的地址</translation>
+    </message>
+    <message>
+        <location filename="../forms/sendcoinsentry.ui" line="71"/>
         <source>Alt+A</source>
         <translation>Alt+A</translation>
     </message>
     <message>
+        <location filename="../forms/sendcoinsentry.ui" line="78"/>
         <source>Paste address from clipboard</source>
         <translation>从剪贴板粘贴地址</translation>
     </message>
     <message>
+        <location filename="../forms/sendcoinsentry.ui" line="88"/>
         <source>Alt+P</source>
         <translation>Alt+P</translation>
     </message>
     <message>
+        <location filename="../forms/sendcoinsentry.ui" line="95"/>
+        <location filename="../forms/sendcoinsentry.ui" line="619"/>
+        <location filename="../forms/sendcoinsentry.ui" line="1155"/>
         <source>Remove this entry</source>
         <translation>移除此项</translation>
     </message>
     <message>
-        <source>The fee will be deducted from the amount being sent. The recipient will receive less fastbitcoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
-        <translation>交易费将从发送总额中扣除。接收人将收到比您在金额框中输入的更少的莱特币。如果选中了多个收件人，交易费平分。</translation>
+        <location filename="../forms/sendcoinsentry.ui" line="111"/>
+        <source>&amp;Label:</source>
+        <translation>标签(&amp;L)：</translation>
     </message>
     <message>
-        <source>S&amp;ubtract fee from amount</source>
-        <translation>从金额中减去交易费(&amp;U)</translation>
-    </message>
-    <message>
-        <source>Message:</source>
-        <translation>消息：</translation>
-    </message>
-    <message>
-        <source>This is an unauthenticated payment request.</source>
-        <translation>这是一个未经验证的支付请求。</translation>
-    </message>
-    <message>
-        <source>This is an authenticated payment request.</source>
-        <translation>这是一个已经验证的支付请求。</translation>
-    </message>
-    <message>
+        <location filename="../forms/sendcoinsentry.ui" line="124"/>
         <source>Enter a label for this address to add it to the list of used addresses</source>
         <translation>请为此地址输入一个标签以将它加入用过的地址列表</translation>
     </message>
     <message>
-        <source>A message that was attached to the fastbitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the FastBitcoin network.</source>
-        <translation>fastbitcoin:URI 附带的备注信息，将会和交易一起存储，备查。 注意：该消息不会通过莱特币网络传输。</translation>
+        <location filename="../forms/sendcoinsentry.ui" line="131"/>
+        <location filename="../forms/sendcoinsentry.ui" line="652"/>
+        <location filename="../forms/sendcoinsentry.ui" line="1188"/>
+        <source>A&amp;mount:</source>
+        <translation>金额(&amp;M)</translation>
     </message>
     <message>
+        <location filename="../forms/sendcoinsentry.ui" line="147"/>
+        <source>Message:</source>
+        <translation>消息：</translation>
+    </message>
+    <message>
+        <location filename="../forms/sendcoinsentry.ui" line="157"/>
+        <source>A message that was attached to the fastbitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Fastbitcoin network.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../forms/sendcoinsentry.ui" line="583"/>
+        <source>This is an unverified payment request.</source>
+        <translation>这是个非有效的支付请求。</translation>
+    </message>
+    <message>
+        <location filename="../forms/sendcoinsentry.ui" line="601"/>
+        <location filename="../forms/sendcoinsentry.ui" line="1133"/>
         <source>Pay To:</source>
         <translation>支付给:</translation>
     </message>
     <message>
+        <location filename="../forms/sendcoinsentry.ui" line="635"/>
+        <location filename="../forms/sendcoinsentry.ui" line="1171"/>
         <source>Memo:</source>
         <translation>便条：</translation>
     </message>
     <message>
+        <location filename="../forms/sendcoinsentry.ui" line="1115"/>
+        <source>This is a verified payment request.</source>
+        <translation>这是个有效的支付请求。</translation>
+    </message>
+    <message>
+        <location filename="../sendcoinsentry.cpp" line="31"/>
         <source>Enter a label for this address to add it to your address book</source>
         <translation>为这个地址输入一个标签，以便将它添加到您的地址簿</translation>
     </message>
 </context>
 <context>
-    <name>SendConfirmationDialog</name>
-    <message>
-        <source>Yes</source>
-        <translation>是</translation>
-    </message>
-</context>
-<context>
     <name>ShutdownWindow</name>
     <message>
-        <source>%1 is shutting down...</source>
-        <translation>正在关闭 %1 ...</translation>
+        <location filename="../utilitydialog.cpp" line="129"/>
+        <source>Fastbitcoin Core is shutting down...</source>
+        <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../utilitydialog.cpp" line="130"/>
         <source>Do not shut down the computer until this window disappears.</source>
         <translation>在此窗口消失前不要关闭计算机。</translation>
     </message>
@@ -2319,138 +3028,186 @@
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
+        <location filename="../forms/signverifymessagedialog.ui" line="14"/>
         <source>Signatures - Sign / Verify a Message</source>
         <translation>签名 - 为消息签名/验证签名消息</translation>
     </message>
     <message>
+        <location filename="../forms/signverifymessagedialog.ui" line="24"/>
         <source>&amp;Sign Message</source>
         <translation>签名消息(&amp;S)</translation>
     </message>
     <message>
-        <source>You can sign messages/agreements with your addresses to prove you can receive fastbitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>您可以用你的地址对消息/协议进行签名，以证明您可以接收发送到该地址的莱特币。注意不要对任何模棱两可或者随机的消息进行签名，以免遭受钓鱼式攻击。请确保消息内容准确的表达了您的真实意愿。</translation>
+        <location filename="../forms/signverifymessagedialog.ui" line="30"/>
+        <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>您可以用你的地址对消息进行签名，以证明您是该地址的所有人。注意不要对模棱两可的消息签名，以免遭受钓鱼式攻击。请确保消息内容准确的表达了您的真实意愿。</translation>
     </message>
     <message>
-        <source>The FastBitcoin address to sign the message with</source>
-        <translation>用来对消息签名的地址 </translation>
+        <location filename="../forms/signverifymessagedialog.ui" line="48"/>
+        <source>The address to sign the message with (e.g. iGJXtgFacXixKeK8Pxmk3a7YhXMc2o8EsB )</source>
+        <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../forms/signverifymessagedialog.ui" line="55"/>
+        <location filename="../forms/signverifymessagedialog.ui" line="265"/>
         <source>Choose previously used address</source>
         <translation>选择以前用过的地址</translation>
     </message>
     <message>
+        <location filename="../forms/signverifymessagedialog.ui" line="65"/>
+        <location filename="../forms/signverifymessagedialog.ui" line="275"/>
         <source>Alt+A</source>
         <translation>Alt+A</translation>
     </message>
     <message>
+        <location filename="../forms/signverifymessagedialog.ui" line="75"/>
         <source>Paste address from clipboard</source>
         <translation>从剪贴板粘贴地址</translation>
     </message>
     <message>
+        <location filename="../forms/signverifymessagedialog.ui" line="85"/>
         <source>Alt+P</source>
         <translation>Alt+P</translation>
     </message>
     <message>
+        <location filename="../forms/signverifymessagedialog.ui" line="97"/>
         <source>Enter the message you want to sign here</source>
         <translation>请输入您要发送的签名消息</translation>
     </message>
     <message>
+        <location filename="../forms/signverifymessagedialog.ui" line="104"/>
         <source>Signature</source>
         <translation>签名</translation>
     </message>
     <message>
+        <location filename="../forms/signverifymessagedialog.ui" line="131"/>
         <source>Copy the current signature to the system clipboard</source>
         <translation>复制当前签名至剪切板</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this FastBitcoin address</source>
-        <translation>签名消息，证明这个地址属于您。</translation>
+        <location filename="../forms/signverifymessagedialog.ui" line="152"/>
+        <source>Sign the message to prove you own this Fastbitcoin address</source>
+        <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../forms/signverifymessagedialog.ui" line="155"/>
         <source>Sign &amp;Message</source>
         <translation>消息签名(&amp;M)</translation>
     </message>
     <message>
+        <location filename="../forms/signverifymessagedialog.ui" line="169"/>
         <source>Reset all sign message fields</source>
         <translation>清空所有签名消息栏</translation>
     </message>
     <message>
+        <location filename="../forms/signverifymessagedialog.ui" line="172"/>
+        <location filename="../forms/signverifymessagedialog.ui" line="315"/>
         <source>Clear &amp;All</source>
         <translation>清除所有(&amp;A)</translation>
     </message>
     <message>
+        <location filename="../forms/signverifymessagedialog.ui" line="231"/>
         <source>&amp;Verify Message</source>
         <translation>验证消息(&amp;V)</translation>
     </message>
     <message>
-        <source>Enter the receiver's address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack. Note that this only proves the signing party receives with the address, it cannot prove sendership of any transaction!</source>
-        <translation>请在下面输入接收者地址、消息（确保换行符、空格符、制表符等完全相同）和签名以验证消息。请仔细核对签名信息，以提防中间人攻击。请注意，这只是证明接收方签名的地址，它不能证明任何交易！</translation>
+        <location filename="../forms/signverifymessagedialog.ui" line="237"/>
+        <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
+        <translation>在下面输入签名地址，消息（请确保换行符、空格符、制表符等等一个不漏）和签名以验证消息。请确保签名信息准确，提防中间人攻击。</translation>
     </message>
     <message>
-        <source>The FastBitcoin address the message was signed with</source>
-        <translation>消息使用的签名地址</translation>
+        <location filename="../forms/signverifymessagedialog.ui" line="258"/>
+        <source>The address the message was signed with (e.g. iGJXtgFacXixKeK8Pxmk3a7YhXMc2o8EsB )</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified FastBitcoin address</source>
-        <translation>验证消息，确保消息是由指定的莱特币地址签名过的。</translation>
+        <location filename="../forms/signverifymessagedialog.ui" line="295"/>
+        <source>Verify the message to ensure it was signed with the specified Fastbitcoin address</source>
+        <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../forms/signverifymessagedialog.ui" line="298"/>
         <source>Verify &amp;Message</source>
         <translation>验证消息签名(&amp;M)</translation>
     </message>
     <message>
+        <location filename="../forms/signverifymessagedialog.ui" line="312"/>
         <source>Reset all verify message fields</source>
         <translation>清空所有验证消息栏</translation>
     </message>
     <message>
-        <source>Click "Sign Message" to generate signature</source>
+        <location filename="../signverifymessagedialog.cpp" line="30"/>
+        <source>Click &quot;Sign Message&quot; to generate signature</source>
         <translation>单击“签名消息“产生签名。</translation>
     </message>
     <message>
+        <location filename="../signverifymessagedialog.cpp" line="31"/>
+        <source>Enter a Fastbitcoin address (e.g. iGJXtgFacXixKeK8Pxmk3a7YhXMc2o8EsB )</source>
+        <translation>输入一个暗黑币地址(如 iGJXtgFacXixKeK8Pxmk3a7YhXMc2o8EsB )</translation>
+    </message>
+    <message>
+        <location filename="../signverifymessagedialog.cpp" line="114"/>
+        <location filename="../signverifymessagedialog.cpp" line="194"/>
         <source>The entered address is invalid.</source>
         <translation>输入的地址非法。</translation>
     </message>
     <message>
+        <location filename="../signverifymessagedialog.cpp" line="114"/>
+        <location filename="../signverifymessagedialog.cpp" line="122"/>
+        <location filename="../signverifymessagedialog.cpp" line="194"/>
+        <location filename="../signverifymessagedialog.cpp" line="202"/>
         <source>Please check the address and try again.</source>
         <translation>请检查地址后重试。</translation>
     </message>
     <message>
+        <location filename="../signverifymessagedialog.cpp" line="122"/>
+        <location filename="../signverifymessagedialog.cpp" line="202"/>
         <source>The entered address does not refer to a key.</source>
         <translation>输入的地址没有关联的公私钥对。</translation>
     </message>
     <message>
+        <location filename="../signverifymessagedialog.cpp" line="130"/>
         <source>Wallet unlock was cancelled.</source>
         <translation>钱包解锁动作取消。</translation>
     </message>
     <message>
+        <location filename="../signverifymessagedialog.cpp" line="138"/>
         <source>Private key for the entered address is not available.</source>
         <translation>找不到输入地址关联的私钥。</translation>
     </message>
     <message>
+        <location filename="../signverifymessagedialog.cpp" line="150"/>
         <source>Message signing failed.</source>
         <translation>消息签名失败。</translation>
     </message>
     <message>
+        <location filename="../signverifymessagedialog.cpp" line="155"/>
         <source>Message signed.</source>
         <translation>消息已签名。</translation>
     </message>
     <message>
+        <location filename="../signverifymessagedialog.cpp" line="213"/>
         <source>The signature could not be decoded.</source>
         <translation>签名无法解码。</translation>
     </message>
     <message>
+        <location filename="../signverifymessagedialog.cpp" line="213"/>
+        <location filename="../signverifymessagedialog.cpp" line="226"/>
         <source>Please check the signature and try again.</source>
         <translation>请检查签名后重试。</translation>
     </message>
     <message>
+        <location filename="../signverifymessagedialog.cpp" line="226"/>
         <source>The signature did not match the message digest.</source>
         <translation>签名与消息摘要不匹配。</translation>
     </message>
     <message>
+        <location filename="../signverifymessagedialog.cpp" line="233"/>
         <source>Message verification failed.</source>
         <translation>消息验证失败。</translation>
     </message>
     <message>
+        <location filename="../signverifymessagedialog.cpp" line="238"/>
         <source>Message verified.</source>
         <translation>消息验证成功。</translation>
     </message>
@@ -2458,13 +3215,35 @@
 <context>
     <name>SplashScreen</name>
     <message>
+        <location filename="../splashscreen.cpp" line="33"/>
+        <source>Fastbitcoin Core</source>
+        <translation>暗黑币 内核</translation>
+    </message>
+    <message>
+        <location filename="../splashscreen.cpp" line="34"/>
+        <source>Version %1</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../splashscreen.cpp" line="35"/>
+        <source>The Fastbitcoin Core developers</source>
+        <translation>Fastbitcoin Core 的开发者</translation>
+    </message>
+    <message>
+        <location filename="../splashscreen.cpp" line="36"/>
+        <source>The Fastbitcoin Core developers</source>
+        <translation>Fastbitcoin Core 的开发者</translation>
+    </message>
+    <message>
+        <location filename="../splashscreen.cpp" line="37"/>
         <source>[testnet]</source>
-        <translation>[测试网络]</translation>
+        <translation>[testnet]</translation>
     </message>
 </context>
 <context>
     <name>TrafficGraphWidget</name>
     <message>
+        <location filename="../trafficgraphwidget.cpp" line="79"/>
         <source>KB/s</source>
         <translation>KB/s</translation>
     </message>
@@ -2472,296 +3251,399 @@
 <context>
     <name>TransactionDesc</name>
     <message numerus="yes">
+        <location filename="../transactiondesc.cpp" line="28"/>
         <source>Open for %n more block(s)</source>
-        <translation><numerusform>再打开 %n 个数据块</numerusform></translation>
+        <translation type="unfinished"><numerusform></numerusform></translation>
     </message>
     <message>
+        <location filename="../transactiondesc.cpp" line="30"/>
         <source>Open until %1</source>
         <translation>至 %1 个数据块时开启</translation>
     </message>
     <message>
-        <source>conflicted with a transaction with %1 confirmations</source>
-        <translation>与一个有 %1 个确认的交易冲突</translation>
+        <location filename="../transactiondesc.cpp" line="41"/>
+        <location filename="../transactiondesc.cpp" line="52"/>
+        <location filename="../transactiondesc.cpp" line="62"/>
+        <location filename="../transactiondesc.cpp" line="74"/>
+        <source>conflicted</source>
+        <translation>发现冲突</translation>
     </message>
     <message>
+        <location filename="../transactiondesc.cpp" line="43"/>
+        <source>%1/offline (verified via instantx)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../transactiondesc.cpp" line="45"/>
+        <source>%1/confirmed (verified via instantx)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../transactiondesc.cpp" line="47"/>
+        <source>%1 confirmations (verified via instantx)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../transactiondesc.cpp" line="76"/>
         <source>%1/offline</source>
         <translation>%1 / 离线</translation>
     </message>
     <message>
-        <source>0/unconfirmed, %1</source>
-        <translation>0/未确认，%1</translation>
-    </message>
-    <message>
-        <source>in memory pool</source>
-        <translation>在内存池中</translation>
-    </message>
-    <message>
-        <source>not in memory pool</source>
-        <translation>不在内存池中</translation>
-    </message>
-    <message>
-        <source>abandoned</source>
-        <translation>已抛弃</translation>
-    </message>
-    <message>
+        <location filename="../transactiondesc.cpp" line="78"/>
         <source>%1/unconfirmed</source>
         <translation>%1/未确认</translation>
     </message>
     <message>
+        <location filename="../transactiondesc.cpp" line="68"/>
+        <location filename="../transactiondesc.cpp" line="80"/>
         <source>%1 confirmations</source>
         <translation>%1 已确认</translation>
     </message>
     <message>
+        <location filename="../transactiondesc.cpp" line="54"/>
+        <source>%1/offline (InstantX verification in progress - %2 of %3 signatures)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../transactiondesc.cpp" line="56"/>
+        <source>%1/confirmed (InstantX verification in progress - %2 of %3 signatures )</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../transactiondesc.cpp" line="58"/>
+        <source>%1 confirmations (InstantX verification in progress - %2 of %3 signatures)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../transactiondesc.cpp" line="64"/>
+        <source>%1/offline (InstantX verification failed)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../transactiondesc.cpp" line="66"/>
+        <source>%1/confirmed (InstantX verification failed)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../transactiondesc.cpp" line="98"/>
         <source>Status</source>
         <translation>状态</translation>
     </message>
     <message>
+        <location filename="../transactiondesc.cpp" line="103"/>
         <source>, has not been successfully broadcast yet</source>
         <translation>，未被成功广播</translation>
     </message>
     <message numerus="yes">
+        <location filename="../transactiondesc.cpp" line="105"/>
         <source>, broadcast through %n node(s)</source>
-        <translation><numerusform>, 通过 %n 个节点广播 </numerusform></translation>
+        <translation type="unfinished"><numerusform></numerusform></translation>
     </message>
     <message>
+        <location filename="../transactiondesc.cpp" line="109"/>
         <source>Date</source>
         <translation>日期</translation>
     </message>
     <message>
+        <location filename="../transactiondesc.cpp" line="116"/>
         <source>Source</source>
         <translation>源</translation>
     </message>
     <message>
+        <location filename="../transactiondesc.cpp" line="116"/>
         <source>Generated</source>
         <translation>生成</translation>
     </message>
     <message>
+        <location filename="../transactiondesc.cpp" line="121"/>
+        <location filename="../transactiondesc.cpp" line="138"/>
         <source>From</source>
         <translation>来自</translation>
     </message>
     <message>
+        <location filename="../transactiondesc.cpp" line="138"/>
         <source>unknown</source>
         <translation>未知</translation>
     </message>
     <message>
+        <location filename="../transactiondesc.cpp" line="139"/>
+        <location filename="../transactiondesc.cpp" line="161"/>
+        <location filename="../transactiondesc.cpp" line="219"/>
         <source>To</source>
         <translation>到</translation>
     </message>
     <message>
+        <location filename="../transactiondesc.cpp" line="142"/>
+        <location filename="../transactiondesc.cpp" line="144"/>
         <source>own address</source>
         <translation>自己的地址</translation>
     </message>
     <message>
-        <source>watch-only</source>
-        <translation>观察地址(watch-only) </translation>
-    </message>
-    <message>
+        <location filename="../transactiondesc.cpp" line="142"/>
         <source>label</source>
         <translation>标签</translation>
     </message>
     <message>
+        <location filename="../transactiondesc.cpp" line="179"/>
+        <location filename="../transactiondesc.cpp" line="191"/>
+        <location filename="../transactiondesc.cpp" line="236"/>
+        <location filename="../transactiondesc.cpp" line="253"/>
+        <location filename="../transactiondesc.cpp" line="306"/>
         <source>Credit</source>
         <translation>收入</translation>
     </message>
     <message numerus="yes">
+        <location filename="../transactiondesc.cpp" line="181"/>
         <source>matures in %n more block(s)</source>
-        <translation><numerusform>%n 个数据块后成熟(mature) </numerusform></translation>
+        <translation type="unfinished"><numerusform></numerusform></translation>
     </message>
     <message>
+        <location filename="../transactiondesc.cpp" line="183"/>
         <source>not accepted</source>
         <translation>未被接受</translation>
     </message>
     <message>
+        <location filename="../transactiondesc.cpp" line="227"/>
+        <location filename="../transactiondesc.cpp" line="235"/>
+        <location filename="../transactiondesc.cpp" line="250"/>
+        <location filename="../transactiondesc.cpp" line="303"/>
         <source>Debit</source>
         <translation>支出</translation>
     </message>
     <message>
-        <source>Total debit</source>
-        <translation>总收入</translation>
-    </message>
-    <message>
-        <source>Total credit</source>
-        <translation>总支出</translation>
-    </message>
-    <message>
+        <location filename="../transactiondesc.cpp" line="241"/>
         <source>Transaction fee</source>
         <translation>交易费</translation>
     </message>
     <message>
+        <location filename="../transactiondesc.cpp" line="257"/>
         <source>Net amount</source>
         <translation>净额</translation>
     </message>
     <message>
+        <location filename="../transactiondesc.cpp" line="263"/>
+        <location filename="../transactiondesc.cpp" line="272"/>
         <source>Message</source>
         <translation>消息</translation>
     </message>
     <message>
+        <location filename="../transactiondesc.cpp" line="265"/>
         <source>Comment</source>
         <translation>备注</translation>
     </message>
     <message>
+        <location filename="../transactiondesc.cpp" line="267"/>
         <source>Transaction ID</source>
-        <translation>ID</translation>
+        <translation>交易ID</translation>
     </message>
     <message>
-        <source>Transaction total size</source>
-        <translation>交易总大小</translation>
-    </message>
-    <message>
-        <source>Output index</source>
-        <translation>输出索引</translation>
-    </message>
-    <message>
+        <location filename="../transactiondesc.cpp" line="285"/>
         <source>Merchant</source>
-        <translation>商家</translation>
+        <translation>商店</translation>
     </message>
     <message>
-        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
-        <translation>生成的莱特币在可以使用前必须有 %1 个成熟的区块。当您生成了此区块后，它将被广播到网络中以加入区块链。如果它未成功进入区块链，其状态将变更为“不接受”并且不可使用。这可能偶尔会发生，如果另一个节点比你早几秒钟成功生成一个区块。</translation>
+        <location filename="../transactiondesc.cpp" line="292"/>
+        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <translation>生成的比特币在可以使用前必须有 %1 个成熟的区块。当您生成了此区块后，它将被广播到网络中以加入区块链。如果它未成功进入区块链，其状态将变更为“不接受”并且不可使用。这可能偶尔会发生，如果另一个节点比你早几秒钟成功生成一个区块。</translation>
     </message>
     <message>
+        <location filename="../transactiondesc.cpp" line="300"/>
         <source>Debug information</source>
         <translation>调试信息</translation>
     </message>
     <message>
+        <location filename="../transactiondesc.cpp" line="308"/>
         <source>Transaction</source>
         <translation>交易</translation>
     </message>
     <message>
+        <location filename="../transactiondesc.cpp" line="311"/>
         <source>Inputs</source>
         <translation>输入</translation>
     </message>
     <message>
+        <location filename="../transactiondesc.cpp" line="332"/>
         <source>Amount</source>
         <translation>金额</translation>
     </message>
     <message>
+        <location filename="../transactiondesc.cpp" line="333"/>
         <source>true</source>
-        <translation>是</translation>
+        <translation>正确</translation>
     </message>
     <message>
+        <location filename="../transactiondesc.cpp" line="333"/>
         <source>false</source>
-        <translation>否</translation>
+        <translation>错误</translation>
     </message>
 </context>
 <context>
     <name>TransactionDescDialog</name>
     <message>
-        <source>This pane shows a detailed description of the transaction</source>
-        <translation>当前面板显示了交易的详细信息</translation>
+        <location filename="../forms/transactiondescdialog.ui" line="14"/>
+        <source>Transaction details</source>
+        <translation>交易细节</translation>
     </message>
     <message>
-        <source>Details for %1</source>
-        <translation>%1 详情</translation>
+        <location filename="../forms/transactiondescdialog.ui" line="20"/>
+        <source>This pane shows a detailed description of the transaction</source>
+        <translation>当前面板显示了交易的详细信息</translation>
     </message>
 </context>
 <context>
     <name>TransactionTableModel</name>
     <message>
+        <location filename="../transactiontablemodel.cpp" line="233"/>
         <source>Date</source>
         <translation>日期</translation>
     </message>
     <message>
+        <location filename="../transactiontablemodel.cpp" line="233"/>
         <source>Type</source>
-        <translation>种类</translation>
+        <translation>类型</translation>
     </message>
     <message>
-        <source>Label</source>
-        <translation>标签</translation>
+        <location filename="../transactiontablemodel.cpp" line="233"/>
+        <source>Address</source>
+        <translation>地址</translation>
     </message>
     <message>
+        <location filename="../transactiontablemodel.cpp" line="233"/>
+        <source>Amount</source>
+        <translation>数量</translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../transactiontablemodel.cpp" line="285"/>
+        <source>Open for %n more block(s)</source>
+        <translation type="unfinished"><numerusform></numerusform></translation>
+    </message>
+    <message>
+        <location filename="../transactiontablemodel.cpp" line="288"/>
         <source>Open until %1</source>
         <translation>至 %1 个数据块时开启</translation>
     </message>
     <message>
+        <location filename="../transactiontablemodel.cpp" line="291"/>
         <source>Offline</source>
         <translation>掉线</translation>
     </message>
     <message>
+        <location filename="../transactiontablemodel.cpp" line="294"/>
         <source>Unconfirmed</source>
         <translation>未确认的 </translation>
     </message>
     <message>
-        <source>Abandoned</source>
-        <translation>已丢弃</translation>
-    </message>
-    <message>
+        <location filename="../transactiontablemodel.cpp" line="297"/>
         <source>Confirming (%1 of %2 recommended confirmations)</source>
         <translation>确认中 (推荐 %2个确认，已经有 %1个确认)</translation>
     </message>
     <message>
+        <location filename="../transactiontablemodel.cpp" line="300"/>
         <source>Confirmed (%1 confirmations)</source>
         <translation>已确认 (%1 条确认信息)</translation>
     </message>
     <message>
+        <location filename="../transactiontablemodel.cpp" line="303"/>
         <source>Conflicted</source>
         <translation>冲突的</translation>
     </message>
     <message>
+        <location filename="../transactiontablemodel.cpp" line="306"/>
         <source>Immature (%1 confirmations, will be available after %2)</source>
         <translation>未成熟 (%1 个确认，将在 %2 个后可用)</translation>
     </message>
     <message>
+        <location filename="../transactiontablemodel.cpp" line="309"/>
         <source>This block was not received by any other nodes and will probably not be accepted!</source>
         <translation>此数据块未被任何其他节点接收，可能不被接受！</translation>
     </message>
     <message>
+        <location filename="../transactiontablemodel.cpp" line="312"/>
         <source>Generated but not accepted</source>
         <translation>已生成但未被接受</translation>
     </message>
     <message>
+        <location filename="../transactiontablemodel.cpp" line="354"/>
         <source>Received with</source>
-        <translation>收款</translation>
+        <translation>接收于</translation>
     </message>
     <message>
+        <location filename="../transactiontablemodel.cpp" line="356"/>
         <source>Received from</source>
         <translation>收款来自</translation>
     </message>
     <message>
-        <source>Sent to</source>
-        <translation>付款</translation>
+        <location filename="../transactiontablemodel.cpp" line="358"/>
+        <source>Received via Darksend</source>
+        <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../transactiontablemodel.cpp" line="361"/>
+        <source>Sent to</source>
+        <translation>发送给</translation>
+    </message>
+    <message>
+        <location filename="../transactiontablemodel.cpp" line="363"/>
         <source>Payment to yourself</source>
         <translation>付款给自己</translation>
     </message>
     <message>
+        <location filename="../transactiontablemodel.cpp" line="365"/>
         <source>Mined</source>
         <translation>挖矿所得</translation>
     </message>
     <message>
-        <source>watch-only</source>
-        <translation>观察地址(watch-only) </translation>
+        <location filename="../transactiontablemodel.cpp" line="368"/>
+        <source>Darksend Denominate</source>
+        <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../transactiontablemodel.cpp" line="370"/>
+        <source>Darksend Collateral Payment</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../transactiontablemodel.cpp" line="372"/>
+        <source>Darksend Make Collateral Inputs</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../transactiontablemodel.cpp" line="374"/>
+        <source>Darksend Create Denominations</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../transactiontablemodel.cpp" line="376"/>
+        <source>Darksent</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../transactiontablemodel.cpp" line="418"/>
         <source>(n/a)</source>
         <translation>（不可用）</translation>
     </message>
     <message>
-        <source>(no label)</source>
-        <translation>(无标签)</translation>
-    </message>
-    <message>
+        <location filename="../transactiontablemodel.cpp" line="610"/>
         <source>Transaction status. Hover over this field to show number of confirmations.</source>
         <translation>交易状态。 鼠标移到此区域可显示确认项数量。</translation>
     </message>
     <message>
+        <location filename="../transactiontablemodel.cpp" line="612"/>
         <source>Date and time that the transaction was received.</source>
         <translation>接收到交易的时间</translation>
     </message>
     <message>
+        <location filename="../transactiontablemodel.cpp" line="614"/>
         <source>Type of transaction.</source>
         <translation>交易类别。</translation>
     </message>
     <message>
-        <source>Whether or not a watch-only address is involved in this transaction.</source>
-        <translation>该交易中是否涉及  观察地址(watch-only address)。</translation>
+        <location filename="../transactiontablemodel.cpp" line="616"/>
+        <source>Destination address of transaction.</source>
+        <translation>交易目的地址。</translation>
     </message>
     <message>
-        <source>User-defined intent/purpose of the transaction.</source>
-        <translation>用户定义的该交易的意图/目的。</translation>
-    </message>
-    <message>
+        <location filename="../transactiontablemodel.cpp" line="618"/>
         <source>Amount removed from or added to balance.</source>
         <translation>从余额添加或移除的金额。</translation>
     </message>
@@ -2769,168 +3651,211 @@
 <context>
     <name>TransactionView</name>
     <message>
+        <location filename="../transactionview.cpp" line="60"/>
+        <location filename="../transactionview.cpp" line="76"/>
         <source>All</source>
         <translation>全部</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="61"/>
         <source>Today</source>
         <translation>今天</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="62"/>
         <source>This week</source>
-        <translation>这星期</translation>
+        <translation>本周</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="63"/>
         <source>This month</source>
-        <translation>这个月</translation>
+        <translation>本月</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="64"/>
         <source>Last month</source>
-        <translation>上个月</translation>
+        <translation>上月</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="65"/>
         <source>This year</source>
         <translation>今年</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="66"/>
         <source>Range...</source>
-        <translation>指定范围...</translation>
+        <translation>范围...</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="77"/>
         <source>Received with</source>
-        <translation>收款</translation>
+        <translation>接收于</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="79"/>
         <source>Sent to</source>
-        <translation>付款</translation>
+        <translation>发送给</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="81"/>
+        <source>Darksent</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../transactionview.cpp" line="82"/>
+        <source>Darksend Make Collateral Inputs</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../transactionview.cpp" line="83"/>
+        <source>Darksend Create Denominations</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../transactionview.cpp" line="84"/>
+        <source>Darksend Denominate</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../transactionview.cpp" line="85"/>
+        <source>Darksend Collateral Payment</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../transactionview.cpp" line="86"/>
         <source>To yourself</source>
-        <translation>给自己</translation>
+        <translation>到自己</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="87"/>
         <source>Mined</source>
         <translation>挖矿所得</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="88"/>
         <source>Other</source>
-        <translation>其它</translation>
+        <translation>其他</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="94"/>
         <source>Enter address or label to search</source>
         <translation>输入地址或标签进行搜索</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="100"/>
         <source>Min amount</source>
         <translation>最小金额</translation>
     </message>
     <message>
-        <source>Abandon transaction</source>
-        <translation>放弃交易</translation>
-    </message>
-    <message>
+        <location filename="../transactionview.cpp" line="134"/>
         <source>Copy address</source>
         <translation>复制地址</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="135"/>
         <source>Copy label</source>
         <translation>复制标签</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="136"/>
         <source>Copy amount</source>
         <translation>复制金额</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="137"/>
         <source>Copy transaction ID</source>
-        <translation>复制交易识别码</translation>
+        <translation>复制交易编号</translation>
     </message>
     <message>
-        <source>Copy raw transaction</source>
-        <translation>复制原始交易</translation>
-    </message>
-    <message>
-        <source>Copy full transaction details</source>
-        <translation>复制所有交易详情</translation>
-    </message>
-    <message>
+        <location filename="../transactionview.cpp" line="138"/>
         <source>Edit label</source>
         <translation>编辑标签</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="139"/>
         <source>Show transaction details</source>
         <translation>显示交易详情</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="302"/>
         <source>Export Transaction History</source>
         <translation>导出交易历史</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="303"/>
         <source>Comma separated file (*.csv)</source>
         <translation>逗号分隔文件 (*.csv)</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="312"/>
         <source>Confirmed</source>
         <translation>已确认</translation>
     </message>
     <message>
-        <source>Watch-only</source>
-        <translation>观察地址(Watch-only) </translation>
-    </message>
-    <message>
+        <location filename="../transactionview.cpp" line="313"/>
         <source>Date</source>
         <translation>日期</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="314"/>
         <source>Type</source>
-        <translation>种类</translation>
+        <translation>类别</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="315"/>
         <source>Label</source>
         <translation>标签</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="316"/>
         <source>Address</source>
         <translation>地址</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="317"/>
+        <source>Amount</source>
+        <translation>金额</translation>
+    </message>
+    <message>
+        <location filename="../transactionview.cpp" line="318"/>
         <source>ID</source>
         <translation>ID</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="321"/>
         <source>Exporting Failed</source>
         <translation>导出失败</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="321"/>
         <source>There was an error trying to save the transaction history to %1.</source>
         <translation>导出交易历史到 %1 时发生错误。</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="325"/>
         <source>Exporting Successful</source>
         <translation>导出成功</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="325"/>
         <source>The transaction history was successfully saved to %1.</source>
         <translation>交易历史已成功保存到 %1。</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="434"/>
         <source>Range:</source>
         <translation>范围：</translation>
     </message>
     <message>
+        <location filename="../transactionview.cpp" line="442"/>
         <source>to</source>
         <translation>到</translation>
     </message>
 </context>
 <context>
-    <name>UnitDisplayStatusBarControl</name>
-    <message>
-        <source>Unit to show amounts in. Click to select another unit.</source>
-        <translation>金额单位。单击选择别的单位。</translation>
-    </message>
-</context>
-<context>
     <name>WalletFrame</name>
     <message>
+        <location filename="../walletframe.cpp" line="26"/>
         <source>No wallet has been loaded.</source>
         <translation>没有载入钱包。</translation>
     </message>
@@ -2938,41 +3863,56 @@
 <context>
     <name>WalletModel</name>
     <message>
+        <location filename="../walletmodel.cpp" line="271"/>
+        <location filename="../walletmodel.cpp" line="285"/>
         <source>Send Coins</source>
-        <translation>发送莱特币</translation>
+        <translation>发送比特币</translation>
+    </message>
+    <message numerus="yes">
+        <location filename="../walletmodel.cpp" line="271"/>
+        <source>InstantX doesn&apos;t support sending values that high yet. Transactions are currently limited to %n FBC.</source>
+        <translation type="unfinished"><numerusform></numerusform></translation>
     </message>
 </context>
 <context>
     <name>WalletView</name>
     <message>
+        <location filename="../walletview.cpp" line="44"/>
         <source>&amp;Export</source>
         <translation>导出(&amp;E)</translation>
     </message>
     <message>
+        <location filename="../walletview.cpp" line="45"/>
         <source>Export the data in the current tab to a file</source>
-        <translation>导出当前分页里的数据到文件</translation>
+        <translation>导出当前数据到文件</translation>
     </message>
     <message>
+        <location filename="../walletview.cpp" line="231"/>
         <source>Backup Wallet</source>
         <translation>备份钱包</translation>
     </message>
     <message>
+        <location filename="../walletview.cpp" line="232"/>
         <source>Wallet Data (*.dat)</source>
         <translation>钱包文件(*.dat)</translation>
     </message>
     <message>
+        <location filename="../walletview.cpp" line="238"/>
         <source>Backup Failed</source>
         <translation>备份失败</translation>
     </message>
     <message>
+        <location filename="../walletview.cpp" line="238"/>
         <source>There was an error trying to save the wallet data to %1.</source>
         <translation>尝试保存钱包数据至 %1 时发生错误。</translation>
     </message>
     <message>
+        <location filename="../walletview.cpp" line="242"/>
         <source>Backup Successful</source>
         <translation>备份成功</translation>
     </message>
     <message>
+        <location filename="../walletview.cpp" line="242"/>
         <source>The wallet data was successfully saved to %1.</source>
         <translation>钱包数据成功保存至 %1 。</translation>
     </message>
@@ -2980,798 +3920,1360 @@
 <context>
     <name>fastbitcoin-core</name>
     <message>
-        <source>Options:</source>
-        <translation>选项：
-</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="16"/>
+        <source>%s, you must set a rpcpassword in the configuration file:
+%s
+It is recommended you use the following random password:
+rpcuser=fastbitcoinrpc
+rpcpassword=%s
+(you do not need to remember this password)
+The username and password MUST NOT be the same.
+If the file does not exist, create it with owner-readable-only file permissions.
+It is also recommended to set alertnotify so you are notified of problems;
+for example: alertnotify=echo %%s | mail -s &quot;Fastbitcoin Alert&quot; admin@foo.com
+</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Specify data directory</source>
-        <translation>指定数据目录
-</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="29"/>
+        <source>Acceptable ciphers (default: TLSv1.2+HIGH:TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!3DES:@STRENGTH)</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Connect to a node to retrieve peer addresses, and disconnect</source>
-        <translation>连接一个节点并获取对端地址，然后断开连接</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="32"/>
+        <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Specify your own public address</source>
-        <translation>指定您的公共地址</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="34"/>
+        <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Accept command line and JSON-RPC commands</source>
-        <translation>接受命令行和 JSON-RPC 命令
-</translation>
-    </message>
-    <message>
-        <source>Distributed under the MIT software license, see the accompanying file %s or %s</source>
-        <translation>在MIT协议下分发，参见附带的 %s 文件或 %s</translation>
-    </message>
-    <message>
-        <source>If &lt;category&gt; is not supplied or if &lt;category&gt; = 1, output all debugging information.</source>
-        <translation>如果&lt;category&gt;未提供或&lt;category&gt; = 1，输出所有调试信息。</translation>
-    </message>
-    <message>
-        <source>Prune configured below the minimum of %d MiB.  Please use a higher number.</source>
-        <translation>修剪值被设置为低于最小值%d MiB，请使用更大的数值。</translation>
-    </message>
-    <message>
-        <source>Prune: last wallet synchronisation goes beyond pruned data. You need to -reindex (download the whole blockchain again in case of pruned node)</source>
-        <translation>修剪：最后的钱包同步超过了修剪的数据。你需要通过 -reindex (重新下载整个区块链以防修剪节点)</translation>
-    </message>
-    <message>
-        <source>Rescans are not possible in pruned mode. You will need to use -reindex which will download the whole blockchain again.</source>
-        <translation>无法在开启修剪的状态下重扫描，请使用 -reindex重新下载完整的区块链。</translation>
-    </message>
-    <message>
-        <source>Error: A fatal internal error occurred, see debug.log for details</source>
-        <translation>错误：发生了致命的内部错误，详情见 debug.log 文件</translation>
-    </message>
-    <message>
-        <source>Fee (in %s/kB) to add to transactions you send (default: %s)</source>
-        <translation>为付款交易添加交易费 (%s/kB) (默认: %s) </translation>
-    </message>
-    <message>
-        <source>Pruning blockstore...</source>
-        <translation>正在修剪区块存储...</translation>
-    </message>
-    <message>
-        <source>Run in the background as a daemon and accept commands</source>
-        <translation>在后台运行并接受命令
-
-</translation>
-    </message>
-    <message>
-        <source>Unable to start HTTP server. See debug log for details.</source>
-        <translation>无法启动HTTP服务，查看日志获取更多信息</translation>
-    </message>
-    <message>
-        <source>FastBitcoin FBC</source>
-        <translation>FastBitcoin FBC</translation>
-    </message>
-    <message>
-        <source>The %s developers</source>
-        <translation>%s 开发人员</translation>
-    </message>
-    <message>
-        <source>A fee rate (in %s/kB) that will be used when fee estimation has insufficient data (default: %s)</source>
-        <translation>当费用估计数据(default: %s)不足时将会启用的费率 (in %s/kB) </translation>
-    </message>
-    <message>
-        <source>Accept relayed transactions received from whitelisted peers even when not relaying transactions (default: %d)</source>
-        <translation>即使在无关联交易(默认: %d)时也接受来自白名单同行的关联交易</translation>
-    </message>
-    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="37"/>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
-        <translation>绑定指定的IP地址开始监听。IPv6地址请使用[host]:port 格式</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. %s is probably already running.</source>
-        <translation>无法给数据目录 %s 上锁。%s 可能已经在运行。</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="40"/>
+        <source>Cannot obtain a lock on data directory %s. Fastbitcoin Core is probably already running.</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
-        <translation>删除钱包的所有交易记录，且只有用 -rescan参数启动客户端才能重新取回交易记录 </translation>
+        <location filename="../fastbitcoinstrings.cpp" line="43"/>
+        <source>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:15)</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Error reading %s! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
-        <translation>读取 %s 时发生错误！所有的密钥都可以正确读取，但是交易记录或地址簿数据可能已经丢失或出错。</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="46"/>
+        <source>Darksend uses exact denominated amounts to send funds, you might simply need to anonymize some more coins.</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
-        <translation>当最佳区块变化时执行命令 (命令行中的 %s 会被替换成区块哈希值)</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="49"/>
+        <source>Disable all Xnode and Darksend related functionality (0-1, default: 0)</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Maximum total fees (in %s) to use in a single wallet transaction or raw transaction; setting this too low may abort large transactions (default: %s)</source>
-        <translation>最大的单次钱包或原始转账费用（%s），设置太低可能导致大尺寸交易失败（默认：%s）</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="51"/>
+        <source>Enable instantx, show confirmations for locked transactions (bool, default: true)</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Please check that your computer's date and time are correct! If your clock is wrong, %s will not work properly.</source>
-        <translation>请检查电脑的日期时间设置是否正确！时间错误可能会导致 %s 运行异常。</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="54"/>
+        <source>Enable use of automated Darksend for funds stored in this wallet (0-1, default: 0)</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Please contribute if you find %s useful. Visit %s for further information about the software.</source>
-        <translation>如果你认为%s对你比较有用的话，请对我们进行一些捐赠支持。请访问%s网站来获取有关这个软件的更多信息。</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="57"/>
+        <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly. This is intended for regression testing tools and app development.</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</source>
-        <translation>设置脚本验证的程序 (%u 到 %d, 0 = 自动, &lt;0 = 保留自由的核心, 默认值: %d)</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="61"/>
+        <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>The block database contains a block which appears to be from the future. This may be due to your computer's date and time being set incorrectly. Only rebuild the block database if you are sure that your computer's date and time are correct</source>
-        <translation>区块数据库包含未来的交易，这可能是由本机错误的日期时间引起。若确认本机日期时间正确，请重新建立区块数据库。</translation>
-    </message>
-    <message>
-        <source>Use UPnP to map the listening port (default: 1 when listening and no -proxy)</source>
-        <translation>使用UPnP暴露本机监听端口（默认：1 当正在监听且不使用代理）</translation>
-    </message>
-    <message>
-        <source>%s corrupt, salvage failed</source>
-        <translation>%s 已损坏，抢救备份失败</translation>
-    </message>
-    <message>
-        <source>-maxmempool must be at least %d MB</source>
-        <translation>-maxmempool 最小为%d MB</translation>
-    </message>
-    <message>
-        <source>&lt;category&gt; can be:</source>
-        <translation>&lt;category&gt; 可能是：</translation>
-    </message>
-    <message>
-        <source>Append comment to the user agent string</source>
-        <translation>为用户代理字符串附加说明</translation>
-    </message>
-    <message>
-        <source>Attempt to recover private keys from a corrupt wallet on startup</source>
-        <translation>启动时尝试从已损坏的钱包文件中恢复私钥</translation>
-    </message>
-    <message>
-        <source>Block creation options:</source>
-        <translation>数据块创建选项：</translation>
-    </message>
-    <message>
-        <source>Cannot resolve -%s address: '%s'</source>
-        <translation>无法解析 - %s 地址： '%s'</translation>
-    </message>
-    <message>
-        <source>Chain selection options:</source>
-        <translation>区块链选择选项:</translation>
-    </message>
-    <message>
-        <source>Connection options:</source>
-        <translation>连接选项：</translation>
-    </message>
-    <message>
-        <source>Copyright (C) %i-%i</source>
-        <translation>版权所有 (C) %i-%i</translation>
-    </message>
-    <message>
-        <source>Corrupted block database detected</source>
-        <translation>检测发现数据块数据库损坏。请使用 -reindex参数重启客户端。</translation>
-    </message>
-    <message>
-        <source>Debugging/Testing options:</source>
-        <translation>调试/测试选项：</translation>
-    </message>
-    <message>
-        <source>Do not load the wallet and disable wallet RPC calls</source>
-        <translation>不要加载钱包和禁用钱包的 RPC 调用</translation>
-    </message>
-    <message>
-        <source>Do you want to rebuild the block database now?</source>
-        <translation>你想现在就重建块数据库吗？</translation>
-    </message>
-    <message>
-        <source>Enable publish hash block in &lt;address&gt;</source>
-        <translation>允许在&lt;address&gt;广播哈希区块</translation>
-    </message>
-    <message>
-        <source>Enable publish hash transaction in &lt;address&gt;</source>
-        <translation>允许在&lt;address&gt;广播哈希交易</translation>
-    </message>
-    <message>
-        <source>Enable publish raw block in &lt;address&gt;</source>
-        <translation>允许在&lt;address&gt;广播原始区块</translation>
-    </message>
-    <message>
-        <source>Enable publish raw transaction in &lt;address&gt;</source>
-        <translation>允许在&lt;address&gt;广播原始交易</translation>
-    </message>
-    <message>
-        <source>Enable transaction replacement in the memory pool (default: %u)</source>
-        <translation>保证内存池中的交易更换(默认：%u)</translation>
-    </message>
-    <message>
-        <source>Error initializing block database</source>
-        <translation>初始化数据块数据库出错</translation>
-    </message>
-    <message>
-        <source>Error initializing wallet database environment %s!</source>
-        <translation>Error initializing wallet database environment %s!</translation>
-    </message>
-    <message>
-        <source>Error loading %s</source>
-        <translation>载入 %s 时发生错误</translation>
-    </message>
-    <message>
-        <source>Error loading %s: Wallet corrupted</source>
-        <translation>%s 加载出错：钱包损坏</translation>
-    </message>
-    <message>
-        <source>Error loading %s: Wallet requires newer version of %s</source>
-        <translation>%s 加载错误：请升级到最新版 %s</translation>
-    </message>
-    <message>
-        <source>Error loading block database</source>
-        <translation>导入数据块数据库出错</translation>
-    </message>
-    <message>
-        <source>Error opening block database</source>
-        <translation>导入数据块数据库出错</translation>
-    </message>
-    <message>
-        <source>Error: Disk space is low!</source>
-        <translation>错误：磁盘剩余空间低!</translation>
-    </message>
-    <message>
-        <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
-        <translation>监听端口失败。请使用 -listen=0 参数。</translation>
-    </message>
-    <message>
-        <source>Importing...</source>
-        <translation>导入中...</translation>
-    </message>
-    <message>
-        <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
-        <translation>不正确或没有找到起源区块。网络错误？</translation>
-    </message>
-    <message>
-        <source>Invalid -onion address: '%s'</source>
-        <translation>无效的 -onion 地址：“%s”</translation>
-    </message>
-    <message>
-        <source>Invalid amount for -%s=&lt;amount&gt;: '%s'</source>
-        <translation>非法金额 -%s=&lt;amount&gt;: '%s'</translation>
-    </message>
-    <message>
-        <source>Invalid amount for -fallbackfee=&lt;amount&gt;: '%s'</source>
-        <translation>-fallbackfee 的无效数额=&lt;amount&gt;: '%s'</translation>
-    </message>
-    <message>
-        <source>Keep the transaction memory pool below &lt;n&gt; megabytes (default: %u)</source>
-        <translation>保持交易内存池大小低于&lt;n&gt;MB（默认：%u）</translation>
-    </message>
-    <message>
-        <source>Loading banlist...</source>
-        <translation>加载黑名单</translation>
-    </message>
-    <message>
-        <source>Location of the auth cookie (default: data dir)</source>
-        <translation>认证Cookie的位置 (默认: data目录)</translation>
-    </message>
-    <message>
-        <source>Not enough file descriptors available.</source>
-        <translation>没有足够的文件描述符可用。</translation>
-    </message>
-    <message>
-        <source>Only connect to nodes in network &lt;net&gt; (ipv4, ipv6 or onion)</source>
-        <translation>只连接 &lt;net&gt;网络中的节点 (ipv4, ipv6 或 onion) </translation>
-    </message>
-    <message>
-        <source>Print this help message and exit</source>
-        <translation>打印出这段帮助信息并退出</translation>
-    </message>
-    <message>
-        <source>Print version and exit</source>
-        <translation>打印版本信息并退出</translation>
-    </message>
-    <message>
-        <source>Prune cannot be configured with a negative value.</source>
-        <translation>修剪不能配置一个负数。</translation>
-    </message>
-    <message>
-        <source>Prune mode is incompatible with -txindex.</source>
-        <translation>修剪模式与 -txindex 不兼容。</translation>
-    </message>
-    <message>
-        <source>Rebuild chain state from the currently indexed blocks</source>
-        <translation>从当前索引的区块中重建链状态</translation>
-    </message>
-    <message>
-        <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
-        <translation>设置以MB为单位的数据库缓存大小(%d 到 %d, 默认值: %d)</translation>
-    </message>
-    <message>
-        <source>Set maximum block size in bytes (default: %d)</source>
-        <translation>设置最大区块大小 (默认: %d，单位字节)</translation>
-    </message>
-    <message>
-        <source>Specify wallet file (within data directory)</source>
-        <translation>指定钱包文件（数据目录内）</translation>
-    </message>
-    <message>
-        <source>The source code is available from %s.</source>
-        <translation>源代码可以在 %s 获得。</translation>
-    </message>
-    <message>
-        <source>Unable to bind to %s on this computer. %s is probably already running.</source>
-        <translation>无法在本机绑定 %s 端口。%s 可能已经在运行。</translation>
-    </message>
-    <message>
-        <source>Unsupported argument -benchmark ignored, use -debug=bench.</source>
-        <translation>忽略不支持的选项 -benchmark，使用 -debug=bench</translation>
-    </message>
-    <message>
-        <source>Unsupported argument -debugnet ignored, use -debug=net.</source>
-        <translation>忽略不支持的选项 -debugnet，使用 -debug=net。</translation>
-    </message>
-    <message>
-        <source>Unsupported argument -tor found, use -onion.</source>
-        <translation>忽略不支持的选项 -tor，使用 -oinon</translation>
-    </message>
-    <message>
-        <source>Use UPnP to map the listening port (default: %u)</source>
-        <translation>使用UPnp映射监听端口 (默认: %u) </translation>
-    </message>
-    <message>
-        <source>Use the test chain</source>
-        <translation>使用测试链</translation>
-    </message>
-    <message>
-        <source>User Agent comment (%s) contains unsafe characters.</source>
-        <translation>用户代理评论(%s)包含不安全的字符。</translation>
-    </message>
-    <message>
-        <source>Verifying blocks...</source>
-        <translation>正在验证区块...</translation>
-    </message>
-    <message>
-        <source>Verifying wallet...</source>
-        <translation>正在验证钱包...</translation>
-    </message>
-    <message>
-        <source>Wallet %s resides outside data directory %s</source>
-        <translation>钱包 %s 在外部的数据目录 %s</translation>
-    </message>
-    <message>
-        <source>Wallet debugging/testing options:</source>
-        <translation>钱包调试/测试选项：</translation>
-    </message>
-    <message>
-        <source>Wallet options:</source>
-        <translation>钱包选项:</translation>
-    </message>
-    <message>
-        <source>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</source>
-        <translation>允许来自指定地址的 JSON-RPC 连接。 &lt;ip&gt;为单一IP (如: 1.2.3.4), 网络/掩码 (如: 1.2.3.4/255.255.255.0), 网络/CIDR (如:  1.2.3.4/24)。该选项可多次指定。</translation>
-    </message>
-    <message>
-        <source>Bind to given address and whitelist peers connecting to it. Use [host]:port notation for IPv6</source>
-        <translation>绑定到指定地址和连接的白名单节点。 IPv6使用  [主机]:端口 格式 </translation>
-    </message>
-    <message>
-        <source>Bind to given address to listen for JSON-RPC connections. Use [host]:port notation for IPv6. This option can be specified multiple times (default: bind to all interfaces)</source>
-        <translation>绑定到指定地址监听 JSON-RPC连接。 IPv6使用[主机]:端口 格式。该选项可多次指定 (默认: 绑定到所有接口) </translation>
-    </message>
-    <message>
-        <source>Create new files with system default permissions, instead of umask 077 (only effective with disabled wallet functionality)</source>
-        <translation>创建系统默认权限的文件，而不是 umask 077 (只在关闭钱包功能时有效) </translation>
-    </message>
-    <message>
-        <source>Discover own IP addresses (default: 1 when listening and no -externalip or -proxy)</source>
-        <translation>发现自己的 IP 地址（默认: 监听并且无 -externalip 或 -proxy 时为 1）</translation>
-    </message>
-    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="64"/>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
-        <translation>错误：监听外部连接失败 (监听返回错误 %s) </translation>
+        <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../fastbitcoinstrings.cpp" line="66"/>
+        <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="70"/>
+        <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="73"/>
+        <source>Error: Wallet unlocked for anonymization only, unable to create transaction.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="75"/>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
-        <translation>当收到相关提醒或者我们看到一个长分叉时执行命令（%s 将替换为消息）</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Fees (in %s/kB) smaller than this are considered zero fee for relaying, mining and transaction creation (default: %s)</source>
-        <translation>交易费(in %s/kB)比这更小的在关联、挖掘和生成交易时将被视为零费交易 (默认: %s)</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="78"/>
+        <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
-        <translation>如果未设置交易费用，自动添加足够的交易费以确保交易在平均n个数据块内被确认 (默认: %u) </translation>
+        <location filename="../fastbitcoinstrings.cpp" line="81"/>
+        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
-        <translation>-maxtxfee=&lt;amount&gt;: '%s' 的金额无效（交易费至少为 %s，以免交易滞留过久）</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="84"/>
+        <source>Fees smaller than this are considered zero fee (for transaction creation) (default:</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
-        <translation>Maximum size of data in data carrier transactions we relay and mine (default: %u)</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="87"/>
+        <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: 100)</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Randomize credentials for every proxy connection. This enables Tor stream isolation (default: %u)</source>
-        <translation>为每个代理连接随机化凭据。这将启用 Tor 流隔离 (默认: %u)</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="90"/>
+        <source>Found unconfirmed denominated outputs, will wait till they confirm to continue.</source>
+        <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../fastbitcoinstrings.cpp" line="93"/>
+        <source>How thorough the block verification of -checkblocks is (0-4, default: 3)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="95"/>
+        <source>In this mode -genproclimit controls how many blocks are generated immediately.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="98"/>
+        <source>InstantX requires inputs with at least 6 confirmations, you might need to wait a few minutes and try again.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="101"/>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8800 or testnet: 8884)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="103"/>
+        <source>Name to construct url for KeePass entry that stores the wallet passphrase</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="105"/>
+        <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="108"/>
+        <source>Output debugging information (default: 0, supplying &lt;category&gt; is optional)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="110"/>
+        <source>Provide liquidity to Darksend by infrequently mixing coins on a continual basis (0-100, default: 0, 1=very frequent, high fees, 100=very infrequent, low fees)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="114"/>
+        <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="117"/>
+        <source>Set external address:port to get to this Xnode (example: address:port)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="119"/>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
-        <translation>设置 高优先级/低交易费 交易的最大字节  (缺省: %d)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>The transaction amount is too small to send after the fee has been deducted</source>
-        <translation>在交易费被扣除后发送的交易金额太小</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="121"/>
+        <source>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
-        <translation>白名单节点不能被DoS banned ，且转发所有来自他们的交易(即便这些交易已经存在于mempool中)，常用于网关 </translation>
+        <location filename="../fastbitcoinstrings.cpp" line="124"/>
+        <source>Set the processor limit for when generation is on (-1 = unlimited, default: -1)</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>You need to rebuild the database using -reindex to go back to unpruned mode.  This will redownload the entire blockchain</source>
-        <translation>您需要使用 -reindex 重新构建数据库以返回未修剪的模式。这将重新下载整个区块链</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="127"/>
+        <source>Show N confirmations for a successfully locked transaction (0-9999, default: 1)</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>(default: %u)</source>
-        <translation>(默认: %u)</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="130"/>
+        <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Accept public REST requests (default: %u)</source>
-        <translation>接受公共 REST 请求 (默认: %u)</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="133"/>
+        <source>Unable to bind to %s on this computer. Fastbitcoin Core is probably already running.</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Automatically create Tor hidden service (default: %d)</source>
-        <translation>自动建立Tor隐藏服务 (默认:%d)</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="136"/>
+        <source>Unable to locate enough Darksend denominated funds for this transaction.</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Connect through SOCKS5 proxy</source>
-        <translation>通过 SOCKS5 代理连接</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="138"/>
+        <source>Unable to locate enough Darksend non-denominated funds for this transaction that are not equal 1000 FBC.</source>
+        <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../fastbitcoinstrings.cpp" line="141"/>
+        <source>Unable to locate enough Darksend non-denominated funds for this transaction.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="143"/>
+        <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: -proxy)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="146"/>
+        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="149"/>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Fastbitcoin will not work properly.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="152"/>
+        <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="155"/>
+        <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="158"/>
+        <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="161"/>
+        <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="165"/>
+        <source>You must set rpcpassword=&lt;password&gt; in the configuration file:
+%s
+If the file does not exist, create it with owner-readable-only file permissions.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="170"/>
+        <source>You must specify a Xnodeprivkey in the configuration. Please see documentation for help.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="173"/>
+        <source>(default: 1)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="174"/>
+        <source>(default: wallet.dat)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="175"/>
+        <source>&lt;category&gt; can be:</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="176"/>
+        <source>Accept command line and JSON-RPC commands</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="177"/>
+        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="178"/>
+        <source>Add a node to connect to and attempt to keep the connection open</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="179"/>
+        <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="180"/>
+        <source>Allow JSON-RPC connections from specified IP address</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="181"/>
+        <source>Already have that input.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="182"/>
+        <source>Always query for peer addresses via DNS lookup (default: 0)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="183"/>
+        <source>Attempt to recover private keys from a corrupt wallet.dat</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="184"/>
+        <source>Block creation options:</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="185"/>
+        <source>Can&apos;t denominate: no compatible inputs left.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="186"/>
+        <source>Cannot downgrade wallet</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="187"/>
+        <source>Cannot resolve -bind address: &apos;%s&apos;</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="188"/>
+        <source>Cannot resolve -externalip address: &apos;%s&apos;</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="189"/>
+        <source>Cannot write default address</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="190"/>
+        <source>Clear list of wallet transactions (diagnostic tool; implies -rescan)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="191"/>
+        <source>Collateral is not valid.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="192"/>
+        <source>Collateral not valid.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="193"/>
+        <source>Connect only to the specified node(s)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="194"/>
+        <source>Connect through SOCKS proxy</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="195"/>
+        <source>Connect to JSON-RPC on &lt;port&gt; (default: 8800 or testnet: 8884)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="196"/>
+        <source>Connect to KeePassHttp on port &lt;port&gt; (default: 19455)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="197"/>
+        <source>Connect to a node to retrieve peer addresses, and disconnect</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="198"/>
+        <source>Connection options:</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="199"/>
+        <source>Corrupted block database detected</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="200"/>
+        <source>Fastbitcoin Core Daemon</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="201"/>
+        <source>Fastbitcoin Core RPC client version</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="202"/>
+        <source>Darksend is disabled.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="203"/>
+        <source>Darksend options:</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="204"/>
+        <source>Debugging/Testing options:</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="205"/>
+        <source>Disable safemode, override a real safe mode event (default: 0)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="206"/>
+        <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="207"/>
+        <source>Do not load the wallet and disable wallet RPC calls</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="208"/>
+        <source>Do you want to rebuild the block database now?</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="209"/>
+        <source>Done loading</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="210"/>
+        <source>Downgrading and trying again.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="211"/>
+        <source>Enable the client to act as a Xnode (0-1, default: 0)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="212"/>
+        <source>Entries are full.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="213"/>
+        <source>Error connecting to Xnode.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="214"/>
+        <source>Error initializing block database</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="215"/>
+        <source>Error initializing wallet database environment %s!</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="216"/>
+        <source>Error loading block database</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="217"/>
+        <source>Error loading wallet.dat</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="218"/>
+        <source>Error loading wallet.dat: Wallet corrupted</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="219"/>
+        <source>Error loading wallet.dat: Wallet requires newer version of Fastbitcoin</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="220"/>
+        <source>Error opening block database</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="221"/>
         <source>Error reading from database, shutting down.</source>
-        <translation>读取数据库出错，关闭中。</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Imports blocks from external blk000??.dat file on startup</source>
-        <translation>启动时从其他来源的  blk000??.dat 文件导入区块</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="222"/>
+        <source>Error recovering public key.</source>
+        <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../fastbitcoinstrings.cpp" line="223"/>
+        <source>Error</source>
+        <translation>错误</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="224"/>
+        <source>Error: Disk space is low!</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="225"/>
+        <source>Error: Wallet locked, unable to create transaction!</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="226"/>
+        <source>Error: You already have pending entries in the Darksend pool</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="227"/>
+        <source>Error: system error: </source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="228"/>
+        <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="229"/>
+        <source>Failed to read block info</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="230"/>
+        <source>Failed to read block</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="231"/>
+        <source>Failed to sync block index</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="232"/>
+        <source>Failed to write block index</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="233"/>
+        <source>Failed to write block info</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="234"/>
+        <source>Failed to write block</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="235"/>
+        <source>Failed to write file info</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="236"/>
+        <source>Failed to write to coin database</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="237"/>
+        <source>Failed to write transaction index</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="238"/>
+        <source>Failed to write undo data</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="239"/>
+        <source>Fee per kB to add to transactions you send</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="240"/>
+        <source>Fees smaller than this are considered zero fee (for relaying) (default:</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="241"/>
+        <source>Force safe mode (default: 0)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="242"/>
+        <source>Generate coins (default: 0)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="243"/>
+        <source>Get help for a command</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="244"/>
+        <source>How many blocks to check at startup (default: 288, 0 = all)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="245"/>
+        <source>If &lt;category&gt; is not supplied, output all debugging information.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="246"/>
+        <source>Ignore Xnodes less than version (example: 70050; default : 0)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="247"/>
+        <source>Importing...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="248"/>
+        <source>Imports blocks from external blk000??.dat file</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="249"/>
+        <source>Incompatible mode.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="250"/>
+        <source>Incompatible version.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="251"/>
+        <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="252"/>
         <source>Information</source>
         <translation>信息</translation>
     </message>
     <message>
-        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s' (must be at least %s)</source>
-        <translation>无效的金额 -paytxfee=&lt;amount&gt;: '%s' (必须至少为 %s)</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="253"/>
+        <source>Initialization sanity check failed. Fastbitcoin Core is shutting down.</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Invalid netmask specified in -whitelist: '%s'</source>
-        <translation>-whitelist: '%s' 指定的网络掩码无效</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="254"/>
+        <source>Input is not valid.</source>
+        <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../fastbitcoinstrings.cpp" line="255"/>
+        <source>InstantX options:</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="256"/>
+        <source>Insufficient funds</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="257"/>
+        <source>Insufficient funds.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="258"/>
+        <source>Invalid -onion address: &apos;%s&apos;</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="259"/>
+        <source>Invalid -proxy address: &apos;%s&apos;</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="260"/>
+        <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="261"/>
+        <source>Invalid amount for -mintxfee=&lt;amount&gt;: &apos;%s&apos;</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="262"/>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="263"/>
+        <source>Invalid amount</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="264"/>
+        <source>Invalid Xnodeprivkey. Please see documenation.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="265"/>
+        <source>Invalid private key.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="266"/>
+        <source>Invalid script detected.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="267"/>
+        <source>KeePassHttp id for the established association</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="268"/>
+        <source>KeePassHttp key for AES encrypted communication with KeePass</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="269"/>
+        <source>Keep N fastbitcoin anonymized (default: 0)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="270"/>
+        <source>Keep at most &lt;n&gt; unconnectable blocks in memory (default: %u)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="271"/>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
-        <translation>内存中最多保留 &lt;n&gt; 笔孤立的交易 (默认: %u) </translation>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Need to specify a port with -whitebind: '%s'</source>
-        <translation>-whitebind: '%s' 需要指定一个端口</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="272"/>
+        <source>Last Darksend was too recent.</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Node relay options:</source>
-        <translation>节点中继选项:</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="273"/>
+        <source>Last successful Darksend action was too recent.</source>
+        <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../fastbitcoinstrings.cpp" line="274"/>
+        <source>Limit size of signature cache to &lt;n&gt; entries (default: 50000)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="275"/>
+        <source>List commands</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="276"/>
+        <source>Listen for connections on &lt;port&gt; (default: 8886 or testnet: 8885)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="277"/>
+        <source>Loading addresses...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="278"/>
+        <source>Loading block index...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="279"/>
+        <source>Loading Xnode list...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="280"/>
+        <source>Loading wallet... (%3.2f %%)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="281"/>
+        <source>Loading wallet...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="282"/>
+        <source>Log transaction priority and fee per kB when mining blocks (default: 0)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="283"/>
+        <source>Maintain a full transaction index (default: 0)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="284"/>
+        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="285"/>
+        <source>Xnode options:</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="286"/>
+        <source>Xnode queue is full.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="287"/>
+        <source>Xnode:</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="288"/>
+        <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: 5000)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="289"/>
+        <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: 1000)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="290"/>
+        <source>Missing input transaction information.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="291"/>
+        <source>No compatible Xnode found.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="292"/>
+        <source>No funds detected in need of denominating.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="293"/>
+        <source>No Xnodes detected.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="294"/>
+        <source>No matching denominations found for mixing.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="295"/>
+        <source>Non-standard public key detected.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="296"/>
+        <source>Not compatible with existing transactions.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="297"/>
+        <source>Not enough file descriptors available.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="298"/>
+        <source>Not in the Xnode list.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="299"/>
+        <source>Only accept block chain matching built-in checkpoints (default: 1)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="300"/>
+        <source>Only connect to nodes in network &lt;net&gt; (IPv4, IPv6 or Tor)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="301"/>
+        <source>Options:</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="302"/>
+        <source>Password for JSON-RPC connections</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="303"/>
+        <source>Prepend debug output with timestamp (default: 1)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="304"/>
+        <source>Print block on startup, if found in block index</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="305"/>
+        <source>Print block tree on startup (default: 0)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="306"/>
+        <source>RPC SSL options: (see the Fastbitcoin Wiki for SSL setup instructions)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="307"/>
+        <source>RPC client options:</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="308"/>
         <source>RPC server options:</source>
-        <translation>RPC 服务器选项：</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Reducing -maxconnections from %d to %d, because of system limitations.</source>
-        <translation>因为系统的限制，将 -maxconnections 参数从 %d 降到了 %d</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="309"/>
+        <source>Randomly drop 1 of every &lt;n&gt; network messages</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Rescan the block chain for missing wallet transactions on startup</source>
-        <translation>重新扫描区块链以查找遗漏的钱包交易</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="310"/>
+        <source>Randomly fuzz 1 of every &lt;n&gt; network messages</source>
+        <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../fastbitcoinstrings.cpp" line="311"/>
+        <source>Rebuild block chain index from current blk000??.dat files</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="312"/>
+        <source>Rescan the block chain for missing wallet transactions</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="313"/>
+        <source>Rescanning...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="314"/>
+        <source>Run a thread to flush wallet periodically (default: 1)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="315"/>
+        <source>Run in the background as a daemon and accept commands</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="316"/>
+        <source>SSL options: (see the Fastbitcoin Wiki for SSL setup instructions)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="317"/>
+        <source>Select SOCKS version for -proxy (4 or 5, default: 5)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="318"/>
+        <source>Send command to Fastbitcoin Core</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="319"/>
+        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="320"/>
         <source>Send trace/debug info to console instead of debug.log file</source>
-        <translation>跟踪/调试信息输出到控制台，不输出到 debug.log 文件</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Send transactions as zero-fee transactions if possible (default: %u)</source>
-        <translation>发送时尽可能 不支付交易费用 (默认: %u) </translation>
+        <location filename="../fastbitcoinstrings.cpp" line="321"/>
+        <source>Server certificate file (default: server.cert)</source>
+        <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../fastbitcoinstrings.cpp" line="322"/>
+        <source>Server private key (default: server.pem)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="323"/>
+        <source>Session not complete!</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="324"/>
+        <source>Session timed out (30 seconds), please resubmit.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="325"/>
+        <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="326"/>
+        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="327"/>
+        <source>Set maximum block size in bytes (default: %d)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="328"/>
+        <source>Set minimum block size in bytes (default: 0)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="329"/>
+        <source>Set the Xnode private key</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="330"/>
+        <source>Set the number of threads to service RPC calls (default: 4)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="331"/>
+        <source>Sets the DB_PRIVATE flag in the wallet db environment (default: 1)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="332"/>
         <source>Show all debugging options (usage: --help -help-debug)</source>
-        <translation>显示所有调试选项 (用法: --帮助 -帮助调试)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../fastbitcoinstrings.cpp" line="333"/>
+        <source>Show benchmark information (default: 0)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="334"/>
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
-        <translation>客户端启动时压缩debug.log文件(缺省：no-debug模式时为1)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../fastbitcoinstrings.cpp" line="335"/>
+        <source>Signing failed.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="336"/>
+        <source>Signing timed out, please resubmit.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="337"/>
         <source>Signing transaction failed</source>
-        <translation>签署交易失败</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>The transaction amount is too small to pay the fee</source>
-        <translation>交易金额太小，不足以支付交易费</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="338"/>
+        <source>Specify configuration file (default: fastbitcoin.conf)</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>This is experimental software.</source>
-        <translation>这是实验性的软件。</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="339"/>
+        <source>Specify connection timeout in milliseconds (default: 5000)</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Tor control port password (default: empty)</source>
-        <translation>Tor 控制端口密码 (默认值: 空白)</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="340"/>
+        <source>Specify data directory</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Tor control port to use if onion listening enabled (default: %s)</source>
-        <translation>开启监听 onion 连接时的 Tor 控制端口号 (默认值: %s)</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="341"/>
+        <source>Specify Xnode configuration file (default: Xnode.conf)</source>
+        <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../fastbitcoinstrings.cpp" line="342"/>
+        <source>Specify pid file (default: fastbitcoind.pid)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="343"/>
+        <source>Specify wallet file (within data directory)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="344"/>
+        <source>Specify your own public address</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="345"/>
+        <source>Spend unconfirmed change when sending transactions (default: 1)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="346"/>
+        <source>Start Fastbitcoin Core Daemon</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="347"/>
+        <source>System error: </source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="348"/>
+        <source>This help message</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="349"/>
+        <source>This is intended for regression testing tools and app development.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="350"/>
+        <source>This is not a Xnode.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="351"/>
+        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="352"/>
+        <source>To use the %s option</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="353"/>
         <source>Transaction amount too small</source>
-        <translation>交易量太小</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Transaction too large for fee policy</source>
-        <translation>费用策略的交易太大</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="354"/>
+        <source>Transaction amounts must be positive</source>
+        <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../fastbitcoinstrings.cpp" line="355"/>
+        <source>Transaction created successfully.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="356"/>
+        <source>Transaction fees are too high.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="357"/>
+        <source>Transaction not valid.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="358"/>
         <source>Transaction too large</source>
-        <translation>交易太大</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../fastbitcoinstrings.cpp" line="359"/>
         <source>Unable to bind to %s on this computer (bind returned error %s)</source>
-        <translation>无法在此计算机上绑定 %s (绑定返回错误 %s)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Upgrade wallet to latest format on startup</source>
-        <translation>程序启动时升级钱包到最新格式</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="360"/>
+        <source>Unable to sign Xnode payment winner, wrong key?</source>
+        <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../fastbitcoinstrings.cpp" line="361"/>
+        <source>Unable to sign spork message, wrong key?</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="362"/>
+        <source>Unknown -socks proxy version requested: %i</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="363"/>
+        <source>Unknown network specified in -onlynet: &apos;%s&apos;</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="364"/>
+        <source>Upgrade wallet to latest format</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="365"/>
+        <source>Usage (deprecated, use fastbitcoin-cli):</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="366"/>
+        <source>Usage:</source>
+        <translation>使用：</translation>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="367"/>
+        <source>Use KeePass 2 integration using KeePassHttp plugin (default: 0)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="368"/>
+        <source>Use N separate Xnodes to anonymize funds  (2-8, default: 2)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="369"/>
+        <source>Use OpenSSL (https) for JSON-RPC connections</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="370"/>
+        <source>Use UPnP to map the listening port (default: 0)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="371"/>
+        <source>Use UPnP to map the listening port (default: 1 when listening)</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="372"/>
+        <source>Use the test network</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="373"/>
         <source>Username for JSON-RPC connections</source>
-        <translation>JSON-RPC 连接用户名</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
+        <location filename="../fastbitcoinstrings.cpp" line="374"/>
+        <source>Value more than Darksend pool maximum allows.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="375"/>
+        <source>Verifying blocks...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="376"/>
+        <source>Verifying wallet...</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="377"/>
+        <source>Wait for RPC server to start</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="378"/>
+        <source>Wallet %s resides outside data directory %s</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="379"/>
+        <source>Wallet is locked.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="380"/>
+        <source>Wallet needed to be rewritten: restart Fastbitcoin to complete</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="381"/>
+        <source>Wallet options:</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="382"/>
         <source>Warning</source>
         <translation>警告</translation>
     </message>
     <message>
-        <source>Warning: unknown new rules activated (versionbit %i)</source>
-        <translation>警告: 不明的交易规则被启用了(versionbit %i)</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="383"/>
+        <source>Warning: Deprecated argument -debugnet ignored, use -debug=net</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Whether to operate in a blocks only mode (default: %u)</source>
-        <translation>是否用块方进行 (%u)</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="384"/>
+        <source>Warning: This version is obsolete, upgrade required!</source>
+        <translation type="unfinished"/>
     </message>
     <message>
+        <source>Wrong state.</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="385"/>
+        <source>You need to rebuild the database using -reindex to change -txindex</source>
+        <translation type="unfinished"/>
+    </message>
+    <message>
+        <location filename="../fastbitcoinstrings.cpp" line="386"/>
         <source>Zapping all transactions from wallet...</source>
-        <translation>正在消除錢包中的所有交易...</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>ZeroMQ notification options:</source>
-        <translation>ZeroMQ 通知选项：</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="387"/>
+        <source>on startup</source>
+        <translation type="unfinished"/>
     </message>
     <message>
-        <source>Password for JSON-RPC connections</source>
-        <translation>JSON-RPC 连接密码
-</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="388"/>
+        <source>version</source>
+        <translation>版本</translation>
     </message>
     <message>
-        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
-        <translation>当最佳数据块变化时执行命令 (命令行中的 %s 会被替换成数据块哈希值)</translation>
-    </message>
-    <message>
-        <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
-        <translation>使用 -addnode, -seednode 和 -connect 选项时允许查询DNS</translation>
-    </message>
-    <message>
-        <source>Loading addresses...</source>
-        <translation>正在加载地址簿...</translation>
-    </message>
-    <message>
-        <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
-        <translation>(1 = 保留 tx meta data , 如 account owner 和 payment request information, 2 = 不保留 tx meta data) </translation>
-    </message>
-    <message>
-        <source>-maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
-        <translation>参数 -maxtxfee 设定了很高的金额！这是你一次交易就有可能付出的最高手续费。</translation>
-    </message>
-    <message>
-        <source>Do not keep transactions in the mempool longer than &lt;n&gt; hours (default: %u)</source>
-        <translation>不要让交易留在内存池中超过 &lt;n&gt; 个小时 (默认值: %u)</translation>
-    </message>
-    <message>
-        <source>Fees (in %s/kB) smaller than this are considered zero fee for transaction creation (default: %s)</source>
-        <translation>当产生交易时，如果每千字节 (kB) 的手续费比这个值 (单位是 %s) 低，就视为没支付手续费 (默认值: %s)</translation>
-    </message>
-    <message>
-        <source>How thorough the block verification of -checkblocks is (0-4, default: %u)</source>
-        <translation>数据块验证 严密级别  -checkblocks (0-4, 默认: %u) </translation>
-    </message>
-    <message>
-        <source>Maintain a full transaction index, used by the getrawtransaction rpc call (default: %u)</source>
-        <translation>维护一份完整的交易索引, 用于 getrawtransaction RPC调用 (默认: %u)</translation>
-    </message>
-    <message>
-        <source>Number of seconds to keep misbehaving peers from reconnecting (default: %u)</source>
-        <translation>限制 非礼节点 若干秒内不能连接 (默认: %u) </translation>
-    </message>
-    <message>
-        <source>Output debugging information (default: %u, supplying &lt;category&gt; is optional)</source>
-        <translation>输出调试信息 (默认: %u, 提供 &lt;category&gt; 是可选项)</translation>
-    </message>
-    <message>
-        <source>Support filtering of blocks and transaction with bloom filters (default: %u)</source>
-        <translation>支持用 Bloom 过滤器来过滤区块和交易(默认值: %u)</translation>
-    </message>
-    <message>
-        <source>This is the transaction fee you may pay when fee estimates are not available.</source>
-        <translation>这是在费用估计不可用时你可能会支付的交易费。</translation>
-    </message>
-    <message>
-        <source>Total length of network version string (%i) exceeds maximum length (%i). Reduce the number or size of uacomments.</source>
-        <translation>网络版本字符串的总长度 (%i) 超过最大长度 (%i) 了。请减少 uacomment 参数的数目或长度。</translation>
-    </message>
-    <message>
-        <source>Tries to keep outbound traffic under the given target (in MiB per 24h), 0 = no limit (default: %d)</source>
-        <translation>尝试保持上传带宽低于（MiB/24h），0=无限制（默认：%d）</translation>
-    </message>
-    <message>
-        <source>Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
-        <translation>找到不再支持的 -socks 参数。现在只支持 SOCKS5 协议的代理服务器，因此不可以指定 SOCKS 协议版本。</translation>
-    </message>
-    <message>
-        <source>Unsupported argument -whitelistalwaysrelay ignored, use -whitelistrelay and/or -whitelistforcerelay.</source>
-        <translation>一个不被支持的参数 -whitelistalwaysrelay 被忽略了。请使用 -whitelistrelay 或者 -whitelistforcerelay.</translation>
-    </message>
-    <message>
-        <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
-        <translation>通过Tor隐藏服务连接节点时 使用不同的SOCKS5代理 (默认: %s)</translation>
-    </message>
-    <message>
-        <source>Warning: Unknown block versions being mined! It's possible unknown rules are in effect</source>
-        <translation>警告: 未知的区块版本被挖掘！未知规则可能已生效</translation>
-    </message>
-    <message>
-        <source>%s is set very high!</source>
-        <translation>%s非常高！</translation>
-    </message>
-    <message>
-        <source>(default: %s)</source>
-        <translation>(默认: %s) </translation>
-    </message>
-    <message>
-        <source>Always query for peer addresses via DNS lookup (default: %u)</source>
-        <translation>始终通过 DNS 查询节点地址 (默认: %u)</translation>
-    </message>
-    <message>
-        <source>How many blocks to check at startup (default: %u, 0 = all)</source>
-        <translation>启动时检测多少个数据块(默认: %u, 0=所有)</translation>
-    </message>
-    <message>
-        <source>Include IP addresses in debug output (default: %u)</source>
-        <translation>在调试输出中包含IP地址 (默认: %u)</translation>
-    </message>
-    <message>
-        <source>Invalid -proxy address: '%s'</source>
-        <translation>无效的代理地址：%s</translation>
-    </message>
-    <message>
-        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: %u or testnet: %u)</source>
-        <translation>使用 &lt;port&gt;端口监听 JSON-RPC 连接 (默认: %u ; testnet: %u) </translation>
-    </message>
-    <message>
-        <source>Listen for connections on &lt;port&gt; (default: %u or testnet: %u)</source>
-        <translation>使用端口 &lt;port&gt; 监听连接 (默认: %u ; testnet: %u) </translation>
-    </message>
-    <message>
-        <source>Maintain at most &lt;n&gt; connections to peers (default: %u)</source>
-        <translation>保留最多 &lt;n&gt; 条节点连接 (默认: %u) </translation>
-    </message>
-    <message>
-        <source>Make the wallet broadcast transactions</source>
-        <translation>钱包广播事务处理</translation>
-    </message>
-    <message>
-        <source>Maximum per-connection receive buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
-        <translation>每个连接的最大接收缓存，&lt;n&gt;*1000 字节 (默认: %u)</translation>
-    </message>
-    <message>
-        <source>Maximum per-connection send buffer, &lt;n&gt;*1000 bytes (default: %u)</source>
-        <translation>每个连接的最大发送缓存，&lt;n&gt;*1000 字节 (默认: %u)</translation>
-    </message>
-    <message>
-        <source>Prepend debug output with timestamp (default: %u)</source>
-        <translation>输出调试信息时，前面加上时间戳 (默认: %u)</translation>
-    </message>
-    <message>
-        <source>Relay and mine data carrier transactions (default: %u)</source>
-        <translation>Relay and mine data carrier transactions (default: %u)</translation>
-    </message>
-    <message>
-        <source>Relay non-P2SH multisig (default: %u)</source>
-        <translation>是否转发 非P2SH格式的多签名交易 (默认: %u) </translation>
-    </message>
-    <message>
-        <source>Set key pool size to &lt;n&gt; (default: %u)</source>
-        <translation>设置私钥池大小为 &lt;n&gt; (默认：%u) </translation>
-    </message>
-    <message>
-        <source>Set maximum BIP141 block weight (default: %d)</source>
-        <translation>设置BIP141最大区块权重 (默认: %d)</translation>
-    </message>
-    <message>
-        <source>Set the number of threads to service RPC calls (default: %d)</source>
-        <translation>设置RPC服务线程数 (默认: %d) </translation>
-    </message>
-    <message>
-        <source>Specify configuration file (default: %s)</source>
-        <translation>指定配置文件 (默认: %s) </translation>
-    </message>
-    <message>
-        <source>Specify connection timeout in milliseconds (minimum: 1, default: %d)</source>
-        <translation>指定连接超时毫秒数 (最小: 1, 默认: %d) </translation>
-    </message>
-    <message>
-        <source>Specify pid file (default: %s)</source>
-        <translation>指定 pid 文件 (默认: %s) </translation>
-    </message>
-    <message>
-        <source>Spend unconfirmed change when sending transactions (default: %u)</source>
-        <translation>付款时允许使用未确认的零钱 (默认: %u) </translation>
-    </message>
-    <message>
-        <source>Starting network threads...</source>
-        <translation>正在启动网络线程...</translation>
-    </message>
-    <message>
-        <source>This is the transaction fee you will pay if you send a transaction.</source>
-        <translation>如果发送交易，这是你交易付款时所要付的手续费。</translation>
-    </message>
-    <message>
-        <source>Threshold for disconnecting misbehaving peers (default: %u)</source>
-        <translation>断开 非礼节点的阀值 (默认: %u) </translation>
-    </message>
-    <message>
-        <source>Transaction amounts must not be negative</source>
-        <translation>交易金额不不可为负数</translation>
-    </message>
-    <message>
-        <source>Transaction must have at least one recipient</source>
-        <translation>交易必须包含至少一个接收人</translation>
-    </message>
-    <message>
-        <source>Unknown network specified in -onlynet: '%s'</source>
-        <translation>-onlynet 指定的是未知网络：%s</translation>
-    </message>
-    <message>
-        <source>Insufficient funds</source>
-        <translation>金额不足</translation>
-    </message>
-    <message>
-        <source>Loading block index...</source>
-        <translation>正在加载区块索引...</translation>
-    </message>
-    <message>
-        <source>Add a node to connect to and attempt to keep the connection open</source>
-        <translation>添加节点并与其保持连接</translation>
-    </message>
-    <message>
-        <source>Loading wallet...</source>
-        <translation>正在加载钱包...</translation>
-    </message>
-    <message>
-        <source>Cannot downgrade wallet</source>
-        <translation>无法降级钱包</translation>
-    </message>
-    <message>
-        <source>Cannot write default address</source>
-        <translation>无法写入默认地址</translation>
-    </message>
-    <message>
-        <source>Rescanning...</source>
-        <translation>正在重新扫描...</translation>
-    </message>
-    <message>
-        <source>Done loading</source>
-        <translation>加载完成</translation>
-    </message>
-    <message>
-        <source>Error</source>
-        <translation>错误</translation>
+        <location filename="../fastbitcoinstrings.cpp" line="389"/>
+        <source>wallet.dat corrupt, salvage failed</source>
+        <translation type="unfinished"/>
     </message>
 </context>
 </TS>

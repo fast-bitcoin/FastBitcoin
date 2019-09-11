@@ -1,4 +1,4 @@
-// Copyright (c) 2011-2019 The Bitcoin Core developers
+// Copyright (c) 2011-2016 The Fastbitcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -30,6 +30,9 @@ class WalletFrame;
 class WalletModel;
 class HelpMessageDialog;
 class ModalOverlay;
+class MasternodeList;
+
+class CWallet;
 
 QT_BEGIN_NAMESPACE
 class QAction;
@@ -38,10 +41,10 @@ class QProgressDialog;
 QT_END_NAMESPACE
 
 /**
-  Bitcoin GUI main class. This class represents the main window of the Bitcoin UI. It communicates with both the client and
+  Fastbitcoin GUI main class. This class represents the main window of the Fastbitcoin UI. It communicates with both the client and
   wallet models to give the user an up-to-date view of the current core state.
 */
-class BitcoinGUI : public QMainWindow
+class FastbitcoinGUI : public QMainWindow
 {
     Q_OBJECT
 
@@ -49,8 +52,8 @@ public:
     static const QString DEFAULT_WALLET;
     static const std::string DEFAULT_UIPLATFORM;
 
-    explicit BitcoinGUI(const PlatformStyle *platformStyle, const NetworkStyle *networkStyle, QWidget *parent = 0);
-    ~BitcoinGUI();
+    explicit FastbitcoinGUI(const PlatformStyle *platformStyle, const NetworkStyle *networkStyle, QWidget *parent = 0);
+    ~FastbitcoinGUI();
 
     /** Set the client model.
         The client model represents the part of the core that communicates with the P2P network, and is wallet-agnostic.
@@ -92,6 +95,7 @@ private:
     QMenuBar *appMenuBar;
     QAction *overviewAction;
     QAction *historyAction;
+	QAction *masternodeAction;
     QAction *quitAction;
     QAction *sendCoinsAction;
     QAction *sendCoinsMenuAction;
@@ -99,43 +103,24 @@ private:
     QAction *usedReceivingAddressesAction;
     QAction *signMessageAction;
     QAction *verifyMessageAction;
+	//QAction* bip38ToolAction;
     QAction *aboutAction;
     QAction *receiveCoinsAction;
     QAction *receiveCoinsMenuAction;
     QAction *optionsAction;
 	QAction* openRepairAction;
+	QAction* showBackupsAction;
+	QAction* showConfAction;
+	QAction* showFastbitcoinConfAction;
     QAction *toggleHideAction;
     QAction *encryptWalletAction;
     QAction *backupWalletAction;
     QAction *changePassphraseAction;
-	QAction *unlockWalletAction;
+    QAction *unlockWalletAction;
     QAction *aboutQtAction;
     QAction *openRPCConsoleAction;
     QAction *openAction;
     QAction *showHelpMessageAction;
-	
-	///
-    QAction* openWebsite1;
-    QAction* openWebsite2;
-    QAction* openWebsite3;
-    QAction* openWebsite4;
-    QAction* openWebsite5;
-    QAction* openWebsite6;
-    QAction* openWebsite7;
-    QAction* openWebsite8;
-    QAction* openWebsite9;
-    QAction* openWebsite10;
-
-    QAction* Exchangesite1;
-    QAction* Exchangesite2;
-    QAction* Exchangesite3;
-    QAction* Exchangesite4;
-    QAction* Exchangesite5;
-    QAction* Exchangesite6;
-    QAction* Exchangesite7;
-    QAction* Exchangesite8;
-    QAction* Exchangesite9;
-	QAction* Exchangesite10;
 
     QSystemTrayIcon *trayIcon;
     QMenu *trayIconMenu;
@@ -168,7 +153,7 @@ private:
     void subscribeToCoreSignals();
     /** Disconnect core signals from GUI client */
     void unsubscribeFromCoreSignals();
-
+	
     /** Update UI with latest network info from model. */
     void updateNetworkState();
 
@@ -187,7 +172,7 @@ public Q_SLOTS:
     void setNetworkActive(bool networkActive);
     /** Set number of blocks and last block date shown in the UI */
     void setNumBlocks(int count, const QDateTime& blockDate, double nVerificationProgress, bool headers);
-	/** Get restart command-line parameters and request restart */
+    /** Get restart command-line parameters and request restart */
     void handleRestart(QStringList args);
     /** Notify the user of an event from the core network or transaction handling code.
        @param[in] title     the message box / notification title
@@ -196,7 +181,7 @@ public Q_SLOTS:
                             @see CClientUIInterface::MessageBoxFlags
        @param[in] ret       pointer to a bool that will be modified to whether Ok was clicked (modal only)
     */
-    void message(const QString &title, const QString &message, unsigned int style, bool *ret = nullptr);
+    void message(const QString &title, const QString &message, unsigned int style, bool *ret = NULL);
 
 #ifdef ENABLE_WALLET
     /** Set the encryption status as shown in the UI.
@@ -227,12 +212,16 @@ private Q_SLOTS:
     void gotoReceiveCoinsPage();
     /** Switch to send coins page */
     void gotoSendCoinsPage(QString addr = "");
-
+	
+	//kaali-goto masternode page
+	void gotoMasternodePage();
+	/** Show BIP 38 tool - default to Encryption tab */
+    //void gotoBip38Tool();
     /** Show Sign/Verify Message dialog and switch to sign message tab */
     void gotoSignMessageTab(QString addr = "");
     /** Show Sign/Verify Message dialog and switch to verify message tab */
     void gotoVerifyMessageTab(QString addr = "");
-
+	
     /** Show open dialog */
     void openClicked();
 #endif // ENABLE_WALLET

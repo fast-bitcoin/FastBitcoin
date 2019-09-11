@@ -1,80 +1,78 @@
-FastBitcoin Core
-=============
+Fastbitcoin 1.2.7.0
+====================
+
+Copyright (c) 2009-2017 Fastbitcoin Developers
+Copyright (c) 2014-2015 Dash Developers
+Copyright (c) 2014-2017 Fastbitcoin Developers
+
 
 Setup
 ---------------------
-FastBitcoin Core is the original FastBitcoin client and it builds the backbone of the network. It downloads and, by default, stores the entire history of FastBitcoin transactions (which is currently more than 7 GBs); depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
-
-To download FastBitcoin Core, visit [fastbitcoin.cc](https://fastbitcoin.cc).
+[Fastbitcoin Core](https://github.com/LIMXTEC/FastBitcoin/releases) is the original Fastbitcoin client and it builds the backbone of the network. However, it downloads and stores the entire history of Fastbitcoin transactions (which is currently several GBs); depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once. If you would like the process to go faster you can [download the blockchain directly](bootstrap.md).
 
 Running
 ---------------------
-The following are some helpful notes on how to run FastBitcoin on your native platform.
+The following are some helpful notes on how to run Fastbitcoin on your native platform.
 
 ### Unix
 
+You need the Qt4 run-time libraries to run Fastbitcoin-Qt. On Debian or Ubuntu:
+
+	sudo apt-get install libqtgui4
+
 Unpack the files into a directory and run:
 
-- `bin/fastbitcoin-qt` (GUI) or
-- `bin/fastbitcoind` (headless)
+- bin/32/fastbitcoin-qt (GUI, 32-bit) or bin/32/fastbitcoind (headless, 32-bit)
+- bin/64/fastbitcoin-qt (GUI, 64-bit) or bin/64/fastbitcoind (headless, 64-bit)
+
+
 
 ### Windows
 
 Unpack the files into a directory, and then run fastbitcoin-qt.exe.
 
-### OS X
+### OSX
 
-Drag FastBitcoin-Core to your applications folder, and then run FastBitcoin-Core.
+Drag Fastbitcoin-Qt to your applications folder, and then run Fastbitcoin-Qt.
 
 ### Need Help?
 
-* See the documentation at the [FastBitcoin Wiki](https://fastbitcoin.info/)
+* See the documentation at the [bitcoin Wiki](https://en.bitcoin.it/wiki/Main_Page)
 for help and more information.
-* Ask for help on [#fastbitcoin](http://webchat.freenode.net?channels=fastbitcoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=fastbitcoin).
-* Ask for help on the [FastBitcoinTalk](https://fastbitcointalk.io/) forums.
+* Ask for help on [#bitcoin](http://webchat.freenode.net?channels=bitcoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net?channels=bitcoin).
+* Ask for help on the [bitcoinTalk](https://bitcointalk.org/) forums, in the [Technical Support board](https://bitcointalk.org/index.php?board=4.0).
 
 Building
 ---------------------
-The following are developer notes on how to build FastBitcoin on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
+The following are developer notes on how to build Fastbitcoin on your native platform. They are not complete guides, but include notes on the necessary libraries, compile flags, etc.
 
-- [OS X Build Notes](build-osx.md)
+- [OSX Build Notes](build-osx.md)
 - [Unix Build Notes](build-unix.md)
-- [Windows Build Notes](build-windows.md)
-- [OpenBSD Build Notes](build-openbsd.md)
-- [Gitian Building Guide](gitian-building.md)
+- [Windows Build Notes](build-msw.md)
 
 Development
 ---------------------
-The FastBitcoin repo's [root README](/README.md) contains relevant information on the development process and automated testing.
+The Fastbitcoin repo's [root README](https://github.com/LIMXTEC/FastBitcoin) contains relevant information on the development process and automated testing.
 
-- [Developer Notes](developer-notes.md)
+- [Coding Guidelines](coding.md)
+- [Multiwallet Qt Development](multiwallet-qt.md)
 - [Release Notes](release-notes.md)
 - [Release Process](release-process.md)
-- [Source Code Documentation (External Link)](https://dev.visucore.com/fastbitcoin/doxygen/)
+- [Source Code Documentation (External Link)](https://dev.visucore.com/bitcoin/doxygen/)
 - [Translation Process](translation_process.md)
-- [Translation Strings Policy](translation_strings_policy.md)
-- [Travis CI](travis-ci.md)
-- [Unauthenticated REST Interface](REST-interface.md)
-- [Shared Libraries](shared-libraries.md)
-- [BIPS](bips.md)
-- [Dnsseed Policy](dnsseed-policy.md)
-- [Benchmarking](benchmarking.md)
+- [Unit Tests](unit-tests.md)
 
 ### Resources
-* Discuss on the [FastBitcoinTalk](https://fastbitcointalk.io/) forums.
-* Discuss general FastBitcoin development on #fastbitcoin-dev on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=fastbitcoin-dev).
+* Discuss on the [bitcoinTalk](https://bitcointalk.org/) forums, in the [Development & Technical Discussion board](https://bitcointalk.org/index.php?board=6.0).
+* Discuss on [#bitcoin-dev](http://webchat.freenode.net/?channels=bitcoin) on Freenode. If you don't have an IRC client use [webchat here](http://webchat.freenode.net/?channels=bitcoin-dev).
 
 ### Miscellaneous
 - [Assets Attribution](assets-attribution.md)
 - [Files](files.md)
-- [Fuzz-testing](fuzzing.md)
-- [Reduce Traffic](reduce-traffic.md)
 - [Tor Support](tor.md)
-- [Init Scripts (systemd/upstart/openrc)](init.md)
-- [ZMQ](zmq.md)
 
 License
 ---------------------
-Distributed under the [MIT software license](/COPYING).
-This product includes software developed by the OpenSSL Project for use in the [OpenSSL Toolkit](https://www.openssl.org/). This product includes
+Distributed under the [MIT/X11 software license](http://www.opensource.org/licenses/mit-license.php).
+This product includes software developed by the OpenSSL Project for use in the [OpenSSL Toolkit](http://www.openssl.org/). This product includes
 cryptographic software written by Eric Young ([eay@cryptsoft.com](mailto:eay@cryptsoft.com)), and UPnP software written by Thomas Bernard.

@@ -16,8 +16,8 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "FastBitcoin"
-            VALUE "FileDescription",    "fastbitcoin-tx (CLI FastBitcoin transaction editor utility)"
+            VALUE "CompanyName",        "LIMXTEC"
+            VALUE "FileDescription",    "fastbitcoin-tx (CLI fastbitcoin transaction editor utility)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "fastbitcoin-tx"
             VALUE "LegalCopyright",     COPYRIGHT_STR

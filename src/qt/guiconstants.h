@@ -1,4 +1,4 @@
-// Copyright (c) 2011-2019 The Bitcoin Core developers
+// Copyright (c) 2011-2016 The Fastbitcoin Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -11,7 +11,7 @@ static const int MODEL_UPDATE_DELAY = 250;
 /* AskPassphraseDialog -- Maximum passphrase length */
 static const int MAX_PASSPHRASE_SIZE = 1024;
 
-/* BitcoinGUI -- Size of icons in status bar */
+/* FastbitcoinGUI -- Size of icons in status bar */
 static const int STATUSBAR_ICONSIZE = 16;
 
 static const bool DEFAULT_SPLASHSCREEN = true;
@@ -48,9 +48,9 @@ static const int MAX_URI_LENGTH = 255;
 /* Number of frames in spinner animation */
 #define SPINNER_FRAMES 36
 
-#define QAPP_ORG_NAME "FastBitcoin"
-#define QAPP_ORG_DOMAIN "fastbitcoin.cc"
-#define QAPP_APP_NAME_DEFAULT "FastBitcoin-Qt"
-#define QAPP_APP_NAME_TESTNET "FastBitcoin-Qt-testnet"
+#define QAPP_ORG_NAME "Fastbitcoin"
+#define QAPP_ORG_DOMAIN "fastbitcoin.info"
+#define QAPP_APP_NAME_DEFAULT "Fastbitcoin-Qt"
+#define QAPP_APP_NAME_TESTNET "Fastbitcoin-Qt-testnet"
 
 #endif // FASTBITCOIN_QT_GUICONSTANTS_H

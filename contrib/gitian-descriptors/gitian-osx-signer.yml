@@ -7,7 +7,7 @@ architectures:
 packages:
 - "faketime"
 remotes:
-- "url": "https://github.com/LIMXTEC/fastbitcoin-detached-sigs.git"
+- "url": "https://github.com/fastbitcoin-core/fastbitcoin-detached-sigs.git"
   "dir": "signature"
 files:
 - "fastbitcoin-osx-unsigned.tar.gz"

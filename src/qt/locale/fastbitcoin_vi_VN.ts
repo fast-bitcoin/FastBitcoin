@@ -41,26 +41,6 @@
         <source>&amp;Delete</source>
         <translation>&amp;Xó&amp;a</translation>
     </message>
-    <message>
-        <source>Choose the address to send coins to</source>
-        <translation>Chọn địa chỉ để gửi coin đến</translation>
-    </message>
-    <message>
-        <source>Choose the address to receive coins with</source>
-        <translation>Chọn địa chỉ để nhận coin</translation>
-    </message>
-    <message>
-        <source>C&amp;hoose</source>
-        <translation>Chọn</translation>
-    </message>
-    <message>
-        <source>Sending addresses</source>
-        <translation>Địa chỉ gửi đến</translation>
-    </message>
-    <message>
-        <source>Receiving addresses</source>
-        <translation>Địa chỉ nhận</translation>
-    </message>
     </context>
 <context>
     <name>AddressTableModel</name>
@@ -96,7 +76,7 @@
     </message>
 </context>
 <context>
-    <name>BitcoinGUI</name>
+    <name>FastbitcoinGUI</name>
     <message>
         <source>Sign &amp;message...</source>
         <translation>Chứ ký &amp; Tin nhắn...</translation>
@@ -186,8 +166,8 @@
         <translation>Đánh chỉ số (indexing) lại các khối (blocks) trên ổ đĩa ...</translation>
     </message>
     <message>
-        <source>Send coins to a FastBitcoin address</source>
-        <translation>Gửi coins đến tài khoản FastBitcoin</translation>
+        <source>Send coins to a Fastbitcoin address</source>
+        <translation>Gửi coins đến tài khoản Fastbitcoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -206,8 +186,8 @@
         <translation>&amp;Tin nhắn xác thực</translation>
     </message>
     <message>
-        <source>FastBitcoin</source>
-        <translation>FastBitcoin</translation>
+        <source>Fastbitcoin</source>
+        <translation>Fastbitcoin</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -234,12 +214,12 @@
         <translation>Mã hoá các khoá bí mật trong Ví của bạn.</translation>
     </message>
     <message>
-        <source>Sign messages with your FastBitcoin addresses to prove you own them</source>
-        <translation>Dùng địa chỉ FastBitcoin của bạn ký các tin nhắn để xác minh những nội dung tin nhắn đó là của bạn.</translation>
+        <source>Sign messages with your Fastbitcoin addresses to prove you own them</source>
+        <translation>Dùng địa chỉ Fastbitcoin của bạn ký các tin nhắn để xác minh những nội dung tin nhắn đó là của bạn.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified FastBitcoin addresses</source>
-        <translation>Kiểm tra các tin nhắn để chắc chắn rằng chúng được ký bằng các địa chỉ FastBitcoin xác định.</translation>
+        <source>Verify messages to ensure they were signed with specified Fastbitcoin addresses</source>
+        <translation>Kiểm tra các tin nhắn để chắc chắn rằng chúng được ký bằng các địa chỉ Fastbitcoin xác định.</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -259,7 +239,7 @@
     </message>
     <message>
         <source>Request payments (generates QR codes and fastbitcoin: URIs)</source>
-        <translation>Yêu cầu thanh toán(tạo mã QR và địa chỉ FastBitcoin: URLs)</translation>
+        <translation>Yêu cầu thanh toán(tạo mã QR và địa chỉ Fastbitcoin: URLs)</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -536,8 +516,8 @@
         <translation>Ví</translation>
     </message>
     <message>
-        <source>Connect to the FastBitcoin network through a SOCKS5 proxy.</source>
-        <translation>Kết nối đến máy chủ FastBitcoin thông qua SOCKS5 proxy.</translation>
+        <source>Connect to the Fastbitcoin network through a SOCKS5 proxy.</source>
+        <translation>Kết nối đến máy chủ Fastbitcoin thông qua SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1018,8 +998,8 @@
         <translation>Lựa chọn:</translation>
     </message>
     <message>
-        <source>FastBitcoin FBC</source>
-        <translation>FastBitcoin FBC</translation>
+        <source>Fastbitcoin Core</source>
+        <translation>Fastbitcoin Core</translation>
     </message>
     <message>
         <source>(default: %u)</source>
